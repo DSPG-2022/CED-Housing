@@ -3,9 +3,7 @@
 <!-- build 20221.22.0415.1144                               -->
 <workbook original-version='18.1' source-build='2022.1.1 (20221.22.0415.1144)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
-    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
     <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
-    <AutoCreateAndUpdateDSDPhoneLayouts />
     <IntuitiveSorting />
     <IntuitiveSorting_SP2 />
     <MapboxVectorStylesAndLayers />
@@ -33,6 +31,9 @@
           <named-connection caption='LITHCPerCapita' name='textscan.0n44bng0l9trg511u399a0aee3q6'>
             <connection class='textscan' directory='C:/Users/cornd/OneDrive/Documents' filename='LITHCPerCapita.csv' password='' server='' />
           </named-connection>
+          <named-connection caption='USDA' name='textscan.0jf59r507ch77w1b1atvn0jvrlki'>
+            <connection class='textscan' directory='C:/Users/cornd/OneDrive/Documents' filename='USDA.csv' password='' server='' />
+          </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0n44bng0l9trg511u399a0aee3q6' name='LITHCPerCapita.csv' table='[LITHCPerCapita#csv]' type='table'>
           <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
@@ -56,20 +57,64 @@
               <column datatype='real' name='Percent' ordinal='2' />
             </columns>
           </relation>
+          <relation connection='textscan.0n44bng0l9trg511u399a0aee3q6' name='USDA.csv' table='[USDA#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='integer' name='GEOID' ordinal='1' />
+              <column datatype='string' name='NAME' ordinal='2' />
+              <column datatype='real' name='Ratio' ordinal='3' />
+            </columns>
+          </relation>
         </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
         <cols>
+          <map key='[F1]' value='[USDA.csv].[F1]' />
           <map key='[GEOID (MultFamAssistTotal.csv)]' value='[MultFamAssistTotal.csv].[GEOID]' />
+          <map key='[GEOID (USDA.csv)]' value='[USDA.csv].[GEOID]' />
           <map key='[GEOID]' value='[LITHCPerCapita.csv].[GEOID]' />
           <map key='[NAME (MultFamAssistTotal.csv)]' value='[MultFamAssistTotal.csv].[NAME]' />
+          <map key='[NAME (USDA.csv)]' value='[USDA.csv].[NAME]' />
           <map key='[NAME]' value='[LITHCPerCapita.csv].[NAME]' />
           <map key='[Percent (MultFamAssistTotal.csv)]' value='[MultFamAssistTotal.csv].[Percent]' />
           <map key='[Percent]' value='[LITHCPerCapita.csv].[Percent]' />
+          <map key='[Ratio]' value='[USDA.csv].[Ratio]' />
         </cols>
         <metadata-records>
           <metadata-record class='capability'>
             <remote-name />
             <remote-type>0</remote-type>
             <parent-name>[LITHCPerCapita.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[MultFamAssistTotal.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[USDA.csv]</parent-name>
             <remote-alias />
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
@@ -92,6 +137,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[LITHCPerCapita.csv_C3068F2E355C4900A0E8D35ED734A62F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>NAME</remote-name>
@@ -106,6 +152,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[LITHCPerCapita.csv_C3068F2E355C4900A0E8D35ED734A62F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Percent</remote-name>
@@ -117,22 +164,7 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-          </metadata-record>
-          <metadata-record class='capability'>
-            <remote-name />
-            <remote-type>0</remote-type>
-            <parent-name>[MultFamAssistTotal.csv]</parent-name>
-            <remote-alias />
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
-              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
-              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
-              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
-              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
-              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
-            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[LITHCPerCapita.csv_C3068F2E355C4900A0E8D35ED734A62F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>GEOID</remote-name>
@@ -144,6 +176,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MultFamAssistTotal.csv_01BA30AC3E8C4888B20312DF95787A48]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>NAME</remote-name>
@@ -158,6 +191,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MultFamAssistTotal.csv_01BA30AC3E8C4888B20312DF95787A48]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Percent</remote-name>
@@ -169,6 +203,58 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MultFamAssistTotal.csv_01BA30AC3E8C4888B20312DF95787A48]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[USDA.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[USDA.csv_2B6549FAB8F841C7B6102AD6F1E78192]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GEOID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GEOID (USDA.csv)]</local-name>
+            <parent-name>[USDA.csv]</parent-name>
+            <remote-alias>GEOID</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[USDA.csv_2B6549FAB8F841C7B6102AD6F1E78192]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NAME (USDA.csv)]</local-name>
+            <parent-name>[USDA.csv]</parent-name>
+            <remote-alias>NAME</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[USDA.csv_2B6549FAB8F841C7B6102AD6F1E78192]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ratio</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Ratio]</local-name>
+            <parent-name>[USDA.csv]</parent-name>
+            <remote-alias>Ratio</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[USDA.csv_2B6549FAB8F841C7B6102AD6F1E78192]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
         </metadata-records>
       </connection>
@@ -194,13 +280,21 @@
       <column caption='ColorPicker' datatype='real' name='[Calculation_1314769666160332811]' role='measure' type='quantitative'>
         <calculation class='tableau' formula='IF   [Calculation_1314769666160218122]&#13;&#10;Then 0&#13;&#10;Else [Percent (MultFamAssistTotal.csv)]&#13;&#10;END' />
       </column>
+      <column caption='Calculation3' datatype='boolean' name='[Calculation_1314769666169638924]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='ISNULL([Ratio])' />
+      </column>
+      <column caption='ColorDet' datatype='real' name='[Calculation_1314769666169729037]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF   [Calculation_1314769666169638924]&#13;&#10;Then 0&#13;&#10;Else [Ratio]&#13;&#10;END' />
+      </column>
       <column datatype='integer' name='[GEOID (MultFamAssistTotal.csv)]' role='measure' type='quantitative' />
       <column aggregation='Sum' caption='Geoid' datatype='integer' name='[GEOID]' role='dimension' semantic-role='[County].[Name]' type='ordinal' />
       <column caption='Name' datatype='string' name='[NAME]' role='dimension' type='nominal' />
       <column caption='RatioHUDMulti' datatype='real' name='[Percent (MultFamAssistTotal.csv)]' role='measure' type='quantitative' />
       <column caption='RatioLIHTC' datatype='real' name='[Percent]' role='measure' type='quantitative' />
+      <column caption='Total Units' datatype='integer' name='[TotalUnits]' role='measure' type='quantitative' />
       <_.fcp.ObjectModelTableType.true...column caption='LITHCPerCapita.csv' datatype='table' name='[__tableau_internal_object_id__].[LITHCPerCapita.csv_C3068F2E355C4900A0E8D35ED734A62F]' role='measure' type='quantitative' />
       <_.fcp.ObjectModelTableType.true...column caption='MultFamAssistTotal.csv' datatype='table' name='[__tableau_internal_object_id__].[MultFamAssistTotal.csv_01BA30AC3E8C4888B20312DF95787A48]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='USDA.csv' datatype='table' name='[__tableau_internal_object_id__].[USDA.csv_2B6549FAB8F841C7B6102AD6F1E78192]' role='measure' type='quantitative' />
       <column-instance column='[__tableau_internal_object_id__].[LITHCPerCapita.csv_C3068F2E355C4900A0E8D35ED734A62F]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:LITHCPerCapita.csv_C3068F2E355C4900A0E8D35ED734A62F:qk]' pivot='key' type='quantitative' />
       <column-instance column='[__tableau_internal_object_id__].[MultFamAssistTotal.csv_01BA30AC3E8C4888B20312DF95787A48]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:MultFamAssistTotal.csv_01BA30AC3E8C4888B20312DF95787A48:qk]' pivot='key' type='quantitative' />
       <column-instance column='[Percent (MultFamAssistTotal.csv)]' derivation='None' name='[none:Percent (MultFamAssistTotal.csv):ok]' pivot='key' type='ordinal' />
@@ -530,6 +624,18 @@
               </relation>
             </properties>
           </object>
+          <object caption='USDA.csv' id='USDA.csv_2B6549FAB8F841C7B6102AD6F1E78192'>
+            <properties context=''>
+              <relation connection='textscan.0n44bng0l9trg511u399a0aee3q6' name='USDA.csv' table='[USDA#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='GEOID' ordinal='1' />
+                  <column datatype='string' name='NAME' ordinal='2' />
+                  <column datatype='real' name='Ratio' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
         </objects>
         <relationships>
           <relationship>
@@ -539,6 +645,14 @@
             </expression>
             <first-end-point object-id='LITHCPerCapita.csv_C3068F2E355C4900A0E8D35ED734A62F' />
             <second-end-point object-id='MultFamAssistTotal.csv_01BA30AC3E8C4888B20312DF95787A48' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[GEOID]' />
+              <expression op='[GEOID (USDA.csv)]' />
+            </expression>
+            <first-end-point object-id='LITHCPerCapita.csv_C3068F2E355C4900A0E8D35ED734A62F' />
+            <second-end-point object-id='USDA.csv_2B6549FAB8F841C7B6102AD6F1E78192' />
           </relationship>
         </relationships>
       </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
@@ -912,7 +1026,7 @@
         <style>
           <style-rule element='mark'>
             <encoding attr='color' field='[federated.0dp66kg0tk75qm1fcyxi319y1u9u].[sum:Percent:qk]' min='0.00171271979904088' type='interpolated' />
-            <encoding attr='color' center='0.00071053' field='[federated.0dp66kg0tk75qm1fcyxi319y1u9u].[sum:Calculation_1314769666160332811:qk]' max='0.033232786510866703' palette='red_blue_diverging_10_0' reverse='true' symmetric='false' type='interpolated' />
+            <encoding attr='color' center='0.00071053000000000002' field='[federated.0dp66kg0tk75qm1fcyxi319y1u9u].[sum:Calculation_1314769666160332811:qk]' max='0.033232786510866703' palette='red_blue_diverging_10_0' reverse='true' symmetric='false' type='interpolated' />
           </style-rule>
           <style-rule element='table'>
             <format attr='omit-on-special' field='[federated.0dp66kg0tk75qm1fcyxi319y1u9u].[sum:Percent (MultFamAssistTotal.csv):qk]' value='false' />
@@ -960,30 +1074,72 @@
       </table>
       <simple-id uuid='{B9C6FB92-14EA-432E-A57F-0465014B1B34}' />
     </worksheet>
+    <worksheet name='Sheet 6'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Iowa USDA per Household&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='LITHCPerCapita+' name='federated.0dp66kg0tk75qm1fcyxi319y1u9u' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0dp66kg0tk75qm1fcyxi319y1u9u'>
+            <column caption='Calculation3' datatype='boolean' name='[Calculation_1314769666169638924]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='ISNULL([Ratio])' />
+            </column>
+            <column caption='ColorDet' datatype='real' name='[Calculation_1314769666169729037]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF   [Calculation_1314769666169638924]&#13;&#10;Then 0&#13;&#10;Else [Ratio]&#13;&#10;END' />
+            </column>
+            <column aggregation='Sum' caption='Geoid' datatype='integer' name='[GEOID]' role='dimension' semantic-role='[County].[Name]' type='ordinal' />
+            <column datatype='real' name='[Ratio]' role='measure' type='quantitative' />
+            <column-instance column='[GEOID]' derivation='None' name='[none:GEOID:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_1314769666169729037]' derivation='Sum' name='[sum:Calculation_1314769666169729037:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Ratio]' derivation='Sum' name='[sum:Ratio:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' center='0.000207598' field='[federated.0dp66kg0tk75qm1fcyxi319y1u9u].[sum:Calculation_1314769666169729037:qk]' palette='red_blue_diverging_10_0' reverse='true' symmetric='false' type='interpolated' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <color column='[federated.0dp66kg0tk75qm1fcyxi319y1u9u].[sum:Calculation_1314769666169729037:qk]' />
+              <text column='[federated.0dp66kg0tk75qm1fcyxi319y1u9u].[sum:Ratio:qk]' />
+              <lod column='[federated.0dp66kg0tk75qm1fcyxi319y1u9u].[none:GEOID:ok]' />
+              <geometry column='[federated.0dp66kg0tk75qm1fcyxi319y1u9u].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0dp66kg0tk75qm1fcyxi319y1u9u].[Latitude (generated)]</rows>
+        <cols>[federated.0dp66kg0tk75qm1fcyxi319y1u9u].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{6103E495-8EFF-4F62-AEB7-E0B2B7EA6728}' />
+    </worksheet>
   </worksheets>
   <dashboards>
-    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
-      <style />
-      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
-      <zones />
-      <devicelayouts>
-        <devicelayout auto-generated='true' name='Phone'>
-          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
-          <zones>
-            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
-              <zone-style>
-                <format attr='border-color' value='#000000' />
-                <format attr='border-style' value='none' />
-                <format attr='border-width' value='0' />
-                <format attr='margin' value='8' />
-              </zone-style>
-            </zone>
-          </zones>
-        </devicelayout>
-      </devicelayouts>
-      <simple-id uuid='{EBA03610-E33A-4F74-8A30-765B942988E1}' />
-    </dashboard>
     <dashboard name='Story 1' type='storyboard'>
       <style />
       <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
@@ -993,10 +1149,11 @@
             <zone h='4357' id='3' type-v2='title' w='98426' x='787' y='830' />
             <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='5187' />
             <zone h='83506' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='15664'>
-              <flipboard active-id='1' nav-type='caption' show-nav-arrows='true'>
+              <flipboard active-id='3' nav-type='caption' show-nav-arrows='true'>
                 <story-points>
-                  <story-point captured-sheet='Sheet 5' id='1' />
-                  <story-point captured-sheet='Sheet 5 (2)' id='2' />
+                  <story-point caption='LIHTC' captured-sheet='Sheet 5' id='1' />
+                  <story-point caption='HUD MultiFamily' captured-sheet='Sheet 5 (2)' id='2' />
+                  <story-point caption='USDA' captured-sheet='Sheet 6' id='3' />
                 </story-points>
               </flipboard>
             </zone>
@@ -1009,38 +1166,10 @@
           </zone-style>
         </zone>
       </zones>
-      <simple-id uuid='{08EB0087-54E8-4E2C-BA4F-9F1C1C084FCC}' />
+      <simple-id uuid='{703DA924-22D4-4AAD-8177-D7DA1ACFDD52}' />
     </dashboard>
   </dashboards>
   <windows saved-dpi-scale-factor='1.25' source-height='37'>
-    <window class='worksheet' name='Sheet 1'>
-      <cards>
-        <edge name='left'>
-          <strip size='160'>
-            <card type='pages' />
-            <card type='filters' />
-            <card type='marks' />
-          </strip>
-        </edge>
-        <edge name='top'>
-          <strip size='2147483647'>
-            <card type='columns' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='rows' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='title' />
-          </strip>
-        </edge>
-        <edge name='right'>
-          <strip size='160'>
-            <card pane-specification-id='4' param='[federated.0dp66kg0tk75qm1fcyxi319y1u9u].[none:Calculation_1314769666155610116:nk]' type='color' />
-          </strip>
-        </edge>
-      </cards>
-      <simple-id uuid='{BC7F2A26-FBBF-4994-80CC-62945CF386F8}' />
-    </window>
     <window class='worksheet' name='Sheet 3'>
       <cards>
         <edge name='left'>
@@ -1086,6 +1215,34 @@
         </edge>
       </cards>
       <simple-id uuid='{57E22FE9-3C0C-4CE1-A2A9-CFACFBF72FA8}' />
+    </window>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='4' param='[federated.0dp66kg0tk75qm1fcyxi319y1u9u].[none:Calculation_1314769666155610116:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BC7F2A26-FBBF-4994-80CC-62945CF386F8}' />
     </window>
     <window class='worksheet' name='Sheet 5'>
       <cards>
@@ -1157,15 +1314,38 @@
       </viewpoint>
       <simple-id uuid='{7F590FAC-4339-4698-8476-B1E20712EDDB}' />
     </window>
-    <window class='dashboard' name='Story 1'>
-      <viewpoints />
-      <active id='3' />
-      <simple-id uuid='{8AA119B1-208D-4E64-8C5C-273B64FB9664}' />
+    <window class='worksheet' name='Sheet 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0dp66kg0tk75qm1fcyxi319y1u9u].[sum:Calculation_1314769666169729037:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{EF2A22E8-7A11-45F7-BEEF-5EFF7372AD2B}' />
     </window>
-    <window class='dashboard' maximized='true' name='Dashboard 1'>
+    <window class='dashboard' maximized='true' name='Story 1'>
       <viewpoints />
-      <active id='-1' />
-      <simple-id uuid='{11B65CCA-9162-4D2C-B4B2-FCB38BF3D09B}' />
+      <active id='5' />
+      <simple-id uuid='{F2B82413-1103-46E8-979F-D3A1109F7BC0}' />
     </window>
   </windows>
 </workbook>
