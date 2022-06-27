@@ -66,6 +66,7 @@ fig <- plot_ly(
       color ="black"))
 )
 
+
 fig <- fig %>%
   layout(margin = list(l=30,r=30)) %>%
   add_annotations(
