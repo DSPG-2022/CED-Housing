@@ -2,7 +2,6 @@
 
 library(ggplot2)
 library(readxl)
-library(tidycensus)
 library(tidyverse)
 library(readr)
 library(ggmap)
@@ -22,7 +21,7 @@ GraphTitle = "LIHTC Per Housing Unit"
 
 
 
-##rename to standard names, if DATA is not in this columnn format won't work
+##rename to standard names, if DATA is not in this column format won't work
 colnames(Data)<- c("GEOID", "NAME","value")
 
 
@@ -72,7 +71,7 @@ fig <- fig %>%
   add_annotations(
     x= 0.5,
     y=0.18,
-    text = "Blue Bar is the State Average",
+    text = "Orange Bar is the State Average",
     showarrow = F
   ) %>%
   add_annotations(
