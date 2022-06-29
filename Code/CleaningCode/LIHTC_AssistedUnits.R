@@ -19,9 +19,9 @@ LIHTCSum <- LIHTC %>%
   #ok. Also, there are 2 different values, LI_UNIT and LI_UNITR. LI_UNIT shows the number of low-income units (some projects are NA) and LI_UNITR is the same value as LI_UNIT, but shows the total number of units if LI_UNIT is NA, which valu
   summarise(LI = sum(LI_UNITS, na.rm =TRUE))
 Overall <- merge(House2020,LIHTCSum, by.x = "GEOID", by.y = "COUNTY_LEVEL", all.x=TRUE) %>%
-  mutate(Percent = LI/value)
+  mutate(PercentLIHTCperHousehold = LI/value*100)
 
 Output <- Overall %>%
-  select(GEOID,NAME,Percent)
+  select(NAME,PercentLIHTCperHousehold)
 
 write.csv(Output, "Data\\CleanData\\Indicator_LIHTC_AssistedUnits.csv", row.names = FALSE)

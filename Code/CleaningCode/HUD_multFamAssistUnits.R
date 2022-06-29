@@ -5,7 +5,7 @@ library(readr)
 
 
 
-USDA <- read_csv("Data\\RawData\\HUD\\HUD_multiFamAssistUnits.csv", col_names  = TRUE)
+HUD <- read_csv("Data\\RawData\\HUD\\HUD_multiFamAssistUnits.csv", col_names  = TRUE)
 
 House2020 <- get_decennial(
   geography = "county",
@@ -14,7 +14,7 @@ House2020 <- get_decennial(
   year = 2020
 )
 
-MultiData <- USDA %>%
+MultiData <- HUD %>%
   filter(STD_ST == "IA")
 MultiDataSum <- MultiData %>%
   group_by(COUNTY_LEVEL)%>%
@@ -22,9 +22,9 @@ MultiDataSum <- MultiData %>%
 
 
 Overall <- merge(House2020,MultiDataSum, by.x = "GEOID", by.y = "COUNTY_LEVEL", all.x=TRUE) %>%
-  mutate(Percent = TotalAssisted/value)
+  mutate(PercentMultiFamAssistPerHouseold = TotalAssisted/value *100)
 
 Output <- Overall %>%
-  select(NAME,Percent)
+  select(NAME,PercentMultiFamAssistPerHouseold)
 
 write.csv(Output, "Data\\CleanData\\Indicator_HUD_multiFamAssistUnits.csv", row.names = FALSE)
