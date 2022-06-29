@@ -82,6 +82,7 @@ fig <- fig %>%
     showarrow = F
 )
 
-
 fig
-
+plotly_IMAGE(fig,format="png",out_file="Image")
+help(signup,package = 'plotly')
+signup("Cory", "cgroth@iastate.edu", save = TRUE)
