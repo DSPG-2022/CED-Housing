@@ -6,6 +6,7 @@ library(readr)
 
 
 LIHTC <- read_csv("Data\\RawData\\HUD\\LIHTC\\LIHTC_AssistedUnits.csv", col_names  = TRUE)
+
 House2020 <- get_decennial(
   geography = "county",
   state = "IA",
@@ -22,6 +23,6 @@ Overall <- merge(House2020,LIHTCSum, by.x = "GEOID", by.y = "COUNTY_LEVEL", all.
   mutate(Percent = LI/value)
 
 Output <- Overall %>%
-  select(GEOID,NAME,Percent)
+  select(NAME,Percent)
 
 write.csv(Output, "Data\\CleanData\\Indicator_LIHTC_AssistedUnits.csv", row.names = FALSE)

@@ -22,7 +22,7 @@ GraphTitle = "LIHTC Per Housing Unit"
 
 
 ##rename to standard names, if DATA is not in this column format won't work
-colnames(Data)<- c("GEOID", "NAME","value")
+colnames(Data)<- c("NAME","value")
 
 
 ##Get quartile range
