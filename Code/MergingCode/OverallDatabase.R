@@ -18,14 +18,12 @@ for (file in Files){
   
   for(name in OutputColNames){
     if(ColumnName == name){
-      InputData <- InputData%>%
-        arrange(NAME)
-      OutputData <- OutputData%>%
-        arrange(NAME)
+      InputData <- InputData%>% arrange(InputData[,1])
+      OutputData <- OutputData%>%arrange(NAME)
       OutputData[,name] <- replace(OutputData[,name],order(OutputData[,1]),InputData[,name])
     }
     else{
-      OutputData = merge(OutputData, InputData, by = "NAME")
+      OutputData = merge(OutputData, InputData, by.x = "NAME", by.y = colnames(InputData)[1])
     }
   }
 }
