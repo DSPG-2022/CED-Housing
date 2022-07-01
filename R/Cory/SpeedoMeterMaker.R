@@ -8,14 +8,14 @@ library(ggmap)
 
 
 ##Insert csv of Data
-Data <- read.csv("LITHCPerCapita.csv")
+Data <- read_csv("Data\\CleanData\\Indicator_HUD_HCV.csv", col_names  = TRUE)
 
 
 ##INPUT country you want to select
 County_Name <-"Story County"
 
 ##INPUT Graph Title
-GraphTitle = "LIHTC Per Housing Unit"
+GraphTitle = "Housing Choice Voucher Per Houshold Percent"
 
 
 
@@ -57,7 +57,7 @@ fig <- plot_ly(
       list(range = c(quartiles[2],quartiles[3]), color = "yellow"), #adding value ranges by quartile
       list(range = c(quartiles[3],quartiles[4]), color = "red")),
     threshold = list(
-      line = list(color = "orange", width = 3),
+      line = list(color = "brown", width = 3),
       thickness = 0.75,
       value = SelectedCounty$StateAverage),
     labels="State Average",
@@ -71,7 +71,7 @@ fig <- fig %>%
   add_annotations(
     x= 0.5,
     y=0.18,
-    text = "Orange Bar is the State Average",
+    text = "Brown Bar is the State Average",
     showarrow = F
   ) %>%
   add_annotations(
@@ -83,6 +83,3 @@ fig <- fig %>%
 )
 
 fig
-plotly_IMAGE(fig,format="png",out_file="Image")
-help(signup,package = 'plotly')
-signup("Cory", "cgroth@iastate.edu", save = TRUE)
