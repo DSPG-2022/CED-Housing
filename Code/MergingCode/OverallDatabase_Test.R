@@ -28,17 +28,17 @@ for (file in Files){
       inOverall =FALSE
       ##For each Indicator in Overal Dataset
       for(name in OutputColNames){
-        ##If the Input indicator matches an indicator in Overal Dataset
+          ##If the Input indicator matches an indicator in Overal Dataset
           if(ColumnName == name){
             inOverall =TRUE
-          ##Find the fipsCodes of input
+            ##Find the fipsCodes of input
             InputFipsCodes <- InputData[,1]
           
-          ##for each input fipscodes, find matching code in overall dataset
+            ##for each input fipscodes, find matching code in overall dataset
             for (code in InputFipsCodes){
               OutputIndex <- which(OutputData$fips==code)
           
-            ##replace Overall Dataset with value from input data
+              ##replace Overall Dataset with value from input data
               replace(OutputData[,name],OutputIndex,InputData[which(InputData[,1]==code),colIndex])
             }
           }
@@ -52,6 +52,8 @@ for (file in Files){
     }
   }
 }
+
+##rewrites to OverallDataset
 write.csv(OutputData, outputCSV, row.names = FALSE)
 
 
