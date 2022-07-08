@@ -4,26 +4,51 @@ library(tidycensus)
 library(tidyverse)
 library(readr)
 
-##Inputs
+##Inputs - all the clean data files
 Files<-list.files("Data\\CleanData")
 
-
+##output Datafile
 outputCSV = "Data\\OverallDatabase.csv"
 OutputData <- read_csv(outputCSV)
 OutputColNames <- colnames(OutputData)
+
+##For each code clean Data File
 for (file in Files){
-  InputData<- read.csv(paste("Data\\CleanData\\",file,sep=""))
-  ##if using multi columns, another for loop
-  ColumnName = colnames(InputData)[2]
   
-  for(name in OutputColNames){
-    if(ColumnName == name){
-      InputData <- InputData%>% arrange(InputData[,1])
-      OutputData <- OutputData%>%arrange(NAME)
-      OutputData[,name] <- replace(OutputData[,name],order(OutputData[,1]),InputData[,2])
-    }
-    else{
-      OutputData = merge(OutputData, InputData, by.x = "NAME", by.y = colnames(InputData)[1])
+  ##Gets Seperate Data File
+  InputData<- read.csv(paste("Data\\CleanData\\",file,sep=""))
+  ##For each indicator in InputData
+  for(colIndex in 1:ncol(InputData)){
+    ##if not first column **FIRST Column should be fipsCode**
+    if(colIndex!= 1){
+      
+      ##Indicator Name
+      ColumnName = colnames(InputData)[colIndex]
+      
+      inOverall =FALSE
+      ##For each Indicator in Overal Dataset
+      for(name in OutputColNames){
+        ##If the Input indicator matches an indicator in Overal Dataset
+          if(ColumnName == name){
+            inOverall =TRUE
+          ##Find the fipsCodes of input
+            InputFipsCodes <- InputData[,1]
+          
+          ##for each input fipscodes, find matching code in overall dataset
+            for (code in InputFipsCodes){
+              OutputIndex <- which(OutputData$fips==code)
+          
+            ##replace Overall Dataset with value from input data
+              replace(OutputData[,name],OutputIndex,InputData[which(InputData[,1]==code),colIndex])
+            }
+          }
+        }
+      ## If there is no Indicator named that 
+      ## Merge Data onto Overall Dataset by fipcode
+      if(!inOverall){
+        OutputData = merge(OutputData, InputData, by.x = "fips", by.y = colnames(InputData)[1])
+        OutputColNames <- colnames(OutputData)
+      }
     }
   }
 }

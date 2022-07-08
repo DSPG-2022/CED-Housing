@@ -25,6 +25,6 @@ Overall <- merge(House2020,MultiDataSum, by.x = "GEOID", by.y = "COUNTY_LEVEL", 
   mutate(PercentMultiFamAssistPerHouseold = TotalAssisted/value *100)
 
 Output <- Overall %>%
-  select(NAME,PercentMultiFamAssistPerHouseold)
+  select(FipsCode=GEOID,PercentMultiFamAssistPerHouseold)
 
 write.csv(Output, "Data\\CleanData\\Indicator_HUD_multiFamAssistUnits.csv", row.names = FALSE)

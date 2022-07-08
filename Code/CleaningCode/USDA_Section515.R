@@ -21,7 +21,7 @@ House2020 <- get_decennial(
 )
 
 Overall <- merge(House2020,USDASum, by.x = "GEOID", by.y = "State_County_FIPS_Code", all.x=TRUE) %>%
-  mutate(Ratio = TotalUnits/value)%>%
-  select(GEOID,NAME,Ratio)
+  mutate(Percent_515Properties = TotalUnits/value *100)%>%
+  select(FipsCode = GEOID,Percent_515Properties)
 
-write.csv(Overall, "USDA.csv")
+write.csv(Overall, "Data\\CleanData\\Indicator_USDA_Section515.csv",row.names = FALSE)

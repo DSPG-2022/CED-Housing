@@ -22,6 +22,7 @@ Overall <- merge(House2020,LIHTCSum, by.x = "GEOID", by.y = "COUNTY_LEVEL", all.
   mutate(PercentLIHTCperHousehold = LI/value*100)
 
 Output <- Overall %>%
-  select(NAME,PercentLIHTCperHousehold)
+  select(FipsCode =  GEOID,PercentLIHTCperHousehold)
 
 write.csv(Output, "Data\\CleanData\\Indicator_LIHTC_AssistedUnits.csv", row.names = FALSE)
+

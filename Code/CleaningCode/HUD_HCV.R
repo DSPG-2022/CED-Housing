@@ -29,6 +29,6 @@ Overall <- merge(House2020,MultiDataSum, by.x = "GEOID", by.y = "COUNTY", all.x=
   mutate(HCVPercentPerHouseHold = Total_HCV/value *100)
 
 Output <- Overall %>%
-  select(NAME,HCVPercentPerHouseHold)
+  select(FipsCode=GEOID,HCVPercentPerHouseHold)
 
 write.csv(Output, "Data\\CleanData\\Indicator_HUD_HCV.csv", row.names = FALSE)
