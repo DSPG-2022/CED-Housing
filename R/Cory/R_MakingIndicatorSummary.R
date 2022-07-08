@@ -60,25 +60,6 @@ SelectedCounty <-DataT%>%
 df<- df %>%
   mutate(SelectedCounty = SelectedCounty$Story)
 
-
-
-Tmoe <- Tmoe %>%
-  mutate(value=  df$SelectedCounty)
-Tmoe2 <- Tmoe[-1:-2,]
-Tmoe2 <- lapply(Tmoe2, as.numeric)
-Tmoe2 <-as.data.frame(Tmoe2)
-
-
-
-Tmoe2 <- Tmoe2 %>%
-  mutate(rangeV = ifelse(is.na(V1),value,paste(value-V1,"-",value+V1,sep="")))
-Tmoe2 <- rbind(NA,Tmoe2)
-Tmoe2 <- rbind(NA,Tmoe2)
-  
- 
-df<-df %>%
-  mutate(Range = Tmoe2$rangeV)
-
 colnames(DataCountyOnlyRow)<- DataCountyOnlyRow[1,]
 DataCountyOnlyRow2<- DataCountyOnlyRow[-1:-3,]
 
