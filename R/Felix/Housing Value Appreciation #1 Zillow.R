@@ -1,5 +1,4 @@
 library(tidyverse)
-library(readr)
 
 # 5-year percentage change in the ZHVI-All Homes 
 # Smoothed Seasonally Adjusted Time Series, comparing 
