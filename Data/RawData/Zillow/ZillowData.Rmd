@@ -1,0 +1,84 @@
+---
+title: "Zillow Data Discovery"
+author: "Felix A. Baez Santiago"
+date: '2022-06-13'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+## HOME VALUES
+
+Zillow Home Value Index (ZHVI): A smoothed, seasonally adjusted measure of the typical home value and market changes across a given region and housing type. It reflects the typical value for homes in the 35th to 65th percentile range. The raw version of that mid-tier ZHVI time series is also available.
+
+Zillow publishes top-tier ZHVI ($, typical value for homes within the 65th to 95th percentile range for a given region) and bottom-tier ZHVI ($, typical value for homes that fall within the 5th to 35th percentile range for a given region).
+
+Zillow also publishes ZHVI for all single-family residences ($, typical value for all single-family homes in a given region), for condo/coops ($), for all homes with 1, 2, 3, 4 and 5+ bedrooms ($), and the ZHVI per square foot ($, typical value of all homes per square foot calculated by taking the estimated home value for each home in a given region and dividing it by the home’s square footage). Check out this overview of ZHVI and a deep-dive into its methodology. 
+
+```{r cars}
+# All Homes - Smoothed by County.csv
+home.val.county <- read.csv("All Homes - Smoothed by County.csv")
+# for resetting just in case
+# home.val.county <- reset.df
+glimpse(home.val.county)
+home.val.county <- home.val.county %>% 
+  pivot_longer(!names(home.val.county)[1:9],
+               names_to = "Date",
+               values_to = "HouseValue") %>%
+  filter(State == "IA") %>%
+  arrange(RegionName) %>%
+  select(ID = RegionID, SizeRank, County = RegionName, Metro, 
+         StateCodeFIPS, MunicipalCodeFIPS, Date, HouseValue)
+home.val.county$Date <-gsub("X","",as.character(home.val.county$Date))
+home.val.county$Date <- as.Date(home.val.county$Date, "%Y.%m.%d")
+glimpse(home.val.county)
+# make pct graphs using home values
+ggplot(home.val.county, aes(Date, HouseValue)) + geom_point()
+```
+
+
+```{r}
+# All Homes - Smoothed by Zip.csv
+home.val.zip <- read.csv("All Homes - Smoothed by Zip.csv")
+# home.val.zip <- reset.df2
+home.val.zip <- home.val.zip %>% 
+  pivot_longer(!names(home.val.zip)[1:9],
+               names_to = "Date",
+               values_to = "HouseValue") %>%
+  filter(State == "IA") %>%
+  arrange(CountyName) %>%
+  select(ID = RegionID, SizeRank, ZipCode = RegionName,
+         City, Metro, County = CountyName, Date, HouseValue)
+home.val.zip$Date <-gsub("X","",as.character(home.val.zip$Date))
+home.val.zip$Date <- as.Date(home.val.zip$Date, "%Y.%m.%d")
+glimpse(home.val.zip)
+# fill with county 
+# use less counties 
+# cities of a county
+# neighborhoods of a city
+ggplot(home.val.zip, aes(Date, HouseValue)) + geom_point()
+```
+
+## HOME VALUES FORECASTS
+The Zillow Home Value Forecast (ZHVF) is the month-ahead, quarter-ahead and year-ahead forecast of the Zillow Home Values Index (ZHVI). ZHVF is created using the all homes, mid-tier cut of ZHVI and is available both raw and smoothed, seasonally adjusted.
+```{r}
+# Forecast All Homes - Smoothed by Zip.csv
+home.val.fcst.zip <- read.csv("Forecast All Homes - Smoothed by Zip.csv")
+glimpse(home.val.fcst.zip)
+
+home.val.fcst.zip <- home.val.fcst.zip %>% 
+  pivot_longer(!names(home.val.fcst.zip)[1:10],
+               names_to = "Date",
+               values_to = "HouseValue") %>%
+  filter(State == "IA") %>%
+  arrange(CountyName) %>%
+  select(ID = RegionID, SizeRank, ZipCode = RegionName, 
+         City, Metro, County = CountyName, BaseDate,Date, HouseValue)
+home.val.fcst.zip$Date <-gsub("X","",as.character(home.val.fcst.zip$Date))
+home.val.fcst.zip$Date <- as.Date(home.val.fcst.zip$Date, "%Y.%m.%d")
+View(home.val.fcst.zip)
+# 
+```

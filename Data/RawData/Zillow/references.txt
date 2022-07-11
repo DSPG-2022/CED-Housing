@@ -1,0 +1,9 @@
+
+https://www.zillow.com/research/data/
+
+All Homes - Smoothed by County
+
+Forecast All Homes - Smoothed by Zip
+
+Rentals All Homes - Smoothed by Zip
+

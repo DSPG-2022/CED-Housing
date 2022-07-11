@@ -1,6 +1,4 @@
-library(readxl)
 library(tidyverse)
-library(readr)
 library(tidycensus)
 
 # Use Table B25077 Median Value (Dollars) from ACS 2016-20
