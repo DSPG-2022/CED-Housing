@@ -2,23 +2,15 @@ library(readxl)
 library(tidycensus)
 library(tidyverse)
 library(readr)
+library(shiny)
 
 
-
-Overall <- read_csv("Data\\CleanData\\Indicator_HUD_HCV.csv", col_names  = TRUE)
+Overall <- read_csv("Data\\OverallDatabase.csv", col_names  = TRUE)%>%
+  select(1,3:ncol(Overall))
 
 
 OVerallT<- as.data.frame(t(Overall))
 Overall2<- Overall%>%
-  pivot_longer(2:3)
+  pivot_longer(2:ncol(Overall))
 
 
-
-
-
-
-quartiles <- quantile(Overall$HCVPercentPerHouseHold, na.rm =TRUE, probs = seq(0, 1, 1/3))
-TotalData <- Overall %>%
-  mutate(quartile = ifelse(HCVPercentPerHouseHold>quartiles[3],3,
-                           ifelse(HCVPercentPerHouseHold>quartiles[2],2,
-                                  1)))

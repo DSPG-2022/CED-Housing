@@ -12,7 +12,7 @@ Data <- read_csv("Data\\CleanData\\Indicator_HUD_HCV.csv", col_names  = TRUE)
 
 
 ##INPUT country you want to select
-County_Name <-"Story County"
+County_Name <-"19013"
 
 ##INPUT Graph Title
 GraphTitle = "Housing Choice Voucher Per Houshold Percent"
@@ -32,7 +32,6 @@ TotalData <- Data %>%
                                   ifelse(value>quartiles[2],2,
                                          1)))%>%
   ##removes ', Iowa' from name
-  mutate(NAME = substr(NAME,0,nchar(NAME)-6))%>%
   mutate(StateAverage = mean(value, na.rm =TRUE),CountyMedian = median(value, na.rm =TRUE))
 
 
@@ -43,7 +42,7 @@ SelectedCounty <- filter(TotalData, TotalData$NAME == County_Name)
 library(plotly)
 #https://plotly.com/r/gauge-charts/
 
-fig <- plot_ly(
+plot_ly(
   domain = list(x = c(0, 1), y = c(0, 1)),
   value = SelectedCounty$value ,  #value were looking at
   title = list(text = GraphTitle),
@@ -63,10 +62,7 @@ fig <- plot_ly(
     labels="State Average",
     bar = list(
       color ="black"))
-)
-
-
-fig <- fig %>%
+) %>%
   layout(margin = list(l=30,r=30)) %>%
   add_annotations(
     x= 0.5,
@@ -82,4 +78,4 @@ fig <- fig %>%
     showarrow = F
 )
 
-fig
+
