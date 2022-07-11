@@ -11,5 +11,11 @@ unit_value <- get_acs(
   year = 2020, 
   cache_table = T, 
   output = "wide"
-) 
+) %>%
+  rename(MedianValue= MedianValueE,
+         MedianValueMOE=MedianValueM,
+         CountyName = NAME) %>%
+  mutate(MOEPct = MedianValueMOE / MedianValue * 100)
 View(unit_value)
+
+write.csv(unit_value, "Data/CleanData/Indicator_TypicalHomeValues.csv")
