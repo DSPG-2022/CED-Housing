@@ -5,6 +5,9 @@ library(tidyverse)
 library(readr)
 
 ##Inputs - all the clean data files
+## Clean data files should be in the format of 
+    #first column : fipscode  
+    #Rest of columns, values of indicators for specific fipscode with Indicator being used as column name
 Files<-list.files("Data\\CleanData")
 
 ##output Datafile

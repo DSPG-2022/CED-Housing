@@ -35,7 +35,7 @@ ui <- fluidPage(
 )
 
 # Define server logic required to draw a histogram
-server <- function(input, output) {
+server <- function(input, output,session) {
     output$Plot <- plotly::renderPlotly({
         # generate bins based on input$bins from ui.R
         Data <- data%>%
