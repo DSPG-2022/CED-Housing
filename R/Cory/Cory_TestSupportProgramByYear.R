@@ -62,3 +62,11 @@ write.csv(Over3,"R\\Cory\\USDALostPercentbyYear.csv")
 u <- unique(Over$county_name)
 t <-unique(Over2$county_name)
 s <- unique(Over3$county_name)
+
+
+
+word = "Crawford%20County"
+word<-gsub("%20", " ",word)
+plot_ly(
+  
+)

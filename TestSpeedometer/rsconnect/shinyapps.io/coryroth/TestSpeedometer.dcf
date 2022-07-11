@@ -5,9 +5,9 @@ account: coryroth
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 6613826
-bundleId: 6083262
+bundleId: 6089222
 url: https://coryroth.shinyapps.io/TestSpeedometer/
-when: 1657333594.42921
-lastSyncTime: 1657333594.42921
+when: 1657572113.42693
+lastSyncTime: 1657572113.42699
 asMultiple: FALSE
 asStatic: FALSE

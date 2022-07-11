@@ -30,13 +30,33 @@ ui <- fluidPage(
         # Show a plot of the generated distribution
         mainPanel(
            plotlyOutput("Plot"),
+           textOutput("text")
         )
     )
 )
 
 # Define server logic required to draw a histogram
-server <- function(input, output) {
-    output$Plot <- plotly::renderPlotly({
+server <- function(input, output, session) {
+  observe({
+    query <- parseQueryString(session$clientData$url_search)
+    county1 <-query[['county']]
+    county1<- gsub("%20", " ",county1)
+    indicator <- query[['indicator']]
+    indicator<- gsub("%20", " ",indicator)
+    if (!is.null(query[['county']])) {
+      updateSelectInput(session, "county", selected = county1)
+    }
+    if (!is.null(query[['indicator']])) {
+      updateSelectInput(session, "indicator", selected = indicator)
+    }
+  })
+  
+  
+  
+  
+  
+  output$Plot <- plotly::renderPlotly({
+      
         # generate bins based on input$bins from ui.R
         Data <- data%>%
           select(county_name,value =input$indicator)
