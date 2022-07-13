@@ -20,14 +20,13 @@ for (file in Files){
   
   ##Gets Seperate Data File
   InputData<- read.csv(paste("Data\\CleanData\\",file,sep=""))
+
   ##For each indicator in InputData
   for(colIndex in 1:ncol(InputData)){
     ##if not first column **FIRST Column should be fipsCode**
     if(colIndex!= 1){
-      
       ##Indicator Name
       ColumnName = colnames(InputData)[colIndex]
-      
       inOverall =FALSE
       ##For each Indicator in Overal Dataset
       for(name in OutputColNames){
@@ -42,14 +41,17 @@ for (file in Files){
               OutputIndex <- which(OutputData$fips==code)
           
               ##replace Overall Dataset with value from input data
-              replace(OutputData[,name],OutputIndex,InputData[which(InputData[,1]==code),colIndex])
+              replace(as.data.frame(OutputData[,name])[OutputIndex,],1,InputData[which(InputData[,1]==code),colIndex])
             }
+
           }
-        }
+  
+      }
+      AddData <- select(InputData,1,colIndex)
       ## If there is no Indicator named that 
       ## Merge Data onto Overall Dataset by fipcode
       if(!inOverall){
-        OutputData = merge(OutputData, InputData, by.x = "fips", by.y = colnames(InputData)[1])
+        OutputData = merge(OutputData, AddData, by.x = "fips", by.y = colnames(InputData)[1])
         OutputColNames <- colnames(OutputData)
       }
     }
