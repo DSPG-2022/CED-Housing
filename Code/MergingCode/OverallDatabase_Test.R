@@ -10,7 +10,8 @@ library(readr)
     #Rest of columns, values of indicators for specific fipscode with Indicator being used as column name
 Files<-list.files("Data\\CleanData")
 
-##output Datafile
+
+##output: Datafile
 outputCSV = "Data\\OverallDatabase.csv"
 OutputData <- read_csv(outputCSV)
 OutputColNames <- colnames(OutputData)
@@ -27,12 +28,22 @@ for (file in Files){
     if(colIndex!= 1){
       ##Indicator Name
       ColumnName = colnames(InputData)[colIndex]
+      
+      ##value used to determine if data is new indicator being added or new data of the same indicator
       inOverall =FALSE
-      ##For each Indicator in Overal Dataset
+      
+      ##New indicator wants to be merged, whereas updated info should replace old data
+      ##assumes input info is most accurate/up-to-date data
+      
+      ##For each Indicator in Overall Dataset
       for(name in OutputColNames){
-          ##If the Input indicator matches an indicator in Overal Dataset
+        
+          ##If the Input indicator matches an indicator in Overall Dataset
           if(ColumnName == name){
+            
+            ##Indicator is in Old Data
             inOverall =TRUE
+            
             ##Find the fipsCodes of input
             InputFipsCodes <- InputData[,1]
           
@@ -47,9 +58,13 @@ for (file in Files){
           }
   
       }
+      ##Only want to Add One Indicator to New Data Set at  a time
+      ##Otherwise might add all indicators multiples times over
       AddData <- select(InputData,1,colIndex)
+      
       ## If there is no Indicator named that 
       ## Merge Data onto Overall Dataset by fipcode
+      ## Will Run for each indicator in Input Data
       if(!inOverall){
         OutputData = merge(OutputData, AddData, by.x = "fips", by.y = colnames(InputData)[1])
         OutputColNames <- colnames(OutputData)
@@ -59,24 +74,9 @@ for (file in Files){
 }
 
 ##rewrites to OverallDataset
+##row.names NEEDS to be false
+##otherwise First Column will not be Fips Code
 write.csv(OutputData, outputCSV, row.names = FALSE)
 
-
-#order(Output2[,1])
-#  replace(Output2[,2],order(Output2[,1]),InputData[,2])
-#Output2 <-merge(Output2,InputData,by ="NAME", no.dups= TRUE)
-#ColumnName = "LIHTC_Per_Capita"
-#outputCSV = "OverallDatabase.csv"
-
-#test<-InputData
-
-
-#InputData = read_csv(inputCSV)
-#OutputData <- read_csv(outputCSV)
-#colnames(InputData) <- c("GEOID","NAME",ColumnName)
-
-#InputData <- InputData%>%
-#  select(GEOID,ColumnName)
-#Output = merge(OutputData,InputData, by = "GEOID")
 
 

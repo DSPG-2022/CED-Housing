@@ -28,11 +28,14 @@ LIHTCSum <- LIHTC %>%
   mutate(PercentLILost = LI/TotalLI * 100)%>%
   mutate(YearEnd = ifelse(Year==8888,Year,Year+15))%>%
   filter(!is.na(COUNTY_LEVEL))
-unique(LIHTCSum$YearEnd)
 
-Over <- merge(LIHTCSum,County, by.y= "fips", by.x = "COUNTY_LEVEL", all.x=TRUE, all.y=FALSE)
-write.csv(Over,"R\\Cory\\LIHTCLostPercentbyYear.csv")
 
+  
+
+
+Over <- merge(LIHTCSum,County, by.y= "fips", by.x = "COUNTY_LEVEL", all.x=TRUE, all.y=TRUE) %>%
+  select(COUNTY_LEVEL,county_name,YearEnd,PercentLILost)
+#write.csv(Over,"R\\Cory\\LIHTCLostPercentbyYear.csv")
 
 HudMultiData2<- HudMultiData2 %>%
   mutate(Year = 2000+ as.numeric(substr(EXPIRATION_DATE1,nchar(EXPIRATION_DATE1)-1,nchar(EXPIRATION_DATE1))))%>%
@@ -43,8 +46,9 @@ HudMultiData2<- HudMultiData2 %>%
   mutate(TotalUnits = sum(Units))%>%
   ungroup%>%
   mutate(PercentMultFamAsstLost = Units/TotalUnits * 100)
-Over2 <- merge(HudMultiData,County, by.y= "fips", by.x = "COUNTY_LEVEL", all.x=TRUE, all.y=FALSE)
-write.csv(Over2,"R\\Cory\\HUDMultiLostPercentbyYear.csv")
+Over2 <- merge(HudMultiData2,County, by.y= "fips", by.x = "COUNTY_LEVEL", all.x=TRUE, all.y=TRUE) %>%
+  select(COUNTY_LEVEL,county_name,Year,PercentMultFamAsstLost)
+#write.csv(Over2,"R\\Cory\\HUDMultiLostPercentbyYear.csv")
 
 
 USDADataSum<- USDADataSum %>%
@@ -56,17 +60,21 @@ USDADataSum<- USDADataSum %>%
   ungroup%>%
   mutate(PercentUSDA515Lost = Units/TotalUnits * 100)
 Over3 <- merge(USDADataSum,County, by.y= "fips", by.x = "State_County_FIPS_Code", all.x=TRUE, all.y=FALSE)
-write.csv(Over3,"R\\Cory\\USDALostPercentbyYear.csv")
+#write.csv(Over3,"R\\Cory\\USDALostPercentbyYear.csv")
 
+LIHTCData <-LIHTCSum%>%
+  mutate(Indicator= "PercentLILost")%>%
+  select(Fips = COUNTY_LEVEL,year=  YearEnd,Indicator, Value = PercentLILost)
+HUDData <-HudMultiData2%>%
+  mutate(Indicator= "PercentMultFamAsstLost")%>%
+  select(Fips = COUNTY_LEVEL,year=  Year,Indicator, Value = PercentMultFamAsstLost)
+USDa515Data <-USDADataSum%>%
+  mutate(Indicator= "PercentUSDA515Lost")%>%
+  select(Fips = State_County_FIPS_Code,year=  Year,Indicator, Value = PercentUSDA515Lost)
 
-u <- unique(Over$county_name)
-t <-unique(Over2$county_name)
-s <- unique(Over3$county_name)
-
-
-
-word = "Crawford%20County"
-word<-gsub("%20", " ",word)
-plot_ly(
-  
-)
+df <- data.frame()
+df <- rbind(df,LIHTCData)
+df <- rbind(df,HUDData)
+df <- rbind(df,USDa515Data)
+Over4 <- merge(df,County, by.y= "fips", by.x = "Fips", all.x=TRUE, all.y=TRUE)
+write.csv(Over4, "R\\Cory\\UnitLossPercentbyYear.csv")
