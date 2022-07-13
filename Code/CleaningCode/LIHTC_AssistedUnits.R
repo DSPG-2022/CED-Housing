@@ -28,7 +28,6 @@ LIHTCSum2 <- LIHTC %>%
   group_by(COUNTY_LEVEL)%>%
   mutate(TotalLI = sum(LI))%>%
   ungroup%>%
-  mutate(PercentLILost = LI/TotalLI * 100)%>%
   mutate(YearEnd = ifelse(Year==8888,Year,Year+15))%>%
   filter(!is.na(COUNTY_LEVEL))%>%
   group_by(COUNTY_LEVEL)%>%

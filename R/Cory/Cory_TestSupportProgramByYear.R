@@ -13,7 +13,7 @@ USDADataSum <-USDAData %>%
   filter(substr(State_County_FIPS_Code,0,2)==19)%>%
   mutate(Year=ifelse(is.na(Date_Restrictive_Clause_Expires),8888,substr(Date_Restrictive_Clause_Expires,nchar(Date_Restrictive_Clause_Expires)-3,nchar(Date_Restrictive_Clause_Expires))))
 
-HudMultiData <- HUD %>%
+HudMultiData2 <- HUD %>%
   filter(STD_ST == "IA")
 
 LIHTCSum <- LIHTC %>%
@@ -34,7 +34,7 @@ Over <- merge(LIHTCSum,County, by.y= "fips", by.x = "COUNTY_LEVEL", all.x=TRUE, 
 write.csv(Over,"R\\Cory\\LIHTCLostPercentbyYear.csv")
 
 
-HudMultiData<- HudMultiData %>%
+HudMultiData2<- HudMultiData2 %>%
   mutate(Year = 2000+ as.numeric(substr(EXPIRATION_DATE1,nchar(EXPIRATION_DATE1)-1,nchar(EXPIRATION_DATE1))))%>%
   group_by(COUNTY_LEVEL,Year)%>%
   summarise(Units = sum(TOTAL_ASSISTED_UNIT_COUNT, na.rm=TRUE))%>%
