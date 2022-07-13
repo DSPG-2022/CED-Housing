@@ -2,7 +2,8 @@ library(readxl)
 library(tidycensus)
 library(tidyverse)
 library(readr)
-
+### ONLY USING AS A PLACEHOLDER INDICATOR DO NOT USE IN FINAL
+###IMPORTANT, Each indicator should have a column name specific to itself###
 
 
 HUD <- read_csv("Data\\RawData\\HUD\\HUD_HCV.csv", col_names  = TRUE)
