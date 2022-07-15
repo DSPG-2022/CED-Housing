@@ -36,16 +36,15 @@ d <- daisy(xquant, metric="euclidean")
 fit <- hclust(d=d, method="complete")    # Also try: method="ward.D"   
 plot.new()
 plot(fit, hang=-1)
-groups <- cutree(fit, k=4)   # "k=" defines the number of clusters you are using   
+groups <- cutree(fit, k=10)   # "k=" defines the number of clusters you are using   
 rect.hclust(fit, k=4, border="red")
 
 ##can change size of groups
-kfit <- kmeans(d, 4)
+kfit <- kmeans(d, 7)
 clusplot(as.matrix(d), kfit$cluster, color=T, shade=T, labels=2, lines=0)
 
 
-kfit$cluster
-s
+
 
 
 oldData[,"Cluster"]<- kfit$cluster
