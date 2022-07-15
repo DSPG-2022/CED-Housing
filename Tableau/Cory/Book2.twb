@@ -1,0 +1,1314 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20221.22.0415.1144                               -->
+<workbook original-version='18.1' source-build='2022.1.1 (20221.22.0415.1144)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='ClusterTesting' inline='true' name='federated.1pz1wiz0db71bb1f8v0ea1w4g035' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='ClusterTesting' name='textscan.0q3eoyr1gm8la517le7ej0zga2fi'>
+            <connection class='textscan' directory='C:/Users/cornd/OneDrive/Documents/GitHub/CED-Housing/R/Cory' filename='ClusterTesting.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0q3eoyr1gm8la517le7ej0zga2fi' name='ClusterTesting.csv' table='[ClusterTesting#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='Fips' ordinal='1' />
+            <column datatype='string' name='Country' ordinal='2' />
+            <column datatype='real' name='High School Graduation Rate' ordinal='3' />
+            <column datatype='real' name='High School Graduates With College Intentions' ordinal='4' />
+            <column datatype='real' name='Adequate Yearly Progress in Math' ordinal='5' />
+            <column datatype='real' name='Adequate Yearly Progress in Reading' ordinal='6' />
+            <column datatype='real' name='Classroom Language Barriers' ordinal='7' />
+            <column datatype='real' name='Student-Computer Ratios' ordinal='8' />
+            <column datatype='real' name='Student-Teacher Ratios' ordinal='9' />
+            <column datatype='real' name='Teacher Education Levels' ordinal='10' />
+            <column datatype='real' name='School District Property Tax Capacity' ordinal='11' />
+            <column datatype='real' name='School District Property Tax Effort' ordinal='12' />
+            <column datatype='real' name='Hospital Access' ordinal='13' />
+            <column datatype='real' name='Nursing Home and Residential Care Access' ordinal='14' />
+            <column datatype='real' name='Primary Medical Care Access' ordinal='15' />
+            <column datatype='string' name='Dental Care Access' ordinal='16' />
+            <column datatype='real' name='Uninsured Population' ordinal='17' />
+            <column datatype='real' name='Teen Mothers' ordinal='18' />
+            <column datatype='real' name='Low Birthweight Births' ordinal='19' />
+            <column datatype='real' name='Young Children Living With a Single Parent' ordinal='20' />
+            <column datatype='real' name='Young Children With All Parents in Labor Force' ordinal='21' />
+            <column datatype='real' name='Juvenile Delinquency' ordinal='22' />
+            <column datatype='real' name='Child Maltreatment' ordinal='23' />
+            <column datatype='real' name='Poverty Rate' ordinal='24' />
+            <column datatype='real' name='Low-Income Elderly Residents' ordinal='25' />
+            <column datatype='real' name='Food Assistance Program Recipients' ordinal='26' />
+            <column datatype='real' name='Family Investment Program (TANF)' ordinal='27' />
+            <column datatype='real' name='Free and Reduced School Lunch' ordinal='28' />
+            <column datatype='real' name='Income Inequality' ordinal='29' />
+            <column datatype='real' name='Housing Affordability Index' ordinal='30' />
+            <column datatype='real' name='Cost-Burdened Renter Households' ordinal='31' />
+            <column datatype='real' name='Cost-Burdened Owner Households' ordinal='32' />
+            <column datatype='real' name='Cultural and Environmental Organizations' ordinal='33' />
+            <column datatype='real' name='Natural Amenities' ordinal='34' />
+            <column datatype='real' name='Public Spending on Parks and Recreation' ordinal='35' />
+            <column datatype='real' name='Access to Parks' ordinal='36' />
+            <column datatype='real' name='Recreational Trails' ordinal='37' />
+            <column datatype='real' name='Voting Rate' ordinal='38' />
+            <column datatype='real' name='Census Participation Rate' ordinal='39' />
+            <column datatype='real' name='Assets of Public Charities' ordinal='40' />
+            <column datatype='real' name='Library Usage' ordinal='41' />
+            <column datatype='real' name='Religious Adherence' ordinal='42' />
+            <column datatype='string' name='Religious Diversity' ordinal='43' />
+            <column datatype='real' name='Racial and Ethnic Diversity' ordinal='44' />
+            <column datatype='real' name='Recent Immigrants' ordinal='45' />
+            <column datatype='real' name='Political Party Imbalance' ordinal='46' />
+            <column datatype='integer' name='Cluster' ordinal='47' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0q3eoyr1gm8la517le7ej0zga2fi' name='ClusterTesting.csv' table='[ClusterTesting#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='Fips' ordinal='1' />
+            <column datatype='string' name='Country' ordinal='2' />
+            <column datatype='real' name='High School Graduation Rate' ordinal='3' />
+            <column datatype='real' name='High School Graduates With College Intentions' ordinal='4' />
+            <column datatype='real' name='Adequate Yearly Progress in Math' ordinal='5' />
+            <column datatype='real' name='Adequate Yearly Progress in Reading' ordinal='6' />
+            <column datatype='real' name='Classroom Language Barriers' ordinal='7' />
+            <column datatype='real' name='Student-Computer Ratios' ordinal='8' />
+            <column datatype='real' name='Student-Teacher Ratios' ordinal='9' />
+            <column datatype='real' name='Teacher Education Levels' ordinal='10' />
+            <column datatype='real' name='School District Property Tax Capacity' ordinal='11' />
+            <column datatype='real' name='School District Property Tax Effort' ordinal='12' />
+            <column datatype='real' name='Hospital Access' ordinal='13' />
+            <column datatype='real' name='Nursing Home and Residential Care Access' ordinal='14' />
+            <column datatype='real' name='Primary Medical Care Access' ordinal='15' />
+            <column datatype='string' name='Dental Care Access' ordinal='16' />
+            <column datatype='real' name='Uninsured Population' ordinal='17' />
+            <column datatype='real' name='Teen Mothers' ordinal='18' />
+            <column datatype='real' name='Low Birthweight Births' ordinal='19' />
+            <column datatype='real' name='Young Children Living With a Single Parent' ordinal='20' />
+            <column datatype='real' name='Young Children With All Parents in Labor Force' ordinal='21' />
+            <column datatype='real' name='Juvenile Delinquency' ordinal='22' />
+            <column datatype='real' name='Child Maltreatment' ordinal='23' />
+            <column datatype='real' name='Poverty Rate' ordinal='24' />
+            <column datatype='real' name='Low-Income Elderly Residents' ordinal='25' />
+            <column datatype='real' name='Food Assistance Program Recipients' ordinal='26' />
+            <column datatype='real' name='Family Investment Program (TANF)' ordinal='27' />
+            <column datatype='real' name='Free and Reduced School Lunch' ordinal='28' />
+            <column datatype='real' name='Income Inequality' ordinal='29' />
+            <column datatype='real' name='Housing Affordability Index' ordinal='30' />
+            <column datatype='real' name='Cost-Burdened Renter Households' ordinal='31' />
+            <column datatype='real' name='Cost-Burdened Owner Households' ordinal='32' />
+            <column datatype='real' name='Cultural and Environmental Organizations' ordinal='33' />
+            <column datatype='real' name='Natural Amenities' ordinal='34' />
+            <column datatype='real' name='Public Spending on Parks and Recreation' ordinal='35' />
+            <column datatype='real' name='Access to Parks' ordinal='36' />
+            <column datatype='real' name='Recreational Trails' ordinal='37' />
+            <column datatype='real' name='Voting Rate' ordinal='38' />
+            <column datatype='real' name='Census Participation Rate' ordinal='39' />
+            <column datatype='real' name='Assets of Public Charities' ordinal='40' />
+            <column datatype='real' name='Library Usage' ordinal='41' />
+            <column datatype='real' name='Religious Adherence' ordinal='42' />
+            <column datatype='string' name='Religious Diversity' ordinal='43' />
+            <column datatype='real' name='Racial and Ethnic Diversity' ordinal='44' />
+            <column datatype='real' name='Recent Immigrants' ordinal='45' />
+            <column datatype='real' name='Political Party Imbalance' ordinal='46' />
+            <column datatype='integer' name='Cluster' ordinal='47' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fips</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fips]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Fips</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>High School Graduation Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[High School Graduation Rate]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>High School Graduation Rate</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>High School Graduates With College Intentions</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[High School Graduates With College Intentions]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>High School Graduates With College Intentions</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Adequate Yearly Progress in Math</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Adequate Yearly Progress in Math]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Adequate Yearly Progress in Math</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Adequate Yearly Progress in Reading</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Adequate Yearly Progress in Reading]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Adequate Yearly Progress in Reading</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Classroom Language Barriers</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Classroom Language Barriers]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Classroom Language Barriers</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Student-Computer Ratios</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Student-Computer Ratios]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Student-Computer Ratios</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Student-Teacher Ratios</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Student-Teacher Ratios]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Student-Teacher Ratios</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Teacher Education Levels</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Teacher Education Levels]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Teacher Education Levels</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>School District Property Tax Capacity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[School District Property Tax Capacity]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>School District Property Tax Capacity</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>School District Property Tax Effort</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[School District Property Tax Effort]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>School District Property Tax Effort</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hospital Access</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Hospital Access]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Hospital Access</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nursing Home and Residential Care Access</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Nursing Home and Residential Care Access]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Nursing Home and Residential Care Access</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Primary Medical Care Access</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Primary Medical Care Access]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Primary Medical Care Access</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dental Care Access</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Dental Care Access]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Dental Care Access</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Uninsured Population</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Uninsured Population]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Uninsured Population</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Teen Mothers</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Teen Mothers]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Teen Mothers</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Low Birthweight Births</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Low Birthweight Births]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Low Birthweight Births</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Young Children Living With a Single Parent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Young Children Living With a Single Parent]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Young Children Living With a Single Parent</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Young Children With All Parents in Labor Force</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Young Children With All Parents in Labor Force]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Young Children With All Parents in Labor Force</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Juvenile Delinquency</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Juvenile Delinquency]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Juvenile Delinquency</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Child Maltreatment</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Child Maltreatment]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Child Maltreatment</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Poverty Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Poverty Rate]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Poverty Rate</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Low-Income Elderly Residents</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Low-Income Elderly Residents]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Low-Income Elderly Residents</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Food Assistance Program Recipients</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Food Assistance Program Recipients]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Food Assistance Program Recipients</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Family Investment Program (TANF)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Family Investment Program (TANF)]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Family Investment Program (TANF)</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Free and Reduced School Lunch</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Free and Reduced School Lunch]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Free and Reduced School Lunch</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Income Inequality</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Income Inequality]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Income Inequality</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Housing Affordability Index</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Housing Affordability Index]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Housing Affordability Index</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cost-Burdened Renter Households</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cost-Burdened Renter Households]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Cost-Burdened Renter Households</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cost-Burdened Owner Households</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cost-Burdened Owner Households]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Cost-Burdened Owner Households</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cultural and Environmental Organizations</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cultural and Environmental Organizations]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Cultural and Environmental Organizations</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Natural Amenities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Natural Amenities]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Natural Amenities</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Public Spending on Parks and Recreation</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Public Spending on Parks and Recreation]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Public Spending on Parks and Recreation</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Access to Parks</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Access to Parks]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Access to Parks</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Recreational Trails</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Recreational Trails]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Recreational Trails</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Voting Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Voting Rate]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Voting Rate</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Census Participation Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Census Participation Rate]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Census Participation Rate</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Assets of Public Charities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Assets of Public Charities]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Assets of Public Charities</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Library Usage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Library Usage]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Library Usage</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Religious Adherence</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Religious Adherence]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Religious Adherence</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Religious Diversity</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Religious Diversity]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Religious Diversity</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Racial and Ethnic Diversity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Racial and Ethnic Diversity]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Racial and Ethnic Diversity</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Recent Immigrants</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Recent Immigrants]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Recent Immigrants</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Political Party Imbalance</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Political Party Imbalance]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Political Party Imbalance</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cluster</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cluster]</local-name>
+            <parent-name>[ClusterTesting.csv]</parent-name>
+            <remote-alias>Cluster</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Cluster]' role='measure' type='ordinal' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='' type='nominal' />
+      <column aggregation='Sum' datatype='integer' name='[Fips]' role='dimension' semantic-role='[County].[Name]' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='ClusterTesting.csv' datatype='table' name='[__tableau_internal_object_id__].[ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='ClusterTesting.csv' id='ClusterTesting.csv_DD40941F28ED49C0AAFF6E0443FDD0C6'>
+            <properties context=''>
+              <relation connection='textscan.0q3eoyr1gm8la517le7ej0zga2fi' name='ClusterTesting.csv' table='[ClusterTesting#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='Fips' ordinal='1' />
+                  <column datatype='string' name='Country' ordinal='2' />
+                  <column datatype='real' name='High School Graduation Rate' ordinal='3' />
+                  <column datatype='real' name='High School Graduates With College Intentions' ordinal='4' />
+                  <column datatype='real' name='Adequate Yearly Progress in Math' ordinal='5' />
+                  <column datatype='real' name='Adequate Yearly Progress in Reading' ordinal='6' />
+                  <column datatype='real' name='Classroom Language Barriers' ordinal='7' />
+                  <column datatype='real' name='Student-Computer Ratios' ordinal='8' />
+                  <column datatype='real' name='Student-Teacher Ratios' ordinal='9' />
+                  <column datatype='real' name='Teacher Education Levels' ordinal='10' />
+                  <column datatype='real' name='School District Property Tax Capacity' ordinal='11' />
+                  <column datatype='real' name='School District Property Tax Effort' ordinal='12' />
+                  <column datatype='real' name='Hospital Access' ordinal='13' />
+                  <column datatype='real' name='Nursing Home and Residential Care Access' ordinal='14' />
+                  <column datatype='real' name='Primary Medical Care Access' ordinal='15' />
+                  <column datatype='string' name='Dental Care Access' ordinal='16' />
+                  <column datatype='real' name='Uninsured Population' ordinal='17' />
+                  <column datatype='real' name='Teen Mothers' ordinal='18' />
+                  <column datatype='real' name='Low Birthweight Births' ordinal='19' />
+                  <column datatype='real' name='Young Children Living With a Single Parent' ordinal='20' />
+                  <column datatype='real' name='Young Children With All Parents in Labor Force' ordinal='21' />
+                  <column datatype='real' name='Juvenile Delinquency' ordinal='22' />
+                  <column datatype='real' name='Child Maltreatment' ordinal='23' />
+                  <column datatype='real' name='Poverty Rate' ordinal='24' />
+                  <column datatype='real' name='Low-Income Elderly Residents' ordinal='25' />
+                  <column datatype='real' name='Food Assistance Program Recipients' ordinal='26' />
+                  <column datatype='real' name='Family Investment Program (TANF)' ordinal='27' />
+                  <column datatype='real' name='Free and Reduced School Lunch' ordinal='28' />
+                  <column datatype='real' name='Income Inequality' ordinal='29' />
+                  <column datatype='real' name='Housing Affordability Index' ordinal='30' />
+                  <column datatype='real' name='Cost-Burdened Renter Households' ordinal='31' />
+                  <column datatype='real' name='Cost-Burdened Owner Households' ordinal='32' />
+                  <column datatype='real' name='Cultural and Environmental Organizations' ordinal='33' />
+                  <column datatype='real' name='Natural Amenities' ordinal='34' />
+                  <column datatype='real' name='Public Spending on Parks and Recreation' ordinal='35' />
+                  <column datatype='real' name='Access to Parks' ordinal='36' />
+                  <column datatype='real' name='Recreational Trails' ordinal='37' />
+                  <column datatype='real' name='Voting Rate' ordinal='38' />
+                  <column datatype='real' name='Census Participation Rate' ordinal='39' />
+                  <column datatype='real' name='Assets of Public Charities' ordinal='40' />
+                  <column datatype='real' name='Library Usage' ordinal='41' />
+                  <column datatype='real' name='Religious Adherence' ordinal='42' />
+                  <column datatype='string' name='Religious Diversity' ordinal='43' />
+                  <column datatype='real' name='Racial and Ethnic Diversity' ordinal='44' />
+                  <column datatype='real' name='Recent Immigrants' ordinal='45' />
+                  <column datatype='real' name='Political Party Imbalance' ordinal='46' />
+                  <column datatype='integer' name='Cluster' ordinal='47' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ClusterTesting' name='federated.1pz1wiz0db71bb1f8v0ea1w4g035' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1pz1wiz0db71bb1f8v0ea1w4g035'>
+            <column datatype='integer' name='[Cluster]' role='measure' type='ordinal' />
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='' type='nominal' />
+            <column aggregation='Sum' datatype='integer' name='[Fips]' role='dimension' semantic-role='[County].[Name]' type='ordinal' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Fips]' derivation='None' name='[none:Fips:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Cluster]' derivation='Sum' name='[sum:Cluster:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1pz1wiz0db71bb1f8v0ea1w4g035].[Latitude (generated)]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.1pz1wiz0db71bb1f8v0ea1w4g035].[Longitude (generated)]' included-values='non-null' />
+          <slices>
+            <column>[federated.1pz1wiz0db71bb1f8v0ea1w4g035].[Latitude (generated)]</column>
+            <column>[federated.1pz1wiz0db71bb1f8v0ea1w4g035].[Longitude (generated)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[federated.1pz1wiz0db71bb1f8v0ea1w4g035].[none:Fips:ok]' value='false' />
+            <format attr='break-on-special' field='[federated.1pz1wiz0db71bb1f8v0ea1w4g035].[none:Fips:ok]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.1pz1wiz0db71bb1f8v0ea1w4g035].[none:Fips:ok]' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <color column='[federated.1pz1wiz0db71bb1f8v0ea1w4g035].[sum:Cluster:ok]' />
+              <text column='[federated.1pz1wiz0db71bb1f8v0ea1w4g035].[none:Country:nk]' />
+              <lod column='[federated.1pz1wiz0db71bb1f8v0ea1w4g035].[none:Fips:ok]' />
+              <geometry column='[federated.1pz1wiz0db71bb1f8v0ea1w4g035].[Geometry (generated)]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontsize='7'>&lt;</run>
+                <run fontsize='7'>[federated.1pz1wiz0db71bb1f8v0ea1w4g035].[none:Country:nk]</run>
+                <run fontsize='7'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1pz1wiz0db71bb1f8v0ea1w4g035].[Latitude (generated)]</rows>
+        <cols>[federated.1pz1wiz0db71bb1f8v0ea1w4g035].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{6CA8037E-A6F5-4FE9-AC07-510ABC1C149F}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1pz1wiz0db71bb1f8v0ea1w4g035].[sum:Cluster:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1pz1wiz0db71bb1f8v0ea1w4g035].[none:Country:nk]</field>
+            <field>[federated.1pz1wiz0db71bb1f8v0ea1w4g035].[sum:Cluster:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{BD4F855C-86D9-4493-92BA-E8A150714BD3}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      xJUhhOD/BlWLI7FMVKQAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

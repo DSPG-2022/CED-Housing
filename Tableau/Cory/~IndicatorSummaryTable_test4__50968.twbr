@@ -25,7 +25,7 @@
     <WorksheetBackgroundTransparency />
     <ZoneBackgroundTransparency />
   </document-format-change-manifest>
-  <repository-location derived-from='https://public.tableau.com/workbooks/IndicatorSummaryTable_test4?rev=1.0' id='IndicatorSummaryTable_test4' path='/workbooks' revision='1.4' />
+  <repository-location derived-from='https://public.tableau.com/workbooks/IndicatorSummaryTable_test4?rev=1.0' id='IndicatorSummaryTable_test4' path='/workbooks' revision='1.5' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -4243,6 +4243,7 @@
       </link>
     </action>
     <action caption='Hyperlink1' name='[Action2_121CB969BE3E40D0B1EE5AFB34D73364]'>
+      <activation type='on-select' />
       <source dashboard='SpeedometerWithTableau' type='sheet' worksheet='IndicatorSummaryNew' />
       <link caption='' expression='https://coryroth.shinyapps.io/TestSpeedometer/?county=&lt;[county_name]&gt;&amp;indicator=&lt;[Pivot Field Names]&gt;'>
         <url-action-type>specific-zone</url-action-type>
@@ -4652,7 +4653,7 @@
             <column-instance column='[Calculation_2380152454371532808]' derivation='Sum' name='[sum:Calculation_2380152454371532808:ok]' pivot='key' type='ordinal' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.1fgg66x0e4qdit1ckx42a1orhqpa].[none:county_name:nk]'>
-            <groupfilter function='member' level='[none:county_name:nk]' member='&quot;Kossuth County&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[none:county_name:nk]' member='&quot;Grundy County&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <shelf-sorts>
             <shelf-sort-v2 dimension-to-sort='[federated.1fgg66x0e4qdit1ckx42a1orhqpa].[none:Pivot Field Names:nk]' direction='ASC' measure-to-sort-by='[federated.1fgg66x0e4qdit1ckx42a1orhqpa].[sum:Calculation_2380152454356766725:ok]' shelf='rows' />
@@ -5225,8 +5226,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='36' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='35' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='38' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='37' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='280' forceUpdate='' h='98000' id='3' is-fixed='true' param='https://coryroth.shinyapps.io/TestSpeedometer/' type-v2='web' w='98400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -5334,8 +5335,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='850' minheight='850' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='24' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97916' id='23' param='vert' type-v2='layout-flow' w='98828' x='586' y='1042'>
+            <zone h='100000' id='26' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97916' id='25' param='vert' type-v2='layout-flow' w='98828' x='586' y='1042'>
                 <zone h='28646' id='8' mode='dropdown' name='5YearLossLeft' param='[federated.1fgg66x0e4qdit1ckx42a1orhqpa].[none:Pivot Field Names:nk]' type-v2='filter' w='11713' x='87701' y='1042'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -5452,8 +5453,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='54' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='53' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='56' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='55' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='IndicatorSummaryOld' w='81700' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -5526,7 +5527,7 @@
               </zone>
             </zone>
             <zone fixed-size='164' h='100000' id='7' is-fixed='true' param='vert' type-v2='layout-flow' w='12006' x='87994' y='0'>
-              <zone h='12110' id='10' name='IndicatorSummaryNew' pane-specification-id='0' param='[federated.1fgg66x0e4qdit1ckx42a1orhqpa].[sum:Calculation_2380152454356766725:ok]' type-v2='color' w='12006' x='87994' y='0'>
+              <zone h='9375' id='10' name='IndicatorSummaryNew' pane-specification-id='0' param='[federated.1fgg66x0e4qdit1ckx42a1orhqpa].[sum:Calculation_2380152454356766725:ok]' type-v2='color' w='12006' x='87994' y='0'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -5534,7 +5535,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='7943' id='34' mode='dropdown' name='IndicatorSummaryNew' param='[federated.1fgg66x0e4qdit1ckx42a1orhqpa].[none:county_name:nk]' show-all='false' type-v2='filter' values='database' w='12006' x='87994' y='12110'>
+              <zone h='7943' id='34' mode='dropdown' name='IndicatorSummaryNew' param='[federated.1fgg66x0e4qdit1ckx42a1orhqpa].[none:county_name:nk]' show-all='false' type-v2='filter' values='database' w='12006' x='87994' y='9375'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -5554,15 +5555,15 @@
             </button-visual-state>
           </button>
         </zone>
-        <zone forceUpdate='' h='69271' id='15' param='https://coryroth.shinyapps.io/TestSpeedometer/?county=Kossuth County&amp;indicator=PercentMultiFamAssistPerHouseold' type-v2='web' w='100220' x='-146' y='31250' />
+        <zone forceUpdate='' h='69271' id='15' param='https://coryroth.shinyapps.io/TestSpeedometer/?county=Grundy County&amp;indicator=PercentMultiFamAssistPerHouseold' type-v2='web' w='100220' x='-146' y='31250' />
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='800' minheight='800' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='49' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97916' id='48' param='vert' type-v2='layout-flow' w='98828' x='586' y='1042'>
-                <zone h='7943' id='34' mode='dropdown' name='IndicatorSummaryNew' param='[federated.1fgg66x0e4qdit1ckx42a1orhqpa].[none:county_name:nk]' show-all='false' type-v2='filter' values='database' w='12006' x='87994' y='12110'>
+            <zone h='100000' id='51' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97916' id='50' param='vert' type-v2='layout-flow' w='98828' x='586' y='1042'>
+                <zone h='7943' id='34' mode='dropdown' name='IndicatorSummaryNew' param='[federated.1fgg66x0e4qdit1ckx42a1orhqpa].[none:county_name:nk]' show-all='false' type-v2='filter' values='database' w='12006' x='87994' y='9375'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -5580,7 +5581,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='12110' id='10' name='IndicatorSummaryNew' pane-specification-id='0' param='[federated.1fgg66x0e4qdit1ckx42a1orhqpa].[sum:Calculation_2380152454356766725:ok]' type-v2='color' w='12006' x='87994' y='0'>
+                <zone h='9375' id='10' name='IndicatorSummaryNew' pane-specification-id='0' param='[federated.1fgg66x0e4qdit1ckx42a1orhqpa].[sum:Calculation_2380152454356766725:ok]' type-v2='color' w='12006' x='87994' y='0'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -5605,7 +5606,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' forceUpdate='' h='69271' id='15' is-fixed='true' param='https://coryroth.shinyapps.io/TestSpeedometer/?county=Kossuth County&amp;indicator=PercentMultiFamAssistPerHouseold' type-v2='web' w='100220' x='-146' y='31250'>
+                <zone fixed-size='280' forceUpdate='' h='69271' id='15' is-fixed='true' param='https://coryroth.shinyapps.io/TestSpeedometer/?county=Kossuth County&amp;indicator=PercentHudSec8Lost5Year' type-v2='web' w='100220' x='-146' y='31250'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -5694,8 +5695,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='19' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='18' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='21' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='20' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone h='13125' id='8' mode='dropdown' name='UnitsLoss' param='[federated.173n9u01pq18j71e9hyay1up2bvk].[none:Indicator:nk]' show-all='false' type-v2='filter' w='16000' x='83200' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -5793,12 +5794,12 @@
       <active id='-1' />
       <simple-id uuid='{47972AFC-33C2-4FBD-97D4-ECD7EA7FDED7}' />
     </window>
-    <window class='dashboard' maximized='true' name='Dashboard 3'>
+    <window class='dashboard' name='Dashboard 3'>
       <viewpoints />
       <active id='-1' />
       <simple-id uuid='{A2D27BA9-BCAD-423B-B793-FA6C72E324FE}' />
     </window>
-    <window class='dashboard' name='SpeedometerWithTableau'>
+    <window class='dashboard' maximized='true' name='SpeedometerWithTableau'>
       <viewpoints>
         <viewpoint name='IndicatorSummaryNew' />
       </viewpoints>

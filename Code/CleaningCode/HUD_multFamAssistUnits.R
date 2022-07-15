@@ -16,6 +16,7 @@ House2020 <- get_decennial(
   year = 2020
 )
 
+
 ##Filters for only Data in State of Iowa
 MultiData <- HUD %>%
   filter(STD_ST == "IA")
