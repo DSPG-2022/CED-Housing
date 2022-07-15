@@ -4,5 +4,5 @@
 ## Cleaning Code: Clean_*Name
 ## Indicator Code: Indicator_*Name
 ## Visualizing Code: Visual_*Type_*Name
-### Type: it can be "map" or different forms of graph such as "sppedometer", "dendrogram", "WordCloud", etc.
+### Type: it can be "map" or different forms of graph such as "speedometer", "dendrogram", "WordCloud", etc.
 
