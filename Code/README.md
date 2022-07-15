@@ -1,6 +1,6 @@
 # Naming Files:
 ## Test code: Test_Name
-## Gathering Code: GetData_*Organization_*Name
+## Gathering Code: Get_*Organization_*Name
 ## Cleaning Code: Clean_*Name
 ## Indicator Code: Indicator_*Name
 ## Visualizing Code: Visual_*Type_*Name
