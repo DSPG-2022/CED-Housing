@@ -1,5 +1,5 @@
 # Naming Files:
-## Test code: Test_Name
+## Test code: Test_*Name
 ## Gathering Code: Get_*Organization_*Name
 ## Cleaning Code: Clean_*Name
 ## Merging Code: Merge_*Name
