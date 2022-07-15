@@ -119,9 +119,9 @@ server <- function(input, output, session) {
           ) %>%
           add_annotations(
             x= 0.5,
-            y=0.52,
+            y=0.5,
             text = SelectedCounty$county_name,
-            size= 16,
+            size= 20,
             showarrow = F
           )
     })

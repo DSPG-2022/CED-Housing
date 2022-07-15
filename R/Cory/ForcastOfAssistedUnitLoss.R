@@ -88,4 +88,5 @@ df <- rbind(df,USDa515Data)
 Over4 <- merge(df,County, by.y= "fips", by.x = "Fips", all.x=TRUE, all.y=TRUE)
 
 ##Saves to File
+##CHANGE LOCATION ONCED FIGURED OUT
 write.csv(Over4, "R\\Cory\\UnitLossPercentbyYear.csv")
