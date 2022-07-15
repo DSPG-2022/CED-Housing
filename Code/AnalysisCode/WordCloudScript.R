@@ -4,10 +4,6 @@ library(ggwordcloud)
 library(readxl)
 library(udpipe)
 library(textrank)
-library(lattice)
-library(igraph)
-library(ggraph)
-library(ggplot2)
 
 ## First step: Take the English udpipe model and annotate the text. Note: this takes about 3 minutes
 # Step must be done for all of the options

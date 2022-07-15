@@ -16,4 +16,5 @@ unit_value <- get_acs(
   mutate(MOEPct = MedianValueMOE / MedianValue * 100)
 View(unit_value)
 
-write.csv(unit_value, "Data/CleanData/Indicator_TypicalHomeValues.csv")
+write.csv(unit_value, "Data/CleanData/Indicator_TypicalHomeValues.csv",
+          row.names = F)

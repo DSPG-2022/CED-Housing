@@ -10,5 +10,6 @@ pct_change <- read_csv("./Data/RawData/Zillow/All Homes - Smoothed by County.csv
   arrange(CountyName)
 View(pct_change)
 
-write.csv(pct_change, "Data/CleanData/Indicator_ZillowPctChange.csv")
+write.csv(pct_change, "Data/CleanData/Indicator_ZillowPctChange.csv",
+          row.names = F)
 
