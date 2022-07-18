@@ -1,0 +1,13 @@
+name: Speedometer
+title: Speedometer
+username:
+account: coryroth
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6659352
+bundleId: 6109357
+url: https://coryroth.shinyapps.io/Speedometer/
+when: 1658174352.31401
+lastSyncTime: 1658174352.31404
+asMultiple: FALSE
+asStatic: FALSE
