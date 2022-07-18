@@ -36,6 +36,7 @@ permits21 <- read_csv("./Data/RawData/USCB/Building Permits Survey/co2021a.txt")
 
 # Every year joined together into a single permits dataframe
 permits_df <- rbind(permits17, permits18, permits19, permits20)
+permits_df$FIPS <- str_c(permits_df$FIPS...2, permits_df$FIPS...3)
 
 ## Table B25024 Units in Structure from ACS 2016-20
 units <- get_acs(
@@ -64,10 +65,11 @@ SingleFamHomeConstructPct <- sum_Units1_county$`sum(Units1)`/ units$TotalE * 100
 #  Data frame containing the Single Family Home Construction Percentages
 SingFamCRate <- data.frame(
   SingleFamHomeConstructPct,
-  CountyName = unique(permits_df$County)
+  FIPS = unique(permits_df$FIPS)
   )
 View(SingFamCRate)
 
 
-write.csv(SingFamCRate, "Data/CleanData/Indicator_SingleFamCRate.csv")
+write.csv(SingFamCRate, "Data/CleanData/Indicator_SingleFamCRate.csv",
+          row.names = F)
 

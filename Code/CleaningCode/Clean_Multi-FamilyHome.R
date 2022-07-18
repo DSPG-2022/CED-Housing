@@ -35,6 +35,7 @@ permits21 <- read_csv("./Data/RawData/USCB/Building Permits Survey/co2021a.txt")
          Bldgs5 = ...16, Units5 = `5+ units`, Value5 =...18)
 
 permits_df <- rbind(permits17, permits18, permits19, permits20)
+permits_df$FIPS <- str_c(permits_df$FIPS...2, permits_df$FIPS...3)
 
 # For the number of building permits, sum values in columns 
 # reported for 2-unit, 3-4 unit, and 5+ units to obtain a grand 
@@ -74,8 +75,9 @@ MultiFamHomeConstructPct <- sum_MultiUnits_County$`sum(MultiUnits)`/ units$Multi
 ###
 MultFamCRate <- data.frame(
   MultiFamHomeConstructPct,
-  CountyName = unique(permits_df$County)
+  FIPS = unique(permits_df$FIPS)
   )
 View(MultFamCRate)
 
-write.csv(MultFamCRate, "Data/CleanData/Indicator_MultiFamCRate.csv")
+write.csv(MultFamCRate, "Data/CleanData/Indicator_MultiFamCRate.csv",
+          row.names = F)

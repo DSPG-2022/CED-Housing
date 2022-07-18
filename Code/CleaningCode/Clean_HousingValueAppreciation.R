@@ -5,11 +5,18 @@ library(tidyverse)
 # the most recent month available to the same month five years ago.
 pct_change <- read_csv("./Data/RawData/Zillow/All Homes - Smoothed by County.csv") %>%
   filter(StateName == "IA") %>%
-  transmute(CountyName = RegionName, Jun17 = `2017-05-31`, Jun20 = `2022-05-31`,
-            PctChange = (Jun20 - Jun17) / Jun20 * 100) %>%
-  arrange(CountyName)
+  transmute(FIPS = str_c(StateCodeFIPS, MunicipalCodeFIPS),
+            PctChange = (`2022-05-31` - `2017-05-31`) / `2022-05-31` * 100) %>%
+  arrange(FIPS)
+
 View(pct_change)
 
 write.csv(pct_change, "Data/CleanData/Indicator_ZillowPctChange.csv",
           row.names = F)
+
+
+
+
+
+
 

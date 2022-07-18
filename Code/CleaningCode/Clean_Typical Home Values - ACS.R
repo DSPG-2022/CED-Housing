@@ -12,8 +12,10 @@ unit_value <- get_acs(
 ) %>%
   rename(MedianValue= MedianValueE,
          MedianValueMOE=MedianValueM,
-         CountyName = NAME) %>%
-  mutate(MOEPct = MedianValueMOE / MedianValue * 100)
+         FIPS = GEOID) %>%
+  mutate(MOEPct = MedianValueMOE / MedianValue * 100) %>%
+  arrange(FIPS) %>%
+  select(FIPS, MedianValue)
 View(unit_value)
 
 write.csv(unit_value, "Data/CleanData/Indicator_TypicalHomeValues.csv",
