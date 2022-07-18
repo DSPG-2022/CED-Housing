@@ -72,5 +72,6 @@ OutputColNames <- colnames(OutputData)
 ##otherwise First Column will not be Fips Code
 write.csv(OutputData, outputCSV, row.names = FALSE)
 
+source("Code\\MergingCode\\Merge_AllCountyDataToLongFormat.R")
 
 

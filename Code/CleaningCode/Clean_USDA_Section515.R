@@ -19,12 +19,8 @@ USDASum <- USDAData%>%
   summarise(TotalUnits = sum(Project_Size))
 
 ##Tidycensus Call to get 2020 Census Data for Total Households by County for State of Iowa
-House2020 <- get_decennial(
-  geography = "county",
-  state = "IA",
-  variables = "H1_001N",
-  year = 2020
-)
+source("Code\\GatheringCode\\Get_CensusDecenial_TotalHousingUnits.R")
+
 
 ##Creates a Column for Year based on the year given in the Date_Restrictive_Clause_Expires
 ##If No Year is given, assign it to 8888 to keep consistent with HUD LIHTC year naming scheme

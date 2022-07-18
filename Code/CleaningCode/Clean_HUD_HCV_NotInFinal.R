@@ -8,12 +8,7 @@ library(readr)
 
 HUD <- read_csv("Data\\RawData\\HUD\\Raw_HUD_HCV.csv", col_names  = TRUE)
 
-House2020 <- get_decennial(
-  geography = "county",
-  state = "IA",
-  variables = "H1_001N",
-  year = 2020
-)
+source("Code\\GatheringCode\\Get_CensusDecenial_TotalHousingUnits.R")
 
 MultiData <- HUD %>%
   filter(STATE == 19)
