@@ -1,0 +1,37 @@
+---
+title: "Tableau Calculated Fields Description"
+output: "Tableau_IndicatorSummary_Quartile"
+---
+
+### Quartile Cutoff
+
+Used to dynamically determine the quartile range values for a specified indicator
+
+To change which quartile, change x to correct value (ex, 0,25,50,100)
+
+Make calculated field for each quartile value
+
+    {FIXED  [Pivot Field Names]:PERCENTILE(FLOAT([Pivot Field Values]),x)}
+
+### Quartile Calculated Field
+
+Used to determine for each indicator for a selected county which quartile it is in
+
+Q4, Q3,Q2 are the Quartile Cutoff Values
+
+    IF FLOAT([Pivot Field Values]) > [Q4]
+    THEN    4
+    ELSEIF  FLOAT([Pivot Field Values]) > [Q3]
+    THEN 3
+    ELSEIF FLOAT([Pivot Field Values]) > [Q2]
+    THEN 2
+    ELSE 1
+    END
+
+### State Average Used to Calculate the State Average for indicators
+
+    {FIXED  [Pivot Field Names]: AVG(FLOAT([Pivot Field Values]))}
+
+### County Median Used to Calculate the County Median for indicators
+
+    {FIXED  [Pivot Field Names]: MEDIAN(FLOAT([Pivot Field Values]))}
