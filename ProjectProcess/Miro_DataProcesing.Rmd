@@ -1,0 +1,7 @@
+### Link to Miro
+
+This link provides a diagram depicting this projects process of taking raw data, cleaning it, and making it into the final data set
+
+<https://miro.com/app/board/uXjVOpF0yPc=/?share_link_id=852561122942>
+
+![](Miro_DataProcess.jpg)
