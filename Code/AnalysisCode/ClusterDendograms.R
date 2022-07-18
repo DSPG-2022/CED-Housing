@@ -8,20 +8,17 @@ library(ClustOfVar)
 
 ##Change To OverAll Dataset
 ##Dataset
-oldData<- read_excel("R\\Cory\\indicator_summary_table_example.xlsx")
 
+Data<-read.csv("Data\\AllCountyData\\OverallDatabase.csv")
 
-##NOT IMPORTANT, USED TO FORMAT OLD DATA
-names(oldData)
-oldData<-oldData[1:100,]
 
 ##Section Data off to two categories, 
 ##xquant will be all columns with numeric values
 ## xqual will be all columns with factors (strings) values
-xquant <- oldData[3:ncol(oldData)] #number variables
+xquant <- Data[3:ncol(Data)] #number variables
 
 ##CHANGE do not count fips or county names
-xqual  <- oldData[,c(1,2)]      # Value variables
+xqual  <- Data[,c(1,2)]      # Value variables
 
 
 ##creates a tree showing similarities between the columns 
@@ -59,6 +56,6 @@ clusplot(as.matrix(d), kfit$cluster, color=T, shade=T, labels=2, lines=0)
 
 
 ##appends cluster to dataset
-oldData[,"Cluster"]<- kfit$cluster
+Data[,"Cluster"]<- kfit$cluster
 ##saves
-write.csv(oldData,"R\\Cory\\ClusterTesting.csv")
+write.csv(Data,"Code\\TestCode\\Cory\\ClusterTesting.csv")

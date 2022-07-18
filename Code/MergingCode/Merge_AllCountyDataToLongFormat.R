@@ -12,6 +12,11 @@ Overall <- read_csv("Data\\AllCountyData\\OverallDatabase.csv", col_names  = TRU
 Overall2<- Overall%>%
   pivot_longer(3:ncol(Overall))
 
+
+IndicatorGroup<- read.csv("Code\\TestCode\\Cory\\Grouping.csv")
+
+Overall3<- merge(Overall2,IndicatorGroup,by.x="name",by.y= "Indicators",all.x=TRUE)
 ##Saves to File
-write.csv(Overall2,"Data\\AllCountyData\\OverallDatabaseLong.csv",row.names = FALSE)
+write.csv(Overall3,"Data\\AllCountyData\\OverallDatabaseLong.csv",row.names = FALSE)
+
 

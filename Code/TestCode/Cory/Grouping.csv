@@ -1,0 +1,13 @@
+Indicators,SubGroup,Group
+HCVPercentPerHouseHold,Assistance Program,Housing Assistance
+PercentMultiFamAssistPerHouseold,Assistance Program,Housing Assistance
+PercentLIHTCperHousehold,Assistance Program,Housing Assistance
+Percent_515Properties,Assistance Program,Housing Assistance
+PercentHudSec8Lost5Year,Program Loss,Housing Assistance
+PercentLILost5Year,Program Loss,Housing Assistance
+PercentUSDAsec515Lost5Year,Program Loss,Housing Assistance
+X5YearPctChange,House Evaulation,Home Value
+MultiFamHomeConstructPct,Construction,Home Value
+SingleFamHomeConstructPct,Construction,Home Value
+MedianValue,House Evaulation,Home Value
+PctChange,Building Permit,Home Value

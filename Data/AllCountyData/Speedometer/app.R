@@ -111,7 +111,7 @@ server <- function(input, output, session) {
       layout(margin = list(l=0,r=20)) %>%
       add_annotations(
         x= 0.5,
-        y=-0.05,
+        y=0.05,
         text = "Brown Bar is the State Average",
         showarrow = F
       ) %>%
