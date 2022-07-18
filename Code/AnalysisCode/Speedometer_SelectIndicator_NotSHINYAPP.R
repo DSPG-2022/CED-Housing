@@ -1,5 +1,3 @@
-
-
 library(ggplot2)
 library(readxl)
 library(tidyverse)
@@ -8,7 +6,7 @@ library(ggmap)
 
 
 ##Insert csv of Data
-Data <- read_csv("Data\\CleanData\\Indicator_HUD_HCV.csv", col_names  = TRUE)
+Data <- read_csv("Data\\CleanData\\Ready_HUD_HCV.csv", col_names  = TRUE)
 
 
 ##INPUT country you want to select

@@ -4,12 +4,12 @@ library(tidyverse)
 library(readr)
 
 ##The Raw Data Files for Assisted Units
-LIHTC <- read_csv("Data\\RawData\\HUD\\LIHTC\\LIHTC_AssistedUnits.csv", col_names  = TRUE)
-HUD <- read_csv("Data\\RawData\\HUD\\HUD_multiFamAssistUnits.csv", col_names  = TRUE)
-USDAData <- read_csv("Data\\RawData\\USDA\\USDA_Section515.csv", col_names  = TRUE)
+LIHTC <- read_csv("Data\\RawData\\HUD\\LIHTC\\Raw_LIHTC_AssistedUnits.csv", col_names  = TRUE)
+HUD <- read_csv("Data\\RawData\\HUD\\Raw_HUD_multiFamAssistUnits.csv", col_names  = TRUE)
+USDAData <- read_csv("Data\\RawData\\USDA\\Raw_USDA_Section515.csv", col_names  = TRUE)
 
 ##File For Matching Fips Code with County Name
-County <- read_csv("Data\\Iowa_County_FipsCode.csv")
+County <- read_csv("Data\\AllCountyData\\Iowa_County_FipsCode.csv")
 
 ##Filters for only Data in State of Iowa
 ##Calculates the Number of Units that will have Initial Compliance Expiring for each given year (15 Years from Date Placed in Service)
@@ -88,5 +88,4 @@ df <- rbind(df,USDa515Data)
 Over4 <- merge(df,County, by.y= "fips", by.x = "Fips", all.x=TRUE, all.y=TRUE)
 
 ##Saves to File
-##CHANGE LOCATION ONCED FIGURED OUT
-write.csv(Over4, "R\\Cory\\UnitLossPercentbyYear.csv")
+write.csv(Over4, "Data\\RawData\\Unit Loss Data\\UnitLossPercentbyYear.csv")
