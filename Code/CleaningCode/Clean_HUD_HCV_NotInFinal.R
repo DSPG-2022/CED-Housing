@@ -6,7 +6,7 @@ library(readr)
 ###IMPORTANT, Each indicator should have a column name specific to itself###
 
 
-HUD <- read_csv("Data\\RawData\\HUD\\HUD_HCV.csv", col_names  = TRUE)
+HUD <- read_csv("Data\\RawData\\HUD\\Raw_HUD_HCV.csv", col_names  = TRUE)
 
 House2020 <- get_decennial(
   geography = "county",
@@ -32,4 +32,4 @@ Overall <- merge(House2020,MultiDataSum, by.x = "GEOID", by.y = "COUNTY", all.x=
 Output <- Overall %>%
   select(FipsCode=GEOID,HCVPercentPerHouseHold)
 
-write.csv(Output, "Data\\CleanData\\Indicator_HUD_HCV.csv", row.names = FALSE)
+write.csv(Output, "Data\\CleanData\\Ready_HUD_HCV.csv", row.names = FALSE)

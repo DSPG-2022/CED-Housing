@@ -7,7 +7,7 @@ library(readr)
 
 
 ##Raw Data File
-USDAData <- read_csv("Data\\RawData\\USDA\\USDA_Section515.csv", col_names  = TRUE)
+USDAData <- read_csv("Data\\RawData\\USDA\\Raw_USDA_Section515.csv", col_names  = TRUE)
 
 ##Filters for only Data in State of Iowa
 USDAData <-USDAData %>%
@@ -65,4 +65,4 @@ Output <- Overall %>%
 ##Saves Clean Data to File
 ##row.names NEEDS to be false
 ##otherwise First Column will not be Fips Code
-write.csv(Output, "Data\\CleanData\\Indicator_USDA_Section515.csv",row.names = FALSE)
+write.csv(Output, "Data\\CleanData\\Ready_USDA_Section515.csv",row.names = FALSE)

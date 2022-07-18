@@ -6,7 +6,7 @@ library(readr)
 
 
 ##Raw Data File
-HUD <- read_csv("Data\\RawData\\HUD\\HUD_multiFamAssistUnits.csv", col_names  = TRUE)
+HUD <- read_csv("Data\\RawData\\HUD\\Raw_multiFamAssistUnits.csv", col_names  = TRUE)
 
 ##Tidycensus Call to get 2020 Census Data for Total Households by County for State of Iowa
 House2020 <- get_decennial(
@@ -60,4 +60,4 @@ Output <- Overall %>%
 ##Saves Clean Data to File
 ##row.names NEEDS to be false
 ##otherwise First Column will not be Fips Code
-write.csv(Output, "Data\\CleanData\\Indicator_HUD_multiFamAssistUnits.csv", row.names = FALSE)
+write.csv(Output, "Data\\CleanData\\Ready_HUD_multiFamAssistUnits.csv", row.names = FALSE)

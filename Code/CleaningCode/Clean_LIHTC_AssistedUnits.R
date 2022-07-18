@@ -6,7 +6,7 @@ library(readr)
 
 
 ##Raw Data File
-LIHTC <- read_csv("Data\\RawData\\HUD\\LIHTC\\LIHTC_AssistedUnits.csv", col_names  = TRUE)
+LIHTC <- read_csv("Data\\RawData\\HUD\\LIHTC\\RaW_LIHTC_AssistedUnits.csv", col_names  = TRUE)
 
 ##Tidycensus Call to get 2020 Census Data for Total Households by County for State of Iowa
 House2020 <- get_decennial(
@@ -63,5 +63,5 @@ Output <- Overall %>%
 ##Saves Clean Data to File
 ##row.names NEEDS to be false
 ##otherwise First Column will not be Fips Code
-write.csv(Output, "Data\\CleanData\\Indicator_LIHTC_AssistedUnits.csv", row.names = FALSE)
+write.csv(Output, "Data\\CleanData\\Ready_LIHTC_AssistedUnits.csv", row.names = FALSE)
 

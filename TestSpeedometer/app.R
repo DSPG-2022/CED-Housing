@@ -13,6 +13,7 @@ library(readxl)
 library(tidyverse)
 library(readr)
 ##IMPORTANT NEED TO FIGURE OUT DIRECTORY
+##Should be able to move it to ALL Countries Data folder and be fine
 
 ##Overall Dataset
 ##IMPORTANT assumes this dataset has a column named "county_name" with county names
