@@ -12,7 +12,7 @@ Files<-list.files("Data\\CleanData")
 
 
 ##output: Datafile
-outputCSV = "Data\\OverallDatabase.csv"
+outputCSV = "Data\\AllCountyData\\OverallDatabase.csv"
 OutputData <- read_csv(outputCSV)
 OutputColNames <- colnames(OutputData)
 
@@ -78,5 +78,5 @@ for (file in Files){
 ##otherwise First Column will not be Fips Code
 write.csv(OutputData, outputCSV, row.names = FALSE)
 
-
+source("Code\\MergingCode\\Merge_AllCountyDataToLongFormat.R")
 

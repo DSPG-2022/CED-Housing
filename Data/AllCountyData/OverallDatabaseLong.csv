@@ -6,6 +6,13 @@
 19001,"Adair County","PercentHudSec8Lost5Year",0
 19001,"Adair County","PercentLILost5Year",0
 19001,"Adair County","PercentUSDAsec515Lost5Year",0
+19001,"Adair County","X5YearPctChange",26.0269576379974
+19001,"Adair County","MultiFamHomeConstructPct",0
+19001,"Adair County","SingleFamHomeConstructPct",2.933863749
+19001,"Adair County","MedianValue",111100
+19001,"Adair County","Jun17",93603
+19001,"Adair County","Jun20",125944
+19001,"Adair County","PctChange",25.6788731499714
 19003,"Adams County","HCVPercentPerHouseHold",0
 19003,"Adams County","PercentMultiFamAssistPerHouseold",NA
 19003,"Adams County","PercentLIHTCperHousehold",0.635593220338983
@@ -13,6 +20,13 @@
 19003,"Adams County","PercentHudSec8Lost5Year",0
 19003,"Adams County","PercentLILost5Year",0
 19003,"Adams County","PercentUSDAsec515Lost5Year",0
+19003,"Adams County","X5YearPctChange",27.8
+19003,"Adams County","MultiFamHomeConstructPct",0
+19003,"Adams County","SingleFamHomeConstructPct",0.217502559
+19003,"Adams County","MedianValue",81400
+19003,"Adams County","Jun17",NA
+19003,"Adams County","Jun20",103183
+19003,"Adams County","PctChange",NA
 19005,"Allamakee County","HCVPercentPerHouseHold",0.76943140323422
 19005,"Allamakee County","PercentMultiFamAssistPerHouseold",0.208659363588941
 19005,"Allamakee County","PercentLIHTCperHousehold",0.860719874804382
@@ -20,6 +34,13 @@
 19005,"Allamakee County","PercentHudSec8Lost5Year",100
 19005,"Allamakee County","PercentLILost5Year",0
 19005,"Allamakee County","PercentUSDAsec515Lost5Year",0
+19005,"Allamakee County","X5YearPctChange",14.8163241543925
+19005,"Allamakee County","MultiFamHomeConstructPct",1.129943503
+19005,"Allamakee County","SingleFamHomeConstructPct",5.087014726
+19005,"Allamakee County","MedianValue",133400
+19005,"Allamakee County","Jun17",130680
+19005,"Allamakee County","Jun20",169164
+19005,"Allamakee County","PctChange",22.749521174718
 19007,"Appanoose County","HCVPercentPerHouseHold",0.618458610846813
 19007,"Appanoose County","PercentMultiFamAssistPerHouseold",0.808753568030447
 19007,"Appanoose County","PercentLIHTCperHousehold",1.4430700919759
@@ -27,6 +48,13 @@
 19007,"Appanoose County","PercentHudSec8Lost5Year",100
 19007,"Appanoose County","PercentLILost5Year",0
 19007,"Appanoose County","PercentUSDAsec515Lost5Year",51.4285714285714
+19007,"Appanoose County","X5YearPctChange",22.6486925045248
+19007,"Appanoose County","MultiFamHomeConstructPct",0
+19007,"Appanoose County","SingleFamHomeConstructPct",0.073899668
+19007,"Appanoose County","MedianValue",85000
+19007,"Appanoose County","Jun17",78278
+19007,"Appanoose County","Jun20",97228
+19007,"Appanoose County","PctChange",19.4902702925083
 19009,"Audubon County","HCVPercentPerHouseHold",0
 19009,"Audubon County","PercentMultiFamAssistPerHouseold",NA
 19009,"Audubon County","PercentLIHTCperHousehold",NA
@@ -34,6 +62,13 @@
 19009,"Audubon County","PercentHudSec8Lost5Year",0
 19009,"Audubon County","PercentLILost5Year",0
 19009,"Audubon County","PercentUSDAsec515Lost5Year",65.9090909090909
+19009,"Audubon County","X5YearPctChange",28.2405630198336
+19009,"Audubon County","MultiFamHomeConstructPct",0
+19009,"Audubon County","SingleFamHomeConstructPct",0.208038612
+19009,"Audubon County","MedianValue",84300
+19009,"Audubon County","Jun17",75800
+19009,"Audubon County","Jun20",96334
+19009,"Audubon County","PctChange",21.3154234226753
 19011,"Benton County","HCVPercentPerHouseHold",0
 19011,"Benton County","PercentMultiFamAssistPerHouseold",0.650054171180932
 19011,"Benton County","PercentLIHTCperHousehold",NA
@@ -41,6 +76,13 @@
 19011,"Benton County","PercentHudSec8Lost5Year",0
 19011,"Benton County","PercentLILost5Year",0
 19011,"Benton County","PercentUSDAsec515Lost5Year",4.37956204379562
+19011,"Benton County","X5YearPctChange",24.8948537403714
+19011,"Benton County","MultiFamHomeConstructPct",3.37995338
+19011,"Benton County","SingleFamHomeConstructPct",1.130253484
+19011,"Benton County","MedianValue",158700
+19011,"Benton County","Jun17",146551
+19011,"Benton County","Jun20",186130
+19011,"Benton County","PctChange",21.2641702036211
 19013,"Black Hawk County","HCVPercentPerHouseHold",2.21656790587271
 19013,"Black Hawk County","PercentMultiFamAssistPerHouseold",1.63595689817108
 19013,"Black Hawk County","PercentLIHTCperHousehold",1.64791065421199
@@ -48,6 +90,13 @@
 19013,"Black Hawk County","PercentHudSec8Lost5Year",33.6116910229645
 19013,"Black Hawk County","PercentLILost5Year",52.3316062176166
 19013,"Black Hawk County","PercentUSDAsec515Lost5Year",0
+19013,"Black Hawk County","X5YearPctChange",13.7324136420868
+19013,"Black Hawk County","MultiFamHomeConstructPct",98.41017488
+19013,"Black Hawk County","SingleFamHomeConstructPct",12.1399177
+19013,"Black Hawk County","MedianValue",150200
+19013,"Black Hawk County","Jun17",130486
+19013,"Black Hawk County","Jun20",165353
+19013,"Black Hawk County","PctChange",21.086403028672
 19015,"Boone County","HCVPercentPerHouseHold",0.60397617649526
 19015,"Boone County","PercentMultiFamAssistPerHouseold",0.285210972233873
 19015,"Boone County","PercentLIHTCperHousehold",1.14084388893549
@@ -55,6 +104,13 @@
 19015,"Boone County","PercentHudSec8Lost5Year",0
 19015,"Boone County","PercentLILost5Year",17.6470588235294
 19015,"Boone County","PercentUSDAsec515Lost5Year",0
+19015,"Boone County","X5YearPctChange",24.4832396330896
+19015,"Boone County","MultiFamHomeConstructPct",13.94422311
+19015,"Boone County","SingleFamHomeConstructPct",3.817541112
+19015,"Boone County","MedianValue",141000
+19015,"Boone County","Jun17",133499
+19015,"Boone County","Jun20",174654
+19015,"Boone County","PctChange",23.5637317210027
 19017,"Bremer County","HCVPercentPerHouseHold",0.400610454025181
 19017,"Bremer County","PercentMultiFamAssistPerHouseold",0.963372758489126
 19017,"Bremer County","PercentLIHTCperHousehold",0.858450972911103
@@ -62,6 +118,13 @@
 19017,"Bremer County","PercentHudSec8Lost5Year",0
 19017,"Bremer County","PercentLILost5Year",13.3333333333333
 19017,"Bremer County","PercentUSDAsec515Lost5Year",0
+19017,"Bremer County","X5YearPctChange",12.2812574233906
+19017,"Bremer County","MultiFamHomeConstructPct",12.78118609
+19017,"Bremer County","SingleFamHomeConstructPct",3.736898071
+19017,"Bremer County","MedianValue",169000
+19017,"Bremer County","Jun17",159363
+19017,"Bremer County","Jun20",197759
+19017,"Bremer County","PctChange",19.4155512517762
 19019,"Buchanan County","HCVPercentPerHouseHold",0.202565833896016
 19019,"Buchanan County","PercentMultiFamAssistPerHouseold",NA
 19019,"Buchanan County","PercentLIHTCperHousehold",0.258834121089354
@@ -69,6 +132,13 @@
 19019,"Buchanan County","PercentHudSec8Lost5Year",0
 19019,"Buchanan County","PercentLILost5Year",0
 19019,"Buchanan County","PercentUSDAsec515Lost5Year",0
+19019,"Buchanan County","X5YearPctChange",21.44447712281
+19019,"Buchanan County","MultiFamHomeConstructPct",14.57541191
+19019,"Buchanan County","SingleFamHomeConstructPct",0.715672004
+19019,"Buchanan County","MedianValue",143200
+19019,"Buchanan County","Jun17",128604
+19019,"Buchanan County","Jun20",166722
+19019,"Buchanan County","PctChange",22.8632094144744
 19021,"Buena Vista County","HCVPercentPerHouseHold",0.712443188797445
 19021,"Buena Vista County","PercentMultiFamAssistPerHouseold",1.49858739712566
 19021,"Buena Vista County","PercentLIHTCperHousehold",3.08315931703722
@@ -76,6 +146,13 @@
 19021,"Buena Vista County","PercentHudSec8Lost5Year",13.1147540983607
 19021,"Buena Vista County","PercentLILost5Year",0
 19021,"Buena Vista County","PercentUSDAsec515Lost5Year",0
+19021,"Buena Vista County","X5YearPctChange",23.3892666699281
+19021,"Buena Vista County","MultiFamHomeConstructPct",0.668896321
+19021,"Buena Vista County","SingleFamHomeConstructPct",1.168468783
+19021,"Buena Vista County","MedianValue",120300
+19021,"Buena Vista County","Jun17",112821
+19021,"Buena Vista County","Jun20",147283
+19021,"Buena Vista County","PctChange",23.3984913398016
 19023,"Butler County","HCVPercentPerHouseHold",0
 19023,"Butler County","PercentMultiFamAssistPerHouseold",NA
 19023,"Butler County","PercentLIHTCperHousehold",0.305997552019584
@@ -83,6 +160,13 @@
 19023,"Butler County","PercentHudSec8Lost5Year",0
 19023,"Butler County","PercentLILost5Year",0
 19023,"Butler County","PercentUSDAsec515Lost5Year",0
+19023,"Butler County","X5YearPctChange",18.3574482078264
+19023,"Butler County","MultiFamHomeConstructPct",0.400801603
+19023,"Butler County","SingleFamHomeConstructPct",1.718695195
+19023,"Butler County","MedianValue",120100
+19023,"Butler County","Jun17",120792
+19023,"Butler County","Jun20",152637
+19023,"Butler County","PctChange",20.8632245130604
 19025,"Calhoun County","HCVPercentPerHouseHold",0.880318591490254
 19025,"Calhoun County","PercentMultiFamAssistPerHouseold",1.04799832320268
 19025,"Calhoun County","PercentLIHTCperHousehold",0.335359463424859
@@ -90,6 +174,13 @@
 19025,"Calhoun County","PercentHudSec8Lost5Year",100
 19025,"Calhoun County","PercentLILost5Year",0
 19025,"Calhoun County","PercentUSDAsec515Lost5Year",0
+19025,"Calhoun County","X5YearPctChange",24.6503247830828
+19025,"Calhoun County","MultiFamHomeConstructPct",0
+19025,"Calhoun County","SingleFamHomeConstructPct",0.856246985
+19025,"Calhoun County","MedianValue",85600
+19025,"Calhoun County","Jun17",78601
+19025,"Calhoun County","Jun20",103058
+19025,"Calhoun County","PctChange",23.7312969395874
 19027,"Carroll County","HCVPercentPerHouseHold",1.53846153846154
 19027,"Carroll County","PercentMultiFamAssistPerHouseold",0.305584826132771
 19027,"Carroll County","PercentLIHTCperHousehold",1.29610115911486
@@ -97,6 +188,13 @@
 19027,"Carroll County","PercentHudSec8Lost5Year",20.6896551724138
 19027,"Carroll County","PercentLILost5Year",0
 19027,"Carroll County","PercentUSDAsec515Lost5Year",0
+19027,"Carroll County","X5YearPctChange",18.6542991755006
+19027,"Carroll County","MultiFamHomeConstructPct",0.71787509
+19027,"Carroll County","SingleFamHomeConstructPct",0.578818848
+19027,"Carroll County","MedianValue",138700
+19027,"Carroll County","Jun17",128355
+19027,"Carroll County","Jun20",161531
+19027,"Carroll County","PctChange",20.5384724913484
 19029,"Cass County","HCVPercentPerHouseHold",3.07908721475461
 19029,"Cass County","PercentMultiFamAssistPerHouseold",0.453266645826821
 19029,"Cass County","PercentLIHTCperHousehold",0.812753985620506
@@ -104,6 +202,13 @@
 19029,"Cass County","PercentHudSec8Lost5Year",0
 19029,"Cass County","PercentLILost5Year",0
 19029,"Cass County","PercentUSDAsec515Lost5Year",0
+19029,"Cass County","X5YearPctChange",31.1894178760778
+19029,"Cass County","MultiFamHomeConstructPct",0.5
+19029,"Cass County","SingleFamHomeConstructPct",0.594227504
+19029,"Cass County","MedianValue",107200
+19029,"Cass County","Jun17",91897
+19029,"Cass County","Jun20",114437
+19029,"Cass County","PctChange",19.6964268549508
 19031,"Cedar County","HCVPercentPerHouseHold",0.378510378510378
 19031,"Cedar County","PercentMultiFamAssistPerHouseold",0.183150183150183
 19031,"Cedar County","PercentLIHTCperHousehold",0.293040293040293
@@ -111,6 +216,13 @@
 19031,"Cedar County","PercentHudSec8Lost5Year",0
 19031,"Cedar County","PercentLILost5Year",0
 19031,"Cedar County","PercentUSDAsec515Lost5Year",0
+19031,"Cedar County","X5YearPctChange",21.7803212465134
+19031,"Cedar County","MultiFamHomeConstructPct",25.96153846
+19031,"Cedar County","SingleFamHomeConstructPct",4.192115491
+19031,"Cedar County","MedianValue",163100
+19031,"Cedar County","Jun17",155298
+19031,"Cedar County","Jun20",194095
+19031,"Cedar County","PctChange",19.9886653442902
 19033,"Cerro Gordo County","HCVPercentPerHouseHold",2.34039729239481
 19033,"Cerro Gordo County","PercentMultiFamAssistPerHouseold",1.64137503871168
 19033,"Cerro Gordo County","PercentLIHTCperHousehold",1.79179754899792
@@ -118,6 +230,13 @@
 19033,"Cerro Gordo County","PercentHudSec8Lost5Year",47.7088948787062
 19033,"Cerro Gordo County","PercentLILost5Year",0
 19033,"Cerro Gordo County","PercentUSDAsec515Lost5Year",0
+19033,"Cerro Gordo County","X5YearPctChange",20.2370699424323
+19033,"Cerro Gordo County","MultiFamHomeConstructPct",23.81756757
+19033,"Cerro Gordo County","SingleFamHomeConstructPct",4.334284973
+19033,"Cerro Gordo County","MedianValue",130400
+19033,"Cerro Gordo County","Jun17",114054
+19033,"Cerro Gordo County","Jun20",147544
+19033,"Cerro Gordo County","PctChange",22.6983137233639
 19035,"Cherokee County","HCVPercentPerHouseHold",0.521770421014753
 19035,"Cherokee County","PercentMultiFamAssistPerHouseold",1.11550917596258
 19035,"Cherokee County","PercentLIHTCperHousehold",0.791651673263764
@@ -125,6 +244,13 @@
 19035,"Cherokee County","PercentHudSec8Lost5Year",0
 19035,"Cherokee County","PercentLILost5Year",0
 19035,"Cherokee County","PercentUSDAsec515Lost5Year",0
+19035,"Cherokee County","X5YearPctChange",20.8539917029242
+19035,"Cherokee County","MultiFamHomeConstructPct",0.213903743
+19035,"Cherokee County","SingleFamHomeConstructPct",0.22564874
+19035,"Cherokee County","MedianValue",117400
+19035,"Cherokee County","Jun17",97722
+19035,"Cherokee County","Jun20",131029
+19035,"Cherokee County","PctChange",25.4195636080562
 19037,"Chickasaw County","HCVPercentPerHouseHold",0.397542464763282
 19037,"Chickasaw County","PercentMultiFamAssistPerHouseold",NA
 19037,"Chickasaw County","PercentLIHTCperHousehold",NA
@@ -132,6 +258,13 @@
 19037,"Chickasaw County","PercentHudSec8Lost5Year",0
 19037,"Chickasaw County","PercentLILost5Year",0
 19037,"Chickasaw County","PercentUSDAsec515Lost5Year",0
+19037,"Chickasaw County","X5YearPctChange",22.9168725906889
+19037,"Chickasaw County","MultiFamHomeConstructPct",0.252844501
+19037,"Chickasaw County","SingleFamHomeConstructPct",0.128132118
+19037,"Chickasaw County","MedianValue",122000
+19037,"Chickasaw County","Jun17",120696
+19037,"Chickasaw County","Jun20",151354
+19037,"Chickasaw County","PctChange",20.2558240945069
 19039,"Clarke County","HCVPercentPerHouseHold",0.63261480787254
 19039,"Clarke County","PercentMultiFamAssistPerHouseold",1.59325210871603
 19039,"Clarke County","PercentLIHTCperHousehold",2.24929709465792
@@ -139,6 +272,13 @@
 19039,"Clarke County","PercentHudSec8Lost5Year",100
 19039,"Clarke County","PercentLILost5Year",0
 19039,"Clarke County","PercentUSDAsec515Lost5Year",0
+19039,"Clarke County","X5YearPctChange",26.8666716295689
+19039,"Clarke County","MultiFamHomeConstructPct",0
+19039,"Clarke County","SingleFamHomeConstructPct",1.006792235
+19039,"Clarke County","MedianValue",115400
+19039,"Clarke County","Jun17",103139
+19039,"Clarke County","Jun20",136704
+19039,"Clarke County","PctChange",24.553048923221
 19041,"Clay County","HCVPercentPerHouseHold",2.35540757183377
 19041,"Clay County","PercentMultiFamAssistPerHouseold",1.75114070785547
 19041,"Clay County","PercentLIHTCperHousehold",1.36884942656308
@@ -146,6 +286,13 @@
 19041,"Clay County","PercentHudSec8Lost5Year",8.45070422535211
 19041,"Clay County","PercentLILost5Year",14.4144144144144
 19041,"Clay County","PercentUSDAsec515Lost5Year",0
+19041,"Clay County","X5YearPctChange",19.3019611165234
+19041,"Clay County","MultiFamHomeConstructPct",21.58119658
+19041,"Clay County","SingleFamHomeConstructPct",1.704427354
+19041,"Clay County","MedianValue",129700
+19041,"Clay County","Jun17",118770
+19041,"Clay County","Jun20",147477
+19041,"Clay County","PctChange",19.465408165341
 19043,"Clayton County","HCVPercentPerHouseHold",0.856359899520438
 19043,"Clayton County","PercentMultiFamAssistPerHouseold",0.114181319936058
 19043,"Clayton County","PercentLIHTCperHousehold",0.171271979904088
@@ -153,6 +300,13 @@
 19043,"Clayton County","PercentHudSec8Lost5Year",100
 19043,"Clayton County","PercentLILost5Year",0
 19043,"Clayton County","PercentUSDAsec515Lost5Year",0
+19043,"Clayton County","X5YearPctChange",15.2571711177052
+19043,"Clayton County","MultiFamHomeConstructPct",0
+19043,"Clayton County","SingleFamHomeConstructPct",1.186758276
+19043,"Clayton County","MedianValue",131600
+19043,"Clayton County","Jun17",115344
+19043,"Clayton County","Jun20",145493
+19043,"Clayton County","PctChange",20.7219591320545
 19045,"Clinton County","HCVPercentPerHouseHold",2.08207463865781
 19045,"Clinton County","PercentMultiFamAssistPerHouseold",0.831900357856579
 19045,"Clinton County","PercentLIHTCperHousehold",1.67309569177859
@@ -160,6 +314,13 @@
 19045,"Clinton County","PercentHudSec8Lost5Year",11.1731843575419
 19045,"Clinton County","PercentLILost5Year",10
 19045,"Clinton County","PercentUSDAsec515Lost5Year",0
+19045,"Clinton County","X5YearPctChange",20.9168326060246
+19045,"Clinton County","MultiFamHomeConstructPct",24.93125573
+19045,"Clinton County","SingleFamHomeConstructPct",2.628450667
+19045,"Clinton County","MedianValue",120200
+19045,"Clinton County","Jun17",151083
+19045,"Clinton County","Jun20",166224
+19045,"Clinton County","PctChange",9.10879295408605
 19047,"Crawford County","HCVPercentPerHouseHold",1.00656455142232
 19047,"Crawford County","PercentMultiFamAssistPerHouseold",1.86725018234865
 19047,"Crawford County","PercentLIHTCperHousehold",0.612691466083151
@@ -167,6 +328,13 @@
 19047,"Crawford County","PercentHudSec8Lost5Year",42.1875
 19047,"Crawford County","PercentLILost5Year",0
 19047,"Crawford County","PercentUSDAsec515Lost5Year",0
+19047,"Crawford County","X5YearPctChange",20.2700660049378
+19047,"Crawford County","MultiFamHomeConstructPct",1.734104046
+19047,"Crawford County","SingleFamHomeConstructPct",0.660338423
+19047,"Crawford County","MedianValue",101100
+19047,"Crawford County","Jun17",98374
+19047,"Crawford County","Jun20",125280
+19047,"Crawford County","PctChange",21.4766922094508
 19049,"Dallas County","HCVPercentPerHouseHold",0.826747720364742
 19049,"Dallas County","PercentMultiFamAssistPerHouseold",NA
 19049,"Dallas County","PercentLIHTCperHousehold",3.28996960486322
@@ -174,6 +342,13 @@
 19049,"Dallas County","PercentHudSec8Lost5Year",0
 19049,"Dallas County","PercentLILost5Year",32.2985957132299
 19049,"Dallas County","PercentUSDAsec515Lost5Year",0
+19049,"Dallas County","X5YearPctChange",16.5030674846626
+19049,"Dallas County","MultiFamHomeConstructPct",453.5714286
+19049,"Dallas County","SingleFamHomeConstructPct",83.39140534
+19049,"Dallas County","MedianValue",258300
+19049,"Dallas County","Jun17",247542
+19049,"Dallas County","Jun20",335075
+19049,"Dallas County","PctChange",26.1234052077893
 19051,"Davis County","HCVPercentPerHouseHold",0
 19051,"Davis County","PercentMultiFamAssistPerHouseold",NA
 19051,"Davis County","PercentLIHTCperHousehold",NA
@@ -181,6 +356,13 @@
 19051,"Davis County","PercentHudSec8Lost5Year",0
 19051,"Davis County","PercentLILost5Year",0
 19051,"Davis County","PercentUSDAsec515Lost5Year",0
+19051,"Davis County","X5YearPctChange",13.7220374355964
+19051,"Davis County","MultiFamHomeConstructPct",0
+19051,"Davis County","SingleFamHomeConstructPct",0.285965684
+19051,"Davis County","MedianValue",117900
+19051,"Davis County","Jun17",126288
+19051,"Davis County","Jun20",166528
+19051,"Davis County","PctChange",24.1641045349731
 19053,"Decatur County","HCVPercentPerHouseHold",0.355871886120996
 19053,"Decatur County","PercentMultiFamAssistPerHouseold",0.273747604708459
 19053,"Decatur County","PercentLIHTCperHousehold",0.191623323295921
@@ -188,6 +370,13 @@
 19053,"Decatur County","PercentHudSec8Lost5Year",100
 19053,"Decatur County","PercentLILost5Year",100
 19053,"Decatur County","PercentUSDAsec515Lost5Year",0
+19053,"Decatur County","X5YearPctChange",16.3860723168165
+19053,"Decatur County","MultiFamHomeConstructPct",0
+19053,"Decatur County","SingleFamHomeConstructPct",0.196885627
+19053,"Decatur County","MedianValue",82800
+19053,"Decatur County","Jun17",81311
+19053,"Decatur County","Jun20",96567
+19053,"Decatur County","PctChange",15.7983576169913
 19055,"Delaware County","HCVPercentPerHouseHold",0.62962962962963
 19055,"Delaware County","PercentMultiFamAssistPerHouseold",0.0987654320987654
 19055,"Delaware County","PercentLIHTCperHousehold",0.641975308641975
@@ -195,6 +384,13 @@
 19055,"Delaware County","PercentHudSec8Lost5Year",100
 19055,"Delaware County","PercentLILost5Year",0
 19055,"Delaware County","PercentUSDAsec515Lost5Year",0
+19055,"Delaware County","X5YearPctChange",21.2429978752173
+19055,"Delaware County","MultiFamHomeConstructPct",10.24590164
+19055,"Delaware County","SingleFamHomeConstructPct",0.755105543
+19055,"Delaware County","MedianValue",141300
+19055,"Delaware County","Jun17",145430
+19055,"Delaware County","Jun20",189087
+19055,"Delaware County","PctChange",23.0883138449497
 19057,"Des Moines County","HCVPercentPerHouseHold",1.11809179001171
 19057,"Des Moines County","PercentMultiFamAssistPerHouseold",2.51836865083591
 19057,"Des Moines County","PercentLIHTCperHousehold",1.99659248216377
@@ -202,6 +398,13 @@
 19057,"Des Moines County","PercentHudSec8Lost5Year",30.8668076109937
 19057,"Des Moines County","PercentLILost5Year",35.4666666666667
 19057,"Des Moines County","PercentUSDAsec515Lost5Year",0
+19057,"Des Moines County","X5YearPctChange",10.2339820686639
+19057,"Des Moines County","MultiFamHomeConstructPct",5.814977974
+19057,"Des Moines County","SingleFamHomeConstructPct",1.236282817
+19057,"Des Moines County","MedianValue",111600
+19057,"Des Moines County","Jun17",101015
+19057,"Des Moines County","Jun20",123395
+19057,"Des Moines County","PctChange",18.1368775071924
 19059,"Dickinson County","HCVPercentPerHouseHold",1.14673873347455
 19059,"Dickinson County","PercentMultiFamAssistPerHouseold",NA
 19059,"Dickinson County","PercentLIHTCperHousehold",1.15404280184063
@@ -209,6 +412,13 @@
 19059,"Dickinson County","PercentHudSec8Lost5Year",0
 19059,"Dickinson County","PercentLILost5Year",0
 19059,"Dickinson County","PercentUSDAsec515Lost5Year",0
+19059,"Dickinson County","X5YearPctChange",20.6582297162676
+19059,"Dickinson County","MultiFamHomeConstructPct",53.66492147
+19059,"Dickinson County","SingleFamHomeConstructPct",11.47510296
+19059,"Dickinson County","MedianValue",199800
+19059,"Dickinson County","Jun17",218562
+19059,"Dickinson County","Jun20",288850
+19059,"Dickinson County","PctChange",24.3337372338584
 19061,"Dubuque County","HCVPercentPerHouseHold",2.054890921886
 19061,"Dubuque County","PercentMultiFamAssistPerHouseold",0.999296270232231
 19061,"Dubuque County","PercentLIHTCperHousehold",1.6842599108609
@@ -216,6 +426,13 @@
 19061,"Dubuque County","PercentHudSec8Lost5Year",34.7417840375587
 19061,"Dubuque County","PercentLILost5Year",34.6796657381616
 19061,"Dubuque County","PercentUSDAsec515Lost5Year",0
+19061,"Dubuque County","X5YearPctChange",19.7807732187824
+19061,"Dubuque County","MultiFamHomeConstructPct",27.52043597
+19061,"Dubuque County","SingleFamHomeConstructPct",9.752227511
+19061,"Dubuque County","MedianValue",175300
+19061,"Dubuque County","Jun17",170897
+19061,"Dubuque County","Jun20",234603
+19061,"Dubuque County","PctChange",27.1548104670443
 19063,"Emmet County","HCVPercentPerHouseHold",1.5195530726257
 19063,"Emmet County","PercentMultiFamAssistPerHouseold",NA
 19063,"Emmet County","PercentLIHTCperHousehold",0.357541899441341
@@ -223,6 +440,13 @@
 19063,"Emmet County","PercentHudSec8Lost5Year",0
 19063,"Emmet County","PercentLILost5Year",0
 19063,"Emmet County","PercentUSDAsec515Lost5Year",0
+19063,"Emmet County","X5YearPctChange",25.0172881536252
+19063,"Emmet County","MultiFamHomeConstructPct",0
+19063,"Emmet County","SingleFamHomeConstructPct",0.555799327
+19063,"Emmet County","MedianValue",90000
+19063,"Emmet County","Jun17",79548
+19063,"Emmet County","Jun20",99595
+19063,"Emmet County","PctChange",20.1285205080576
 19065,"Fayette County","HCVPercentPerHouseHold",1.65627016562702
 19065,"Fayette County","PercentMultiFamAssistPerHouseold",0.591525059152506
 19065,"Fayette County","PercentLIHTCperHousehold",0.645300064530006
@@ -230,6 +454,13 @@
 19065,"Fayette County","PercentHudSec8Lost5Year",0
 19065,"Fayette County","PercentLILost5Year",0
 19065,"Fayette County","PercentUSDAsec515Lost5Year",0
+19065,"Fayette County","X5YearPctChange",23.0313204973506
+19065,"Fayette County","MultiFamHomeConstructPct",0.152091255
+19065,"Fayette County","SingleFamHomeConstructPct",0.938799762
+19065,"Fayette County","MedianValue",106200
+19065,"Fayette County","Jun17",95549
+19065,"Fayette County","Jun20",122091
+19065,"Fayette County","PctChange",21.7395221597005
 19067,"Floyd County","HCVPercentPerHouseHold",2.24227508887066
 19067,"Floyd County","PercentMultiFamAssistPerHouseold",0.164068908941756
 19067,"Floyd County","PercentLIHTCperHousehold",0.328137817883511
@@ -237,6 +468,13 @@
 19067,"Floyd County","PercentHudSec8Lost5Year",100
 19067,"Floyd County","PercentLILost5Year",0
 19067,"Floyd County","PercentUSDAsec515Lost5Year",0
+19067,"Floyd County","X5YearPctChange",22.6816074188563
+19067,"Floyd County","MultiFamHomeConstructPct",1.639344262
+19067,"Floyd County","SingleFamHomeConstructPct",1.142595978
+19067,"Floyd County","MedianValue",107700
+19067,"Floyd County","Jun17",100729
+19067,"Floyd County","Jun20",128483
+19067,"Floyd County","PctChange",21.6013013394768
 19069,"Franklin County","HCVPercentPerHouseHold",0.515463917525773
 19069,"Franklin County","PercentMultiFamAssistPerHouseold",0.257731958762887
 19069,"Franklin County","PercentLIHTCperHousehold",0.515463917525773
@@ -244,6 +482,13 @@
 19069,"Franklin County","PercentHudSec8Lost5Year",100
 19069,"Franklin County","PercentLILost5Year",0
 19069,"Franklin County","PercentUSDAsec515Lost5Year",0
+19069,"Franklin County","X5YearPctChange",11.2315614232065
+19069,"Franklin County","MultiFamHomeConstructPct",0.555555556
+19069,"Franklin County","SingleFamHomeConstructPct",0.316388947
+19069,"Franklin County","MedianValue",93200
+19069,"Franklin County","Jun17",87554
+19069,"Franklin County","Jun20",111104
+19069,"Franklin County","PctChange",21.1963565668203
 19071,"Fremont County","HCVPercentPerHouseHold",0
 19071,"Fremont County","PercentMultiFamAssistPerHouseold",NA
 19071,"Fremont County","PercentLIHTCperHousehold",NA
@@ -251,6 +496,13 @@
 19071,"Fremont County","PercentHudSec8Lost5Year",0
 19071,"Fremont County","PercentLILost5Year",0
 19071,"Fremont County","PercentUSDAsec515Lost5Year",0
+19071,"Fremont County","X5YearPctChange",35.8711912447839
+19071,"Fremont County","MultiFamHomeConstructPct",0
+19071,"Fremont County","SingleFamHomeConstructPct",1.130434783
+19071,"Fremont County","MedianValue",113200
+19071,"Fremont County","Jun17",102599
+19071,"Fremont County","Jun20",127566
+19071,"Fremont County","PctChange",19.5718294843454
 19073,"Greene County","HCVPercentPerHouseHold",0.626595497795312
 19073,"Greene County","PercentMultiFamAssistPerHouseold",1.11394755163611
 19073,"Greene County","PercentLIHTCperHousehold",1.39243443954514
@@ -258,6 +510,13 @@
 19073,"Greene County","PercentHudSec8Lost5Year",100
 19073,"Greene County","PercentLILost5Year",0
 19073,"Greene County","PercentUSDAsec515Lost5Year",0
+19073,"Greene County","X5YearPctChange",17.999364877739
+19073,"Greene County","MultiFamHomeConstructPct",1.263157895
+19073,"Greene County","SingleFamHomeConstructPct",0.543625985
+19073,"Greene County","MedianValue",93500
+19073,"Greene County","Jun17",83852
+19073,"Greene County","Jun20",110794
+19073,"Greene County","PctChange",24.3172012924888
 19075,"Grundy County","HCVPercentPerHouseHold",0
 19075,"Grundy County","PercentMultiFamAssistPerHouseold",NA
 19075,"Grundy County","PercentLIHTCperHousehold",0.292772186642269
@@ -265,6 +524,13 @@
 19075,"Grundy County","PercentHudSec8Lost5Year",0
 19075,"Grundy County","PercentLILost5Year",0
 19075,"Grundy County","PercentUSDAsec515Lost5Year",0
+19075,"Grundy County","X5YearPctChange",20.8576744991129
+19075,"Grundy County","MultiFamHomeConstructPct",0.238663484
+19075,"Grundy County","SingleFamHomeConstructPct",0.67715387
+19075,"Grundy County","MedianValue",138100
+19075,"Grundy County","Jun17",138664
+19075,"Grundy County","Jun20",174629
+19075,"Grundy County","PctChange",20.5950901625732
 19077,"Guthrie County","HCVPercentPerHouseHold",0.831456781569375
 19077,"Guthrie County","PercentMultiFamAssistPerHouseold",NA
 19077,"Guthrie County","PercentLIHTCperHousehold",0.173220162826953
@@ -272,6 +538,13 @@
 19077,"Guthrie County","PercentHudSec8Lost5Year",0
 19077,"Guthrie County","PercentLILost5Year",100
 19077,"Guthrie County","PercentUSDAsec515Lost5Year",0
+19077,"Guthrie County","X5YearPctChange",32.6641156885156
+19077,"Guthrie County","MultiFamHomeConstructPct",0
+19077,"Guthrie County","SingleFamHomeConstructPct",1.081715105
+19077,"Guthrie County","MedianValue",129000
+19077,"Guthrie County","Jun17",129279
+19077,"Guthrie County","Jun20",168490
+19077,"Guthrie County","PctChange",23.2720042732506
 19079,"Hamilton County","HCVPercentPerHouseHold",0.980531476481455
 19079,"Hamilton County","PercentMultiFamAssistPerHouseold",0.0710530055421344
 19079,"Hamilton County","PercentLIHTCperHousehold",1.79053573966179
@@ -279,6 +552,13 @@
 19079,"Hamilton County","PercentHudSec8Lost5Year",100
 19079,"Hamilton County","PercentLILost5Year",0
 19079,"Hamilton County","PercentUSDAsec515Lost5Year",0
+19079,"Hamilton County","X5YearPctChange",19.5630235139772
+19079,"Hamilton County","MultiFamHomeConstructPct",0.256591754
+19079,"Hamilton County","SingleFamHomeConstructPct",0.058550716
+19079,"Hamilton County","MedianValue",105200
+19079,"Hamilton County","Jun17",NA
+19079,"Hamilton County","Jun20",129415
+19079,"Hamilton County","PctChange",NA
 19081,"Hancock County","HCVPercentPerHouseHold",0.645413651476628
 19081,"Hancock County","PercentMultiFamAssistPerHouseold",NA
 19081,"Hancock County","PercentLIHTCperHousehold",0.469391746528457
@@ -286,6 +566,13 @@
 19081,"Hancock County","PercentHudSec8Lost5Year",0
 19081,"Hancock County","PercentLILost5Year",0
 19081,"Hancock County","PercentUSDAsec515Lost5Year",0
+19081,"Hancock County","X5YearPctChange",25.2711672332848
+19081,"Hancock County","MultiFamHomeConstructPct",8.101265823
+19081,"Hancock County","SingleFamHomeConstructPct",0.491803279
+19081,"Hancock County","MedianValue",100900
+19081,"Hancock County","Jun17",97660
+19081,"Hancock County","Jun20",127052
+19081,"Hancock County","PctChange",23.1338349652111
 19083,"Hardin County","HCVPercentPerHouseHold",0.161852589641434
 19083,"Hardin County","PercentMultiFamAssistPerHouseold",NA
 19083,"Hardin County","PercentLIHTCperHousehold",0.896414342629482
@@ -293,6 +580,13 @@
 19083,"Hardin County","PercentHudSec8Lost5Year",0
 19083,"Hardin County","PercentLILost5Year",55.5555555555556
 19083,"Hardin County","PercentUSDAsec515Lost5Year",0
+19083,"Hardin County","X5YearPctChange",14.6234976698553
+19083,"Hardin County","MultiFamHomeConstructPct",0
+19083,"Hardin County","SingleFamHomeConstructPct",0.240221743
+19083,"Hardin County","MedianValue",95100
+19083,"Hardin County","Jun17",NA
+19083,"Hardin County","Jun20",111572
+19083,"Hardin County","PctChange",NA
 19085,"Harrison County","HCVPercentPerHouseHold",1.8304576144036
 19085,"Harrison County","PercentMultiFamAssistPerHouseold",1.54538634658665
 19085,"Harrison County","PercentLIHTCperHousehold",0.690172543135784
@@ -300,6 +594,13 @@
 19085,"Harrison County","PercentHudSec8Lost5Year",30.0970873786408
 19085,"Harrison County","PercentLILost5Year",43.4782608695652
 19085,"Harrison County","PercentUSDAsec515Lost5Year",0
+19085,"Harrison County","X5YearPctChange",28.1671406293001
+19085,"Harrison County","MultiFamHomeConstructPct",0.035271813
+19085,"Harrison County","SingleFamHomeConstructPct",0.139764543
+19085,"Harrison County","MedianValue",124000
+19085,"Harrison County","Jun17",118374
+19085,"Harrison County","Jun20",153261
+19085,"Harrison County","PctChange",22.763129563294
 19087,"Henry County","HCVPercentPerHouseHold",1.13122171945701
 19087,"Henry County","PercentMultiFamAssistPerHouseold",0.869254584424863
 19087,"Henry County","PercentLIHTCperHousehold",1.79804715408431
@@ -307,6 +608,13 @@
 19087,"Henry County","PercentHudSec8Lost5Year",34.2465753424658
 19087,"Henry County","PercentLILost5Year",15.8940397350993
 19087,"Henry County","PercentUSDAsec515Lost5Year",0
+19087,"Henry County","X5YearPctChange",19.7567251461988
+19087,"Henry County","MultiFamHomeConstructPct",9.710743802
+19087,"Henry County","SingleFamHomeConstructPct",2.857823291
+19087,"Henry County","MedianValue",118500
+19087,"Henry County","Jun17",115271
+19087,"Henry County","Jun20",146779
+19087,"Henry County","PctChange",21.4662860490942
 19089,"Howard County","HCVPercentPerHouseHold",0.90403337969402
 19089,"Howard County","PercentMultiFamAssistPerHouseold",NA
 19089,"Howard County","PercentLIHTCperHousehold",1.08947612424664
@@ -314,6 +622,13 @@
 19089,"Howard County","PercentHudSec8Lost5Year",0
 19089,"Howard County","PercentLILost5Year",0
 19089,"Howard County","PercentUSDAsec515Lost5Year",100
+19089,"Howard County","X5YearPctChange",29.3974202656741
+19089,"Howard County","MultiFamHomeConstructPct",1.62601626
+19089,"Howard County","SingleFamHomeConstructPct",0.256359692
+19089,"Howard County","MedianValue",105800
+19089,"Howard County","Jun17",96974
+19089,"Howard County","Jun20",128896
+19089,"Howard County","PctChange",24.7657025819265
 19091,"Humboldt County","HCVPercentPerHouseHold",1.09385254867644
 19091,"Humboldt County","PercentMultiFamAssistPerHouseold",NA
 19091,"Humboldt County","PercentLIHTCperHousehold",1.11572959964997
@@ -321,6 +636,13 @@
 19091,"Humboldt County","PercentHudSec8Lost5Year",0
 19091,"Humboldt County","PercentLILost5Year",37.2549019607843
 19091,"Humboldt County","PercentUSDAsec515Lost5Year",0
+19091,"Humboldt County","X5YearPctChange",26.2380368098159
+19091,"Humboldt County","MultiFamHomeConstructPct",0.392670157
+19091,"Humboldt County","SingleFamHomeConstructPct",0.464975235
+19091,"Humboldt County","MedianValue",109200
+19091,"Humboldt County","Jun17",97624
+19091,"Humboldt County","Jun20",131851
+19091,"Humboldt County","PctChange",25.958847486936
 19093,"Ida County","HCVPercentPerHouseHold",0.536992840095465
 19093,"Ida County","PercentMultiFamAssistPerHouseold",0.715990453460621
 19093,"Ida County","PercentLIHTCperHousehold",1.90930787589499
@@ -328,6 +650,13 @@
 19093,"Ida County","PercentHudSec8Lost5Year",100
 19093,"Ida County","PercentLILost5Year",0
 19093,"Ida County","PercentUSDAsec515Lost5Year",0
+19093,"Ida County","X5YearPctChange",15.260160497023
+19093,"Ida County","MultiFamHomeConstructPct",0.140056022
+19093,"Ida County","SingleFamHomeConstructPct",0.255314096
+19093,"Ida County","MedianValue",102400
+19093,"Ida County","Jun17",70600
+19093,"Ida County","Jun20",89486
+19093,"Ida County","PctChange",21.1049773148872
 19095,"Iowa County","HCVPercentPerHouseHold",0
 19095,"Iowa County","PercentMultiFamAssistPerHouseold",NA
 19095,"Iowa County","PercentLIHTCperHousehold",0.762838850292876
@@ -335,6 +664,13 @@
 19095,"Iowa County","PercentHudSec8Lost5Year",0
 19095,"Iowa County","PercentLILost5Year",0
 19095,"Iowa County","PercentUSDAsec515Lost5Year",0
+19095,"Iowa County","X5YearPctChange",22.6737771239426
+19095,"Iowa County","MultiFamHomeConstructPct",5.02901354
+19095,"Iowa County","SingleFamHomeConstructPct",0.817260543
+19095,"Iowa County","MedianValue",156000
+19095,"Iowa County","Jun17",146576
+19095,"Iowa County","Jun20",188674
+19095,"Iowa County","PctChange",22.312560289176
 19097,"Jackson County","HCVPercentPerHouseHold",1.52580889514122
 19097,"Jackson County","PercentMultiFamAssistPerHouseold",1.45005951736825
 19097,"Jackson County","PercentLIHTCperHousehold",0.692565739638567
@@ -342,6 +678,13 @@
 19097,"Jackson County","PercentHudSec8Lost5Year",0
 19097,"Jackson County","PercentLILost5Year",0
 19097,"Jackson County","PercentUSDAsec515Lost5Year",0
+19097,"Jackson County","X5YearPctChange",23.1725961737118
+19097,"Jackson County","MultiFamHomeConstructPct",0.766283525
+19097,"Jackson County","SingleFamHomeConstructPct",3.070082575
+19097,"Jackson County","MedianValue",127600
+19097,"Jackson County","Jun17",134558
+19097,"Jackson County","Jun20",172982
+19097,"Jackson County","PctChange",22.2127157738955
 19099,"Jasper County","HCVPercentPerHouseHold",0.638482519216464
 19099,"Jasper County","PercentMultiFamAssistPerHouseold",1.22117530374411
 19099,"Jasper County","PercentLIHTCperHousehold",3.2358046119514
@@ -349,6 +692,13 @@
 19099,"Jasper County","PercentHudSec8Lost5Year",28.9340101522843
 19099,"Jasper County","PercentLILost5Year",11.1111111111111
 19099,"Jasper County","PercentUSDAsec515Lost5Year",14.9068322981366
+19099,"Jasper County","X5YearPctChange",28.8599228933358
+19099,"Jasper County","MultiFamHomeConstructPct",9.595959596
+19099,"Jasper County","SingleFamHomeConstructPct",7.69039323
+19099,"Jasper County","MedianValue",137200
+19099,"Jasper County","Jun17",122465
+19099,"Jasper County","Jun20",157530
+19099,"Jasper County","PctChange",22.259252205929
 19101,"Jefferson County","HCVPercentPerHouseHold",1.67772142021069
 19101,"Jefferson County","PercentMultiFamAssistPerHouseold",1.46963194173495
 19101,"Jefferson County","PercentLIHTCperHousehold",1.80777734425803
@@ -356,6 +706,13 @@
 19101,"Jefferson County","PercentHudSec8Lost5Year",36.283185840708
 19101,"Jefferson County","PercentLILost5Year",0
 19101,"Jefferson County","PercentUSDAsec515Lost5Year",0
+19101,"Jefferson County","X5YearPctChange",21.3241758241758
+19101,"Jefferson County","MultiFamHomeConstructPct",4.136995592
+19101,"Jefferson County","SingleFamHomeConstructPct",0.214297489
+19101,"Jefferson County","MedianValue",120600
+19101,"Jefferson County","Jun17",115824
+19101,"Jefferson County","Jun20",145416
+19101,"Jefferson County","PctChange",20.3498927215712
 19103,"Johnson County","HCVPercentPerHouseHold",1.98586079252382
 19103,"Johnson County","PercentMultiFamAssistPerHouseold",0.914800655379574
 19103,"Johnson County","PercentLIHTCperHousehold",1.5625948176467
@@ -363,6 +720,13 @@
 19103,"Johnson County","PercentHudSec8Lost5Year",1.82421227197347
 19103,"Johnson County","PercentLILost5Year",18.8349514563107
 19103,"Johnson County","PercentUSDAsec515Lost5Year",0
+19103,"Johnson County","X5YearPctChange",16.0847710908844
+19103,"Johnson County","MultiFamHomeConstructPct",821.2121212
+19103,"Johnson County","SingleFamHomeConstructPct",64.49324324
+19103,"Johnson County","MedianValue",238600
+19103,"Johnson County","Jun17",228094
+19103,"Johnson County","Jun20",287661
+19103,"Johnson County","PctChange",20.7073603999152
 19105,"Jones County","HCVPercentPerHouseHold",1.14981400067636
 19105,"Jones County","PercentMultiFamAssistPerHouseold",0.450907451245632
 19105,"Jones County","PercentLIHTCperHousehold",NA
@@ -370,6 +734,13 @@
 19105,"Jones County","PercentHudSec8Lost5Year",0
 19105,"Jones County","PercentLILost5Year",0
 19105,"Jones County","PercentUSDAsec515Lost5Year",0
+19105,"Jones County","X5YearPctChange",25.5039763269835
+19105,"Jones County","MultiFamHomeConstructPct",2.195945946
+19105,"Jones County","SingleFamHomeConstructPct",0.820584145
+19105,"Jones County","MedianValue",140000
+19105,"Jones County","Jun17",139587
+19105,"Jones County","Jun20",178025
+19105,"Jones County","PctChange",21.5913495295605
 19107,"Keokuk County","HCVPercentPerHouseHold",0.558659217877095
 19107,"Keokuk County","PercentMultiFamAssistPerHouseold",0.171895143962183
 19107,"Keokuk County","PercentLIHTCperHousehold",NA
@@ -377,6 +748,13 @@
 19107,"Keokuk County","PercentHudSec8Lost5Year",100
 19107,"Keokuk County","PercentLILost5Year",0
 19107,"Keokuk County","PercentUSDAsec515Lost5Year",35.9550561797753
+19107,"Keokuk County","X5YearPctChange",22.0601835384506
+19107,"Keokuk County","MultiFamHomeConstructPct",0
+19107,"Keokuk County","SingleFamHomeConstructPct",0.082508251
+19107,"Keokuk County","MedianValue",95800
+19107,"Keokuk County","Jun17",81409
+19107,"Keokuk County","Jun20",98554
+19107,"Keokuk County","PctChange",17.3965541733466
 19109,"Kossuth County","HCVPercentPerHouseHold",0.637472283813747
 19109,"Kossuth County","PercentMultiFamAssistPerHouseold",0.692904656319291
 19109,"Kossuth County","PercentLIHTCperHousehold",0.332594235033259
@@ -384,6 +762,13 @@
 19109,"Kossuth County","PercentHudSec8Lost5Year",100
 19109,"Kossuth County","PercentLILost5Year",0
 19109,"Kossuth County","PercentUSDAsec515Lost5Year",0
+19109,"Kossuth County","X5YearPctChange",10.863016126174
+19109,"Kossuth County","MultiFamHomeConstructPct",0
+19109,"Kossuth County","SingleFamHomeConstructPct",1.531309817
+19109,"Kossuth County","MedianValue",109400
+19109,"Kossuth County","Jun17",92285
+19109,"Kossuth County","Jun20",119665
+19109,"Kossuth County","PctChange",22.8805415117202
 19111,"Lee County","HCVPercentPerHouseHold",1.16660360701223
 19111,"Lee County","PercentMultiFamAssistPerHouseold",0.378357926598562
 19111,"Lee County","PercentLIHTCperHousehold",1.80350611678648
@@ -391,6 +776,13 @@
 19111,"Lee County","PercentHudSec8Lost5Year",100
 19111,"Lee County","PercentLILost5Year",39.1608391608392
 19111,"Lee County","PercentUSDAsec515Lost5Year",0
+19111,"Lee County","X5YearPctChange",15.2976946814304
+19111,"Lee County","MultiFamHomeConstructPct",0.204316179
+19111,"Lee County","SingleFamHomeConstructPct",0.064948042
+19111,"Lee County","MedianValue",98400
+19111,"Lee County","Jun17",87709
+19111,"Lee County","Jun20",108344
+19111,"Lee County","PctChange",19.0458170272465
 19113,"Linn County","HCVPercentPerHouseHold",0.862392571372123
 19113,"Linn County","PercentMultiFamAssistPerHouseold",1.14590536402252
 19113,"Linn County","PercentLIHTCperHousehold",2.26019954558925
@@ -398,6 +790,13 @@
 19113,"Linn County","PercentHudSec8Lost5Year",44.2241379310345
 19113,"Linn County","PercentLILost5Year",19.7552447552448
 19113,"Linn County","PercentUSDAsec515Lost5Year",3.125
+19113,"Linn County","X5YearPctChange",20.9941842976035
+19113,"Linn County","MultiFamHomeConstructPct",837.4233129
+19113,"Linn County","SingleFamHomeConstructPct",70
+19113,"Linn County","MedianValue",161600
+19113,"Linn County","Jun17",153953
+19113,"Linn County","Jun20",210366
+19113,"Linn County","PctChange",26.8165958377304
 19115,"Louisa County","HCVPercentPerHouseHold",0.8276740237691
 19115,"Louisa County","PercentMultiFamAssistPerHouseold",NA
 19115,"Louisa County","PercentLIHTCperHousehold",1.01867572156197
@@ -405,6 +804,13 @@
 19115,"Louisa County","PercentHudSec8Lost5Year",0
 19115,"Louisa County","PercentLILost5Year",0
 19115,"Louisa County","PercentUSDAsec515Lost5Year",0
+19115,"Louisa County","X5YearPctChange",23.3849177106362
+19115,"Louisa County","MultiFamHomeConstructPct",0
+19115,"Louisa County","SingleFamHomeConstructPct",1.055946647
+19115,"Louisa County","MedianValue",107900
+19115,"Louisa County","Jun17",100056
+19115,"Louisa County","Jun20",127209
+19115,"Louisa County","PctChange",21.345187840483
 19117,"Lucas County","HCVPercentPerHouseHold",0.295712173484475
 19117,"Lucas County","PercentMultiFamAssistPerHouseold",2.02069985214391
 19117,"Lucas County","PercentLIHTCperHousehold",NA
@@ -412,6 +818,13 @@
 19117,"Lucas County","PercentHudSec8Lost5Year",29.2682926829268
 19117,"Lucas County","PercentLILost5Year",0
 19117,"Lucas County","PercentUSDAsec515Lost5Year",0
+19117,"Lucas County","X5YearPctChange",21.2422453098139
+19117,"Lucas County","MultiFamHomeConstructPct",0
+19117,"Lucas County","SingleFamHomeConstructPct",0.233518951
+19117,"Lucas County","MedianValue",94200
+19117,"Lucas County","Jun17",74207
+19117,"Lucas County","Jun20",107531
+19117,"Lucas County","PctChange",30.9901330779031
 19119,"Lyon County","HCVPercentPerHouseHold",0
 19119,"Lyon County","PercentMultiFamAssistPerHouseold",0.705833506331742
 19119,"Lyon County","PercentLIHTCperHousehold",NA
@@ -419,6 +832,13 @@
 19119,"Lyon County","PercentHudSec8Lost5Year",0
 19119,"Lyon County","PercentLILost5Year",0
 19119,"Lyon County","PercentUSDAsec515Lost5Year",0
+19119,"Lyon County","X5YearPctChange",20.851302397792
+19119,"Lyon County","MultiFamHomeConstructPct",0.792079208
+19119,"Lyon County","SingleFamHomeConstructPct",0.966999233
+19119,"Lyon County","MedianValue",160700
+19119,"Lyon County","Jun17",127785
+19119,"Lyon County","Jun20",169560
+19119,"Lyon County","PctChange",24.637296532201
 19121,"Madison County","HCVPercentPerHouseHold",0.477361492839578
 19121,"Madison County","PercentMultiFamAssistPerHouseold",NA
 19121,"Madison County","PercentLIHTCperHousehold",1.7358599739621
@@ -426,6 +846,13 @@
 19121,"Madison County","PercentHudSec8Lost5Year",0
 19121,"Madison County","PercentLILost5Year",60
 19121,"Madison County","PercentUSDAsec515Lost5Year",0
+19121,"Madison County","X5YearPctChange",26.2056722600279
+19121,"Madison County","MultiFamHomeConstructPct",8.248914616
+19121,"Madison County","SingleFamHomeConstructPct",4.930662558
+19121,"Madison County","MedianValue",186700
+19121,"Madison County","Jun17",170525
+19121,"Madison County","Jun20",228817
+19121,"Madison County","PctChange",25.475379888732
 19123,"Mahaska County","HCVPercentPerHouseHold",1.81818181818182
 19123,"Mahaska County","PercentMultiFamAssistPerHouseold",1.21900826446281
 19123,"Mahaska County","PercentLIHTCperHousehold",2.31404958677686
@@ -433,6 +860,13 @@
 19123,"Mahaska County","PercentHudSec8Lost5Year",33.8983050847458
 19123,"Mahaska County","PercentLILost5Year",13.3928571428571
 19123,"Mahaska County","PercentUSDAsec515Lost5Year",0
+19123,"Mahaska County","X5YearPctChange",21.5796778399293
+19123,"Mahaska County","MultiFamHomeConstructPct",5.778191985
+19123,"Mahaska County","SingleFamHomeConstructPct",0.673740947
+19123,"Mahaska County","MedianValue",113100
+19123,"Mahaska County","Jun17",110962
+19123,"Mahaska County","Jun20",137324
+19123,"Mahaska County","PctChange",19.1969357140777
 19125,"Marion County","HCVPercentPerHouseHold",1.78355716620479
 19125,"Marion County","PercentMultiFamAssistPerHouseold",0.376607688481489
 19125,"Marion County","PercentLIHTCperHousehold",1.66986427911604
@@ -440,6 +874,13 @@
 19125,"Marion County","PercentHudSec8Lost5Year",100
 19125,"Marion County","PercentLILost5Year",0
 19125,"Marion County","PercentUSDAsec515Lost5Year",0
+19125,"Marion County","X5YearPctChange",28.0694131385275
+19125,"Marion County","MultiFamHomeConstructPct",40.625
+19125,"Marion County","SingleFamHomeConstructPct",11.38545953
+19125,"Marion County","MedianValue",160100
+19125,"Marion County","Jun17",145053
+19125,"Marion County","Jun20",198060
+19125,"Marion County","PctChange",26.7631020902757
 19127,"Marshall County","HCVPercentPerHouseHold",1.30188115855479
 19127,"Marshall County","PercentMultiFamAssistPerHouseold",0.961481039116154
 19127,"Marshall County","PercentLIHTCperHousehold",1.58256195879367
@@ -447,6 +888,13 @@
 19127,"Marshall County","PercentHudSec8Lost5Year",16.1490683229814
 19127,"Marshall County","PercentLILost5Year",9.05660377358491
 19127,"Marshall County","PercentUSDAsec515Lost5Year",0
+19127,"Marshall County","X5YearPctChange",24.6050741981809
+19127,"Marshall County","MultiFamHomeConstructPct",2.435723951
+19127,"Marshall County","SingleFamHomeConstructPct",0.948869223
+19127,"Marshall County","MedianValue",104400
+19127,"Marshall County","Jun17",103699
+19127,"Marshall County","Jun20",130674
+19127,"Marshall County","PctChange",20.6429741187995
 19129,"Mills County","HCVPercentPerHouseHold",2.06219312602291
 19129,"Mills County","PercentMultiFamAssistPerHouseold",0.736497545008183
 19129,"Mills County","PercentLIHTCperHousehold",0.687397708674304
@@ -454,6 +902,13 @@
 19129,"Mills County","PercentHudSec8Lost5Year",0
 19129,"Mills County","PercentLILost5Year",0
 19129,"Mills County","PercentUSDAsec515Lost5Year",0
+19129,"Mills County","X5YearPctChange",30.692867688235
+19129,"Mills County","MultiFamHomeConstructPct",0.625488663
+19129,"Mills County","SingleFamHomeConstructPct",0.163649381
+19129,"Mills County","MedianValue",178500
+19129,"Mills County","Jun17",166567
+19129,"Mills County","Jun20",219105
+19129,"Mills County","PctChange",23.9784578170284
 19131,"Mitchell County","HCVPercentPerHouseHold",0.30946977511863
 19131,"Mitchell County","PercentMultiFamAssistPerHouseold",NA
 19131,"Mitchell County","PercentLIHTCperHousehold",0.330101093459872
@@ -461,6 +916,13 @@
 19131,"Mitchell County","PercentHudSec8Lost5Year",0
 19131,"Mitchell County","PercentLILost5Year",0
 19131,"Mitchell County","PercentUSDAsec515Lost5Year",0
+19131,"Mitchell County","X5YearPctChange",30.0922673411081
+19131,"Mitchell County","MultiFamHomeConstructPct",0.982800983
+19131,"Mitchell County","SingleFamHomeConstructPct",0.797373358
+19131,"Mitchell County","MedianValue",120400
+19131,"Mitchell County","Jun17",116792
+19131,"Mitchell County","Jun20",152415
+19131,"Mitchell County","PctChange",23.3723714857462
 19133,"Monona County","HCVPercentPerHouseHold",0.937571461239424
 19133,"Monona County","PercentMultiFamAssistPerHouseold",0.548822318774297
 19133,"Monona County","PercentLIHTCperHousehold",0.548822318774297
@@ -468,6 +930,13 @@
 19133,"Monona County","PercentHudSec8Lost5Year",100
 19133,"Monona County","PercentLILost5Year",0
 19133,"Monona County","PercentUSDAsec515Lost5Year",0
+19133,"Monona County","X5YearPctChange",22.0099079971691
+19133,"Monona County","MultiFamHomeConstructPct",0.394477318
+19133,"Monona County","SingleFamHomeConstructPct",0.321936057
+19133,"Monona County","MedianValue",90000
+19133,"Monona County","Jun17",81540
+19133,"Monona County","Jun20",108065
+19133,"Monona County","PctChange",24.5454124832277
 19135,"Monroe County","HCVPercentPerHouseHold",1.26512651265127
 19135,"Monroe County","PercentMultiFamAssistPerHouseold",1.32013201320132
 19135,"Monroe County","PercentLIHTCperHousehold",NA
@@ -475,6 +944,13 @@
 19135,"Monroe County","PercentHudSec8Lost5Year",100
 19135,"Monroe County","PercentLILost5Year",0
 19135,"Monroe County","PercentUSDAsec515Lost5Year",0
+19135,"Monroe County","X5YearPctChange",24.7622901072223
+19135,"Monroe County","MultiFamHomeConstructPct",0
+19135,"Monroe County","SingleFamHomeConstructPct",0.094217407
+19135,"Monroe County","MedianValue",113800
+19135,"Monroe County","Jun17",101836
+19135,"Monroe County","Jun20",133722
+19135,"Monroe County","PctChange",23.8449918487609
 19137,"Montgomery County","HCVPercentPerHouseHold",1.75753944477731
 19137,"Montgomery County","PercentMultiFamAssistPerHouseold",1.67765128819652
 19137,"Montgomery County","PercentLIHTCperHousehold",0.958657878969443
@@ -482,6 +958,13 @@
 19137,"Montgomery County","PercentHudSec8Lost5Year",0
 19137,"Montgomery County","PercentLILost5Year",0
 19137,"Montgomery County","PercentUSDAsec515Lost5Year",81.8181818181818
+19137,"Montgomery County","X5YearPctChange",25.2809578825754
+19137,"Montgomery County","MultiFamHomeConstructPct",0.262123198
+19137,"Montgomery County","SingleFamHomeConstructPct",0.492383444
+19137,"Montgomery County","MedianValue",85300
+19137,"Montgomery County","Jun17",76937
+19137,"Montgomery County","Jun20",96847
+19137,"Montgomery County","PctChange",20.5582000474976
 19139,"Muscatine County","HCVPercentPerHouseHold",1.73146030708919
 19139,"Muscatine County","PercentMultiFamAssistPerHouseold",1.61167374496352
 19139,"Muscatine County","PercentLIHTCperHousehold",1.796798431885
@@ -489,6 +972,13 @@
 19139,"Muscatine County","PercentHudSec8Lost5Year",60.472972972973
 19139,"Muscatine County","PercentLILost5Year",0
 19139,"Muscatine County","PercentUSDAsec515Lost5Year",0
+19139,"Muscatine County","X5YearPctChange",20.3706204009991
+19139,"Muscatine County","MultiFamHomeConstructPct",19.68911917
+19139,"Muscatine County","SingleFamHomeConstructPct",2.453491507
+19139,"Muscatine County","MedianValue",135400
+19139,"Muscatine County","Jun17",130186
+19139,"Muscatine County","Jun20",163122
+19139,"Muscatine County","PctChange",20.1910226701487
 19141,"O'Brien County","HCVPercentPerHouseHold",0.613120784794605
 19141,"O'Brien County","PercentMultiFamAssistPerHouseold",0.781729000613121
 19141,"O'Brien County","PercentLIHTCperHousehold",1.42550582464746
@@ -496,6 +986,13 @@
 19141,"O'Brien County","PercentHudSec8Lost5Year",94.1176470588235
 19141,"O'Brien County","PercentLILost5Year",0
 19141,"O'Brien County","PercentUSDAsec515Lost5Year",0
+19141,"O'Brien County","X5YearPctChange",25.7817834220948
+19141,"O'Brien County","MultiFamHomeConstructPct",2.331002331
+19141,"O'Brien County","SingleFamHomeConstructPct",0.873625546
+19141,"O'Brien County","MedianValue",116300
+19141,"O'Brien County","Jun17",98646
+19141,"O'Brien County","Jun20",127742
+19141,"O'Brien County","PctChange",22.7771602135554
 19143,"Osceola County","HCVPercentPerHouseHold",0.660180681028492
 19143,"Osceola County","PercentMultiFamAssistPerHouseold",0.555941626129256
 19143,"Osceola County","PercentLIHTCperHousehold",0.555941626129256
@@ -503,6 +1000,13 @@
 19143,"Osceola County","PercentHudSec8Lost5Year",100
 19143,"Osceola County","PercentLILost5Year",0
 19143,"Osceola County","PercentUSDAsec515Lost5Year",0
+19143,"Osceola County","X5YearPctChange",38.2702640905453
+19143,"Osceola County","MultiFamHomeConstructPct",0
+19143,"Osceola County","SingleFamHomeConstructPct",0.107267364
+19143,"Osceola County","MedianValue",96600
+19143,"Osceola County","Jun17",86052
+19143,"Osceola County","Jun20",106111
+19143,"Osceola County","PctChange",18.9037894280518
 19145,"Page County","HCVPercentPerHouseHold",0.959473005871402
 19145,"Page County","PercentMultiFamAssistPerHouseold",1.13131891737076
 19145,"Page County","PercentLIHTCperHousehold",1.68981812974366
@@ -510,6 +1014,13 @@
 19145,"Page County","PercentHudSec8Lost5Year",100
 19145,"Page County","PercentLILost5Year",0
 19145,"Page County","PercentUSDAsec515Lost5Year",0
+19145,"Page County","X5YearPctChange",26.1621378845722
+19145,"Page County","MultiFamHomeConstructPct",0
+19145,"Page County","SingleFamHomeConstructPct",0.323717033
+19145,"Page County","MedianValue",96400
+19145,"Page County","Jun17",78080
+19145,"Page County","Jun20",98568
+19145,"Page County","PctChange",20.7856505153802
 19147,"Palo Alto County","HCVPercentPerHouseHold",1.63861824623561
 19147,"Palo Alto County","PercentMultiFamAssistPerHouseold",0.664304694419841
 19147,"Palo Alto County","PercentLIHTCperHousehold",1.48361381753764
@@ -517,6 +1028,13 @@
 19147,"Palo Alto County","PercentHudSec8Lost5Year",46.6666666666667
 19147,"Palo Alto County","PercentLILost5Year",0
 19147,"Palo Alto County","PercentUSDAsec515Lost5Year",0
+19147,"Palo Alto County","X5YearPctChange",21.4583581556059
+19147,"Palo Alto County","MultiFamHomeConstructPct",0
+19147,"Palo Alto County","SingleFamHomeConstructPct",0.277375784
+19147,"Palo Alto County","MedianValue",107300
+19147,"Palo Alto County","Jun17",94463
+19147,"Palo Alto County","Jun20",120701
+19147,"Palo Alto County","PctChange",21.7380137695628
 19149,"Plymouth County","HCVPercentPerHouseHold",0.554631170271769
 19149,"Plymouth County","PercentMultiFamAssistPerHouseold",1.08153078202995
 19149,"Plymouth County","PercentLIHTCperHousehold",0.684045110001849
@@ -524,6 +1042,13 @@
 19149,"Plymouth County","PercentHudSec8Lost5Year",36.7521367521368
 19149,"Plymouth County","PercentLILost5Year",0
 19149,"Plymouth County","PercentUSDAsec515Lost5Year",0
+19149,"Plymouth County","X5YearPctChange",20.9303995118274
+19149,"Plymouth County","MultiFamHomeConstructPct",12.90082028
+19149,"Plymouth County","SingleFamHomeConstructPct",2.017018594
+19149,"Plymouth County","MedianValue",172600
+19149,"Plymouth County","Jun17",150203
+19149,"Plymouth County","Jun20",202474
+19149,"Plymouth County","PctChange",25.8161541728815
 19151,"Pocahontas County","HCVPercentPerHouseHold",0
 19151,"Pocahontas County","PercentMultiFamAssistPerHouseold",NA
 19151,"Pocahontas County","PercentLIHTCperHousehold",NA
@@ -531,6 +1056,13 @@
 19151,"Pocahontas County","PercentHudSec8Lost5Year",0
 19151,"Pocahontas County","PercentLILost5Year",0
 19151,"Pocahontas County","PercentUSDAsec515Lost5Year",0
+19151,"Pocahontas County","X5YearPctChange",17.2105619498985
+19151,"Pocahontas County","MultiFamHomeConstructPct",0
+19151,"Pocahontas County","SingleFamHomeConstructPct",0.013414416
+19151,"Pocahontas County","MedianValue",81900
+19151,"Pocahontas County","Jun17",63915
+19151,"Pocahontas County","Jun20",83215
+19151,"Pocahontas County","PctChange",23.192933966232
 19153,"Polk County","HCVPercentPerHouseHold",1.21655311536558
 19153,"Polk County","PercentMultiFamAssistPerHouseold",0.893027062002817
 19153,"Polk County","PercentLIHTCperHousehold",3.32327865108667
@@ -538,6 +1070,13 @@
 19153,"Polk County","PercentHudSec8Lost5Year",36.0149174214172
 19153,"Polk County","PercentLILost5Year",40.5010737294202
 19153,"Polk County","PercentUSDAsec515Lost5Year",0
+19153,"Polk County","X5YearPctChange",25.3256449723173
+19153,"Polk County","MultiFamHomeConstructPct",1006.570513
+19153,"Polk County","SingleFamHomeConstructPct",244.9710983
+19153,"Polk County","MedianValue",190400
+19153,"Polk County","Jun17",183144
+19153,"Polk County","Jun20",255295
+19153,"Polk County","PctChange",28.261814763313
 19155,"Pottawattamie County","HCVPercentPerHouseHold",2.25082806383619
 19155,"Pottawattamie County","PercentMultiFamAssistPerHouseold",1.57081200441634
 19155,"Pottawattamie County","PercentLIHTCperHousehold",2.89822342667871
@@ -545,6 +1084,13 @@
 19155,"Pottawattamie County","PercentHudSec8Lost5Year",69.1693290734824
 19155,"Pottawattamie County","PercentLILost5Year",18.1818181818182
 19155,"Pottawattamie County","PercentUSDAsec515Lost5Year",0
+19155,"Pottawattamie County","X5YearPctChange",29.4223585912487
+19155,"Pottawattamie County","MultiFamHomeConstructPct",8.935824533
+19155,"Pottawattamie County","SingleFamHomeConstructPct",6.109712033
+19155,"Pottawattamie County","MedianValue",141300
+19155,"Pottawattamie County","Jun17",133502
+19155,"Pottawattamie County","Jun20",187213
+19155,"Pottawattamie County","PctChange",28.6897811583597
 19157,"Poweshiek County","HCVPercentPerHouseHold",1.81899842802605
 19157,"Poweshiek County","PercentMultiFamAssistPerHouseold",1.02178306759488
 19157,"Poweshiek County","PercentLIHTCperHousehold",1.88636874017516
@@ -552,6 +1098,13 @@
 19157,"Poweshiek County","PercentHudSec8Lost5Year",100
 19157,"Poweshiek County","PercentLILost5Year",0
 19157,"Poweshiek County","PercentUSDAsec515Lost5Year",0
+19157,"Poweshiek County","X5YearPctChange",19.8274062217273
+19157,"Poweshiek County","MultiFamHomeConstructPct",0
+19157,"Poweshiek County","SingleFamHomeConstructPct",0.248881358
+19157,"Poweshiek County","MedianValue",148200
+19157,"Poweshiek County","Jun17",139836
+19157,"Poweshiek County","Jun20",176722
+19157,"Poweshiek County","PctChange",20.8723305530721
 19159,"Ringgold County","HCVPercentPerHouseHold",1.38473053892216
 19159,"Ringgold County","PercentMultiFamAssistPerHouseold",0.29940119760479
 19159,"Ringgold County","PercentLIHTCperHousehold",NA
@@ -559,6 +1112,13 @@
 19159,"Ringgold County","PercentHudSec8Lost5Year",100
 19159,"Ringgold County","PercentLILost5Year",0
 19159,"Ringgold County","PercentUSDAsec515Lost5Year",0
+19159,"Ringgold County","X5YearPctChange",26.0736632536974
+19159,"Ringgold County","MultiFamHomeConstructPct",0
+19159,"Ringgold County","SingleFamHomeConstructPct",0.098667982
+19159,"Ringgold County","MedianValue",113000
+19159,"Ringgold County","Jun17",126743
+19159,"Ringgold County","Jun20",148816
+19159,"Ringgold County","PctChange",14.8324104934953
 19161,"Sac County","HCVPercentPerHouseHold",0.898788589292692
 19161,"Sac County","PercentMultiFamAssistPerHouseold",0.31262211801485
 19161,"Sac County","PercentLIHTCperHousehold",0.488472059398202
@@ -566,6 +1126,13 @@
 19161,"Sac County","PercentHudSec8Lost5Year",0
 19161,"Sac County","PercentLILost5Year",36
 19161,"Sac County","PercentUSDAsec515Lost5Year",0
+19161,"Sac County","X5YearPctChange",20.4142692750288
+19161,"Sac County","MultiFamHomeConstructPct",0.204582651
+19161,"Sac County","SingleFamHomeConstructPct",0.183632246
+19161,"Sac County","MedianValue",101200
+19161,"Sac County","Jun17",86754
+19161,"Sac County","Jun20",116298
+19161,"Sac County","PctChange",25.4037042769437
 19163,"Scott County","HCVPercentPerHouseHold",1.27811137827725
 19163,"Scott County","PercentMultiFamAssistPerHouseold",1.3694050481542
 19163,"Scott County","PercentLIHTCperHousehold",2.60508415733371
@@ -573,6 +1140,13 @@
 19163,"Scott County","PercentHudSec8Lost5Year",65.9154929577465
 19163,"Scott County","PercentLILost5Year",37.1668311944719
 19163,"Scott County","PercentUSDAsec515Lost5Year",0
+19163,"Scott County","X5YearPctChange",18.6332277262902
+19163,"Scott County","MultiFamHomeConstructPct",62.7430911
+19163,"Scott County","SingleFamHomeConstructPct",16.17352614
+19163,"Scott County","MedianValue",167900
+19163,"Scott County","Jun17",157802
+19163,"Scott County","Jun20",201560
+19163,"Scott County","PctChange",21.7096646159952
 19165,"Shelby County","HCVPercentPerHouseHold",1.56797638812027
 19165,"Shelby County","PercentMultiFamAssistPerHouseold",1.18059398634938
 19165,"Shelby County","PercentLIHTCperHousehold",0.498063087991146
@@ -580,6 +1154,13 @@
 19165,"Shelby County","PercentHudSec8Lost5Year",100
 19165,"Shelby County","PercentLILost5Year",100
 19165,"Shelby County","PercentUSDAsec515Lost5Year",0
+19165,"Shelby County","X5YearPctChange",22.1850660345411
+19165,"Shelby County","MultiFamHomeConstructPct",3.996003996
+19165,"Shelby County","SingleFamHomeConstructPct",0.823810789
+19165,"Shelby County","MedianValue",120700
+19165,"Shelby County","Jun17",123840
+19165,"Shelby County","Jun20",153959
+19165,"Shelby County","PctChange",19.5630005391046
 19167,"Sioux County","HCVPercentPerHouseHold",0.107692307692308
 19167,"Sioux County","PercentMultiFamAssistPerHouseold",0.984615384615385
 19167,"Sioux County","PercentLIHTCperHousehold",1.06153846153846
@@ -587,6 +1168,13 @@
 19167,"Sioux County","PercentHudSec8Lost5Year",59.375
 19167,"Sioux County","PercentLILost5Year",0
 19167,"Sioux County","PercentUSDAsec515Lost5Year",0
+19167,"Sioux County","X5YearPctChange",22.8369610381308
+19167,"Sioux County","MultiFamHomeConstructPct",45.04950495
+19167,"Sioux County","SingleFamHomeConstructPct",6.063598657
+19167,"Sioux County","MedianValue",182500
+19167,"Sioux County","Jun17",163828
+19167,"Sioux County","Jun20",220452
+19167,"Sioux County","PctChange",25.6854099758678
 19169,"Story County","HCVPercentPerHouseHold",0.628611493919393
 19169,"Story County","PercentMultiFamAssistPerHouseold",0.797853049974614
 19169,"Story County","PercentLIHTCperHousehold",1.32975508329102
@@ -594,6 +1182,13 @@
 19169,"Story County","PercentHudSec8Lost5Year",19.0909090909091
 19169,"Story County","PercentLILost5Year",35.2727272727273
 19169,"Story County","PercentUSDAsec515Lost5Year",0
+19169,"Story County","X5YearPctChange",19.3358523470426
+19169,"Story County","MultiFamHomeConstructPct",217.1428571
+19169,"Story County","SingleFamHomeConstructPct",13.57676583
+19169,"Story County","MedianValue",195200
+19169,"Story County","Jun17",185982
+19169,"Story County","Jun20",234709
+19169,"Story County","PctChange",20.7606014255951
 19171,"Tama County","HCVPercentPerHouseHold",0
 19171,"Tama County","PercentMultiFamAssistPerHouseold",NA
 19171,"Tama County","PercentLIHTCperHousehold",0.633663366336634
@@ -601,6 +1196,13 @@
 19171,"Tama County","PercentHudSec8Lost5Year",0
 19171,"Tama County","PercentLILost5Year",50
 19171,"Tama County","PercentUSDAsec515Lost5Year",0
+19171,"Tama County","X5YearPctChange",19.4657660423703
+19171,"Tama County","MultiFamHomeConstructPct",0
+19171,"Tama County","SingleFamHomeConstructPct",0.413165266
+19171,"Tama County","MedianValue",114400
+19171,"Tama County","Jun17",102780
+19171,"Tama County","Jun20",130041
+19171,"Tama County","PctChange",20.9633884697903
 19173,"Taylor County","HCVPercentPerHouseHold",0.901213171577123
 19173,"Taylor County","PercentMultiFamAssistPerHouseold",NA
 19173,"Taylor County","PercentLIHTCperHousehold",0.554592720970537
@@ -608,6 +1210,13 @@
 19173,"Taylor County","PercentHudSec8Lost5Year",0
 19173,"Taylor County","PercentLILost5Year",0
 19173,"Taylor County","PercentUSDAsec515Lost5Year",0
+19173,"Taylor County","X5YearPctChange",25.3349187475228
+19173,"Taylor County","MultiFamHomeConstructPct",0
+19173,"Taylor County","SingleFamHomeConstructPct",0.401042711
+19173,"Taylor County","MedianValue",84100
+19173,"Taylor County","Jun17",70124
+19173,"Taylor County","Jun20",97988
+19173,"Taylor County","PctChange",28.4361350369433
 19175,"Union County","HCVPercentPerHouseHold",1.60788381742739
 19175,"Union County","PercentMultiFamAssistPerHouseold",1.15836791147994
 19175,"Union County","PercentLIHTCperHousehold",2.85269709543568
@@ -615,6 +1224,13 @@
 19175,"Union County","PercentHudSec8Lost5Year",100
 19175,"Union County","PercentLILost5Year",52.1212121212121
 19175,"Union County","PercentUSDAsec515Lost5Year",0
+19175,"Union County","X5YearPctChange",23.3667496467739
+19175,"Union County","MultiFamHomeConstructPct",0.573888092
+19175,"Union County","SingleFamHomeConstructPct",0.287356322
+19175,"Union County","MedianValue",109600
+19175,"Union County","Jun17",87549
+19175,"Union County","Jun20",104629
+19175,"Union County","PctChange",16.3243460226132
 19177,"Van Buren County","HCVPercentPerHouseHold",0
 19177,"Van Buren County","PercentMultiFamAssistPerHouseold",NA
 19177,"Van Buren County","PercentLIHTCperHousehold",NA
@@ -622,6 +1238,13 @@
 19177,"Van Buren County","PercentHudSec8Lost5Year",0
 19177,"Van Buren County","PercentLILost5Year",0
 19177,"Van Buren County","PercentUSDAsec515Lost5Year",0
+19177,"Van Buren County","X5YearPctChange",21.3015017327686
+19177,"Van Buren County","MultiFamHomeConstructPct",0
+19177,"Van Buren County","SingleFamHomeConstructPct",0.089672695
+19177,"Van Buren County","MedianValue",91200
+19177,"Van Buren County","Jun17",84739
+19177,"Van Buren County","Jun20",119446
+19177,"Van Buren County","PctChange",29.0566448436951
 19179,"Wapello County","HCVPercentPerHouseHold",0.953349434346002
 19179,"Wapello County","PercentMultiFamAssistPerHouseold",0.572009660607601
 19179,"Wapello County","PercentLIHTCperHousehold",0.711834244311682
@@ -629,6 +1252,13 @@
 19179,"Wapello County","PercentHudSec8Lost5Year",0
 19179,"Wapello County","PercentLILost5Year",0
 19179,"Wapello County","PercentUSDAsec515Lost5Year",0
+19179,"Wapello County","X5YearPctChange",18.5915252063112
+19179,"Wapello County","MultiFamHomeConstructPct",7.777777778
+19179,"Wapello County","SingleFamHomeConstructPct",1.937309534
+19179,"Wapello County","MedianValue",87400
+19179,"Wapello County","Jun17",74736
+19179,"Wapello County","Jun20",92333
+19179,"Wapello County","PctChange",19.0581915458179
 19181,"Warren County","HCVPercentPerHouseHold",0.704799347940739
 19181,"Warren County","PercentMultiFamAssistPerHouseold",1.01165076473127
 19181,"Warren County","PercentLIHTCperHousehold",2.18152179124515
@@ -636,6 +1266,13 @@
 19181,"Warren County","PercentHudSec8Lost5Year",33.175355450237
 19181,"Warren County","PercentLILost5Year",34.2857142857143
 19181,"Warren County","PercentUSDAsec515Lost5Year",13.6363636363636
+19181,"Warren County","X5YearPctChange",22.5579591945878
+19181,"Warren County","MultiFamHomeConstructPct",0.198442414
+19181,"Warren County","SingleFamHomeConstructPct",0.724119347
+19181,"Warren County","MedianValue",196100
+19181,"Warren County","Jun17",190931
+19181,"Warren County","Jun20",269161
+19181,"Warren County","PctChange",29.0643889716564
 19183,"Washington County","HCVPercentPerHouseHold",0.710331139663637
 19183,"Washington County","PercentMultiFamAssistPerHouseold",0.501410216233156
 19183,"Washington County","PercentLIHTCperHousehold",0.856575786064974
@@ -643,6 +1280,13 @@
 19183,"Washington County","PercentHudSec8Lost5Year",0
 19183,"Washington County","PercentLILost5Year",0
 19183,"Washington County","PercentUSDAsec515Lost5Year",0
+19183,"Washington County","X5YearPctChange",22.4509288886766
+19183,"Washington County","MultiFamHomeConstructPct",0.877192982
+19183,"Washington County","SingleFamHomeConstructPct",2.532751092
+19183,"Washington County","MedianValue",158600
+19183,"Washington County","Jun17",136950
+19183,"Washington County","Jun20",175884
+19183,"Washington County","PctChange",22.1361806645289
 19185,"Wayne County","HCVPercentPerHouseHold",0
 19185,"Wayne County","PercentMultiFamAssistPerHouseold",NA
 19185,"Wayne County","PercentLIHTCperHousehold",NA
@@ -650,6 +1294,13 @@
 19185,"Wayne County","PercentHudSec8Lost5Year",0
 19185,"Wayne County","PercentLILost5Year",0
 19185,"Wayne County","PercentUSDAsec515Lost5Year",0
+19185,"Wayne County","X5YearPctChange",20.8804668924274
+19185,"Wayne County","MultiFamHomeConstructPct",0
+19185,"Wayne County","SingleFamHomeConstructPct",0.002678739
+19185,"Wayne County","MedianValue",79900
+19185,"Wayne County","Jun17",75501
+19185,"Wayne County","Jun20",96507
+19185,"Wayne County","PctChange",21.7662967453138
 19187,"Webster County","HCVPercentPerHouseHold",3.68424160122808
 19187,"Webster County","PercentMultiFamAssistPerHouseold",1.47605833382535
 19187,"Webster County","PercentLIHTCperHousehold",1.61775993387259
@@ -657,6 +1308,13 @@
 19187,"Webster County","PercentHudSec8Lost5Year",0
 19187,"Webster County","PercentLILost5Year",36.4963503649635
 19187,"Webster County","PercentUSDAsec515Lost5Year",0
+19187,"Webster County","X5YearPctChange",22.1224822879187
+19187,"Webster County","MultiFamHomeConstructPct",0.629009938
+19187,"Webster County","SingleFamHomeConstructPct",0.413152006
+19187,"Webster County","MedianValue",107900
+19187,"Webster County","Jun17",86936
+19187,"Webster County","Jun20",110702
+19187,"Webster County","PctChange",21.4684468211956
 19189,"Winnebago County","HCVPercentPerHouseHold",0.590900137876699
 19189,"Winnebago County","PercentMultiFamAssistPerHouseold",0.965136891865275
 19189,"Winnebago County","PercentLIHTCperHousehold",1.26058696080362
@@ -664,6 +1322,13 @@
 19189,"Winnebago County","PercentHudSec8Lost5Year",100
 19189,"Winnebago County","PercentLILost5Year",0
 19189,"Winnebago County","PercentUSDAsec515Lost5Year",0
+19189,"Winnebago County","X5YearPctChange",20.078722138313
+19189,"Winnebago County","MultiFamHomeConstructPct",1.515151515
+19189,"Winnebago County","SingleFamHomeConstructPct",0.38647343
+19189,"Winnebago County","MedianValue",96200
+19189,"Winnebago County","Jun17",101533
+19189,"Winnebago County","Jun20",125994
+19189,"Winnebago County","PctChange",19.4144165595187
 19191,"Winneshiek County","HCVPercentPerHouseHold",0.605652759084791
 19191,"Winneshiek County","PercentMultiFamAssistPerHouseold",0.381336922386721
 19191,"Winneshiek County","PercentLIHTCperHousehold",0.246747420367878
@@ -671,6 +1336,13 @@
 19191,"Winneshiek County","PercentHudSec8Lost5Year",100
 19191,"Winneshiek County","PercentLILost5Year",0
 19191,"Winneshiek County","PercentUSDAsec515Lost5Year",13.0434782608696
+19191,"Winneshiek County","X5YearPctChange",19.7406942701798
+19191,"Winneshiek County","MultiFamHomeConstructPct",3.245686113
+19191,"Winneshiek County","SingleFamHomeConstructPct",1.019900498
+19191,"Winneshiek County","MedianValue",183300
+19191,"Winneshiek County","Jun17",171287
+19191,"Winneshiek County","Jun20",218312
+19191,"Winneshiek County","PctChange",21.5402726373264
 19193,"Woodbury County","HCVPercentPerHouseHold",2.6744104353528
 19193,"Woodbury County","PercentMultiFamAssistPerHouseold",2.28566075735931
 19193,"Woodbury County","PercentLIHTCperHousehold",2.22945598463736
@@ -678,6 +1350,13 @@
 19193,"Woodbury County","PercentHudSec8Lost5Year",26.5368852459016
 19193,"Woodbury County","PercentLILost5Year",14.9159663865546
 19193,"Woodbury County","PercentUSDAsec515Lost5Year",0
+19193,"Woodbury County","X5YearPctChange",28.6827323790542
+19193,"Woodbury County","MultiFamHomeConstructPct",337.1794872
+19193,"Woodbury County","SingleFamHomeConstructPct",16.03125
+19193,"Woodbury County","MedianValue",131300
+19193,"Woodbury County","Jun17",127454
+19193,"Woodbury County","Jun20",157954
+19193,"Woodbury County","PctChange",19.3094191979944
 19195,"Worth County","HCVPercentPerHouseHold",0
 19195,"Worth County","PercentMultiFamAssistPerHouseold",NA
 19195,"Worth County","PercentLIHTCperHousehold",0.804597701149425
@@ -685,6 +1364,13 @@
 19195,"Worth County","PercentHudSec8Lost5Year",0
 19195,"Worth County","PercentLILost5Year",0
 19195,"Worth County","PercentUSDAsec515Lost5Year",0
+19195,"Worth County","X5YearPctChange",25.832223701731
+19195,"Worth County","MultiFamHomeConstructPct",0.54200542
+19195,"Worth County","SingleFamHomeConstructPct",0.173176833
+19195,"Worth County","MedianValue",107600
+19195,"Worth County","Jun17",106662
+19195,"Worth County","Jun20",128896
+19195,"Worth County","PctChange",17.2495655412115
 19197,"Wright County","HCVPercentPerHouseHold",1.05431309904153
 19197,"Wright County","PercentMultiFamAssistPerHouseold",0.191693290734824
 19197,"Wright County","PercentLIHTCperHousehold",0.766773162939297
@@ -692,3 +1378,10 @@
 19197,"Wright County","PercentHudSec8Lost5Year",0
 19197,"Wright County","PercentLILost5Year",0
 19197,"Wright County","PercentUSDAsec515Lost5Year",5.88235294117647
+19197,"Wright County","X5YearPctChange",22.0245937637242
+19197,"Wright County","MultiFamHomeConstructPct",0
+19197,"Wright County","SingleFamHomeConstructPct",1.989201478
+19197,"Wright County","MedianValue",86100
+19197,"Wright County","Jun17",73620
+19197,"Wright County","Jun20",99191
+19197,"Wright County","PctChange",25.7795566129992

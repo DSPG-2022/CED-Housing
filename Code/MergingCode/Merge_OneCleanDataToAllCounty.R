@@ -13,7 +13,7 @@ InputData<- read.csv(File)
 
 
 ##output: Datafile
-outputCSV = "Data\\OverallDatabase.csv"
+outputCSV = "Data\\AllCountyData\\OverallDatabase.csv"
 OutputData <- read_csv(outputCSV)
 OutputColNames <- colnames(OutputData)
 
