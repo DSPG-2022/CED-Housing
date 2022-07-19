@@ -66,11 +66,11 @@ ggraph(wordnetwork, layout = "fr") +
   labs(title = titl, subtitle = "Nouns, Adjective and Verbs")
 
 ### data to be used for wordclouds
-atlantic <- read_csv("./Data/RawData/WordcloudData/AtlanticSurvey.csv")
-potta <- read_csv("./Data/RawData/WordcloudData/East PottawattamieSurvey.csv")
-harrison <- read_csv("./Data/RawData/WordcloudData/HarrisonSurvey.csv")
+atlantic <- read_csv("./Data/RawData/Qualtrics Survey/AtlanticSurvey.csv")
+potta <- read_csv("./Data/RawData/Qualtrics Survey/East PottawattamieSurvey.csv")
+harrison <- read_csv("./Data/RawData/Qualtrics Survey/HarrisonSurvey.csv")
 
-data <- tolower(atlantic$Q18_5_TEXT)
+data <- atlantic$Q18_5_TEXT
 titl <- atlantic$Q18_5_TEXT[1]
 
 data <- tolower(atlantic$Q19)
@@ -89,15 +89,69 @@ data <- tolower(harrison$Q16)
 titl <- harrison$Q16[1]
 
 
+### function for simple wordclouds
+# First download the model
+# model <- udpipe_download_model(language = "english")
+word_frequency <- function(data, titl = "No title provided", udmodel, word_type = "NOUN",
+                           top_n = 25) {
+  require(udpipe)
+  require(tidyverse)
+  require(ggwordcloud)
+  ud_model <- udpipe_load_model(udmodel$file_model)
+  x <- as.data.frame(udpipe_annotate(ud_model, x = tolower(data)))
+  stats <- x %>% filter(upos %in% word_type)
+  stats <- txt_freq(x = stats$lemma)
+  stats$key <- factor(stats$key, levels = rev(stats$key))
+  stats <- head(stats, top_n)
+  print(ggplot(stats, aes(label = key, size = freq, color = factor(sample.int(10, nrow(stats), replace = TRUE)))) +
+    geom_text_wordcloud_area() +
+    ggtitle(titl) +
+    scale_size_area(max_size = 24) +
+    theme(plot.title = element_text(hjust = 0.5)) +
+    theme_minimal())
+}
+
+word_frequency(atlantic$Q18_5_TEXT, "test", udmodel = model)
+
+word_frequency(atlantic$Q18_5_TEXT, "test", udmodel = model,
+               word_type = c("VERB", "NOUN"), top_n = 30)
 
 
+############# collocation
+
+collocation <- function(data, titl = "No title provided", udmodel, word_type = "NOUN",
+                        top_n = 25){
+  require(udpipe)
+  require(tidyverse)
+  require(igraph)
+  require(ggraph)
+  require(ggplot2)
+  ud_model <- udpipe_load_model(udmodel$file_model)
+  x <- as.data.frame(udpipe_annotate(ud_model, x = tolower(data)))
+  stats <- keywords_collocation(x = x, 
+                                term = "token", 
+                                group = c("doc_id", "paragraph_id", "sentence_id"),
+                                ngram_max = 4)
+  stats <- cooccurrence(x = subset(x, upos %in% word_type), 
+                        term = "lemma", group = c("doc_id", "paragraph_id", "sentence_id"))
+  stats <- cooccurrence(x = x$lemma, 
+                        relevant = x$upos %in% word_type)
+  stats <- cooccurrence(x = x$lemma, 
+                        relevant = x$upos %in% word_type, skipgram = 2)
+  wordnetwork <- head(stats, top_n)
+  wordnetwork <- graph_from_data_frame(wordnetwork)
+  
+  print(ggraph(wordnetwork, layout = "fr") +
+    geom_edge_link(aes(width = cooc, edge_alpha = cooc), edge_colour = "pink") +
+    geom_node_text(aes(label = name), col = "darkgreen", size = 4) +
+    theme_graph(base_family = "Arial Narrow") +
+    theme(legend.position = "none") +
+    labs(title = titl, subtitle = "Nouns, Adjective and Verbs"))
+}
 
 
-
-
-
-
-
+collocation(atlantic$Q18_5_TEXT, "test", udmodel = model,
+               word_type = c("VERB", "NOUN"), top_n = 30)
 
 
 
