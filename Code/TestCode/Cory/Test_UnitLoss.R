@@ -78,3 +78,13 @@ df <- rbind(df,HUDData)
 df <- rbind(df,USDa515Data)
 Over4 <- merge(df,County, by.y= "fips", by.x = "Fips", all.x=TRUE, all.y=TRUE)
 write.csv(Over4, "R\\Cory\\UnitLossPercentbyYear.csv")
+
+
+
+
+Evict<- read_csv("Data\\CleanData\\Ready_Legalaid_AverageEvictionFilings-2020-22.csv")
+Evict<-Evict%>%
+  mutate(AverageEvictionFilingsPer1000Households = AverageEvictionFilings/OccupiedHouseholds*1000)%>%
+  select(FIPS,AverageEvictionFilingsPer1000Households)
+
+write.csv(Evict,"Data\\CleanData\\Ready_Legalaid_AverageEvictionFilings-2020-22.csv",row.names = FALSE)
