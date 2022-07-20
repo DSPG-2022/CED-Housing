@@ -94,25 +94,25 @@ server <- function(input, output, session) {
       gauge = list(
         axis = list(range = list(min(TotalData$value, na.rm=TRUE), max(TotalData$value, na.rm=TRUE))), #min and max values of graph
         steps = list(
-          list(range = c(quartiles[1],quartiles[2]), color = "blue"), #adding value ranges by quartile
-          list(range = c(quartiles[2],quartiles[3]), color = "yellow"), #adding value ranges by quartile
-          list(range = c(quartiles[3],quartiles[4]), color = "red")),
+          list(range = c(quartiles[1],quartiles[2]), color = "#4e79a7"), #adding value ranges by quartile
+          list(range = c(quartiles[2],quartiles[3]), color = "grey"), #adding value ranges by quartile
+          list(range = c(quartiles[3],quartiles[4]), color = "#f28e2b")),
         threshold = list(
-          line = list(color = "brown", width = 4),
+          line = list(color = "black", width = 4),
           thickness = 1,
           value = SelectedCounty$StateAverage),
         labels="State Average",
         bar = list(
-          color ="black"))
+          color ="red"))
     )%>%
       ##Used To label
       ## Not connected to Speedometer
       ##Have to Change Values depending on speedometer placement
-      layout(margin = list(l=0,r=20)) %>%
+      layout(margin = list(l=30,r=30)) %>%
       add_annotations(
         x= 0.5,
         y=0.05,
-        text = "Brown Bar is the State Average",
+        text = "Black Bar is the State Average",
         showarrow = F
       ) %>%
       add_annotations(

@@ -5,13 +5,16 @@ library(tidyverse)
 library(readr)
 library(cluster)
 library(ClustOfVar)
-
+library(dendextend)
 ##Change To OverAll Dataset
 ##Dataset
 
 Data<-read_csv("Data\\AllCountyData\\OverallDatabase.csv")
 
-
+Data<-Data%>%
+  mutate(HCVPercentPerHouseHold=HCVPercentPerHouseHold/100,PercentMultiFamAssistPerHouseold = PercentMultiFamAssistPerHouseold/100,PercentHudSec8Lost5Year= PercentHudSec8Lost5Year/100,
+         PercentLIHTCperHousehold=PercentLIHTCperHousehold/100,Percent_515Properties=Percent_515Properties/100,PercentLILost5Year=PercentLILost5Year/100,PercentUSDAsec515Lost5Year=PercentUSDAsec515Lost5Year/100)%>%
+  mutate(X5YearPctChange=X5YearPctChange/100,PctChange=PctChange/100,MultiFamHomeConstructPct=MultiFamHomeConstructPct/100,SingleFamHomeConstructPct=SingleFamHomeConstructPct/100,AverageEvictionFilingsPer1000Households=AverageEvictionFilingsPer1000Households/1000)
 ##Section Data off to two categories, 
 ##xquant will be all columns with numeric values
 ## xqual will be all columns with factors (strings) values
@@ -22,7 +25,12 @@ xqual  <- Data[,c(1,2)]      # Value variables
 
 
 ##creates a tree showing similarities between the columns 
-tree <- hclustvar(X.quanti = as.data.frame(xquant), X.quali = NULL )
+tree <- hclustvar(X.quanti = as.data.frame(xquant), NULL) 
+dend <- as.dendrogram(tree)
+
+dend_labels <- labels(dend)
+plot(dend)
+text(x = 1:length(dend_labels), labels = dend_labels, srt = 90, adj = c(1,1), xpd = T)
 plot(tree)
 
 

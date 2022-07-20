@@ -6,8 +6,21 @@ Percent_515Properties,Assistance Program,Housing Assistance
 PercentHudSec8Lost5Year,Program Loss,Housing Assistance
 PercentLILost5Year,Program Loss,Housing Assistance
 PercentUSDAsec515Lost5Year,Program Loss,Housing Assistance
-X5YearPctChange,House Evaulation,Home Value
-MultiFamHomeConstructPct,Construction,Home Value
-SingleFamHomeConstructPct,Construction,Home Value
-MedianValue,House Evaulation,Home Value
-PctChange,Building Permit,Home Value
+X5YearPctChange,House Evaulation,Price
+MultiFamHomeConstructPct,Construction,Physical Properties
+SingleFamHomeConstructPct,Construction,Physical Properties
+MedianValue,House Evaulation,Price
+PctChange,Building Permit,Physical Properties
+AffordabilityIndex,House Evaulation,Price
+AgingHousingStock,Construction,Physical Properties
+AverageEvictionFilingsPer1000Households,Demographic,Housing Assistance
+CostBurdenOwner,Owner,Price
+CostBurdenRenter,Tenant,Price
+HomeOwnerShipRate,Ownership,Physical Properties
+DaysOnMarketUntilSale,House Stock,Physical Properties
+HousingPriceDispersion,House Evaulation,Price
+InventoryOfHomesForSale,House Stock,Physical Properties
+MultiFamShare,Demographic,Housing Assistance
+RentalUnitRatio,Demographic,Housing Assistance
+TypicalOwnerCosts,Owner,Price
+TypicalRenterCosts,Tenant,Price
