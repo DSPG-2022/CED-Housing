@@ -98,5 +98,5 @@ USPSData<-USPSData%>%
   mutate(TotalPercentVacant = TotalVacant/Count*100, PercentVacant36Month  = TotalVacant36Month/Count*100)%>%
   select(FIPS,TotalPercentVacant,PercentVacant36Month)
 
-write.csv(Evict,"Data\\CleanData\\Ready_USPS_12_2021_Vacancy.csv",row.names = FALSE)
+write.csv(USPSData,"Data\\CleanData\\Ready_USPS_12_2021_Vacancy.csv",row.names = FALSE)
 
