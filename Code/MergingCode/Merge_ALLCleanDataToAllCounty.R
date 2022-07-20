@@ -66,13 +66,12 @@ for (file in Files){
       ## Merge Data onto Overall Dataset by fipcode
       ## Will Run for each indicator in Input Data
       if(!inOverall){
-        OutputData = merge(OutputData, AddData, by.x = "fips", by.y = colnames(InputData)[1])
+        OutputData = merge(OutputData, AddData, by.x = "fips", by.y = colnames(InputData)[1],all.x=TRUE)
         OutputColNames <- colnames(OutputData)
       }
     }
   }
 }
-
 ##rewrites to OverallDataset
 ##row.names NEEDS to be false
 ##otherwise First Column will not be Fips Code
