@@ -29,15 +29,30 @@ ACSDATA<-ACSDATA%>%
   group_by(NAME)%>%
   mutate(AffordablityIndex = MedianValueOwner/MedianEarnings, HousingPriceDispersion = UpperQuartileValue/LowerQuartileValue, CostBurdenOwnver=  sum(OwnerCost30_35PIncome,OwnerCostOver35PIncome),
          CostBurdenRenter = sum(RenterCostOver35PIncome,RenterCost30_35PIncome),MutliFamShare = sum(MultiFam2Units,MultiFam20Units,MultiFam5_9Units,MUltiFam3_4Units,MultiFam10_19Units),
-         RentalUnitRatio  =sum(ForRent,RenterOCCUPIED,RenderNotOccupied)/OccupiedHousingUnits)
+         RentalUnitRatio  =sum(ForRent,RenterOCCUPIED,RenderNotOccupied)/OccupiedHousingUnits)%>%
+  ungroup
+
+
 FinalAcs <- ACSDATA %>%
-  select(1:2,TypicalRenterCosts = GrossRent, TypicalOwnerCosts= MedianMontlyCostOwner, AgingHousingStock = PercentHouseholdsBuildPre1940,AffordabilityIndex = AffordablityIndex,HousingPriceDispersion,CostBurdenOwner  =CostBurdenOwnver,CostBurdenRenter, HomeOwnerShipRate,RentalUnitRatio,MultiFamShare=MutliFamShare)
+  select(GEOID,TypicalRenterCosts = GrossRent, TypicalOwnerCosts= MedianMontlyCostOwner, AgingHousingStock = PercentHouseholdsBuildPre1940,AffordabilityIndex = AffordablityIndex,HousingPriceDispersion,CostBurdenOwner  =CostBurdenOwnver,CostBurdenRenter, HomeOwnerShipRate,RentalUnitRatio,MultiFamShare=MutliFamShare)
 
 
-write.csv(FinalAcs,"Data\\CleanData\\Ready_ACS.csv")
+write.csv(FinalAcs,"Data\\CleanData\\Ready_ACS.csv", row.names=FALSE)
+
+MOEData<- MOE%>%
+  group_by(NAME)%>%
+  mutate(x = sum(OwnerCostOver35PIncomeM^2,OwnerCost30_35PIncomeM^2),y=sum(RenterCost30_35PIncomeM^2,RenterCostOver35PIncomeM^2))%>%
+  mutate(CostBurdenOwnersM = sqrt(x))%>%
+  mutate(CostBurdenRenterM= sqrt(y))%>%
+  mutate(a = sum(MultiFam2UnitsM^2,MultiFam20UnitsM^2,MUltiFam3_4UnitsM^2,MultiFam5_9UnitsM^2,MultiFam10_19UnitsM^2))%>%
+  mutate(MultFamShareM = sqrt(a))%>%
+  mutate(b=sum(ForRentM^2,RenterOCCUPIEDM^2,RenderNotOccupiedM^2))%>%
+  mutate(TotalRentalUnitsM=sqrt(b))
 
 
-
+MOEData<- MOEData%>%
+  select(GEOID,NAME,AgingHousingStockM =PercentHouseholdsBuildPre1940M, TypicalOwnerCosts=MedianMontlyCostOwnerM,TypicalRenterCosts=GrossRentM,AffordabilityIndexTOPM=MedianValueOwnerM,AffordabilityIndexBOTM=MedianEarningsM,HousingPriceDispersionTOPM=UpperQuartileValueM,HousingPriceDispersionBOTM=LowerQuartileValueM,CostBurdenOwnersM,CostBurdenRenterM,HomeOwnerShipRateM,MultFamShareM,RentalUnitRatioTOPM=TotalRentalUnitsM,RentalUnitRatioBOTM=OccupiedHousingUnitsM)
+write.csv(MOEData,'Data\\AllCountyData\\ACS_MOE_Values.csv',row.names=FALSE)
 
 ##AFFORABLILITY INDEX  = MEDIAN VALUE / MEDIAN EARNINGS
 ##HOUSING PRICE DISPERSION = UPPERQUARTILE/LOWERQUARTILE
