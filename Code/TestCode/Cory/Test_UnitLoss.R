@@ -88,3 +88,15 @@ Evict<-Evict%>%
   select(FIPS,AverageEvictionFilingsPer1000Households)
 
 write.csv(Evict,"Data\\CleanData\\Ready_Legalaid_AverageEvictionFilings-2020-22.csv",row.names = FALSE)
+
+USPS <-  read_csv("Data\\CleanData\\Ready_USPS_12_2021_Vacancy.csv")
+
+USPSData<- USPS%>%
+  group_by(FIPS)%>%
+  summarise(Count=sum(TotalResidentialAddresses),TotalVacant=sum(VacantResidentialAddresses),TotalVacant36Month=sum(vac_36_res), AverageDaysAddressesVacant=mean(AverageDaysAddressesVacant))
+USPSData<-USPSData%>%
+  mutate(TotalPercentVacant = TotalVacant/Count*100, PercentVacant36Month  = TotalVacant36Month/Count*100)%>%
+  select(FIPS,TotalPercentVacant,PercentVacant36Month)
+
+write.csv(Evict,"Data\\CleanData\\Ready_USPS_12_2021_Vacancy.csv",row.names = FALSE)
+
