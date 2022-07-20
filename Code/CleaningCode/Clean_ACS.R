@@ -36,6 +36,9 @@ FinalAcs <- ACSDATA %>%
 
 write.csv(FinalAcs,"Data\\CleanData\\Ready_ACS.csv")
 
+
+
+
 ##AFFORABLILITY INDEX  = MEDIAN VALUE / MEDIAN EARNINGS
 ##HOUSING PRICE DISPERSION = UPPERQUARTILE/LOWERQUARTILE
 ##Cost Burdened Owner = SUM OwnerCostsPercent...  MOE = root(moe^2 + moe^2)
