@@ -9,7 +9,7 @@ library(ClustOfVar)
 ##Change To OverAll Dataset
 ##Dataset
 
-Data<-read.csv("Data\\AllCountyData\\OverallDatabase.csv")
+Data<-read_csv("Data\\AllCountyData\\OverallDatabase.csv")
 
 
 ##Section Data off to two categories, 
@@ -38,7 +38,7 @@ k.means$cluster
 
 
 ##finds similarities by rows (counties)
-d <- daisy(xquant, metric="euclidean") ##use metric "gower" if have factor values
+d <- daisy(xquant, metric="gower") ##use metric "gower" if have factor values
 
 ##not used 
 fit <- hclust(d=d, method="complete")    # Also try: method="ward.D"   
@@ -49,7 +49,7 @@ rect.hclust(fit, k=4, border="red")
 
 ##can change size of groups
 ##clusters counties into groups based on similar values
-kfit <- kmeans(d, 7)
+kfit <- kmeans(d,7)
 clusplot(as.matrix(d), kfit$cluster, color=T, shade=T, labels=2, lines=0)
 
 
