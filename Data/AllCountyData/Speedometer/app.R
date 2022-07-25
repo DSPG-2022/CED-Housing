@@ -18,6 +18,9 @@ library(readr)
 ##Overall Dataset
 ##IMPORTANT assumes this dataset has a column named "county_name" with county names
 data <- read_csv("OverallDatabase.csv")
+
+IndicatorGroup<- read_excel("indicator_definitions.xlsx")
+
 # Define UI for application that draws a histogram
 ui <- fluidPage(
   
@@ -70,7 +73,8 @@ server <- function(input, output, session) {
     ##From our Overall Dataset, Selects the county name and indicator from either Shiny input or Tableau input
     Data <- data%>%
       select(county_name,value =input$indicator)
-    
+    IndexForColor <- which(IndicatorGroup$Name == input$indicator)
+    Reverse <- IndicatorGroup$`Higher is better`[IndexForColor]
     ##finds the Quartile (But For 3 instead) value breaks
     quartiles <- quantile(Data$value, na.rm =TRUE, probs = seq(0, 1, 1/3))
     
@@ -94,9 +98,9 @@ server <- function(input, output, session) {
       gauge = list(
         axis = list(range = list(min(TotalData$value, na.rm=TRUE), max(TotalData$value, na.rm=TRUE))), #min and max values of graph
         steps = list(
-          list(range = c(quartiles[1],quartiles[2]), color = "#4e79a7"), #adding value ranges by quartile
+          list(range = c(quartiles[1],quartiles[2]), color = ifelse(Reverse == "T","#4e79a7","#f28e2b")), #adding value ranges by quartile
           list(range = c(quartiles[2],quartiles[3]), color = "grey"), #adding value ranges by quartile
-          list(range = c(quartiles[3],quartiles[4]), color = "#f28e2b")),
+          list(range = c(quartiles[3],quartiles[4]), color = ifelse(Reverse == "T","#f28e2b","#4e79a7"))),
         threshold = list(
           line = list(color = "black", width = 4),
           thickness = 1,
