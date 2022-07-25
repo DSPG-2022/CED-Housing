@@ -448,7 +448,7 @@
             <groupfilter function='level-members' level='[none:SubGroup:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
           <filter class='categorical' column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:county_name:nk]'>
-            <groupfilter function='member' level='[none:county_name:nk]' member='&quot;Polk County&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[none:county_name:nk]' member='&quot;Black Hawk County&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <slices>
             <column>[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:county_name:nk]</column>
@@ -465,10 +465,16 @@
             <format attr='text-format' field='[federated.06m7vjz1bm7iby11lkby71j1e34m].[sum:value:ok]' value='n#,##0.00;-#,##0.00' />
             <format attr='text-format' field='[federated.06m7vjz1bm7iby11lkby71j1e34m].[sum:Calculation_3817645166482194433:ok]' value='n#,##0.00;-#,##0.00' />
             <format attr='text-format' field='[federated.06m7vjz1bm7iby11lkby71j1e34m].[sum:Calculation_3817645166481825792:ok]' value='n#,##0.00;-#,##0.00' />
+            <format attr='text-align' field='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:SubGroup:nk]' value='auto' />
           </style-rule>
           <style-rule element='header'>
-            <format attr='width' field='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:name:nk]' value='308' />
+            <format attr='width' field='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:name:nk]' value='332' />
+            <format attr='width' field='[federated.06m7vjz1bm7iby11lkby71j1e34m].[sum:Calculation_3817645166482194433:ok]' value='120' />
+            <format attr='width' field='[federated.06m7vjz1bm7iby11lkby71j1e34m].[sum:Calculation_3817645166481825792:ok]' value='120' />
+            <format attr='width' field='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:SubGroup:nk]' value='88' />
+            <format attr='width' field='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:Group:nk]' value='84' />
             <format attr='band-color' scope='rows' value='#e6e6e6' />
+            <format attr='background-color' field='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:SubGroup:nk]' value='#ffffff' />
           </style-rule>
           <style-rule element='label'>
             <format attr='color' field='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:name:nk]' value='#333333' />
@@ -481,10 +487,15 @@
             <format attr='vertical-align' field='[federated.06m7vjz1bm7iby11lkby71j1e34m].[sum:Calculation_3817645166482194433:ok]' value='center' />
             <format attr='text-format' field='[federated.06m7vjz1bm7iby11lkby71j1e34m].[sum:Calculation_3817645166481825792:ok]' value='n#,##0.00;-#,##0.00' />
             <format attr='text-format' field='[federated.06m7vjz1bm7iby11lkby71j1e34m].[sum:Calculation_3817645166482194433:ok]' value='n#,##0.00;-#,##0.00' />
+            <format attr='text-align' field='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:SubGroup:nk]' value='center' />
+            <format attr='vertical-align' field='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:SubGroup:nk]' value='center' />
           </style-rule>
           <style-rule element='pane'>
             <format attr='band-color' scope='rows' value='#00000000' />
             <format attr='band-color' scope='cols' value='#00000000' />
+            <format attr='border-width' scope='cols' value='1' />
+            <format attr='border-style' scope='cols' value='solid' />
+            <format attr='border-style' data-class='subtotal' scope='rows' value='solid' />
           </style-rule>
           <style-rule element='table'>
             <format attr='band-level' scope='rows' value='2' />
@@ -495,7 +506,7 @@
             <format attr='display-field-labels' scope='cols' value='false' />
           </style-rule>
           <style-rule element='table-div'>
-            <format attr='div-level' scope='rows' value='1' />
+            <format attr='div-level' scope='rows' value='2' />
           </style-rule>
         </style>
         <panes>
@@ -568,15 +579,17 @@
             <column caption='ValueNull' datatype='real' name='[Calculation_3817645166504890376]' role='measure' type='quantitative'>
               <calculation class='tableau' formula='IFNULL(FLOAT([value]),-4)' />
             </column>
+            <column caption='County Name' datatype='string' name='[county_name]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
             <column aggregation='Sum' caption='Fips' datatype='integer' name='[fips]' role='dimension' semantic-role='[County].[Name]' type='ordinal' />
             <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
             <column-instance column='[Calculation_3817645166482530306]' derivation='None' name='[none:Calculation_3817645166482530306:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[county_name]' derivation='None' name='[none:county_name:nk]' pivot='key' type='nominal' />
             <column-instance column='[fips]' derivation='None' name='[none:fips:ok]' pivot='key' type='ordinal' />
             <column-instance column='[value]' derivation='None' name='[none:value:qk]' pivot='key' type='quantitative' />
             <column caption='Value' datatype='real' name='[value]' role='measure' type='quantitative' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[Action (Name)]'>
-            <groupfilter function='member' level='[name]' member='&quot;AverageEvictionFilingsPer1000Households&quot;' user:ui-action-filter='[Action1_4377FE38B93B4ED89CE84D60B5365371]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[name]' member='&quot;InventoryOfHomesForSale&quot;' user:ui-action-filter='[Action1_4377FE38B93B4ED89CE84D60B5365371]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <slices>
             <column>[federated.06m7vjz1bm7iby11lkby71j1e34m].[Action (Name)]</column>
@@ -598,8 +611,15 @@
               <color column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:Calculation_3817645166482530306:ok]' />
               <lod column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:fips:ok]' />
               <lod column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:value:qk]' />
+              <lod column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:county_name:nk]' />
               <geometry column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[Geometry (generated)]' />
             </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true'><![CDATA[<[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:county_name:nk]>]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
             <style>
               <style-rule element='mark'>
                 <format attr='mark-transparency' value='152' />
@@ -611,6 +631,93 @@
         <cols>[federated.06m7vjz1bm7iby11lkby71j1e34m].[Longitude (generated)]</cols>
       </table>
       <simple-id uuid='{679BE8D3-FE80-4BEE-944B-6F7688C64FD3}' />
+    </worksheet>
+    <worksheet name='SelectOneIndicator'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;</run>
+            <run>[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:name:nk]</run>
+            <run>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='OverallDatabaseLong' name='federated.06m7vjz1bm7iby11lkby71j1e34m' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.06m7vjz1bm7iby11lkby71j1e34m'>
+            <column caption='County Name' datatype='string' name='[county_name]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column aggregation='Sum' caption='Fips' datatype='integer' name='[fips]' role='dimension' semantic-role='[County].[Name]' type='ordinal' />
+            <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+            <column-instance column='[county_name]' derivation='None' name='[none:county_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[fips]' derivation='None' name='[none:fips:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[name]' derivation='None' name='[none:name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[value]' derivation='Sum' name='[sum:value:qk]' pivot='key' type='quantitative' />
+            <column caption='Value' datatype='real' name='[value]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:name:nk]'>
+            <groupfilter function='member' level='[none:name:nk]' member='&quot;PercentLIHTCperHousehold&quot;' user:ui-domain='cascading' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.06m7vjz1bm7iby11lkby71j1e34m].[sum:value:qk]' value='Value&#10;'>
+              <formatted-text>
+                <run>Value&#10;</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:name:nk]' value='Indicator&#10;'>
+              <formatted-text>
+                <run>Indicator&#10;</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <color column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[sum:value:qk]' />
+              <text column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[sum:value:qk]' />
+              <lod column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:fips:ok]' />
+              <lod column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:county_name:nk]' />
+              <geometry column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[Geometry (generated)]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true'><![CDATA[<[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:county_name:nk]>]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.06m7vjz1bm7iby11lkby71j1e34m].[Latitude (generated)]</rows>
+        <cols>[federated.06m7vjz1bm7iby11lkby71j1e34m].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{8598F7EC-69A9-425D-B6EC-59C24D786B41}' />
     </worksheet>
     <worksheet name='Sheet 3'>
       <table>
@@ -659,6 +766,67 @@
     </worksheet>
   </worksheets>
   <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Look At One Indicator'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <datasources>
+        <datasource caption='OverallDatabaseLong' name='federated.06m7vjz1bm7iby11lkby71j1e34m' />
+      </datasources>
+      <datasource-dependencies datasource='federated.06m7vjz1bm7iby11lkby71j1e34m'>
+        <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+        <column-instance column='[name]' derivation='None' name='[none:name:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='89000' id='3' name='SelectOneIndicator' w='100100' x='0' y='10875' />
+        <zone h='6625' id='4' mode='dropdown' name='SelectOneIndicator' param='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:name:nk]' show-all='false' type-v2='filter' values='cascading' w='16700' x='2000' y='2875' />
+        <zone h='11000' id='5' name='SelectOneIndicator' pane-specification-id='0' param='[federated.06m7vjz1bm7iby11lkby71j1e34m].[sum:value:qk]' type-v2='color' w='14000' x='84500' y='10750' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='7' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='6' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone h='6625' id='4' mode='dropdown' name='SelectOneIndicator' param='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:name:nk]' show-all='false' type-v2='filter' values='cascading' w='16700' x='2000' y='2875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='89000' id='3' is-fixed='true' name='SelectOneIndicator' w='100100' x='0' y='10875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='11000' id='5' name='SelectOneIndicator' pane-specification-id='0' param='[federated.06m7vjz1bm7iby11lkby71j1e34m].[sum:value:qk]' type-v2='color' w='14000' x='84500' y='10750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{B07373B2-EA8B-413D-8E6B-929253F4C3AB}' />
+    </dashboard>
     <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Profile A County'>
       <style />
       <size maxheight='768' maxwidth='1366' minheight='768' minwidth='1366' preset-index='0' sizing-mode='fixed' />
@@ -685,11 +853,11 @@
             <format attr='margin' value='8' />
           </zone-style>
         </zone>
-        <zone h='86198' id='3' name='IndicatorSummary' w='60029' x='220' y='13672' />
+        <zone h='86198' id='3' name='IndicatorSummary' w='62811' x='220' y='13672' />
         <zone h='8333' id='4' mode='dropdown' name='IndicatorSummary' param='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:county_name:nk]' type-v2='filter' w='16032' x='732' y='2734' />
         <zone h='15104' id='5' name='IndicatorSummary' pane-specification-id='0' param='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:Calculation_3817645166482530306:ok]' type-v2='color' w='5857' x='51830' y='3646' />
-        <zone forceUpdate='' h='70703' id='19' param='https://coryroth.shinyapps.io/Speedometer/?county=Polk County&amp;indicator=MedianValue' type-v2='web' w='39458' x='60542' y='33854' />
-        <zone h='40625' id='8' name='QuartileMapIndicator' w='39971' x='59444' y='1563' />
+        <zone forceUpdate='' h='68750' id='19' param='https://coryroth.shinyapps.io/Speedometer/?county=Black Hawk County&amp;indicator=PercentHudSec8Lost5Year' type-v2='web' w='36896' x='62958' y='35026' />
+        <zone h='37630' id='8' name='QuartileMapIndicator' w='35286' x='63324' y='3906' />
         <zone h='16797' id='34' mode='checklist' name='IndicatorSummary' param='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:Group:nk]' type-v2='filter' values='cascading' w='16105' x='16545' y='1432' />
         <zone h='17448' id='35' mode='dropdown' name='IndicatorSummary' param='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:SubGroup:nk]' type-v2='filter' values='cascading' w='11713' x='32577' y='2474' />
       </zones>
@@ -697,9 +865,9 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1150' minheight='1150' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='42' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97916' id='41' param='vert' type-v2='layout-flow' w='98828' x='586' y='1042'>
-                <zone fixed-size='280' h='40625' id='8' is-fixed='true' name='QuartileMapIndicator' w='39971' x='59444' y='1563'>
+            <zone h='100000' id='51' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97916' id='50' param='vert' type-v2='layout-flow' w='98828' x='586' y='1042'>
+                <zone fixed-size='280' h='37630' id='8' is-fixed='true' name='QuartileMapIndicator' w='35286' x='63324' y='3906'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -735,7 +903,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='86198' id='3' is-fixed='true' name='IndicatorSummary' w='60029' x='220' y='13672'>
+                <zone fixed-size='280' h='86198' id='3' is-fixed='true' name='IndicatorSummary' w='62811' x='220' y='13672'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -744,7 +912,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='15104' id='5' name='IndicatorSummary' pane-specification-id='0' param='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:Calculation_3817645166482530306:ok]' type-v2='color' w='5857' x='47218' y='6510'>
+                <zone h='15104' id='5' name='IndicatorSummary' pane-specification-id='0' param='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:Calculation_3817645166482530306:ok]' type-v2='color' w='5857' x='51830' y='3646'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -753,7 +921,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' forceUpdate='' h='70703' id='43' is-fixed='true' param='https://coryroth.shinyapps.io/Speedometer/?county=Polk County&amp;indicator=PctChange' type-v2='web' w='39458' x='60542' y='33854'>
+                <zone fixed-size='280' forceUpdate='' h='68750' id='19' is-fixed='true' param='https://coryroth.shinyapps.io/Speedometer' type-v2='web' w='36896' x='62958' y='35026'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -806,7 +974,7 @@
       </cards>
       <simple-id uuid='{1F92EAF3-E613-4D68-B227-54297931D1B7}' />
     </window>
-    <window class='worksheet' maximized='true' name='IndicatorSummary'>
+    <window class='worksheet' name='IndicatorSummary'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -835,15 +1003,55 @@
       </cards>
       <simple-id uuid='{A9BD21AF-E25F-4869-85B4-9AEDF1D76493}' />
     </window>
-    <window class='dashboard' name='Profile A County'>
+    <window class='dashboard' maximized='true' name='Profile A County'>
       <viewpoints>
-        <viewpoint name='IndicatorSummary' />
+        <viewpoint name='IndicatorSummary'>
+          <zoom type='entire-view' />
+        </viewpoint>
         <viewpoint name='QuartileMapIndicator'>
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
       <active id='-1' />
       <simple-id uuid='{CDE97573-A9E8-4E45-BB57-BBF13C8AD7FE}' />
+    </window>
+    <window class='dashboard' name='Look At One Indicator'>
+      <viewpoints>
+        <viewpoint name='SelectOneIndicator'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{9137D2EA-5D01-4983-A376-E8432DB1BB2A}' />
+    </window>
+    <window class='worksheet' name='SelectOneIndicator'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:name:nk]' show-all='false' type='filter' values='cascading' />
+            <card pane-specification-id='0' param='[federated.06m7vjz1bm7iby11lkby71j1e34m].[sum:value:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5D8282C2-1920-49DE-9CFE-F037B383210C}' />
     </window>
     <window class='worksheet' name='Sheet 3'>
       <cards>
