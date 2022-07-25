@@ -6,12 +6,12 @@ library(tidyverse)
 pct_change <- read_csv("./Data/RawData/Zillow/All Homes - Smoothed by County.csv") %>%
   filter(StateName == "IA") %>%
   transmute(FIPS = str_c(StateCodeFIPS, MunicipalCodeFIPS),
-            PctChange = (`2022-05-31` - `2017-05-31`) / `2022-05-31` * 100) %>%
+            ZillowHousePriceIndex = (`2022-05-31` - `2017-05-31`) / `2022-05-31` * 100) %>%
   arrange(FIPS)
 
 View(pct_change)
 
-write.csv(pct_change, "Data/CleanData/Indicator_ZillowPctChange.csv",
+write.csv(pct_change, "Data/CleanData/Ready_ZillowPctChange.csv",
           row.names = F)
 
 
