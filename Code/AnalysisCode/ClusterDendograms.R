@@ -11,10 +11,7 @@ library(dendextend)
 
 Data<-read_csv("Data\\AllCountyData\\OverallDatabase.csv")
 
-Data<-Data%>%
-  mutate(HCVPercentPerHouseHold=HCVPercentPerHouseHold/100,PercentMultiFamAssistPerHouseold = PercentMultiFamAssistPerHouseold/100,PercentHudSec8Lost5Year= PercentHudSec8Lost5Year/100,
-         PercentLIHTCperHousehold=PercentLIHTCperHousehold/100,Percent_515Properties=Percent_515Properties/100,PercentLILost5Year=PercentLILost5Year/100,PercentUSDAsec515Lost5Year=PercentUSDAsec515Lost5Year/100)%>%
-  mutate(X5YearPctChange=X5YearPctChange/100,PctChange=PctChange/100,MultiFamHomeConstructPct=MultiFamHomeConstructPct/100,SingleFamHomeConstructPct=SingleFamHomeConstructPct/100,AverageEvictionFilingsPer1000Households=AverageEvictionFilingsPer1000Households/1000)
+
 ##Section Data off to two categories, 
 ##xquant will be all columns with numeric values
 ## xqual will be all columns with factors (strings) values
@@ -30,7 +27,7 @@ dend <- as.dendrogram(tree)
 
 dend_labels <- labels(dend)
 plot(dend)
-text(x = 1:length(dend_labels), labels = dend_labels, srt = 90, adj = c(1,1), xpd = T)
+text(x = 1:length(dend_labels), labels = dend_labels, srt = 70, adj = c(1,1), xpd = T)
 plot(tree)
 
 
