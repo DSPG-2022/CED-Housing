@@ -69,25 +69,10 @@ ggraph(wordnetwork, layout = "fr") +
 atlantic <- read_csv("./Data/RawData/Qualtrics Survey/AtlanticSurvey.csv")
 potta <- read_csv("./Data/RawData/Qualtrics Survey/East PottawattamieSurvey.csv")
 harrison <- read_csv("./Data/RawData/Qualtrics Survey/HarrisonSurvey.csv")
-
-data <- atlantic$Q18_5_TEXT
-titl <- atlantic$Q18_5_TEXT[1]
-
-data <- tolower(atlantic$Q19)
-titl <- atlantic$Q19[1]
-
-data <- tolower(atlantic$Q20)
-titl <- atlantic$Q20[1]
-  
-data <-  tolower(potta$Q33)
-titl <- potta$Q33[1]
-
-data <- tolower(harrison$Q33)
-titl <-harrison$Q33[1]
-
-data <- tolower(harrison$Q16)
-titl <- harrison$Q16[1]
-
+mills <- read_csv("./Data/RawData/Qualtrics Survey/MillsSurvey.csv")
+idagrove <- read_csv("./Data/RawData/Qualtrics Survey/IdaGroveSurvey.csv")
+knoxville <- read_csv("./Data/RawData/Qualtrics Survey/KnoxvilleSurvey.csv")
+grinnell <- read_csv("./Data/RawData/Qualtrics Survey/GrinnellSurvey.csv")
 
 ### function for simple wordclouds
 # First download the model
@@ -110,15 +95,13 @@ word_frequency <- function(data, titl = "No title provided", udmodel, word_type 
     theme(plot.title = element_text(hjust = 0.5)) +
     theme_minimal())
 }
-
-word_frequency(atlantic$Q18_5_TEXT, "test", udmodel = model)
-
-word_frequency(atlantic$Q18_5_TEXT, "test", udmodel = model,
-               word_type = c("VERB", "NOUN"), top_n = 30)
-
-
 ############# collocation
-
+library(tidyverse)
+library(ggwordcloud)
+library(readxl)
+library(udpipe)
+library(textrank)
+model <- udpipe_download_model(language = "english")
 collocation <- function(data, titl = "No title provided", udmodel, word_type = "NOUN",
                         top_n = 25){
   require(udpipe)
@@ -146,12 +129,89 @@ collocation <- function(data, titl = "No title provided", udmodel, word_type = "
     geom_node_text(aes(label = name), col = "darkgreen", size = 4) +
     theme_graph(base_family = "Arial Narrow") +
     theme(legend.position = "none") +
-    labs(title = titl, subtitle = "Nouns, Adjective and Verbs"))
+    labs(title = titl))
 }
 
 
-collocation(atlantic$Q18_5_TEXT, "test", udmodel = model,
+#### atlantic
+
+word_frequency(atlantic$Q18_5_TEXT, "What should be the top priorities for improving housing in Atlantic?", 
+               udmodel = model,
                word_type = c("VERB", "NOUN"), top_n = 30)
+collocation(atlantic$Q18_5_TEXT, "What should be the top priorities for improving housing in Atlantic?", udmodel = model,
+               word_type = c("VERB", "NOUN"), top_n = 30)
+
+word_frequency(atlantic$Q15_5_TEXT, "In your experience, what is the main barrier to home ownership in Atlantic?", udmodel = model,
+            word_type = c("NOUN"), top_n = 30)
+collocation(atlantic$Q15_5_TEXT, "In your experience, what is the main barrier to home ownership in Atlantic?", udmodel = model,
+            word_type = c("VERB", "NOUN"), top_n = 30)
+
+word_frequency(atlantic$Q4_5_TEXT, "What is the main reason you do not live in Atlantic?", udmodel = model,
+            word_type = c("VERB", "NOUN"), top_n = 30)
+collocation(atlantic$Q33, "What is the main reason you do not live in Atlantic?", udmodel = model,
+            word_type = c("VERB", "NOUN"), top_n = 30)
+
+#### harrison
+word_frequency(harrison$Q33, "Harrison: What community amenities are important to you in choosing a location to live?", 
+               udmodel = model,
+               word_type = c("NOUN"), top_n = 30)
+collocation(harrison$Q33, "Harrison: What community amenities are important to you in choosing a location to live?", 
+               udmodel = model,
+               word_type = c("NOUN"), top_n = 30)
+
+#### potta
+word_frequency(potta$Q33, "Pottawattamie: What community amenities are important to you in choosing a location to live?", 
+               udmodel = model,
+               word_type = c("ADJ"), top_n = 30)
+collocation(potta$Q33, "Pottawattamie: What community amenities are important to you in choosing a location to live?", 
+               udmodel = model,
+               word_type = c("ADJ", "NOUN"), top_n = 30)
+
+#### mills
+collocation(mills$Q33, "Mills: What community amenities are important to you in choosing a location to live?", 
+            udmodel = model,
+            word_type = c("ADJ", "NOUN"), top_n = 30)
+word_frequency(mills$Q33, "Mills: What community amenities are important to you in choosing a location to live?", 
+            udmodel = model,
+            word_type = c("ADJ", "NOUN"), top_n = 30)
+
+#### grinnell 
+collocation(grinnell$Q18_5_TEXT, "What should be the top priorities for improving housing in Grinnell?", 
+            udmodel = model,
+            word_type = c("ADJ", "NOUN"), top_n = 30)
+collocation(grinnell$Q20, "What are the SPECIFIC ACTIONS that we, as a community, should take to improve access to quality and affordable housing in Grinnell?", 
+            udmodel = model,
+            word_type = c("VERB", "NOUN"), top_n = 50)
+collocation(grinnell$Q19, "What is holding Grinnell back from improving housing options?", 
+            udmodel = model,
+            word_type = c("VERB", "NOUN"), top_n = 30)
+
+#### idagrove
+collocation(idagrove$Q22_5_TEXT, "What should be the top priorities for improving housing in Ida Grove?", 
+            udmodel = model,
+            word_type = c("VERB", "NOUN"), top_n = 30)
+collocation(idagrove$Q23, "What might make it difficult for us as a community to improve housing in Ida Grove?", 
+            udmodel = model,
+            word_type = c("VERB", "NOUN"), top_n = 30)
+collocation(idagrove$Q24, idagrove$Q24[1], 
+            udmodel = model,
+            word_type = c("VERB", "NOUN"), top_n = 30)
+
+#### knoxville
+collocation(knoxville$Q18_5_TEXT, "What should be the top priorities for improving housing in knoxville?", 
+            udmodel = model,
+            word_type = c("ADJ", "NOUN"), top_n = 30)
+collocation(knoxville$Q20, "What are the SPECIFIC ACTIONS that we, as a community, should take to improve access to quality and affordable housing in knoxville?", 
+            udmodel = model,
+            word_type = c("VERB", "NOUN"), top_n = 50)
+collocation(knoxville$Q19, "What is holding knoxville back from improving housing options?", 
+            udmodel = model,
+            word_type = c("VERB", "NOUN"), top_n = 30)
+
+
+
+
+
 
 
 
