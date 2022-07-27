@@ -98,9 +98,9 @@ server <- function(input, output, session) {
       gauge = list(
         axis = list(range = list(min(TotalData$value, na.rm=TRUE), max(TotalData$value, na.rm=TRUE))), #min and max values of graph
         steps = list(
-          list(range = c(quartiles[1],quartiles[2]), color = ifelse(Reverse == "T","#4e79a7","#f28e2b")), #adding value ranges by quartile
+          list(range = c(quartiles[1],quartiles[2]), color = ifelse(Reverse == "F","#4e79a7","#f28e2b")), #adding value ranges by quartile
           list(range = c(quartiles[2],quartiles[3]), color = "grey"), #adding value ranges by quartile
-          list(range = c(quartiles[3],quartiles[4]), color = ifelse(Reverse == "T","#f28e2b","#4e79a7"))),
+          list(range = c(quartiles[3],quartiles[4]), color = ifelse(Reverse == "F","#f28e2b","#4e79a7"))),
         threshold = list(
           line = list(color = "black", width = 4),
           thickness = 1,
