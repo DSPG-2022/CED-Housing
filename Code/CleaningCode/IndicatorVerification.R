@@ -23,7 +23,8 @@ rented_houses <- get_acs(
   variables = c(rented_houses = "S2502_C05_001E"), 
   state = "IA",
   year = 2020
-) %>% select(rented_houses = estimate, FIPS = GEOID) 
+) %>% 
+  select(rented_houses = estimate, FIPS = GEOID) 
 
 filings19$COUNTY <- tolower(filings19$COUNTY) 
 cases19 <- filings19 %>%
@@ -58,7 +59,7 @@ allevictions <- merge(evictions19and20, cases21, by.x= "COUNTY", all.x = T, all.
 final.df <- merge(allevictions, rented_houses, by.x = "COUNTY", all.x = T, all.y = T) %>% 
   arrange(COUNTY) %>%
   mutate(AverageEvictionFilingsPer1000Households = ((Evictions2019 + Evictions2020+ Evictions2021)/3)/rented_houses * 1000,
-         EvictionFilings2021.2019 = Evictions2021 / Evictions2019 - 1)
+         EvictionFilings2021.2019 = ((Evictions2021 / Evictions2019) - 1)* 100)
 
 task1 <- final.df %>%
   select(COUNTY, AverageEvictionFilingsPer1000Households)
@@ -67,8 +68,6 @@ task2 <- final.df %>%
   select(COUNTY, EvictionFilings2021.2019)
 
 write.csv(task1, "Data/CleanData/Indicator_AverageEvictionFilingsPer1000Households.csv",row.names = F)
-write.csv(task2, "Data/CleanData/EvictionFilings2021.2019.csv",row.names = F)
-
-
+write.csv(task2, "Data/CleanData/Indicator_EvictionFilings2021.2019.csv",row.names = F)
 
 
