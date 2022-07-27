@@ -10,11 +10,11 @@
 19001,"Adair County, Iowa","MultFamShare",2.366431913
 19001,"Adair County, Iowa","RentalUnitRatio",0.038434462
 19001,"Adair County, Iowa","Gini_index_income_inequality_EST",0.0292
-19001,"Adair County, Iowa","Pct_prime_working_age",1.58113883008419
-19001,"Adair County, Iowa","Old_age_dependency_ratio",1
-19001,"Adair County, Iowa","Pct_language_barrier",0.3
-19001,"Adair County, Iowa","Pct_disability",1.8
-19001,"Adair County, Iowa","Pct_poverty",2.1
+19001,"Adair County, Iowa","Pct_prime_working_age_EST",1.58113883008419
+19001,"Adair County, Iowa","Old_age_dependency_ratio_EST",1
+19001,"Adair County, Iowa","Pct_language_barrier_EST",0.3
+19001,"Adair County, Iowa","Pct_disability_EST",1.8
+19001,"Adair County, Iowa","Pct_poverty_EST",2.1
 19003,"Adams County, Iowa","AgingHousingStock",4.3
 19003,"Adams County, Iowa","TypicalOwnerCosts",62
 19003,"Adams County, Iowa","TypicalRenterCosts",78
@@ -26,11 +26,11 @@
 19003,"Adams County, Iowa","MultFamShare",2.304343724
 19003,"Adams County, Iowa","RentalUnitRatio",0.045719945
 19003,"Adams County, Iowa","Gini_index_income_inequality_EST",0.0302
-19003,"Adams County, Iowa","Pct_prime_working_age",1.70880074906351
-19003,"Adams County, Iowa","Old_age_dependency_ratio",1.3
-19003,"Adams County, Iowa","Pct_language_barrier",0.3
-19003,"Adams County, Iowa","Pct_disability",1.9
-19003,"Adams County, Iowa","Pct_poverty",3.4
+19003,"Adams County, Iowa","Pct_prime_working_age_EST",1.70880074906351
+19003,"Adams County, Iowa","Old_age_dependency_ratio_EST",1.3
+19003,"Adams County, Iowa","Pct_language_barrier_EST",0.3
+19003,"Adams County, Iowa","Pct_disability_EST",1.9
+19003,"Adams County, Iowa","Pct_poverty_EST",3.4
 19005,"Allamakee County, Iowa","AgingHousingStock",3.3
 19005,"Allamakee County, Iowa","TypicalOwnerCosts",67
 19005,"Allamakee County, Iowa","TypicalRenterCosts",39
@@ -42,11 +42,11 @@
 19005,"Allamakee County, Iowa","MultFamShare",1.95192213
 19005,"Allamakee County, Iowa","RentalUnitRatio",0.031428968
 19005,"Allamakee County, Iowa","Gini_index_income_inequality_EST",0.0241
-19005,"Allamakee County, Iowa","Pct_prime_working_age",1.5
-19005,"Allamakee County, Iowa","Old_age_dependency_ratio",0.4
-19005,"Allamakee County, Iowa","Pct_language_barrier",1.5
-19005,"Allamakee County, Iowa","Pct_disability",1.7
-19005,"Allamakee County, Iowa","Pct_poverty",2.1
+19005,"Allamakee County, Iowa","Pct_prime_working_age_EST",1.5
+19005,"Allamakee County, Iowa","Old_age_dependency_ratio_EST",0.4
+19005,"Allamakee County, Iowa","Pct_language_barrier_EST",1.5
+19005,"Allamakee County, Iowa","Pct_disability_EST",1.7
+19005,"Allamakee County, Iowa","Pct_poverty_EST",2.1
 19007,"Appanoose County, Iowa","AgingHousingStock",3.7
 19007,"Appanoose County, Iowa","TypicalOwnerCosts",48
 19007,"Appanoose County, Iowa","TypicalRenterCosts",42
@@ -58,11 +58,11 @@
 19007,"Appanoose County, Iowa","MultFamShare",2.734958866
 19007,"Appanoose County, Iowa","RentalUnitRatio",0.045308575
 19007,"Appanoose County, Iowa","Gini_index_income_inequality_EST",0.0499
-19007,"Appanoose County, Iowa","Pct_prime_working_age",1.22474487139159
-19007,"Appanoose County, Iowa","Old_age_dependency_ratio",1.1
-19007,"Appanoose County, Iowa","Pct_language_barrier",0.7
-19007,"Appanoose County, Iowa","Pct_disability",2.2
-19007,"Appanoose County, Iowa","Pct_poverty",4
+19007,"Appanoose County, Iowa","Pct_prime_working_age_EST",1.22474487139159
+19007,"Appanoose County, Iowa","Old_age_dependency_ratio_EST",1.1
+19007,"Appanoose County, Iowa","Pct_language_barrier_EST",0.7
+19007,"Appanoose County, Iowa","Pct_disability_EST",2.2
+19007,"Appanoose County, Iowa","Pct_poverty_EST",4
 19009,"Audubon County, Iowa","AgingHousingStock",4.2
 19009,"Audubon County, Iowa","TypicalOwnerCosts",33
 19009,"Audubon County, Iowa","TypicalRenterCosts",50
@@ -74,11 +74,11 @@
 19009,"Audubon County, Iowa","MultFamShare",1.621727474
 19009,"Audubon County, Iowa","RentalUnitRatio",0.04191156
 19009,"Audubon County, Iowa","Gini_index_income_inequality_EST",0.0203
-19009,"Audubon County, Iowa","Pct_prime_working_age",1.50996688705415
-19009,"Audubon County, Iowa","Old_age_dependency_ratio",0.2
-19009,"Audubon County, Iowa","Pct_language_barrier",0.3
-19009,"Audubon County, Iowa","Pct_disability",2.2
-19009,"Audubon County, Iowa","Pct_poverty",2.2
+19009,"Audubon County, Iowa","Pct_prime_working_age_EST",1.50996688705415
+19009,"Audubon County, Iowa","Old_age_dependency_ratio_EST",0.2
+19009,"Audubon County, Iowa","Pct_language_barrier_EST",0.3
+19009,"Audubon County, Iowa","Pct_disability_EST",2.2
+19009,"Audubon County, Iowa","Pct_poverty_EST",2.2
 19011,"Benton County, Iowa","AgingHousingStock",2.5
 19011,"Benton County, Iowa","TypicalOwnerCosts",44
 19011,"Benton County, Iowa","TypicalRenterCosts",63
@@ -90,11 +90,11 @@
 19011,"Benton County, Iowa","MultFamShare",0.92736185
 19011,"Benton County, Iowa","RentalUnitRatio",0.025682509
 19011,"Benton County, Iowa","Gini_index_income_inequality_EST",0.0153
-19011,"Benton County, Iowa","Pct_prime_working_age",0.905538513813742
-19011,"Benton County, Iowa","Old_age_dependency_ratio",0.3
-19011,"Benton County, Iowa","Pct_language_barrier",0.2
-19011,"Benton County, Iowa","Pct_disability",1
-19011,"Benton County, Iowa","Pct_poverty",1.5
+19011,"Benton County, Iowa","Pct_prime_working_age_EST",0.905538513813742
+19011,"Benton County, Iowa","Old_age_dependency_ratio_EST",0.3
+19011,"Benton County, Iowa","Pct_language_barrier_EST",0.2
+19011,"Benton County, Iowa","Pct_disability_EST",1
+19011,"Benton County, Iowa","Pct_poverty_EST",1.5
 19013,"Black Hawk County, Iowa","AgingHousingStock",1.1
 19013,"Black Hawk County, Iowa","TypicalOwnerCosts",24
 19013,"Black Hawk County, Iowa","TypicalRenterCosts",20
@@ -106,11 +106,11 @@
 19013,"Black Hawk County, Iowa","MultFamShare",1.256980509
 19013,"Black Hawk County, Iowa","RentalUnitRatio",0.013554964
 19013,"Black Hawk County, Iowa","Gini_index_income_inequality_EST",0.0135
-19013,"Black Hawk County, Iowa","Pct_prime_working_age",0.6
-19013,"Black Hawk County, Iowa","Old_age_dependency_ratio",0.1
-19013,"Black Hawk County, Iowa","Pct_language_barrier",0.6
-19013,"Black Hawk County, Iowa","Pct_disability",0.7
-19013,"Black Hawk County, Iowa","Pct_poverty",1.1
+19013,"Black Hawk County, Iowa","Pct_prime_working_age_EST",0.6
+19013,"Black Hawk County, Iowa","Old_age_dependency_ratio_EST",0.1
+19013,"Black Hawk County, Iowa","Pct_language_barrier_EST",0.6
+19013,"Black Hawk County, Iowa","Pct_disability_EST",0.7
+19013,"Black Hawk County, Iowa","Pct_poverty_EST",1.1
 19015,"Boone County, Iowa","AgingHousingStock",2.7
 19015,"Boone County, Iowa","TypicalOwnerCosts",46
 19015,"Boone County, Iowa","TypicalRenterCosts",40
@@ -122,11 +122,11 @@
 19015,"Boone County, Iowa","MultFamShare",2.085665361
 19015,"Boone County, Iowa","RentalUnitRatio",0.030649461
 19015,"Boone County, Iowa","Gini_index_income_inequality_EST",0.0192
-19015,"Boone County, Iowa","Pct_prime_working_age",1.41067359796659
-19015,"Boone County, Iowa","Old_age_dependency_ratio",0.2
-19015,"Boone County, Iowa","Pct_language_barrier",0.3
-19015,"Boone County, Iowa","Pct_disability",1.5
-19015,"Boone County, Iowa","Pct_poverty",1.6
+19015,"Boone County, Iowa","Pct_prime_working_age_EST",1.41067359796659
+19015,"Boone County, Iowa","Old_age_dependency_ratio_EST",0.2
+19015,"Boone County, Iowa","Pct_language_barrier_EST",0.3
+19015,"Boone County, Iowa","Pct_disability_EST",1.5
+19015,"Boone County, Iowa","Pct_poverty_EST",1.6
 19017,"Bremer County, Iowa","AgingHousingStock",2.4
 19017,"Bremer County, Iowa","TypicalOwnerCosts",45
 19017,"Bremer County, Iowa","TypicalRenterCosts",75
@@ -138,11 +138,11 @@
 19017,"Bremer County, Iowa","MultFamShare",1.941648784
 19017,"Bremer County, Iowa","RentalUnitRatio",0.02143612
 19017,"Bremer County, Iowa","Gini_index_income_inequality_EST",0.0192
-19017,"Bremer County, Iowa","Pct_prime_working_age",0.888819441731559
-19017,"Bremer County, Iowa","Old_age_dependency_ratio",0.5
-19017,"Bremer County, Iowa","Pct_language_barrier",0.5
-19017,"Bremer County, Iowa","Pct_disability",1.1
-19017,"Bremer County, Iowa","Pct_poverty",1.5
+19017,"Bremer County, Iowa","Pct_prime_working_age_EST",0.888819441731559
+19017,"Bremer County, Iowa","Old_age_dependency_ratio_EST",0.5
+19017,"Bremer County, Iowa","Pct_language_barrier_EST",0.5
+19017,"Bremer County, Iowa","Pct_disability_EST",1.1
+19017,"Bremer County, Iowa","Pct_poverty_EST",1.5
 19019,"Buchanan County, Iowa","AgingHousingStock",2.4
 19019,"Buchanan County, Iowa","TypicalOwnerCosts",56
 19019,"Buchanan County, Iowa","TypicalRenterCosts",53
@@ -154,11 +154,11 @@
 19019,"Buchanan County, Iowa","MultFamShare",1.679285562
 19019,"Buchanan County, Iowa","RentalUnitRatio",0.027224111
 19019,"Buchanan County, Iowa","Gini_index_income_inequality_EST",0.0551
-19019,"Buchanan County, Iowa","Pct_prime_working_age",1.17473401244707
-19019,"Buchanan County, Iowa","Old_age_dependency_ratio",0.9
-19019,"Buchanan County, Iowa","Pct_language_barrier",0.4
-19019,"Buchanan County, Iowa","Pct_disability",1.2
-19019,"Buchanan County, Iowa","Pct_poverty",1.4
+19019,"Buchanan County, Iowa","Pct_prime_working_age_EST",1.17473401244707
+19019,"Buchanan County, Iowa","Old_age_dependency_ratio_EST",0.9
+19019,"Buchanan County, Iowa","Pct_language_barrier_EST",0.4
+19019,"Buchanan County, Iowa","Pct_disability_EST",1.2
+19019,"Buchanan County, Iowa","Pct_poverty_EST",1.4
 19021,"Buena Vista County, Iowa","AgingHousingStock",3.1
 19021,"Buena Vista County, Iowa","TypicalOwnerCosts",66
 19021,"Buena Vista County, Iowa","TypicalRenterCosts",32
@@ -170,11 +170,11 @@
 19021,"Buena Vista County, Iowa","MultFamShare",3.940812099
 19021,"Buena Vista County, Iowa","RentalUnitRatio",0.036231415
 19021,"Buena Vista County, Iowa","Gini_index_income_inequality_EST",0.0147
-19021,"Buena Vista County, Iowa","Pct_prime_working_age",1.7832554500127
-19021,"Buena Vista County, Iowa","Old_age_dependency_ratio",1
-19021,"Buena Vista County, Iowa","Pct_language_barrier",1.7
-19021,"Buena Vista County, Iowa","Pct_disability",1.2
-19021,"Buena Vista County, Iowa","Pct_poverty",2.6
+19021,"Buena Vista County, Iowa","Pct_prime_working_age_EST",1.7832554500127
+19021,"Buena Vista County, Iowa","Old_age_dependency_ratio_EST",1
+19021,"Buena Vista County, Iowa","Pct_language_barrier_EST",1.7
+19021,"Buena Vista County, Iowa","Pct_disability_EST",1.2
+19021,"Buena Vista County, Iowa","Pct_poverty_EST",2.6
 19023,"Butler County, Iowa","AgingHousingStock",2.5
 19023,"Butler County, Iowa","TypicalOwnerCosts",29
 19023,"Butler County, Iowa","TypicalRenterCosts",58
@@ -186,11 +186,11 @@
 19023,"Butler County, Iowa","MultFamShare",1.311487705
 19023,"Butler County, Iowa","RentalUnitRatio",0.025542295
 19023,"Butler County, Iowa","Gini_index_income_inequality_EST",0.0274
-19023,"Butler County, Iowa","Pct_prime_working_age",1.09544511501033
-19023,"Butler County, Iowa","Old_age_dependency_ratio",0.4
-19023,"Butler County, Iowa","Pct_language_barrier",0.5
-19023,"Butler County, Iowa","Pct_disability",1.3
-19023,"Butler County, Iowa","Pct_poverty",1.4
+19023,"Butler County, Iowa","Pct_prime_working_age_EST",1.09544511501033
+19023,"Butler County, Iowa","Old_age_dependency_ratio_EST",0.4
+19023,"Butler County, Iowa","Pct_language_barrier_EST",0.5
+19023,"Butler County, Iowa","Pct_disability_EST",1.3
+19023,"Butler County, Iowa","Pct_poverty_EST",1.4
 19025,"Calhoun County, Iowa","AgingHousingStock",3
 19025,"Calhoun County, Iowa","TypicalOwnerCosts",27
 19025,"Calhoun County, Iowa","TypicalRenterCosts",27
@@ -202,11 +202,11 @@
 19025,"Calhoun County, Iowa","MultFamShare",1.763519209
 19025,"Calhoun County, Iowa","RentalUnitRatio",0.031843647
 19025,"Calhoun County, Iowa","Gini_index_income_inequality_EST",0.0207
-19025,"Calhoun County, Iowa","Pct_prime_working_age",1.3228756555323
-19025,"Calhoun County, Iowa","Old_age_dependency_ratio",0.7
-19025,"Calhoun County, Iowa","Pct_language_barrier",0.3
-19025,"Calhoun County, Iowa","Pct_disability",1.3
-19025,"Calhoun County, Iowa","Pct_poverty",1.5
+19025,"Calhoun County, Iowa","Pct_prime_working_age_EST",1.3228756555323
+19025,"Calhoun County, Iowa","Old_age_dependency_ratio_EST",0.7
+19025,"Calhoun County, Iowa","Pct_language_barrier_EST",0.3
+19025,"Calhoun County, Iowa","Pct_disability_EST",1.3
+19025,"Calhoun County, Iowa","Pct_poverty_EST",1.5
 19027,"Carroll County, Iowa","AgingHousingStock",2.3
 19027,"Carroll County, Iowa","TypicalOwnerCosts",47
 19027,"Carroll County, Iowa","TypicalRenterCosts",35
@@ -218,11 +218,11 @@
 19027,"Carroll County, Iowa","MultFamShare",1.646207763
 19027,"Carroll County, Iowa","RentalUnitRatio",0.03252192
 19027,"Carroll County, Iowa","Gini_index_income_inequality_EST",0.0187
-19027,"Carroll County, Iowa","Pct_prime_working_age",1.29228479833201
-19027,"Carroll County, Iowa","Old_age_dependency_ratio",0.9
-19027,"Carroll County, Iowa","Pct_language_barrier",0.8
-19027,"Carroll County, Iowa","Pct_disability",1.2
-19027,"Carroll County, Iowa","Pct_poverty",1.4
+19027,"Carroll County, Iowa","Pct_prime_working_age_EST",1.29228479833201
+19027,"Carroll County, Iowa","Old_age_dependency_ratio_EST",0.9
+19027,"Carroll County, Iowa","Pct_language_barrier_EST",0.8
+19027,"Carroll County, Iowa","Pct_disability_EST",1.2
+19027,"Carroll County, Iowa","Pct_poverty_EST",1.4
 19029,"Cass County, Iowa","AgingHousingStock",3.4
 19029,"Cass County, Iowa","TypicalOwnerCosts",50
 19029,"Cass County, Iowa","TypicalRenterCosts",51
@@ -234,11 +234,11 @@
 19029,"Cass County, Iowa","MultFamShare",2.457641145
 19029,"Cass County, Iowa","RentalUnitRatio",0.038520612
 19029,"Cass County, Iowa","Gini_index_income_inequality_EST",0.0321
-19029,"Cass County, Iowa","Pct_prime_working_age",1.53622914957372
-19029,"Cass County, Iowa","Old_age_dependency_ratio",0.6
-19029,"Cass County, Iowa","Pct_language_barrier",0.9
-19029,"Cass County, Iowa","Pct_disability",1.6
-19029,"Cass County, Iowa","Pct_poverty",2.5
+19029,"Cass County, Iowa","Pct_prime_working_age_EST",1.53622914957372
+19029,"Cass County, Iowa","Old_age_dependency_ratio_EST",0.6
+19029,"Cass County, Iowa","Pct_language_barrier_EST",0.9
+19029,"Cass County, Iowa","Pct_disability_EST",1.6
+19029,"Cass County, Iowa","Pct_poverty_EST",2.5
 19031,"Cedar County, Iowa","AgingHousingStock",2.9
 19031,"Cedar County, Iowa","TypicalOwnerCosts",53
 19031,"Cedar County, Iowa","TypicalRenterCosts",53
@@ -250,11 +250,11 @@
 19031,"Cedar County, Iowa","MultFamShare",1.702938637
 19031,"Cedar County, Iowa","RentalUnitRatio",0.023593944
 19031,"Cedar County, Iowa","Gini_index_income_inequality_EST",0.0179
-19031,"Cedar County, Iowa","Pct_prime_working_age",1.27671453348037
-19031,"Cedar County, Iowa","Old_age_dependency_ratio",0.4
-19031,"Cedar County, Iowa","Pct_language_barrier",0.3
-19031,"Cedar County, Iowa","Pct_disability",1.3
-19031,"Cedar County, Iowa","Pct_poverty",1.3
+19031,"Cedar County, Iowa","Pct_prime_working_age_EST",1.27671453348037
+19031,"Cedar County, Iowa","Old_age_dependency_ratio_EST",0.4
+19031,"Cedar County, Iowa","Pct_language_barrier_EST",0.3
+19031,"Cedar County, Iowa","Pct_disability_EST",1.3
+19031,"Cedar County, Iowa","Pct_poverty_EST",1.3
 19033,"Cerro Gordo County, Iowa","AgingHousingStock",2
 19033,"Cerro Gordo County, Iowa","TypicalOwnerCosts",34
 19033,"Cerro Gordo County, Iowa","TypicalRenterCosts",22
@@ -266,11 +266,11 @@
 19033,"Cerro Gordo County, Iowa","MultFamShare",1.618641406
 19033,"Cerro Gordo County, Iowa","RentalUnitRatio",0.023406774
 19033,"Cerro Gordo County, Iowa","Gini_index_income_inequality_EST",0.0204
-19033,"Cerro Gordo County, Iowa","Pct_prime_working_age",1.14455231422596
-19033,"Cerro Gordo County, Iowa","Old_age_dependency_ratio",0.5
-19033,"Cerro Gordo County, Iowa","Pct_language_barrier",0.4
-19033,"Cerro Gordo County, Iowa","Pct_disability",1.3
-19033,"Cerro Gordo County, Iowa","Pct_poverty",1.3
+19033,"Cerro Gordo County, Iowa","Pct_prime_working_age_EST",1.14455231422596
+19033,"Cerro Gordo County, Iowa","Old_age_dependency_ratio_EST",0.5
+19033,"Cerro Gordo County, Iowa","Pct_language_barrier_EST",0.4
+19033,"Cerro Gordo County, Iowa","Pct_disability_EST",1.3
+19033,"Cerro Gordo County, Iowa","Pct_poverty_EST",1.3
 19035,"Cherokee County, Iowa","AgingHousingStock",3.7
 19035,"Cherokee County, Iowa","TypicalOwnerCosts",46
 19035,"Cherokee County, Iowa","TypicalRenterCosts",19
@@ -282,11 +282,11 @@
 19035,"Cherokee County, Iowa","MultFamShare",2.477902339
 19035,"Cherokee County, Iowa","RentalUnitRatio",0.038011282
 19035,"Cherokee County, Iowa","Gini_index_income_inequality_EST",0.0218
-19035,"Cherokee County, Iowa","Pct_prime_working_age",1.87882942280559
-19035,"Cherokee County, Iowa","Old_age_dependency_ratio",0.5
-19035,"Cherokee County, Iowa","Pct_language_barrier",0.1
-19035,"Cherokee County, Iowa","Pct_disability",1.6
-19035,"Cherokee County, Iowa","Pct_poverty",3.5
+19035,"Cherokee County, Iowa","Pct_prime_working_age_EST",1.87882942280559
+19035,"Cherokee County, Iowa","Old_age_dependency_ratio_EST",0.5
+19035,"Cherokee County, Iowa","Pct_language_barrier_EST",0.1
+19035,"Cherokee County, Iowa","Pct_disability_EST",1.6
+19035,"Cherokee County, Iowa","Pct_poverty_EST",3.5
 19037,"Chickasaw County, Iowa","AgingHousingStock",2.8
 19037,"Chickasaw County, Iowa","TypicalOwnerCosts",50
 19037,"Chickasaw County, Iowa","TypicalRenterCosts",58
@@ -298,11 +298,11 @@
 19037,"Chickasaw County, Iowa","MultFamShare",1.655294536
 19037,"Chickasaw County, Iowa","RentalUnitRatio",0.030089682
 19037,"Chickasaw County, Iowa","Gini_index_income_inequality_EST",0.0262
-19037,"Chickasaw County, Iowa","Pct_prime_working_age",1.30384048104053
-19037,"Chickasaw County, Iowa","Old_age_dependency_ratio",0.2
-19037,"Chickasaw County, Iowa","Pct_language_barrier",1.2
-19037,"Chickasaw County, Iowa","Pct_disability",1.8
-19037,"Chickasaw County, Iowa","Pct_poverty",2.1
+19037,"Chickasaw County, Iowa","Pct_prime_working_age_EST",1.30384048104053
+19037,"Chickasaw County, Iowa","Old_age_dependency_ratio_EST",0.2
+19037,"Chickasaw County, Iowa","Pct_language_barrier_EST",1.2
+19037,"Chickasaw County, Iowa","Pct_disability_EST",1.8
+19037,"Chickasaw County, Iowa","Pct_poverty_EST",2.1
 19039,"Clarke County, Iowa","AgingHousingStock",5
 19039,"Clarke County, Iowa","TypicalOwnerCosts",102
 19039,"Clarke County, Iowa","TypicalRenterCosts",157
@@ -314,11 +314,11 @@
 19039,"Clarke County, Iowa","MultFamShare",4.180908992
 19039,"Clarke County, Iowa","RentalUnitRatio",0.055243334
 19039,"Clarke County, Iowa","Gini_index_income_inequality_EST",0.0375
-19039,"Clarke County, Iowa","Pct_prime_working_age",3.07245829914744
-19039,"Clarke County, Iowa","Old_age_dependency_ratio",0.6
-19039,"Clarke County, Iowa","Pct_language_barrier",2.2
-19039,"Clarke County, Iowa","Pct_disability",3
-19039,"Clarke County, Iowa","Pct_poverty",5.1
+19039,"Clarke County, Iowa","Pct_prime_working_age_EST",3.07245829914744
+19039,"Clarke County, Iowa","Old_age_dependency_ratio_EST",0.6
+19039,"Clarke County, Iowa","Pct_language_barrier_EST",2.2
+19039,"Clarke County, Iowa","Pct_disability_EST",3
+19039,"Clarke County, Iowa","Pct_poverty_EST",5.1
 19041,"Clay County, Iowa","AgingHousingStock",4.1
 19041,"Clay County, Iowa","TypicalOwnerCosts",49
 19041,"Clay County, Iowa","TypicalRenterCosts",37
@@ -330,11 +330,11 @@
 19041,"Clay County, Iowa","MultFamShare",3.361547263
 19041,"Clay County, Iowa","RentalUnitRatio",0.043069945
 19041,"Clay County, Iowa","Gini_index_income_inequality_EST",0.0242
-19041,"Clay County, Iowa","Pct_prime_working_age",1.5556349186104
-19041,"Clay County, Iowa","Old_age_dependency_ratio",0.7
-19041,"Clay County, Iowa","Pct_language_barrier",0.6
-19041,"Clay County, Iowa","Pct_disability",1.9
-19041,"Clay County, Iowa","Pct_poverty",2.4
+19041,"Clay County, Iowa","Pct_prime_working_age_EST",1.5556349186104
+19041,"Clay County, Iowa","Old_age_dependency_ratio_EST",0.7
+19041,"Clay County, Iowa","Pct_language_barrier_EST",0.6
+19041,"Clay County, Iowa","Pct_disability_EST",1.9
+19041,"Clay County, Iowa","Pct_poverty_EST",2.4
 19043,"Clayton County, Iowa","AgingHousingStock",2.2
 19043,"Clayton County, Iowa","TypicalOwnerCosts",45
 19043,"Clayton County, Iowa","TypicalRenterCosts",36
@@ -346,11 +346,11 @@
 19043,"Clayton County, Iowa","MultFamShare",1.284523258
 19043,"Clayton County, Iowa","RentalUnitRatio",0.028552129
 19043,"Clayton County, Iowa","Gini_index_income_inequality_EST",0.0197
-19043,"Clayton County, Iowa","Pct_prime_working_age",1.113552872566
-19043,"Clayton County, Iowa","Old_age_dependency_ratio",0.5
-19043,"Clayton County, Iowa","Pct_language_barrier",0.8
-19043,"Clayton County, Iowa","Pct_disability",1.9
-19043,"Clayton County, Iowa","Pct_poverty",2.5
+19043,"Clayton County, Iowa","Pct_prime_working_age_EST",1.113552872566
+19043,"Clayton County, Iowa","Old_age_dependency_ratio_EST",0.5
+19043,"Clayton County, Iowa","Pct_language_barrier_EST",0.8
+19043,"Clayton County, Iowa","Pct_disability_EST",1.9
+19043,"Clayton County, Iowa","Pct_poverty_EST",2.5
 19045,"Clinton County, Iowa","AgingHousingStock",1.9
 19045,"Clinton County, Iowa","TypicalOwnerCosts",33
 19045,"Clinton County, Iowa","TypicalRenterCosts",30
@@ -362,11 +362,11 @@
 19045,"Clinton County, Iowa","MultFamShare",1.609347694
 19045,"Clinton County, Iowa","RentalUnitRatio",0.022791439
 19045,"Clinton County, Iowa","Gini_index_income_inequality_EST",0.0193
-19045,"Clinton County, Iowa","Pct_prime_working_age",0.964365076099296
-19045,"Clinton County, Iowa","Old_age_dependency_ratio",0.3
-19045,"Clinton County, Iowa","Pct_language_barrier",0.3
-19045,"Clinton County, Iowa","Pct_disability",1.3
-19045,"Clinton County, Iowa","Pct_poverty",1.8
+19045,"Clinton County, Iowa","Pct_prime_working_age_EST",0.964365076099296
+19045,"Clinton County, Iowa","Old_age_dependency_ratio_EST",0.3
+19045,"Clinton County, Iowa","Pct_language_barrier_EST",0.3
+19045,"Clinton County, Iowa","Pct_disability_EST",1.3
+19045,"Clinton County, Iowa","Pct_poverty_EST",1.8
 19047,"Crawford County, Iowa","AgingHousingStock",3.8
 19047,"Crawford County, Iowa","TypicalOwnerCosts",47
 19047,"Crawford County, Iowa","TypicalRenterCosts",28
@@ -378,11 +378,11 @@
 19047,"Crawford County, Iowa","MultFamShare",3.085449724
 19047,"Crawford County, Iowa","RentalUnitRatio",0.044336548
 19047,"Crawford County, Iowa","Gini_index_income_inequality_EST",0.0684
-19047,"Crawford County, Iowa","Pct_prime_working_age",3.60416425818802
-19047,"Crawford County, Iowa","Old_age_dependency_ratio",0.3
-19047,"Crawford County, Iowa","Pct_language_barrier",2.2
-19047,"Crawford County, Iowa","Pct_disability",2
-19047,"Crawford County, Iowa","Pct_poverty",3
+19047,"Crawford County, Iowa","Pct_prime_working_age_EST",3.60416425818802
+19047,"Crawford County, Iowa","Old_age_dependency_ratio_EST",0.3
+19047,"Crawford County, Iowa","Pct_language_barrier_EST",2.2
+19047,"Crawford County, Iowa","Pct_disability_EST",2
+19047,"Crawford County, Iowa","Pct_poverty_EST",3
 19049,"Dallas County, Iowa","AgingHousingStock",1
 19049,"Dallas County, Iowa","TypicalOwnerCosts",56
 19049,"Dallas County, Iowa","TypicalRenterCosts",36
@@ -394,11 +394,11 @@
 19049,"Dallas County, Iowa","MultFamShare",2.26715681
 19049,"Dallas County, Iowa","RentalUnitRatio",0.021008784
 19049,"Dallas County, Iowa","Gini_index_income_inequality_EST",0.0145
-19049,"Dallas County, Iowa","Pct_prime_working_age",0.964365076099296
-19049,"Dallas County, Iowa","Old_age_dependency_ratio",0.3
-19049,"Dallas County, Iowa","Pct_language_barrier",0.6
-19049,"Dallas County, Iowa","Pct_disability",0.6
-19049,"Dallas County, Iowa","Pct_poverty",1
+19049,"Dallas County, Iowa","Pct_prime_working_age_EST",0.964365076099296
+19049,"Dallas County, Iowa","Old_age_dependency_ratio_EST",0.3
+19049,"Dallas County, Iowa","Pct_language_barrier_EST",0.6
+19049,"Dallas County, Iowa","Pct_disability_EST",0.6
+19049,"Dallas County, Iowa","Pct_poverty_EST",1
 19051,"Davis County, Iowa","AgingHousingStock",3.8
 19051,"Davis County, Iowa","TypicalOwnerCosts",110
 19051,"Davis County, Iowa","TypicalRenterCosts",44
@@ -410,11 +410,11 @@
 19051,"Davis County, Iowa","MultFamShare",2.222611077
 19051,"Davis County, Iowa","RentalUnitRatio",0.038734285
 19051,"Davis County, Iowa","Gini_index_income_inequality_EST",0.0259
-19051,"Davis County, Iowa","Pct_prime_working_age",1.87349939951952
-19051,"Davis County, Iowa","Old_age_dependency_ratio",0.2
-19051,"Davis County, Iowa","Pct_language_barrier",1.6
-19051,"Davis County, Iowa","Pct_disability",2.2
-19051,"Davis County, Iowa","Pct_poverty",4.5
+19051,"Davis County, Iowa","Pct_prime_working_age_EST",1.87349939951952
+19051,"Davis County, Iowa","Old_age_dependency_ratio_EST",0.2
+19051,"Davis County, Iowa","Pct_language_barrier_EST",1.6
+19051,"Davis County, Iowa","Pct_disability_EST",2.2
+19051,"Davis County, Iowa","Pct_poverty_EST",4.5
 19053,"Decatur County, Iowa","AgingHousingStock",3.5
 19053,"Decatur County, Iowa","TypicalOwnerCosts",55
 19053,"Decatur County, Iowa","TypicalRenterCosts",44
@@ -426,11 +426,11 @@
 19053,"Decatur County, Iowa","MultFamShare",2.355843798
 19053,"Decatur County, Iowa","RentalUnitRatio",0.044839006
 19053,"Decatur County, Iowa","Gini_index_income_inequality_EST",0.0317
-19053,"Decatur County, Iowa","Pct_prime_working_age",1.74068951855292
-19053,"Decatur County, Iowa","Old_age_dependency_ratio",0.9
-19053,"Decatur County, Iowa","Pct_language_barrier",0.8
-19053,"Decatur County, Iowa","Pct_disability",1.6
-19053,"Decatur County, Iowa","Pct_poverty",3.2
+19053,"Decatur County, Iowa","Pct_prime_working_age_EST",1.74068951855292
+19053,"Decatur County, Iowa","Old_age_dependency_ratio_EST",0.9
+19053,"Decatur County, Iowa","Pct_language_barrier_EST",0.8
+19053,"Decatur County, Iowa","Pct_disability_EST",1.6
+19053,"Decatur County, Iowa","Pct_poverty_EST",3.2
 19055,"Delaware County, Iowa","AgingHousingStock",3.3
 19055,"Delaware County, Iowa","TypicalOwnerCosts",60
 19055,"Delaware County, Iowa","TypicalRenterCosts",44
@@ -442,11 +442,11 @@
 19055,"Delaware County, Iowa","MultFamShare",1.568438714
 19055,"Delaware County, Iowa","RentalUnitRatio",0.033948766
 19055,"Delaware County, Iowa","Gini_index_income_inequality_EST",0.0631
-19055,"Delaware County, Iowa","Pct_prime_working_age",1.42828568570857
-19055,"Delaware County, Iowa","Old_age_dependency_ratio",0.4
-19055,"Delaware County, Iowa","Pct_language_barrier",0.2
-19055,"Delaware County, Iowa","Pct_disability",1.6
-19055,"Delaware County, Iowa","Pct_poverty",2.7
+19055,"Delaware County, Iowa","Pct_prime_working_age_EST",1.42828568570857
+19055,"Delaware County, Iowa","Old_age_dependency_ratio_EST",0.4
+19055,"Delaware County, Iowa","Pct_language_barrier_EST",0.2
+19055,"Delaware County, Iowa","Pct_disability_EST",1.6
+19055,"Delaware County, Iowa","Pct_poverty_EST",2.7
 19057,"Des Moines County, Iowa","AgingHousingStock",2.6
 19057,"Des Moines County, Iowa","TypicalOwnerCosts",39
 19057,"Des Moines County, Iowa","TypicalRenterCosts",35
@@ -458,11 +458,11 @@
 19057,"Des Moines County, Iowa","MultFamShare",1.752141547
 19057,"Des Moines County, Iowa","RentalUnitRatio",0.02758342
 19057,"Des Moines County, Iowa","Gini_index_income_inequality_EST",0.0173
-19057,"Des Moines County, Iowa","Pct_prime_working_age",1.31529464379659
-19057,"Des Moines County, Iowa","Old_age_dependency_ratio",0.5
-19057,"Des Moines County, Iowa","Pct_language_barrier",0.4
-19057,"Des Moines County, Iowa","Pct_disability",1.2
-19057,"Des Moines County, Iowa","Pct_poverty",2.1
+19057,"Des Moines County, Iowa","Pct_prime_working_age_EST",1.31529464379659
+19057,"Des Moines County, Iowa","Old_age_dependency_ratio_EST",0.5
+19057,"Des Moines County, Iowa","Pct_language_barrier_EST",0.4
+19057,"Des Moines County, Iowa","Pct_disability_EST",1.2
+19057,"Des Moines County, Iowa","Pct_poverty_EST",2.1
 19059,"Dickinson County, Iowa","AgingHousingStock",1.8
 19059,"Dickinson County, Iowa","TypicalOwnerCosts",51
 19059,"Dickinson County, Iowa","TypicalRenterCosts",43
@@ -474,11 +474,11 @@
 19059,"Dickinson County, Iowa","MultFamShare",2.25166605
 19059,"Dickinson County, Iowa","RentalUnitRatio",0.030173891
 19059,"Dickinson County, Iowa","Gini_index_income_inequality_EST",0.0223
-19059,"Dickinson County, Iowa","Pct_prime_working_age",1.2328828005938
-19059,"Dickinson County, Iowa","Old_age_dependency_ratio",0.7
-19059,"Dickinson County, Iowa","Pct_language_barrier",0.5
-19059,"Dickinson County, Iowa","Pct_disability",1.9
-19059,"Dickinson County, Iowa","Pct_poverty",1.9
+19059,"Dickinson County, Iowa","Pct_prime_working_age_EST",1.2328828005938
+19059,"Dickinson County, Iowa","Old_age_dependency_ratio_EST",0.7
+19059,"Dickinson County, Iowa","Pct_language_barrier_EST",0.5
+19059,"Dickinson County, Iowa","Pct_disability_EST",1.9
+19059,"Dickinson County, Iowa","Pct_poverty_EST",1.9
 19061,"Dubuque County, Iowa","AgingHousingStock",1.2
 19061,"Dubuque County, Iowa","TypicalOwnerCosts",31
 19061,"Dubuque County, Iowa","TypicalRenterCosts",28
@@ -490,11 +490,11 @@
 19061,"Dubuque County, Iowa","MultFamShare",1.280624847
 19061,"Dubuque County, Iowa","RentalUnitRatio",0.014354747
 19061,"Dubuque County, Iowa","Gini_index_income_inequality_EST",0.0197
-19061,"Dubuque County, Iowa","Pct_prime_working_age",0.648074069840786
-19061,"Dubuque County, Iowa","Old_age_dependency_ratio",0.2
-19061,"Dubuque County, Iowa","Pct_language_barrier",0.3
-19061,"Dubuque County, Iowa","Pct_disability",0.7
-19061,"Dubuque County, Iowa","Pct_poverty",0.9
+19061,"Dubuque County, Iowa","Pct_prime_working_age_EST",0.648074069840786
+19061,"Dubuque County, Iowa","Old_age_dependency_ratio_EST",0.2
+19061,"Dubuque County, Iowa","Pct_language_barrier_EST",0.3
+19061,"Dubuque County, Iowa","Pct_disability_EST",0.7
+19061,"Dubuque County, Iowa","Pct_poverty_EST",0.9
 19063,"Emmet County, Iowa","AgingHousingStock",4.1
 19063,"Emmet County, Iowa","TypicalOwnerCosts",65
 19063,"Emmet County, Iowa","TypicalRenterCosts",40
@@ -506,11 +506,11 @@
 19063,"Emmet County, Iowa","MultFamShare",2.479919354
 19063,"Emmet County, Iowa","RentalUnitRatio",0.042664362
 19063,"Emmet County, Iowa","Gini_index_income_inequality_EST",0.0455
-19063,"Emmet County, Iowa","Pct_prime_working_age",2.2494443758404
-19063,"Emmet County, Iowa","Old_age_dependency_ratio",0.5
-19063,"Emmet County, Iowa","Pct_language_barrier",1.2
-19063,"Emmet County, Iowa","Pct_disability",2
-19063,"Emmet County, Iowa","Pct_poverty",2.2
+19063,"Emmet County, Iowa","Pct_prime_working_age_EST",2.2494443758404
+19063,"Emmet County, Iowa","Old_age_dependency_ratio_EST",0.5
+19063,"Emmet County, Iowa","Pct_language_barrier_EST",1.2
+19063,"Emmet County, Iowa","Pct_disability_EST",2
+19063,"Emmet County, Iowa","Pct_poverty_EST",2.2
 19065,"Fayette County, Iowa","AgingHousingStock",2.9
 19065,"Fayette County, Iowa","TypicalOwnerCosts",33
 19065,"Fayette County, Iowa","TypicalRenterCosts",35
@@ -522,11 +522,11 @@
 19065,"Fayette County, Iowa","MultFamShare",1.240967365
 19065,"Fayette County, Iowa","RentalUnitRatio",0.027748804
 19065,"Fayette County, Iowa","Gini_index_income_inequality_EST",0.025
-19065,"Fayette County, Iowa","Pct_prime_working_age",0.888819441731559
-19065,"Fayette County, Iowa","Old_age_dependency_ratio",0.7
-19065,"Fayette County, Iowa","Pct_language_barrier",0.5
-19065,"Fayette County, Iowa","Pct_disability",1.5
-19065,"Fayette County, Iowa","Pct_poverty",1.7
+19065,"Fayette County, Iowa","Pct_prime_working_age_EST",0.888819441731559
+19065,"Fayette County, Iowa","Old_age_dependency_ratio_EST",0.7
+19065,"Fayette County, Iowa","Pct_language_barrier_EST",0.5
+19065,"Fayette County, Iowa","Pct_disability_EST",1.5
+19065,"Fayette County, Iowa","Pct_poverty_EST",1.7
 19067,"Floyd County, Iowa","AgingHousingStock",3.4
 19067,"Floyd County, Iowa","TypicalOwnerCosts",47
 19067,"Floyd County, Iowa","TypicalRenterCosts",30
@@ -538,11 +538,11 @@
 19067,"Floyd County, Iowa","MultFamShare",2.747726333
 19067,"Floyd County, Iowa","RentalUnitRatio",0.040722082
 19067,"Floyd County, Iowa","Gini_index_income_inequality_EST",0.028
-19067,"Floyd County, Iowa","Pct_prime_working_age",1.53297097167559
-19067,"Floyd County, Iowa","Old_age_dependency_ratio",1.2
-19067,"Floyd County, Iowa","Pct_language_barrier",0.6
-19067,"Floyd County, Iowa","Pct_disability",2.1
-19067,"Floyd County, Iowa","Pct_poverty",2.7
+19067,"Floyd County, Iowa","Pct_prime_working_age_EST",1.53297097167559
+19067,"Floyd County, Iowa","Old_age_dependency_ratio_EST",1.2
+19067,"Floyd County, Iowa","Pct_language_barrier_EST",0.6
+19067,"Floyd County, Iowa","Pct_disability_EST",2.1
+19067,"Floyd County, Iowa","Pct_poverty_EST",2.7
 19069,"Franklin County, Iowa","AgingHousingStock",3.8
 19069,"Franklin County, Iowa","TypicalOwnerCosts",40
 19069,"Franklin County, Iowa","TypicalRenterCosts",89
@@ -554,11 +554,11 @@
 19069,"Franklin County, Iowa","MultFamShare",2.206807649
 19069,"Franklin County, Iowa","RentalUnitRatio",0.043236266
 19069,"Franklin County, Iowa","Gini_index_income_inequality_EST",0.0482
-19069,"Franklin County, Iowa","Pct_prime_working_age",1.95448202856921
-19069,"Franklin County, Iowa","Old_age_dependency_ratio",1.4
-19069,"Franklin County, Iowa","Pct_language_barrier",1.9
-19069,"Franklin County, Iowa","Pct_disability",1.4
-19069,"Franklin County, Iowa","Pct_poverty",2.9
+19069,"Franklin County, Iowa","Pct_prime_working_age_EST",1.95448202856921
+19069,"Franklin County, Iowa","Old_age_dependency_ratio_EST",1.4
+19069,"Franklin County, Iowa","Pct_language_barrier_EST",1.9
+19069,"Franklin County, Iowa","Pct_disability_EST",1.4
+19069,"Franklin County, Iowa","Pct_poverty_EST",2.9
 19071,"Fremont County, Iowa","AgingHousingStock",3.2
 19071,"Fremont County, Iowa","TypicalOwnerCosts",65
 19071,"Fremont County, Iowa","TypicalRenterCosts",61
@@ -570,11 +570,11 @@
 19071,"Fremont County, Iowa","MultFamShare",1.452583905
 19071,"Fremont County, Iowa","RentalUnitRatio",0.037212137
 19071,"Fremont County, Iowa","Gini_index_income_inequality_EST",0.019
-19071,"Fremont County, Iowa","Pct_prime_working_age",1.72916164657906
-19071,"Fremont County, Iowa","Old_age_dependency_ratio",0.5
-19071,"Fremont County, Iowa","Pct_language_barrier",0.4
-19071,"Fremont County, Iowa","Pct_disability",1.6
-19071,"Fremont County, Iowa","Pct_poverty",1.6
+19071,"Fremont County, Iowa","Pct_prime_working_age_EST",1.72916164657906
+19071,"Fremont County, Iowa","Old_age_dependency_ratio_EST",0.5
+19071,"Fremont County, Iowa","Pct_language_barrier_EST",0.4
+19071,"Fremont County, Iowa","Pct_disability_EST",1.6
+19071,"Fremont County, Iowa","Pct_poverty_EST",1.6
 19073,"Greene County, Iowa","AgingHousingStock",4
 19073,"Greene County, Iowa","TypicalOwnerCosts",55
 19073,"Greene County, Iowa","TypicalRenterCosts",106
@@ -586,11 +586,11 @@
 19073,"Greene County, Iowa","MultFamShare",2.387467277
 19073,"Greene County, Iowa","RentalUnitRatio",0.039455144
 19073,"Greene County, Iowa","Gini_index_income_inequality_EST",0.0246
-19073,"Greene County, Iowa","Pct_prime_working_age",1.65227116418583
-19073,"Greene County, Iowa","Old_age_dependency_ratio",1
-19073,"Greene County, Iowa","Pct_language_barrier",0.7
-19073,"Greene County, Iowa","Pct_disability",2.2
-19073,"Greene County, Iowa","Pct_poverty",1.9
+19073,"Greene County, Iowa","Pct_prime_working_age_EST",1.65227116418583
+19073,"Greene County, Iowa","Old_age_dependency_ratio_EST",1
+19073,"Greene County, Iowa","Pct_language_barrier_EST",0.7
+19073,"Greene County, Iowa","Pct_disability_EST",2.2
+19073,"Greene County, Iowa","Pct_poverty_EST",1.9
 19075,"Grundy County, Iowa","AgingHousingStock",2.8
 19075,"Grundy County, Iowa","TypicalOwnerCosts",42
 19075,"Grundy County, Iowa","TypicalRenterCosts",42
@@ -602,11 +602,11 @@
 19075,"Grundy County, Iowa","MultFamShare",1.174734012
 19075,"Grundy County, Iowa","RentalUnitRatio",0.022251295
 19075,"Grundy County, Iowa","Gini_index_income_inequality_EST",0.0216
-19075,"Grundy County, Iowa","Pct_prime_working_age",1.2369316876853
-19075,"Grundy County, Iowa","Old_age_dependency_ratio",0.2
-19075,"Grundy County, Iowa","Pct_language_barrier",0.3
-19075,"Grundy County, Iowa","Pct_disability",1
-19075,"Grundy County, Iowa","Pct_poverty",1.1
+19075,"Grundy County, Iowa","Pct_prime_working_age_EST",1.2369316876853
+19075,"Grundy County, Iowa","Old_age_dependency_ratio_EST",0.2
+19075,"Grundy County, Iowa","Pct_language_barrier_EST",0.3
+19075,"Grundy County, Iowa","Pct_disability_EST",1
+19075,"Grundy County, Iowa","Pct_poverty_EST",1.1
 19077,"Guthrie County, Iowa","AgingHousingStock",2.7
 19077,"Guthrie County, Iowa","TypicalOwnerCosts",38
 19077,"Guthrie County, Iowa","TypicalRenterCosts",42
@@ -618,11 +618,11 @@
 19077,"Guthrie County, Iowa","MultFamShare",2.029778313
 19077,"Guthrie County, Iowa","RentalUnitRatio",0.03065772
 19077,"Guthrie County, Iowa","Gini_index_income_inequality_EST",0.0322
-19077,"Guthrie County, Iowa","Pct_prime_working_age",1.03923048454133
-19077,"Guthrie County, Iowa","Old_age_dependency_ratio",0.5
-19077,"Guthrie County, Iowa","Pct_language_barrier",0.5
-19077,"Guthrie County, Iowa","Pct_disability",1.5
-19077,"Guthrie County, Iowa","Pct_poverty",1.5
+19077,"Guthrie County, Iowa","Pct_prime_working_age_EST",1.03923048454133
+19077,"Guthrie County, Iowa","Old_age_dependency_ratio_EST",0.5
+19077,"Guthrie County, Iowa","Pct_language_barrier_EST",0.5
+19077,"Guthrie County, Iowa","Pct_disability_EST",1.5
+19077,"Guthrie County, Iowa","Pct_poverty_EST",1.5
 19079,"Hamilton County, Iowa","AgingHousingStock",3.5
 19079,"Hamilton County, Iowa","TypicalOwnerCosts",44
 19079,"Hamilton County, Iowa","TypicalRenterCosts",48
@@ -634,11 +634,11 @@
 19079,"Hamilton County, Iowa","MultFamShare",2.725802634
 19079,"Hamilton County, Iowa","RentalUnitRatio",0.041303462
 19079,"Hamilton County, Iowa","Gini_index_income_inequality_EST",0.0211
-19079,"Hamilton County, Iowa","Pct_prime_working_age",1.83847763108502
-19079,"Hamilton County, Iowa","Old_age_dependency_ratio",0.4
-19079,"Hamilton County, Iowa","Pct_language_barrier",0.8
-19079,"Hamilton County, Iowa","Pct_disability",1.9
-19079,"Hamilton County, Iowa","Pct_poverty",2
+19079,"Hamilton County, Iowa","Pct_prime_working_age_EST",1.83847763108502
+19079,"Hamilton County, Iowa","Old_age_dependency_ratio_EST",0.4
+19079,"Hamilton County, Iowa","Pct_language_barrier_EST",0.8
+19079,"Hamilton County, Iowa","Pct_disability_EST",1.9
+19079,"Hamilton County, Iowa","Pct_poverty_EST",2
 19081,"Hancock County, Iowa","AgingHousingStock",3.1
 19081,"Hancock County, Iowa","TypicalOwnerCosts",49
 19081,"Hancock County, Iowa","TypicalRenterCosts",123
@@ -650,11 +650,11 @@
 19081,"Hancock County, Iowa","MultFamShare",1.55241747
 19081,"Hancock County, Iowa","RentalUnitRatio",0.031161329
 19081,"Hancock County, Iowa","Gini_index_income_inequality_EST",0.0262
-19081,"Hancock County, Iowa","Pct_prime_working_age",1.69115345252878
-19081,"Hancock County, Iowa","Old_age_dependency_ratio",0.3
-19081,"Hancock County, Iowa","Pct_language_barrier",0.5
-19081,"Hancock County, Iowa","Pct_disability",1.8
-19081,"Hancock County, Iowa","Pct_poverty",2.4
+19081,"Hancock County, Iowa","Pct_prime_working_age_EST",1.69115345252878
+19081,"Hancock County, Iowa","Old_age_dependency_ratio_EST",0.3
+19081,"Hancock County, Iowa","Pct_language_barrier_EST",0.5
+19081,"Hancock County, Iowa","Pct_disability_EST",1.8
+19081,"Hancock County, Iowa","Pct_poverty_EST",2.4
 19083,"Hardin County, Iowa","AgingHousingStock",2.7
 19083,"Hardin County, Iowa","TypicalOwnerCosts",35
 19083,"Hardin County, Iowa","TypicalRenterCosts",37
@@ -666,11 +666,11 @@
 19083,"Hardin County, Iowa","MultFamShare",1.73781472
 19083,"Hardin County, Iowa","RentalUnitRatio",0.032492021
 19083,"Hardin County, Iowa","Gini_index_income_inequality_EST",0.0205
-19083,"Hardin County, Iowa","Pct_prime_working_age",1.15758369027902
-19083,"Hardin County, Iowa","Old_age_dependency_ratio",0.6
-19083,"Hardin County, Iowa","Pct_language_barrier",0.5
-19083,"Hardin County, Iowa","Pct_disability",1.3
-19083,"Hardin County, Iowa","Pct_poverty",1.6
+19083,"Hardin County, Iowa","Pct_prime_working_age_EST",1.15758369027902
+19083,"Hardin County, Iowa","Old_age_dependency_ratio_EST",0.6
+19083,"Hardin County, Iowa","Pct_language_barrier_EST",0.5
+19083,"Hardin County, Iowa","Pct_disability_EST",1.3
+19083,"Hardin County, Iowa","Pct_poverty_EST",1.6
 19085,"Harrison County, Iowa","AgingHousingStock",3.2
 19085,"Harrison County, Iowa","TypicalOwnerCosts",36
 19085,"Harrison County, Iowa","TypicalRenterCosts",28
@@ -682,11 +682,11 @@
 19085,"Harrison County, Iowa","MultFamShare",1.414213562
 19085,"Harrison County, Iowa","RentalUnitRatio",0.028847339
 19085,"Harrison County, Iowa","Gini_index_income_inequality_EST",0.0273
-19085,"Harrison County, Iowa","Pct_prime_working_age",0.905538513813742
-19085,"Harrison County, Iowa","Old_age_dependency_ratio",0.3
-19085,"Harrison County, Iowa","Pct_language_barrier",0.1
-19085,"Harrison County, Iowa","Pct_disability",1.2
-19085,"Harrison County, Iowa","Pct_poverty",1.3
+19085,"Harrison County, Iowa","Pct_prime_working_age_EST",0.905538513813742
+19085,"Harrison County, Iowa","Old_age_dependency_ratio_EST",0.3
+19085,"Harrison County, Iowa","Pct_language_barrier_EST",0.1
+19085,"Harrison County, Iowa","Pct_disability_EST",1.2
+19085,"Harrison County, Iowa","Pct_poverty_EST",1.3
 19087,"Henry County, Iowa","AgingHousingStock",3
 19087,"Henry County, Iowa","TypicalOwnerCosts",32
 19087,"Henry County, Iowa","TypicalRenterCosts",26
@@ -698,11 +698,11 @@
 19087,"Henry County, Iowa","MultFamShare",1.8
 19087,"Henry County, Iowa","RentalUnitRatio",0.037378615
 19087,"Henry County, Iowa","Gini_index_income_inequality_EST",0.0195
-19087,"Henry County, Iowa","Pct_prime_working_age",1.36381816969859
-19087,"Henry County, Iowa","Old_age_dependency_ratio",0.4
-19087,"Henry County, Iowa","Pct_language_barrier",0.7
-19087,"Henry County, Iowa","Pct_disability",1.7
-19087,"Henry County, Iowa","Pct_poverty",2.4
+19087,"Henry County, Iowa","Pct_prime_working_age_EST",1.36381816969859
+19087,"Henry County, Iowa","Old_age_dependency_ratio_EST",0.4
+19087,"Henry County, Iowa","Pct_language_barrier_EST",0.7
+19087,"Henry County, Iowa","Pct_disability_EST",1.7
+19087,"Henry County, Iowa","Pct_poverty_EST",2.4
 19089,"Howard County, Iowa","AgingHousingStock",3.5
 19089,"Howard County, Iowa","TypicalOwnerCosts",36
 19089,"Howard County, Iowa","TypicalRenterCosts",71
@@ -714,11 +714,11 @@
 19089,"Howard County, Iowa","MultFamShare",1.2
 19089,"Howard County, Iowa","RentalUnitRatio",0.044883103
 19089,"Howard County, Iowa","Gini_index_income_inequality_EST",0.0182
-19089,"Howard County, Iowa","Pct_prime_working_age",1.48323969741913
-19089,"Howard County, Iowa","Old_age_dependency_ratio",0.4
-19089,"Howard County, Iowa","Pct_language_barrier",0.7
-19089,"Howard County, Iowa","Pct_disability",1.5
-19089,"Howard County, Iowa","Pct_poverty",2.5
+19089,"Howard County, Iowa","Pct_prime_working_age_EST",1.48323969741913
+19089,"Howard County, Iowa","Old_age_dependency_ratio_EST",0.4
+19089,"Howard County, Iowa","Pct_language_barrier_EST",0.7
+19089,"Howard County, Iowa","Pct_disability_EST",1.5
+19089,"Howard County, Iowa","Pct_poverty_EST",2.5
 19091,"Humboldt County, Iowa","AgingHousingStock",3
 19091,"Humboldt County, Iowa","TypicalOwnerCosts",52
 19091,"Humboldt County, Iowa","TypicalRenterCosts",38
@@ -730,11 +730,11 @@
 19091,"Humboldt County, Iowa","MultFamShare",2.111871208
 19091,"Humboldt County, Iowa","RentalUnitRatio",0.03426646
 19091,"Humboldt County, Iowa","Gini_index_income_inequality_EST",0.0205
-19091,"Humboldt County, Iowa","Pct_prime_working_age",1.75499287747842
-19091,"Humboldt County, Iowa","Old_age_dependency_ratio",0.1
-19091,"Humboldt County, Iowa","Pct_language_barrier",0.7
-19091,"Humboldt County, Iowa","Pct_disability",1.7
-19091,"Humboldt County, Iowa","Pct_poverty",3.4
+19091,"Humboldt County, Iowa","Pct_prime_working_age_EST",1.75499287747842
+19091,"Humboldt County, Iowa","Old_age_dependency_ratio_EST",0.1
+19091,"Humboldt County, Iowa","Pct_language_barrier_EST",0.7
+19091,"Humboldt County, Iowa","Pct_disability_EST",1.7
+19091,"Humboldt County, Iowa","Pct_poverty_EST",3.4
 19093,"Ida County, Iowa","AgingHousingStock",3.8
 19093,"Ida County, Iowa","TypicalOwnerCosts",45
 19093,"Ida County, Iowa","TypicalRenterCosts",35
@@ -746,11 +746,11 @@
 19093,"Ida County, Iowa","MultFamShare",2.696293753
 19093,"Ida County, Iowa","RentalUnitRatio",0.043353386
 19093,"Ida County, Iowa","Gini_index_income_inequality_EST",0.0426
-19093,"Ida County, Iowa","Pct_prime_working_age",1.64924225024706
-19093,"Ida County, Iowa","Old_age_dependency_ratio",0.3
-19093,"Ida County, Iowa","Pct_language_barrier",0.2
-19093,"Ida County, Iowa","Pct_disability",1.4
-19093,"Ida County, Iowa","Pct_poverty",2.4
+19093,"Ida County, Iowa","Pct_prime_working_age_EST",1.64924225024706
+19093,"Ida County, Iowa","Old_age_dependency_ratio_EST",0.3
+19093,"Ida County, Iowa","Pct_language_barrier_EST",0.2
+19093,"Ida County, Iowa","Pct_disability_EST",1.4
+19093,"Ida County, Iowa","Pct_poverty_EST",2.4
 19095,"Iowa County, Iowa","AgingHousingStock",2.7
 19095,"Iowa County, Iowa","TypicalOwnerCosts",54
 19095,"Iowa County, Iowa","TypicalRenterCosts",57
@@ -762,11 +762,11 @@
 19095,"Iowa County, Iowa","MultFamShare",2.2
 19095,"Iowa County, Iowa","RentalUnitRatio",0.033761936
 19095,"Iowa County, Iowa","Gini_index_income_inequality_EST",0.0416
-19095,"Iowa County, Iowa","Pct_prime_working_age",1.19582607431014
-19095,"Iowa County, Iowa","Old_age_dependency_ratio",0.5
-19095,"Iowa County, Iowa","Pct_language_barrier",0.4
-19095,"Iowa County, Iowa","Pct_disability",1.7
-19095,"Iowa County, Iowa","Pct_poverty",1.8
+19095,"Iowa County, Iowa","Pct_prime_working_age_EST",1.19582607431014
+19095,"Iowa County, Iowa","Old_age_dependency_ratio_EST",0.5
+19095,"Iowa County, Iowa","Pct_language_barrier_EST",0.4
+19095,"Iowa County, Iowa","Pct_disability_EST",1.7
+19095,"Iowa County, Iowa","Pct_poverty_EST",1.8
 19097,"Jackson County, Iowa","AgingHousingStock",2.6
 19097,"Jackson County, Iowa","TypicalOwnerCosts",54
 19097,"Jackson County, Iowa","TypicalRenterCosts",38
@@ -778,11 +778,11 @@
 19097,"Jackson County, Iowa","MultFamShare",1.476482306
 19097,"Jackson County, Iowa","RentalUnitRatio",0.026559285
 19097,"Jackson County, Iowa","Gini_index_income_inequality_EST",0.0145
-19097,"Jackson County, Iowa","Pct_prime_working_age",1.17046999107196
-19097,"Jackson County, Iowa","Old_age_dependency_ratio",0.4
-19097,"Jackson County, Iowa","Pct_language_barrier",0.3
-19097,"Jackson County, Iowa","Pct_disability",1.3
-19097,"Jackson County, Iowa","Pct_poverty",1.7
+19097,"Jackson County, Iowa","Pct_prime_working_age_EST",1.17046999107196
+19097,"Jackson County, Iowa","Old_age_dependency_ratio_EST",0.4
+19097,"Jackson County, Iowa","Pct_language_barrier_EST",0.3
+19097,"Jackson County, Iowa","Pct_disability_EST",1.3
+19097,"Jackson County, Iowa","Pct_poverty_EST",1.7
 19099,"Jasper County, Iowa","AgingHousingStock",2
 19099,"Jasper County, Iowa","TypicalOwnerCosts",45
 19099,"Jasper County, Iowa","TypicalRenterCosts",31
@@ -794,11 +794,11 @@
 19099,"Jasper County, Iowa","MultFamShare",1.532970972
 19099,"Jasper County, Iowa","RentalUnitRatio",0.02882449
 19099,"Jasper County, Iowa","Gini_index_income_inequality_EST",0.0136
-19099,"Jasper County, Iowa","Pct_prime_working_age",0.842614977317636
-19099,"Jasper County, Iowa","Old_age_dependency_ratio",0.1
-19099,"Jasper County, Iowa","Pct_language_barrier",0.5
-19099,"Jasper County, Iowa","Pct_disability",1.1
-19099,"Jasper County, Iowa","Pct_poverty",1.3
+19099,"Jasper County, Iowa","Pct_prime_working_age_EST",0.842614977317636
+19099,"Jasper County, Iowa","Old_age_dependency_ratio_EST",0.1
+19099,"Jasper County, Iowa","Pct_language_barrier_EST",0.5
+19099,"Jasper County, Iowa","Pct_disability_EST",1.1
+19099,"Jasper County, Iowa","Pct_poverty_EST",1.3
 19101,"Jefferson County, Iowa","AgingHousingStock",3.7
 19101,"Jefferson County, Iowa","TypicalOwnerCosts",52
 19101,"Jefferson County, Iowa","TypicalRenterCosts",101
@@ -810,11 +810,11 @@
 19101,"Jefferson County, Iowa","MultFamShare",2.317326045
 19101,"Jefferson County, Iowa","RentalUnitRatio",0.041716934
 19101,"Jefferson County, Iowa","Gini_index_income_inequality_EST",0.0542
-19101,"Jefferson County, Iowa","Pct_prime_working_age",3.24807635378234
-19101,"Jefferson County, Iowa","Old_age_dependency_ratio",1.3
-19101,"Jefferson County, Iowa","Pct_language_barrier",1.7
-19101,"Jefferson County, Iowa","Pct_disability",1.9
-19101,"Jefferson County, Iowa","Pct_poverty",3.1
+19101,"Jefferson County, Iowa","Pct_prime_working_age_EST",3.24807635378234
+19101,"Jefferson County, Iowa","Old_age_dependency_ratio_EST",1.3
+19101,"Jefferson County, Iowa","Pct_language_barrier_EST",1.7
+19101,"Jefferson County, Iowa","Pct_disability_EST",1.9
+19101,"Jefferson County, Iowa","Pct_poverty_EST",3.1
 19103,"Johnson County, Iowa","AgingHousingStock",0.9
 19103,"Johnson County, Iowa","TypicalOwnerCosts",47
 19103,"Johnson County, Iowa","TypicalRenterCosts",29
@@ -826,11 +826,11 @@
 19103,"Johnson County, Iowa","MultFamShare",1.679285562
 19103,"Johnson County, Iowa","RentalUnitRatio",0.018459656
 19103,"Johnson County, Iowa","Gini_index_income_inequality_EST",0.0114
-19103,"Johnson County, Iowa","Pct_prime_working_age",0.6
-19103,"Johnson County, Iowa","Old_age_dependency_ratio",0.1
-19103,"Johnson County, Iowa","Pct_language_barrier",0.6
-19103,"Johnson County, Iowa","Pct_disability",0.6
-19103,"Johnson County, Iowa","Pct_poverty",1
+19103,"Johnson County, Iowa","Pct_prime_working_age_EST",0.6
+19103,"Johnson County, Iowa","Old_age_dependency_ratio_EST",0.1
+19103,"Johnson County, Iowa","Pct_language_barrier_EST",0.6
+19103,"Johnson County, Iowa","Pct_disability_EST",0.6
+19103,"Johnson County, Iowa","Pct_poverty_EST",1
 19105,"Jones County, Iowa","AgingHousingStock",3
 19105,"Jones County, Iowa","TypicalOwnerCosts",66
 19105,"Jones County, Iowa","TypicalRenterCosts",43
@@ -842,11 +842,11 @@
 19105,"Jones County, Iowa","MultFamShare",1.915724406
 19105,"Jones County, Iowa","RentalUnitRatio",0.034928532
 19105,"Jones County, Iowa","Gini_index_income_inequality_EST",0.021
-19105,"Jones County, Iowa","Pct_prime_working_age",1.48323969741913
-19105,"Jones County, Iowa","Old_age_dependency_ratio",0.7
-19105,"Jones County, Iowa","Pct_language_barrier",0.7
-19105,"Jones County, Iowa","Pct_disability",1.6
-19105,"Jones County, Iowa","Pct_poverty",2
+19105,"Jones County, Iowa","Pct_prime_working_age_EST",1.48323969741913
+19105,"Jones County, Iowa","Old_age_dependency_ratio_EST",0.7
+19105,"Jones County, Iowa","Pct_language_barrier_EST",0.7
+19105,"Jones County, Iowa","Pct_disability_EST",1.6
+19105,"Jones County, Iowa","Pct_poverty_EST",2
 19107,"Keokuk County, Iowa","AgingHousingStock",3.1
 19107,"Keokuk County, Iowa","TypicalOwnerCosts",40
 19107,"Keokuk County, Iowa","TypicalRenterCosts",36
@@ -858,11 +858,11 @@
 19107,"Keokuk County, Iowa","MultFamShare",1.646207763
 19107,"Keokuk County, Iowa","RentalUnitRatio",0.028780994
 19107,"Keokuk County, Iowa","Gini_index_income_inequality_EST",0.0277
-19107,"Keokuk County, Iowa","Pct_prime_working_age",1.35646599662505
-19107,"Keokuk County, Iowa","Old_age_dependency_ratio",0.9
-19107,"Keokuk County, Iowa","Pct_language_barrier",0.3
-19107,"Keokuk County, Iowa","Pct_disability",1.4
-19107,"Keokuk County, Iowa","Pct_poverty",2.6
+19107,"Keokuk County, Iowa","Pct_prime_working_age_EST",1.35646599662505
+19107,"Keokuk County, Iowa","Old_age_dependency_ratio_EST",0.9
+19107,"Keokuk County, Iowa","Pct_language_barrier_EST",0.3
+19107,"Keokuk County, Iowa","Pct_disability_EST",1.4
+19107,"Keokuk County, Iowa","Pct_poverty_EST",2.6
 19109,"Kossuth County, Iowa","AgingHousingStock",2.9
 19109,"Kossuth County, Iowa","TypicalOwnerCosts",42
 19109,"Kossuth County, Iowa","TypicalRenterCosts",53
@@ -874,11 +874,11 @@
 19109,"Kossuth County, Iowa","MultFamShare",2.297825059
 19109,"Kossuth County, Iowa","RentalUnitRatio",0.032437575
 19109,"Kossuth County, Iowa","Gini_index_income_inequality_EST",0.02
-19109,"Kossuth County, Iowa","Pct_prime_working_age",1.09544511501033
-19109,"Kossuth County, Iowa","Old_age_dependency_ratio",0.2
-19109,"Kossuth County, Iowa","Pct_language_barrier",0.5
-19109,"Kossuth County, Iowa","Pct_disability",1.8
-19109,"Kossuth County, Iowa","Pct_poverty",1.7
+19109,"Kossuth County, Iowa","Pct_prime_working_age_EST",1.09544511501033
+19109,"Kossuth County, Iowa","Old_age_dependency_ratio_EST",0.2
+19109,"Kossuth County, Iowa","Pct_language_barrier_EST",0.5
+19109,"Kossuth County, Iowa","Pct_disability_EST",1.8
+19109,"Kossuth County, Iowa","Pct_poverty_EST",1.7
 19111,"Lee County, Iowa","AgingHousingStock",2.2
 19111,"Lee County, Iowa","TypicalOwnerCosts",32
 19111,"Lee County, Iowa","TypicalRenterCosts",27
@@ -890,11 +890,11 @@
 19111,"Lee County, Iowa","MultFamShare",1.385640646
 19111,"Lee County, Iowa","RentalUnitRatio",0.027756358
 19111,"Lee County, Iowa","Gini_index_income_inequality_EST",0.0186
-19111,"Lee County, Iowa","Pct_prime_working_age",0.989949493661167
-19111,"Lee County, Iowa","Old_age_dependency_ratio",0.6
-19111,"Lee County, Iowa","Pct_language_barrier",0.3
-19111,"Lee County, Iowa","Pct_disability",1.1
-19111,"Lee County, Iowa","Pct_poverty",1.7
+19111,"Lee County, Iowa","Pct_prime_working_age_EST",0.989949493661167
+19111,"Lee County, Iowa","Old_age_dependency_ratio_EST",0.6
+19111,"Lee County, Iowa","Pct_language_barrier_EST",0.3
+19111,"Lee County, Iowa","Pct_disability_EST",1.1
+19111,"Lee County, Iowa","Pct_poverty_EST",1.7
 19113,"Linn County, Iowa","AgingHousingStock",0.8
 19113,"Linn County, Iowa","TypicalOwnerCosts",19
 19113,"Linn County, Iowa","TypicalRenterCosts",20
@@ -906,11 +906,11 @@
 19113,"Linn County, Iowa","MultFamShare",0.979795897
 19113,"Linn County, Iowa","RentalUnitRatio",0.01101564
 19113,"Linn County, Iowa","Gini_index_income_inequality_EST",0.0116
-19113,"Linn County, Iowa","Pct_prime_working_age",0.469041575982343
-19113,"Linn County, Iowa","Old_age_dependency_ratio",0.1
-19113,"Linn County, Iowa","Pct_language_barrier",0.4
-19113,"Linn County, Iowa","Pct_disability",0.5
-19113,"Linn County, Iowa","Pct_poverty",0.8
+19113,"Linn County, Iowa","Pct_prime_working_age_EST",0.469041575982343
+19113,"Linn County, Iowa","Old_age_dependency_ratio_EST",0.1
+19113,"Linn County, Iowa","Pct_language_barrier_EST",0.4
+19113,"Linn County, Iowa","Pct_disability_EST",0.5
+19113,"Linn County, Iowa","Pct_poverty_EST",0.8
 19115,"Louisa County, Iowa","AgingHousingStock",3.2
 19115,"Louisa County, Iowa","TypicalOwnerCosts",48
 19115,"Louisa County, Iowa","TypicalRenterCosts",37
@@ -922,11 +922,11 @@
 19115,"Louisa County, Iowa","MultFamShare",1.843908891
 19115,"Louisa County, Iowa","RentalUnitRatio",0.038748837
 19115,"Louisa County, Iowa","Gini_index_income_inequality_EST",0.0379
-19115,"Louisa County, Iowa","Pct_prime_working_age",1.63095064303001
-19115,"Louisa County, Iowa","Old_age_dependency_ratio",0.8
-19115,"Louisa County, Iowa","Pct_language_barrier",1.2
-19115,"Louisa County, Iowa","Pct_disability",1.5
-19115,"Louisa County, Iowa","Pct_poverty",1.9
+19115,"Louisa County, Iowa","Pct_prime_working_age_EST",1.63095064303001
+19115,"Louisa County, Iowa","Old_age_dependency_ratio_EST",0.8
+19115,"Louisa County, Iowa","Pct_language_barrier_EST",1.2
+19115,"Louisa County, Iowa","Pct_disability_EST",1.5
+19115,"Louisa County, Iowa","Pct_poverty_EST",1.9
 19117,"Lucas County, Iowa","AgingHousingStock",3.8
 19117,"Lucas County, Iowa","TypicalOwnerCosts",73
 19117,"Lucas County, Iowa","TypicalRenterCosts",98
@@ -938,11 +938,11 @@
 19117,"Lucas County, Iowa","MultFamShare",2.826658805
 19117,"Lucas County, Iowa","RentalUnitRatio",0.038168463
 19117,"Lucas County, Iowa","Gini_index_income_inequality_EST",0.0483
-19117,"Lucas County, Iowa","Pct_prime_working_age",1.66433169770932
-19117,"Lucas County, Iowa","Old_age_dependency_ratio",0.3
-19117,"Lucas County, Iowa","Pct_language_barrier",1.4
-19117,"Lucas County, Iowa","Pct_disability",1.9
-19117,"Lucas County, Iowa","Pct_poverty",3.6
+19117,"Lucas County, Iowa","Pct_prime_working_age_EST",1.66433169770932
+19117,"Lucas County, Iowa","Old_age_dependency_ratio_EST",0.3
+19117,"Lucas County, Iowa","Pct_language_barrier_EST",1.4
+19117,"Lucas County, Iowa","Pct_disability_EST",1.9
+19117,"Lucas County, Iowa","Pct_poverty_EST",3.6
 19119,"Lyon County, Iowa","AgingHousingStock",3.1
 19119,"Lyon County, Iowa","TypicalOwnerCosts",54
 19119,"Lyon County, Iowa","TypicalRenterCosts",31
@@ -954,11 +954,11 @@
 19119,"Lyon County, Iowa","MultFamShare",2.711088342
 19119,"Lyon County, Iowa","RentalUnitRatio",0.02917238
 19119,"Lyon County, Iowa","Gini_index_income_inequality_EST",0.0156
-19119,"Lyon County, Iowa","Pct_prime_working_age",1.02469507659596
-19119,"Lyon County, Iowa","Old_age_dependency_ratio",0.3
-19119,"Lyon County, Iowa","Pct_language_barrier",0.4
-19119,"Lyon County, Iowa","Pct_disability",1.3
-19119,"Lyon County, Iowa","Pct_poverty",1.4
+19119,"Lyon County, Iowa","Pct_prime_working_age_EST",1.02469507659596
+19119,"Lyon County, Iowa","Old_age_dependency_ratio_EST",0.3
+19119,"Lyon County, Iowa","Pct_language_barrier_EST",0.4
+19119,"Lyon County, Iowa","Pct_disability_EST",1.3
+19119,"Lyon County, Iowa","Pct_poverty_EST",1.4
 19121,"Madison County, Iowa","AgingHousingStock",3.3
 19121,"Madison County, Iowa","TypicalOwnerCosts",74
 19121,"Madison County, Iowa","TypicalRenterCosts",83
@@ -970,11 +970,11 @@
 19121,"Madison County, Iowa","MultFamShare",2.978254522
 19121,"Madison County, Iowa","RentalUnitRatio",0.040989556
 19121,"Madison County, Iowa","Gini_index_income_inequality_EST",0.0309
-19121,"Madison County, Iowa","Pct_prime_working_age",1.67928556237467
-19121,"Madison County, Iowa","Old_age_dependency_ratio",1.6
-19121,"Madison County, Iowa","Pct_language_barrier",0.3
-19121,"Madison County, Iowa","Pct_disability",1.4
-19121,"Madison County, Iowa","Pct_poverty",1.9
+19121,"Madison County, Iowa","Pct_prime_working_age_EST",1.67928556237467
+19121,"Madison County, Iowa","Old_age_dependency_ratio_EST",1.6
+19121,"Madison County, Iowa","Pct_language_barrier_EST",0.3
+19121,"Madison County, Iowa","Pct_disability_EST",1.4
+19121,"Madison County, Iowa","Pct_poverty_EST",1.9
 19123,"Mahaska County, Iowa","AgingHousingStock",2.7
 19123,"Mahaska County, Iowa","TypicalOwnerCosts",50
 19123,"Mahaska County, Iowa","TypicalRenterCosts",45
@@ -986,11 +986,11 @@
 19123,"Mahaska County, Iowa","MultFamShare",2.19544984
 19123,"Mahaska County, Iowa","RentalUnitRatio",0.034326711
 19123,"Mahaska County, Iowa","Gini_index_income_inequality_EST",0.0262
-19123,"Mahaska County, Iowa","Pct_prime_working_age",1.40712472794703
-19123,"Mahaska County, Iowa","Old_age_dependency_ratio",0.7
-19123,"Mahaska County, Iowa","Pct_language_barrier",0.4
-19123,"Mahaska County, Iowa","Pct_disability",1.5
-19123,"Mahaska County, Iowa","Pct_poverty",2
+19123,"Mahaska County, Iowa","Pct_prime_working_age_EST",1.40712472794703
+19123,"Mahaska County, Iowa","Old_age_dependency_ratio_EST",0.7
+19123,"Mahaska County, Iowa","Pct_language_barrier_EST",0.4
+19123,"Mahaska County, Iowa","Pct_disability_EST",1.5
+19123,"Mahaska County, Iowa","Pct_poverty_EST",2
 19125,"Marion County, Iowa","AgingHousingStock",2
 19125,"Marion County, Iowa","TypicalOwnerCosts",48
 19125,"Marion County, Iowa","TypicalRenterCosts",12
@@ -1002,11 +1002,11 @@
 19125,"Marion County, Iowa","MultFamShare",1.979898987
 19125,"Marion County, Iowa","RentalUnitRatio",0.026057466
 19125,"Marion County, Iowa","Gini_index_income_inequality_EST",0.0313
-19125,"Marion County, Iowa","Pct_prime_working_age",1.10905365064094
-19125,"Marion County, Iowa","Old_age_dependency_ratio",0.5
-19125,"Marion County, Iowa","Pct_language_barrier",0.3
-19125,"Marion County, Iowa","Pct_disability",1.1
-19125,"Marion County, Iowa","Pct_poverty",1.2
+19125,"Marion County, Iowa","Pct_prime_working_age_EST",1.10905365064094
+19125,"Marion County, Iowa","Old_age_dependency_ratio_EST",0.5
+19125,"Marion County, Iowa","Pct_language_barrier_EST",0.3
+19125,"Marion County, Iowa","Pct_disability_EST",1.1
+19125,"Marion County, Iowa","Pct_poverty_EST",1.2
 19127,"Marshall County, Iowa","AgingHousingStock",2.4
 19127,"Marshall County, Iowa","TypicalOwnerCosts",33
 19127,"Marshall County, Iowa","TypicalRenterCosts",27
@@ -1018,11 +1018,11 @@
 19127,"Marshall County, Iowa","MultFamShare",1.640121947
 19127,"Marshall County, Iowa","RentalUnitRatio",0.027285893
 19127,"Marshall County, Iowa","Gini_index_income_inequality_EST",0.0162
-19127,"Marshall County, Iowa","Pct_prime_working_age",1.20830459735946
-19127,"Marshall County, Iowa","Old_age_dependency_ratio",1
-19127,"Marshall County, Iowa","Pct_language_barrier",1.3
-19127,"Marshall County, Iowa","Pct_disability",1
-19127,"Marshall County, Iowa","Pct_poverty",1.7
+19127,"Marshall County, Iowa","Pct_prime_working_age_EST",1.20830459735946
+19127,"Marshall County, Iowa","Old_age_dependency_ratio_EST",1
+19127,"Marshall County, Iowa","Pct_language_barrier_EST",1.3
+19127,"Marshall County, Iowa","Pct_disability_EST",1
+19127,"Marshall County, Iowa","Pct_poverty_EST",1.7
 19129,"Mills County, Iowa","AgingHousingStock",3
 19129,"Mills County, Iowa","TypicalOwnerCosts",73
 19129,"Mills County, Iowa","TypicalRenterCosts",115
@@ -1034,11 +1034,11 @@
 19129,"Mills County, Iowa","MultFamShare",1.288409873
 19129,"Mills County, Iowa","RentalUnitRatio",0.038875232
 19129,"Mills County, Iowa","Gini_index_income_inequality_EST",0.0228
-19129,"Mills County, Iowa","Pct_prime_working_age",1.19582607431014
-19129,"Mills County, Iowa","Old_age_dependency_ratio",0.7
-19129,"Mills County, Iowa","Pct_language_barrier",0.4
-19129,"Mills County, Iowa","Pct_disability",1.6
-19129,"Mills County, Iowa","Pct_poverty",1.8
+19129,"Mills County, Iowa","Pct_prime_working_age_EST",1.19582607431014
+19129,"Mills County, Iowa","Old_age_dependency_ratio_EST",0.7
+19129,"Mills County, Iowa","Pct_language_barrier_EST",0.4
+19129,"Mills County, Iowa","Pct_disability_EST",1.6
+19129,"Mills County, Iowa","Pct_poverty_EST",1.8
 19131,"Mitchell County, Iowa","AgingHousingStock",4
 19131,"Mitchell County, Iowa","TypicalOwnerCosts",54
 19131,"Mitchell County, Iowa","TypicalRenterCosts",59
@@ -1050,11 +1050,11 @@
 19131,"Mitchell County, Iowa","MultFamShare",2.097617696
 19131,"Mitchell County, Iowa","RentalUnitRatio",0.036742896
 19131,"Mitchell County, Iowa","Gini_index_income_inequality_EST",0.0282
-19131,"Mitchell County, Iowa","Pct_prime_working_age",1.18743420870379
-19131,"Mitchell County, Iowa","Old_age_dependency_ratio",0.7
-19131,"Mitchell County, Iowa","Pct_language_barrier",1.3
-19131,"Mitchell County, Iowa","Pct_disability",1.7
-19131,"Mitchell County, Iowa","Pct_poverty",2
+19131,"Mitchell County, Iowa","Pct_prime_working_age_EST",1.18743420870379
+19131,"Mitchell County, Iowa","Old_age_dependency_ratio_EST",0.7
+19131,"Mitchell County, Iowa","Pct_language_barrier_EST",1.3
+19131,"Mitchell County, Iowa","Pct_disability_EST",1.7
+19131,"Mitchell County, Iowa","Pct_poverty_EST",2
 19133,"Monona County, Iowa","AgingHousingStock",3.6
 19133,"Monona County, Iowa","TypicalOwnerCosts",48
 19133,"Monona County, Iowa","TypicalRenterCosts",28
@@ -1066,11 +1066,11 @@
 19133,"Monona County, Iowa","MultFamShare",2.634387974
 19133,"Monona County, Iowa","RentalUnitRatio",0.044740098
 19133,"Monona County, Iowa","Gini_index_income_inequality_EST",0.0199
-19133,"Monona County, Iowa","Pct_prime_working_age",1.62172747402269
-19133,"Monona County, Iowa","Old_age_dependency_ratio",2.4
-19133,"Monona County, Iowa","Pct_language_barrier",0.3
-19133,"Monona County, Iowa","Pct_disability",2.4
-19133,"Monona County, Iowa","Pct_poverty",2.4
+19133,"Monona County, Iowa","Pct_prime_working_age_EST",1.62172747402269
+19133,"Monona County, Iowa","Old_age_dependency_ratio_EST",2.4
+19133,"Monona County, Iowa","Pct_language_barrier_EST",0.3
+19133,"Monona County, Iowa","Pct_disability_EST",2.4
+19133,"Monona County, Iowa","Pct_poverty_EST",2.4
 19135,"Monroe County, Iowa","AgingHousingStock",4.6
 19135,"Monroe County, Iowa","TypicalOwnerCosts",87
 19135,"Monroe County, Iowa","TypicalRenterCosts",121
@@ -1082,11 +1082,11 @@
 19135,"Monroe County, Iowa","MultFamShare",2.315167381
 19135,"Monroe County, Iowa","RentalUnitRatio",0.06317003
 19135,"Monroe County, Iowa","Gini_index_income_inequality_EST",0.0497
-19135,"Monroe County, Iowa","Pct_prime_working_age",1.87082869338697
-19135,"Monroe County, Iowa","Old_age_dependency_ratio",0.4
-19135,"Monroe County, Iowa","Pct_language_barrier",1.1
-19135,"Monroe County, Iowa","Pct_disability",2.6
-19135,"Monroe County, Iowa","Pct_poverty",3.8
+19135,"Monroe County, Iowa","Pct_prime_working_age_EST",1.87082869338697
+19135,"Monroe County, Iowa","Old_age_dependency_ratio_EST",0.4
+19135,"Monroe County, Iowa","Pct_language_barrier_EST",1.1
+19135,"Monroe County, Iowa","Pct_disability_EST",2.6
+19135,"Monroe County, Iowa","Pct_poverty_EST",3.8
 19137,"Montgomery County, Iowa","AgingHousingStock",4.1
 19137,"Montgomery County, Iowa","TypicalOwnerCosts",54
 19137,"Montgomery County, Iowa","TypicalRenterCosts",28
@@ -1098,11 +1098,11 @@
 19137,"Montgomery County, Iowa","MultFamShare",2.511971337
 19137,"Montgomery County, Iowa","RentalUnitRatio",0.045103885
 19137,"Montgomery County, Iowa","Gini_index_income_inequality_EST",0.0778
-19137,"Montgomery County, Iowa","Pct_prime_working_age",1.87616630392937
-19137,"Montgomery County, Iowa","Old_age_dependency_ratio",0.8
-19137,"Montgomery County, Iowa","Pct_language_barrier",0.2
-19137,"Montgomery County, Iowa","Pct_disability",1.9
-19137,"Montgomery County, Iowa","Pct_poverty",2.8
+19137,"Montgomery County, Iowa","Pct_prime_working_age_EST",1.87616630392937
+19137,"Montgomery County, Iowa","Old_age_dependency_ratio_EST",0.8
+19137,"Montgomery County, Iowa","Pct_language_barrier_EST",0.2
+19137,"Montgomery County, Iowa","Pct_disability_EST",1.9
+19137,"Montgomery County, Iowa","Pct_poverty_EST",2.8
 19139,"Muscatine County, Iowa","AgingHousingStock",2.5
 19139,"Muscatine County, Iowa","TypicalOwnerCosts",63
 19139,"Muscatine County, Iowa","TypicalRenterCosts",36
@@ -1114,11 +1114,11 @@
 19139,"Muscatine County, Iowa","MultFamShare",1.596871942
 19139,"Muscatine County, Iowa","RentalUnitRatio",0.026476625
 19139,"Muscatine County, Iowa","Gini_index_income_inequality_EST",0.0241
-19139,"Muscatine County, Iowa","Pct_prime_working_age",1.13137084989848
-19139,"Muscatine County, Iowa","Old_age_dependency_ratio",0.2
-19139,"Muscatine County, Iowa","Pct_language_barrier",0.6
-19139,"Muscatine County, Iowa","Pct_disability",1.1
-19139,"Muscatine County, Iowa","Pct_poverty",1.5
+19139,"Muscatine County, Iowa","Pct_prime_working_age_EST",1.13137084989848
+19139,"Muscatine County, Iowa","Old_age_dependency_ratio_EST",0.2
+19139,"Muscatine County, Iowa","Pct_language_barrier_EST",0.6
+19139,"Muscatine County, Iowa","Pct_disability_EST",1.1
+19139,"Muscatine County, Iowa","Pct_poverty_EST",1.5
 19141,"O'Brien County, Iowa","AgingHousingStock",3.3
 19141,"O'Brien County, Iowa","TypicalOwnerCosts",45
 19141,"O'Brien County, Iowa","TypicalRenterCosts",45
@@ -1130,11 +1130,11 @@
 19141,"O'Brien County, Iowa","MultFamShare",2.789265136
 19141,"O'Brien County, Iowa","RentalUnitRatio",0.037932856
 19141,"O'Brien County, Iowa","Gini_index_income_inequality_EST",0.0304
-19141,"O'Brien County, Iowa","Pct_prime_working_age",1.62788205960997
-19141,"O'Brien County, Iowa","Old_age_dependency_ratio",0.4
-19141,"O'Brien County, Iowa","Pct_language_barrier",0.6
-19141,"O'Brien County, Iowa","Pct_disability",2
-19141,"O'Brien County, Iowa","Pct_poverty",2.2
+19141,"O'Brien County, Iowa","Pct_prime_working_age_EST",1.62788205960997
+19141,"O'Brien County, Iowa","Old_age_dependency_ratio_EST",0.4
+19141,"O'Brien County, Iowa","Pct_language_barrier_EST",0.6
+19141,"O'Brien County, Iowa","Pct_disability_EST",2
+19141,"O'Brien County, Iowa","Pct_poverty_EST",2.2
 19143,"Osceola County, Iowa","AgingHousingStock",3.9
 19143,"Osceola County, Iowa","TypicalOwnerCosts",51
 19143,"Osceola County, Iowa","TypicalRenterCosts",76
@@ -1146,11 +1146,11 @@
 19143,"Osceola County, Iowa","MultFamShare",1.794435844
 19143,"Osceola County, Iowa","RentalUnitRatio",0.044077102
 19143,"Osceola County, Iowa","Gini_index_income_inequality_EST",0.0236
-19143,"Osceola County, Iowa","Pct_prime_working_age",1.62788205960997
-19143,"Osceola County, Iowa","Old_age_dependency_ratio",0.3
-19143,"Osceola County, Iowa","Pct_language_barrier",1
-19143,"Osceola County, Iowa","Pct_disability",2
-19143,"Osceola County, Iowa","Pct_poverty",2.7
+19143,"Osceola County, Iowa","Pct_prime_working_age_EST",1.62788205960997
+19143,"Osceola County, Iowa","Old_age_dependency_ratio_EST",0.3
+19143,"Osceola County, Iowa","Pct_language_barrier_EST",1
+19143,"Osceola County, Iowa","Pct_disability_EST",2
+19143,"Osceola County, Iowa","Pct_poverty_EST",2.7
 19145,"Page County, Iowa","AgingHousingStock",2.8
 19145,"Page County, Iowa","TypicalOwnerCosts",53
 19145,"Page County, Iowa","TypicalRenterCosts",42
@@ -1162,11 +1162,11 @@
 19145,"Page County, Iowa","MultFamShare",2.306512519
 19145,"Page County, Iowa","RentalUnitRatio",0.038649338
 19145,"Page County, Iowa","Gini_index_income_inequality_EST",0.0183
-19145,"Page County, Iowa","Pct_prime_working_age",1.50332963783729
-19145,"Page County, Iowa","Old_age_dependency_ratio",1.2
-19145,"Page County, Iowa","Pct_language_barrier",0.4
-19145,"Page County, Iowa","Pct_disability",1.4
-19145,"Page County, Iowa","Pct_poverty",2.3
+19145,"Page County, Iowa","Pct_prime_working_age_EST",1.50332963783729
+19145,"Page County, Iowa","Old_age_dependency_ratio_EST",1.2
+19145,"Page County, Iowa","Pct_language_barrier_EST",0.4
+19145,"Page County, Iowa","Pct_disability_EST",1.4
+19145,"Page County, Iowa","Pct_poverty_EST",2.3
 19147,"Palo Alto County, Iowa","AgingHousingStock",3.3
 19147,"Palo Alto County, Iowa","TypicalOwnerCosts",44
 19147,"Palo Alto County, Iowa","TypicalRenterCosts",51
@@ -1178,11 +1178,11 @@
 19147,"Palo Alto County, Iowa","MultFamShare",2.493992783
 19147,"Palo Alto County, Iowa","RentalUnitRatio",0.040236562
 19147,"Palo Alto County, Iowa","Gini_index_income_inequality_EST",0.0265
-19147,"Palo Alto County, Iowa","Pct_prime_working_age",1.7
-19147,"Palo Alto County, Iowa","Old_age_dependency_ratio",0.7
-19147,"Palo Alto County, Iowa","Pct_language_barrier",1
-19147,"Palo Alto County, Iowa","Pct_disability",1.8
-19147,"Palo Alto County, Iowa","Pct_poverty",1.8
+19147,"Palo Alto County, Iowa","Pct_prime_working_age_EST",1.7
+19147,"Palo Alto County, Iowa","Old_age_dependency_ratio_EST",0.7
+19147,"Palo Alto County, Iowa","Pct_language_barrier_EST",1
+19147,"Palo Alto County, Iowa","Pct_disability_EST",1.8
+19147,"Palo Alto County, Iowa","Pct_poverty_EST",1.8
 19149,"Plymouth County, Iowa","AgingHousingStock",2.1
 19149,"Plymouth County, Iowa","TypicalOwnerCosts",51
 19149,"Plymouth County, Iowa","TypicalRenterCosts",44
@@ -1194,11 +1194,11 @@
 19149,"Plymouth County, Iowa","MultFamShare",1.997498436
 19149,"Plymouth County, Iowa","RentalUnitRatio",0.028136467
 19149,"Plymouth County, Iowa","Gini_index_income_inequality_EST",0.0196
-19149,"Plymouth County, Iowa","Pct_prime_working_age",1.17898261225516
-19149,"Plymouth County, Iowa","Old_age_dependency_ratio",0.4
-19149,"Plymouth County, Iowa","Pct_language_barrier",0.6
-19149,"Plymouth County, Iowa","Pct_disability",1.2
-19149,"Plymouth County, Iowa","Pct_poverty",1.6
+19149,"Plymouth County, Iowa","Pct_prime_working_age_EST",1.17898261225516
+19149,"Plymouth County, Iowa","Old_age_dependency_ratio_EST",0.4
+19149,"Plymouth County, Iowa","Pct_language_barrier_EST",0.6
+19149,"Plymouth County, Iowa","Pct_disability_EST",1.2
+19149,"Plymouth County, Iowa","Pct_poverty_EST",1.6
 19151,"Pocahontas County, Iowa","AgingHousingStock",3.3
 19151,"Pocahontas County, Iowa","TypicalOwnerCosts",39
 19151,"Pocahontas County, Iowa","TypicalRenterCosts",38
@@ -1210,11 +1210,11 @@
 19151,"Pocahontas County, Iowa","MultFamShare",1.910497317
 19151,"Pocahontas County, Iowa","RentalUnitRatio",0.036702533
 19151,"Pocahontas County, Iowa","Gini_index_income_inequality_EST",0.023
-19151,"Pocahontas County, Iowa","Pct_prime_working_age",1.48323969741913
-19151,"Pocahontas County, Iowa","Old_age_dependency_ratio",0.3
-19151,"Pocahontas County, Iowa","Pct_language_barrier",0.5
-19151,"Pocahontas County, Iowa","Pct_disability",1.8
-19151,"Pocahontas County, Iowa","Pct_poverty",2
+19151,"Pocahontas County, Iowa","Pct_prime_working_age_EST",1.48323969741913
+19151,"Pocahontas County, Iowa","Old_age_dependency_ratio_EST",0.3
+19151,"Pocahontas County, Iowa","Pct_language_barrier_EST",0.5
+19151,"Pocahontas County, Iowa","Pct_disability_EST",1.8
+19151,"Pocahontas County, Iowa","Pct_poverty_EST",2
 19153,"Polk County, Iowa","AgingHousingStock",0.5
 19153,"Polk County, Iowa","TypicalOwnerCosts",15
 19153,"Polk County, Iowa","TypicalRenterCosts",12
@@ -1226,11 +1226,11 @@
 19153,"Polk County, Iowa","MultFamShare",0.905538514
 19153,"Polk County, Iowa","RentalUnitRatio",0.009118638
 19153,"Polk County, Iowa","Gini_index_income_inequality_EST",0.0066
-19153,"Polk County, Iowa","Pct_prime_working_age",0.469041575982343
-19153,"Polk County, Iowa","Old_age_dependency_ratio",0.1
-19153,"Polk County, Iowa","Pct_language_barrier",0.3
-19153,"Polk County, Iowa","Pct_disability",0.4
-19153,"Polk County, Iowa","Pct_poverty",0.6
+19153,"Polk County, Iowa","Pct_prime_working_age_EST",0.469041575982343
+19153,"Polk County, Iowa","Old_age_dependency_ratio_EST",0.1
+19153,"Polk County, Iowa","Pct_language_barrier_EST",0.3
+19153,"Polk County, Iowa","Pct_disability_EST",0.4
+19153,"Polk County, Iowa","Pct_poverty_EST",0.6
 19155,"Pottawattamie County, Iowa","AgingHousingStock",1.2
 19155,"Pottawattamie County, Iowa","TypicalOwnerCosts",28
 19155,"Pottawattamie County, Iowa","TypicalRenterCosts",21
@@ -1242,11 +1242,11 @@
 19155,"Pottawattamie County, Iowa","MultFamShare",1.126942767
 19155,"Pottawattamie County, Iowa","RentalUnitRatio",0.015939681
 19155,"Pottawattamie County, Iowa","Gini_index_income_inequality_EST",0.0102
-19155,"Pottawattamie County, Iowa","Pct_prime_working_age",0.648074069840786
-19155,"Pottawattamie County, Iowa","Old_age_dependency_ratio",0.2
-19155,"Pottawattamie County, Iowa","Pct_language_barrier",0.6
-19155,"Pottawattamie County, Iowa","Pct_disability",0.7
-19155,"Pottawattamie County, Iowa","Pct_poverty",0.9
+19155,"Pottawattamie County, Iowa","Pct_prime_working_age_EST",0.648074069840786
+19155,"Pottawattamie County, Iowa","Old_age_dependency_ratio_EST",0.2
+19155,"Pottawattamie County, Iowa","Pct_language_barrier_EST",0.6
+19155,"Pottawattamie County, Iowa","Pct_disability_EST",0.7
+19155,"Pottawattamie County, Iowa","Pct_poverty_EST",0.9
 19157,"Poweshiek County, Iowa","AgingHousingStock",3.3
 19157,"Poweshiek County, Iowa","TypicalOwnerCosts",69
 19157,"Poweshiek County, Iowa","TypicalRenterCosts",27
@@ -1258,11 +1258,11 @@
 19157,"Poweshiek County, Iowa","MultFamShare",2.481934729
 19157,"Poweshiek County, Iowa","RentalUnitRatio",0.047903516
 19157,"Poweshiek County, Iowa","Gini_index_income_inequality_EST",0.0292
-19157,"Poweshiek County, Iowa","Pct_prime_working_age",1.20830459735946
-19157,"Poweshiek County, Iowa","Old_age_dependency_ratio",0.4
-19157,"Poweshiek County, Iowa","Pct_language_barrier",0.4
-19157,"Poweshiek County, Iowa","Pct_disability",1.6
-19157,"Poweshiek County, Iowa","Pct_poverty",1.9
+19157,"Poweshiek County, Iowa","Pct_prime_working_age_EST",1.20830459735946
+19157,"Poweshiek County, Iowa","Old_age_dependency_ratio_EST",0.4
+19157,"Poweshiek County, Iowa","Pct_language_barrier_EST",0.4
+19157,"Poweshiek County, Iowa","Pct_disability_EST",1.6
+19157,"Poweshiek County, Iowa","Pct_poverty_EST",1.9
 19159,"Ringgold County, Iowa","AgingHousingStock",4.5
 19159,"Ringgold County, Iowa","TypicalOwnerCosts",91
 19159,"Ringgold County, Iowa","TypicalRenterCosts",31
@@ -1274,11 +1274,11 @@
 19159,"Ringgold County, Iowa","MultFamShare",1.428285686
 19159,"Ringgold County, Iowa","RentalUnitRatio",0.04448913
 19159,"Ringgold County, Iowa","Gini_index_income_inequality_EST",0.0288
-19159,"Ringgold County, Iowa","Pct_prime_working_age",1.46287388383278
-19159,"Ringgold County, Iowa","Old_age_dependency_ratio",0.6
-19159,"Ringgold County, Iowa","Pct_language_barrier",0.6
-19159,"Ringgold County, Iowa","Pct_disability",1.9
-19159,"Ringgold County, Iowa","Pct_poverty",2.4
+19159,"Ringgold County, Iowa","Pct_prime_working_age_EST",1.46287388383278
+19159,"Ringgold County, Iowa","Old_age_dependency_ratio_EST",0.6
+19159,"Ringgold County, Iowa","Pct_language_barrier_EST",0.6
+19159,"Ringgold County, Iowa","Pct_disability_EST",1.9
+19159,"Ringgold County, Iowa","Pct_poverty_EST",2.4
 19161,"Sac County, Iowa","AgingHousingStock",3.1
 19161,"Sac County, Iowa","TypicalOwnerCosts",32
 19161,"Sac County, Iowa","TypicalRenterCosts",50
@@ -1290,11 +1290,11 @@
 19161,"Sac County, Iowa","MultFamShare",1.208304597
 19161,"Sac County, Iowa","RentalUnitRatio",0.033618515
 19161,"Sac County, Iowa","Gini_index_income_inequality_EST",0.0187
-19161,"Sac County, Iowa","Pct_prime_working_age",1.35277492584687
-19161,"Sac County, Iowa","Old_age_dependency_ratio",0.8
-19161,"Sac County, Iowa","Pct_language_barrier",0.5
-19161,"Sac County, Iowa","Pct_disability",1.2
-19161,"Sac County, Iowa","Pct_poverty",1.8
+19161,"Sac County, Iowa","Pct_prime_working_age_EST",1.35277492584687
+19161,"Sac County, Iowa","Old_age_dependency_ratio_EST",0.8
+19161,"Sac County, Iowa","Pct_language_barrier_EST",0.5
+19161,"Sac County, Iowa","Pct_disability_EST",1.2
+19161,"Sac County, Iowa","Pct_poverty_EST",1.8
 19163,"Scott County, Iowa","AgingHousingStock",0.9
 19163,"Scott County, Iowa","TypicalOwnerCosts",24
 19163,"Scott County, Iowa","TypicalRenterCosts",19
@@ -1306,11 +1306,11 @@
 19163,"Scott County, Iowa","MultFamShare",0.969535971
 19163,"Scott County, Iowa","RentalUnitRatio",0.013409754
 19163,"Scott County, Iowa","Gini_index_income_inequality_EST",0.008
-19163,"Scott County, Iowa","Pct_prime_working_age",0.6
-19163,"Scott County, Iowa","Old_age_dependency_ratio",0.1
-19163,"Scott County, Iowa","Pct_language_barrier",0.3
-19163,"Scott County, Iowa","Pct_disability",0.6
-19163,"Scott County, Iowa","Pct_poverty",0.8
+19163,"Scott County, Iowa","Pct_prime_working_age_EST",0.6
+19163,"Scott County, Iowa","Old_age_dependency_ratio_EST",0.1
+19163,"Scott County, Iowa","Pct_language_barrier_EST",0.3
+19163,"Scott County, Iowa","Pct_disability_EST",0.6
+19163,"Scott County, Iowa","Pct_poverty_EST",0.8
 19165,"Shelby County, Iowa","AgingHousingStock",3.5
 19165,"Shelby County, Iowa","TypicalOwnerCosts",54
 19165,"Shelby County, Iowa","TypicalRenterCosts",136
@@ -1322,11 +1322,11 @@
 19165,"Shelby County, Iowa","MultFamShare",1.513274595
 19165,"Shelby County, Iowa","RentalUnitRatio",0.034857699
 19165,"Shelby County, Iowa","Gini_index_income_inequality_EST",0.0236
-19165,"Shelby County, Iowa","Pct_prime_working_age",1.53297097167559
-19165,"Shelby County, Iowa","Old_age_dependency_ratio",1.5
-19165,"Shelby County, Iowa","Pct_language_barrier",0.7
-19165,"Shelby County, Iowa","Pct_disability",1.6
-19165,"Shelby County, Iowa","Pct_poverty",2.2
+19165,"Shelby County, Iowa","Pct_prime_working_age_EST",1.53297097167559
+19165,"Shelby County, Iowa","Old_age_dependency_ratio_EST",1.5
+19165,"Shelby County, Iowa","Pct_language_barrier_EST",0.7
+19165,"Shelby County, Iowa","Pct_disability_EST",1.6
+19165,"Shelby County, Iowa","Pct_poverty_EST",2.2
 19167,"Sioux County, Iowa","AgingHousingStock",2.3
 19167,"Sioux County, Iowa","TypicalOwnerCosts",62
 19167,"Sioux County, Iowa","TypicalRenterCosts",67
@@ -1338,11 +1338,11 @@
 19167,"Sioux County, Iowa","MultFamShare",1.780449381
 19167,"Sioux County, Iowa","RentalUnitRatio",0.025718503
 19167,"Sioux County, Iowa","Gini_index_income_inequality_EST",0.0208
-19167,"Sioux County, Iowa","Pct_prime_working_age",1.21655250605964
-19167,"Sioux County, Iowa","Old_age_dependency_ratio",0.2
-19167,"Sioux County, Iowa","Pct_language_barrier",0.5
-19167,"Sioux County, Iowa","Pct_disability",1.1
-19167,"Sioux County, Iowa","Pct_poverty",1.2
+19167,"Sioux County, Iowa","Pct_prime_working_age_EST",1.21655250605964
+19167,"Sioux County, Iowa","Old_age_dependency_ratio_EST",0.2
+19167,"Sioux County, Iowa","Pct_language_barrier_EST",0.5
+19167,"Sioux County, Iowa","Pct_disability_EST",1.1
+19167,"Sioux County, Iowa","Pct_poverty_EST",1.2
 19169,"Story County, Iowa","AgingHousingStock",1
 19169,"Story County, Iowa","TypicalOwnerCosts",47
 19169,"Story County, Iowa","TypicalRenterCosts",22
@@ -1354,11 +1354,11 @@
 19169,"Story County, Iowa","MultFamShare",2.154065923
 19169,"Story County, Iowa","RentalUnitRatio",0.02268228
 19169,"Story County, Iowa","Gini_index_income_inequality_EST",0.0148
-19169,"Story County, Iowa","Pct_prime_working_age",0.648074069840786
-19169,"Story County, Iowa","Old_age_dependency_ratio",0.3
-19169,"Story County, Iowa","Pct_language_barrier",0.7
-19169,"Story County, Iowa","Pct_disability",0.7
-19169,"Story County, Iowa","Pct_poverty",1.4
+19169,"Story County, Iowa","Pct_prime_working_age_EST",0.648074069840786
+19169,"Story County, Iowa","Old_age_dependency_ratio_EST",0.3
+19169,"Story County, Iowa","Pct_language_barrier_EST",0.7
+19169,"Story County, Iowa","Pct_disability_EST",0.7
+19169,"Story County, Iowa","Pct_poverty_EST",1.4
 19171,"Tama County, Iowa","AgingHousingStock",2.5
 19171,"Tama County, Iowa","TypicalOwnerCosts",41
 19171,"Tama County, Iowa","TypicalRenterCosts",54
@@ -1370,11 +1370,11 @@
 19171,"Tama County, Iowa","MultFamShare",1.555634919
 19171,"Tama County, Iowa","RentalUnitRatio",0.026045426
 19171,"Tama County, Iowa","Gini_index_income_inequality_EST",0.0268
-19171,"Tama County, Iowa","Pct_prime_working_age",1.10905365064094
-19171,"Tama County, Iowa","Old_age_dependency_ratio",0.6
-19171,"Tama County, Iowa","Pct_language_barrier",0.6
-19171,"Tama County, Iowa","Pct_disability",1.1
-19171,"Tama County, Iowa","Pct_poverty",1.8
+19171,"Tama County, Iowa","Pct_prime_working_age_EST",1.10905365064094
+19171,"Tama County, Iowa","Old_age_dependency_ratio_EST",0.6
+19171,"Tama County, Iowa","Pct_language_barrier_EST",0.6
+19171,"Tama County, Iowa","Pct_disability_EST",1.1
+19171,"Tama County, Iowa","Pct_poverty_EST",1.8
 19173,"Taylor County, Iowa","AgingHousingStock",3.3
 19173,"Taylor County, Iowa","TypicalOwnerCosts",42
 19173,"Taylor County, Iowa","TypicalRenterCosts",48
@@ -1386,11 +1386,11 @@
 19173,"Taylor County, Iowa","MultFamShare",1.643167673
 19173,"Taylor County, Iowa","RentalUnitRatio",0.034304846
 19173,"Taylor County, Iowa","Gini_index_income_inequality_EST",0.0362
-19173,"Taylor County, Iowa","Pct_prime_working_age",1.58745078663875
-19173,"Taylor County, Iowa","Old_age_dependency_ratio",1.2
-19173,"Taylor County, Iowa","Pct_language_barrier",1.2
-19173,"Taylor County, Iowa","Pct_disability",1.5
-19173,"Taylor County, Iowa","Pct_poverty",1.8
+19173,"Taylor County, Iowa","Pct_prime_working_age_EST",1.58745078663875
+19173,"Taylor County, Iowa","Old_age_dependency_ratio_EST",1.2
+19173,"Taylor County, Iowa","Pct_language_barrier_EST",1.2
+19173,"Taylor County, Iowa","Pct_disability_EST",1.5
+19173,"Taylor County, Iowa","Pct_poverty_EST",1.8
 19175,"Union County, Iowa","AgingHousingStock",3.8
 19175,"Union County, Iowa","TypicalOwnerCosts",38
 19175,"Union County, Iowa","TypicalRenterCosts",59
@@ -1402,11 +1402,11 @@
 19175,"Union County, Iowa","MultFamShare",2.397915762
 19175,"Union County, Iowa","RentalUnitRatio",0.043573299
 19175,"Union County, Iowa","Gini_index_income_inequality_EST",0.0179
-19175,"Union County, Iowa","Pct_prime_working_age",1.48660687473185
-19175,"Union County, Iowa","Old_age_dependency_ratio",0.3
-19175,"Union County, Iowa","Pct_language_barrier",0.8
-19175,"Union County, Iowa","Pct_disability",2.1
-19175,"Union County, Iowa","Pct_poverty",2.2
+19175,"Union County, Iowa","Pct_prime_working_age_EST",1.48660687473185
+19175,"Union County, Iowa","Old_age_dependency_ratio_EST",0.3
+19175,"Union County, Iowa","Pct_language_barrier_EST",0.8
+19175,"Union County, Iowa","Pct_disability_EST",2.1
+19175,"Union County, Iowa","Pct_poverty_EST",2.2
 19177,"Van Buren County, Iowa","AgingHousingStock",3.8
 19177,"Van Buren County, Iowa","TypicalOwnerCosts",49
 19177,"Van Buren County, Iowa","TypicalRenterCosts",49
@@ -1418,11 +1418,11 @@
 19177,"Van Buren County, Iowa","MultFamShare",1.670329309
 19177,"Van Buren County, Iowa","RentalUnitRatio",0.036366189
 19177,"Van Buren County, Iowa","Gini_index_income_inequality_EST",0.0471
-19177,"Van Buren County, Iowa","Pct_prime_working_age",1.66733320005331
-19177,"Van Buren County, Iowa","Old_age_dependency_ratio",1.2
-19177,"Van Buren County, Iowa","Pct_language_barrier",1
-19177,"Van Buren County, Iowa","Pct_disability",1.8
-19177,"Van Buren County, Iowa","Pct_poverty",3.8
+19177,"Van Buren County, Iowa","Pct_prime_working_age_EST",1.66733320005331
+19177,"Van Buren County, Iowa","Old_age_dependency_ratio_EST",1.2
+19177,"Van Buren County, Iowa","Pct_language_barrier_EST",1
+19177,"Van Buren County, Iowa","Pct_disability_EST",1.8
+19177,"Van Buren County, Iowa","Pct_poverty_EST",3.8
 19179,"Wapello County, Iowa","AgingHousingStock",2.2
 19179,"Wapello County, Iowa","TypicalOwnerCosts",25
 19179,"Wapello County, Iowa","TypicalRenterCosts",46
@@ -1434,11 +1434,11 @@
 19179,"Wapello County, Iowa","MultFamShare",1.486606875
 19179,"Wapello County, Iowa","RentalUnitRatio",0.02630339
 19179,"Wapello County, Iowa","Gini_index_income_inequality_EST",0.0195
-19179,"Wapello County, Iowa","Pct_prime_working_age",1.3076696830622
-19179,"Wapello County, Iowa","Old_age_dependency_ratio",0.5
-19179,"Wapello County, Iowa","Pct_language_barrier",0.8
-19179,"Wapello County, Iowa","Pct_disability",1.4
-19179,"Wapello County, Iowa","Pct_poverty",2.4
+19179,"Wapello County, Iowa","Pct_prime_working_age_EST",1.3076696830622
+19179,"Wapello County, Iowa","Old_age_dependency_ratio_EST",0.5
+19179,"Wapello County, Iowa","Pct_language_barrier_EST",0.8
+19179,"Wapello County, Iowa","Pct_disability_EST",1.4
+19179,"Wapello County, Iowa","Pct_poverty_EST",2.4
 19181,"Warren County, Iowa","AgingHousingStock",1.4
 19181,"Warren County, Iowa","TypicalOwnerCosts",43
 19181,"Warren County, Iowa","TypicalRenterCosts",46
@@ -1450,11 +1450,11 @@
 19181,"Warren County, Iowa","MultFamShare",1.794435844
 19181,"Warren County, Iowa","RentalUnitRatio",0.018270458
 19181,"Warren County, Iowa","Gini_index_income_inequality_EST",0.0129
-19181,"Warren County, Iowa","Pct_prime_working_age",0.754983443527075
-19181,"Warren County, Iowa","Old_age_dependency_ratio",0.3
-19181,"Warren County, Iowa","Pct_language_barrier",0.3
-19181,"Warren County, Iowa","Pct_disability",1
-19181,"Warren County, Iowa","Pct_poverty",1
+19181,"Warren County, Iowa","Pct_prime_working_age_EST",0.754983443527075
+19181,"Warren County, Iowa","Old_age_dependency_ratio_EST",0.3
+19181,"Warren County, Iowa","Pct_language_barrier_EST",0.3
+19181,"Warren County, Iowa","Pct_disability_EST",1
+19181,"Warren County, Iowa","Pct_poverty_EST",1
 19183,"Washington County, Iowa","AgingHousingStock",2.8
 19183,"Washington County, Iowa","TypicalOwnerCosts",64
 19183,"Washington County, Iowa","TypicalRenterCosts",24
@@ -1466,11 +1466,11 @@
 19183,"Washington County, Iowa","MultFamShare",1.928730152
 19183,"Washington County, Iowa","RentalUnitRatio",0.03079759
 19183,"Washington County, Iowa","Gini_index_income_inequality_EST",0.0173
-19183,"Washington County, Iowa","Pct_prime_working_age",1.3076696830622
-19183,"Washington County, Iowa","Old_age_dependency_ratio",0.3
-19183,"Washington County, Iowa","Pct_language_barrier",0.6
-19183,"Washington County, Iowa","Pct_disability",1.4
-19183,"Washington County, Iowa","Pct_poverty",1.6
+19183,"Washington County, Iowa","Pct_prime_working_age_EST",1.3076696830622
+19183,"Washington County, Iowa","Old_age_dependency_ratio_EST",0.3
+19183,"Washington County, Iowa","Pct_language_barrier_EST",0.6
+19183,"Washington County, Iowa","Pct_disability_EST",1.4
+19183,"Washington County, Iowa","Pct_poverty_EST",1.6
 19185,"Wayne County, Iowa","AgingHousingStock",3.7
 19185,"Wayne County, Iowa","TypicalOwnerCosts",39
 19185,"Wayne County, Iowa","TypicalRenterCosts",41
@@ -1482,11 +1482,11 @@
 19185,"Wayne County, Iowa","MultFamShare",2.323790008
 19185,"Wayne County, Iowa","RentalUnitRatio",0.031114929
 19185,"Wayne County, Iowa","Gini_index_income_inequality_EST",0.0466
-19185,"Wayne County, Iowa","Pct_prime_working_age",1.28840987267251
-19185,"Wayne County, Iowa","Old_age_dependency_ratio",0.7
-19185,"Wayne County, Iowa","Pct_language_barrier",1.6
-19185,"Wayne County, Iowa","Pct_disability",1.9
-19185,"Wayne County, Iowa","Pct_poverty",3
+19185,"Wayne County, Iowa","Pct_prime_working_age_EST",1.28840987267251
+19185,"Wayne County, Iowa","Old_age_dependency_ratio_EST",0.7
+19185,"Wayne County, Iowa","Pct_language_barrier_EST",1.6
+19185,"Wayne County, Iowa","Pct_disability_EST",1.9
+19185,"Wayne County, Iowa","Pct_poverty_EST",3
 19187,"Webster County, Iowa","AgingHousingStock",2.5
 19187,"Webster County, Iowa","TypicalOwnerCosts",36
 19187,"Webster County, Iowa","TypicalRenterCosts",19
@@ -1498,11 +1498,11 @@
 19187,"Webster County, Iowa","MultFamShare",1.78325545
 19187,"Webster County, Iowa","RentalUnitRatio",0.02794689
 19187,"Webster County, Iowa","Gini_index_income_inequality_EST",0.0188
-19187,"Webster County, Iowa","Pct_prime_working_age",1.07238052947636
-19187,"Webster County, Iowa","Old_age_dependency_ratio",0.5
-19187,"Webster County, Iowa","Pct_language_barrier",0.6
-19187,"Webster County, Iowa","Pct_disability",1.4
-19187,"Webster County, Iowa","Pct_poverty",1.9
+19187,"Webster County, Iowa","Pct_prime_working_age_EST",1.07238052947636
+19187,"Webster County, Iowa","Old_age_dependency_ratio_EST",0.5
+19187,"Webster County, Iowa","Pct_language_barrier_EST",0.6
+19187,"Webster County, Iowa","Pct_disability_EST",1.4
+19187,"Webster County, Iowa","Pct_poverty_EST",1.9
 19189,"Winnebago County, Iowa","AgingHousingStock",3.6
 19189,"Winnebago County, Iowa","TypicalOwnerCosts",50
 19189,"Winnebago County, Iowa","TypicalRenterCosts",66
@@ -1514,11 +1514,11 @@
 19189,"Winnebago County, Iowa","MultFamShare",2.40208243
 19189,"Winnebago County, Iowa","RentalUnitRatio",0.041701347
 19189,"Winnebago County, Iowa","Gini_index_income_inequality_EST",0.0257
-19189,"Winnebago County, Iowa","Pct_prime_working_age",1.19582607431014
-19189,"Winnebago County, Iowa","Old_age_dependency_ratio",0.9
-19189,"Winnebago County, Iowa","Pct_language_barrier",0.8
-19189,"Winnebago County, Iowa","Pct_disability",2
-19189,"Winnebago County, Iowa","Pct_poverty",1.8
+19189,"Winnebago County, Iowa","Pct_prime_working_age_EST",1.19582607431014
+19189,"Winnebago County, Iowa","Old_age_dependency_ratio_EST",0.9
+19189,"Winnebago County, Iowa","Pct_language_barrier_EST",0.8
+19189,"Winnebago County, Iowa","Pct_disability_EST",2
+19189,"Winnebago County, Iowa","Pct_poverty_EST",1.8
 19191,"Winneshiek County, Iowa","AgingHousingStock",2.8
 19191,"Winneshiek County, Iowa","TypicalOwnerCosts",43
 19191,"Winneshiek County, Iowa","TypicalRenterCosts",63
@@ -1530,11 +1530,11 @@
 19191,"Winneshiek County, Iowa","MultFamShare",1.7
 19191,"Winneshiek County, Iowa","RentalUnitRatio",0.026583235
 19191,"Winneshiek County, Iowa","Gini_index_income_inequality_EST",0.0232
-19191,"Winneshiek County, Iowa","Pct_prime_working_age",1.25698050899765
-19191,"Winneshiek County, Iowa","Old_age_dependency_ratio",0.4
-19191,"Winneshiek County, Iowa","Pct_language_barrier",0.2
-19191,"Winneshiek County, Iowa","Pct_disability",1.3
-19191,"Winneshiek County, Iowa","Pct_poverty",1.8
+19191,"Winneshiek County, Iowa","Pct_prime_working_age_EST",1.25698050899765
+19191,"Winneshiek County, Iowa","Old_age_dependency_ratio_EST",0.4
+19191,"Winneshiek County, Iowa","Pct_language_barrier_EST",0.2
+19191,"Winneshiek County, Iowa","Pct_disability_EST",1.3
+19191,"Winneshiek County, Iowa","Pct_poverty_EST",1.8
 19193,"Woodbury County, Iowa","AgingHousingStock",1.4
 19193,"Woodbury County, Iowa","TypicalOwnerCosts",34
 19193,"Woodbury County, Iowa","TypicalRenterCosts",19
@@ -1546,11 +1546,11 @@
 19193,"Woodbury County, Iowa","MultFamShare",1.352774926
 19193,"Woodbury County, Iowa","RentalUnitRatio",0.019418515
 19193,"Woodbury County, Iowa","Gini_index_income_inequality_EST",0.0129
-19193,"Woodbury County, Iowa","Pct_prime_working_age",0.812403840463596
-19193,"Woodbury County, Iowa","Old_age_dependency_ratio",0.2
-19193,"Woodbury County, Iowa","Pct_language_barrier",0.7
-19193,"Woodbury County, Iowa","Pct_disability",0.8
-19193,"Woodbury County, Iowa","Pct_poverty",1.2
+19193,"Woodbury County, Iowa","Pct_prime_working_age_EST",0.812403840463596
+19193,"Woodbury County, Iowa","Old_age_dependency_ratio_EST",0.2
+19193,"Woodbury County, Iowa","Pct_language_barrier_EST",0.7
+19193,"Woodbury County, Iowa","Pct_disability_EST",0.8
+19193,"Woodbury County, Iowa","Pct_poverty_EST",1.2
 19195,"Worth County, Iowa","AgingHousingStock",2.7
 19195,"Worth County, Iowa","TypicalOwnerCosts",40
 19195,"Worth County, Iowa","TypicalRenterCosts",59
@@ -1562,11 +1562,11 @@
 19195,"Worth County, Iowa","MultFamShare",1.292284798
 19195,"Worth County, Iowa","RentalUnitRatio",0.032218455
 19195,"Worth County, Iowa","Gini_index_income_inequality_EST",0.0154
-19195,"Worth County, Iowa","Pct_prime_working_age",1.46287388383278
-19195,"Worth County, Iowa","Old_age_dependency_ratio",0.7
-19195,"Worth County, Iowa","Pct_language_barrier",0.3
-19195,"Worth County, Iowa","Pct_disability",1.7
-19195,"Worth County, Iowa","Pct_poverty",1.5
+19195,"Worth County, Iowa","Pct_prime_working_age_EST",1.46287388383278
+19195,"Worth County, Iowa","Old_age_dependency_ratio_EST",0.7
+19195,"Worth County, Iowa","Pct_language_barrier_EST",0.3
+19195,"Worth County, Iowa","Pct_disability_EST",1.7
+19195,"Worth County, Iowa","Pct_poverty_EST",1.5
 19197,"Wright County, Iowa","AgingHousingStock",3.7
 19197,"Wright County, Iowa","TypicalOwnerCosts",39
 19197,"Wright County, Iowa","TypicalRenterCosts",43
@@ -1578,8 +1578,8 @@
 19197,"Wright County, Iowa","MultFamShare",2.172556098
 19197,"Wright County, Iowa","RentalUnitRatio",0.040890265
 19197,"Wright County, Iowa","Gini_index_income_inequality_EST",0.0247
-19197,"Wright County, Iowa","Pct_prime_working_age",1.33790881602597
-19197,"Wright County, Iowa","Old_age_dependency_ratio",0.1
-19197,"Wright County, Iowa","Pct_language_barrier",1.2
-19197,"Wright County, Iowa","Pct_disability",1.7
-19197,"Wright County, Iowa","Pct_poverty",2.4
+19197,"Wright County, Iowa","Pct_prime_working_age_EST",1.33790881602597
+19197,"Wright County, Iowa","Old_age_dependency_ratio_EST",0.1
+19197,"Wright County, Iowa","Pct_language_barrier_EST",1.2
+19197,"Wright County, Iowa","Pct_disability_EST",1.7
+19197,"Wright County, Iowa","Pct_poverty_EST",2.4

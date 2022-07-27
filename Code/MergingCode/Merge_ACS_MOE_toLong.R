@@ -20,8 +20,11 @@ MOE[,"NAME"] <- Overall$Name
 MOES <- Overall[,endsWith(colnames(Overall),"MOE")]
 ColMOES <- colnames(MOES)
 ColMOES<-substr(ColMOES,0,nchar(ColMOES)-4)
+ColMOES[2:7]<- paste(ColMOES[2:7],"_EST",sep="")
 colnames(MOES)<- ColMOES
 MOES[,"GEOID"] <- Overall$GEOID
+
+
 
 Overall <- merge(MOE,MOES,by  ="GEOID")
 
