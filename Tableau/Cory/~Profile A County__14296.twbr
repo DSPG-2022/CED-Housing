@@ -19,6 +19,7 @@
     <SetMembershipControl />
     <SheetIdentifierTracking />
     <_.fcp.SingleValuePerNestSorting.true...SingleValuePerNestSorting />
+    <SortTagCleanup />
     <WindowsPersistSimpleIdentifiers />
     <WorksheetBackgroundTransparency />
     <ZoneBackgroundTransparency />
@@ -39,6 +40,9 @@
         <named-connections>
           <named-connection caption='OverallDatabaseLong' name='textscan.1c2eaxw1fgg6xn1gb7mqg0a487xv'>
             <connection class='textscan' directory='C:/Users/cornd/OneDrive/Documents/GitHub/CED-Housing/Data/AllCountyData' filename='OverallDatabaseLong.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+          <named-connection caption='indicator_definitions_updated' name='excel-direct.0g147c514zexow17kwemc13w38c9'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/cornd/OneDrive/Documents/GitHub/CED-Housing/indicator_definitions_updated.xlsx' interpretationMode='0' password='' server='' validate='no' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1c2eaxw1fgg6xn1gb7mqg0a487xv' name='ACS_MOE_ValuesMOE.csv' table='[ACS_MOE_ValuesMOE#csv]' type='table'>
@@ -75,18 +79,42 @@
               <column datatype='real' name='value' ordinal='3' />
             </columns>
           </relation>
+          <relation connection='excel-direct.0g147c514zexow17kwemc13w38c9' name='indicators' table='[indicators$]' type='table'>
+            <columns gridOrigin='A1:J45:no:A1:J45:0' header='yes' outcome='2'>
+              <column datatype='string' name='Group' ordinal='0' />
+              <column datatype='string' name='Subgroup' ordinal='1' />
+              <column datatype='string' name='Name' ordinal='2' />
+              <column datatype='string' name='Source' ordinal='3' />
+              <column datatype='string' name='LowestGeo' ordinal='4' />
+              <column datatype='string' name='Units' ordinal='5' />
+              <column datatype='string' name='Higher is better' ordinal='6' />
+              <column datatype='string' name='Description' ordinal='7' />
+              <column datatype='string' name='Interpretation' ordinal='8' />
+              <column datatype='string' name='Closely-related indicators' ordinal='9' />
+            </columns>
+          </relation>
         </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
         <cols>
+          <map key='[Closely-related indicators (indicators)]' value='[indicators].[Closely-related indicators]' />
           <map key='[Closely-related indicators]' value='[OverallDatabaseLong.csv].[Closely-related indicators]' />
+          <map key='[Description (indicators)]' value='[indicators].[Description]' />
           <map key='[Description]' value='[OverallDatabaseLong.csv].[Description]' />
           <map key='[GEOID]' value='[ACS_MOE_ValuesMOE.csv].[GEOID]' />
+          <map key='[Group (indicators)]' value='[indicators].[Group]' />
           <map key='[Group]' value='[OverallDatabaseLong.csv].[Group]' />
+          <map key='[Higher is better (indicators)]' value='[indicators].[Higher is better]' />
           <map key='[Higher is better]' value='[OverallDatabaseLong.csv].[Higher is better]' />
+          <map key='[Interpretation (indicators)]' value='[indicators].[Interpretation]' />
           <map key='[Interpretation]' value='[OverallDatabaseLong.csv].[Interpretation]' />
+          <map key='[LowestGeo (indicators)]' value='[indicators].[LowestGeo]' />
           <map key='[LowestGeo]' value='[OverallDatabaseLong.csv].[LowestGeo]' />
+          <map key='[Name (indicators)]' value='[indicators].[Name]' />
           <map key='[Name]' value='[ACS_MOE_ValuesMOE.csv].[Name]' />
+          <map key='[Source (indicators)]' value='[indicators].[Source]' />
           <map key='[Source]' value='[OverallDatabaseLong.csv].[Source]' />
+          <map key='[Subgroup (indicators)]' value='[indicators].[Subgroup]' />
           <map key='[Subgroup]' value='[OverallDatabaseLong.csv].[Subgroup]' />
+          <map key='[Units (indicators)]' value='[indicators].[Units]' />
           <map key='[Units]' value='[OverallDatabaseLong.csv].[Units]' />
           <map key='[county_name]' value='[OverallDatabaseLong.csv].[county_name]' />
           <map key='[fips]' value='[OverallDatabaseLong.csv].[fips]' />
@@ -126,6 +154,20 @@
               <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
               <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
               <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[indicators]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:J45:no:A1:J45:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
@@ -371,6 +413,166 @@
             <contains-null>true</contains-null>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ACS_MOE_ValuesMOE.csv_2526EF31F4854133A8AD46BE41ED14F0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Group</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Group (indicators)]</local-name>
+            <parent-name>[indicators]</parent-name>
+            <remote-alias>Group</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indicators_DC5B95539F204596B305852E1610BF4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Subgroup</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Subgroup (indicators)]</local-name>
+            <parent-name>[indicators]</parent-name>
+            <remote-alias>Subgroup</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indicators_DC5B95539F204596B305852E1610BF4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Name (indicators)]</local-name>
+            <parent-name>[indicators]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indicators_DC5B95539F204596B305852E1610BF4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Source</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Source (indicators)]</local-name>
+            <parent-name>[indicators]</parent-name>
+            <remote-alias>Source</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indicators_DC5B95539F204596B305852E1610BF4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LowestGeo</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[LowestGeo (indicators)]</local-name>
+            <parent-name>[indicators]</parent-name>
+            <remote-alias>LowestGeo</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indicators_DC5B95539F204596B305852E1610BF4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Units</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Units (indicators)]</local-name>
+            <parent-name>[indicators]</parent-name>
+            <remote-alias>Units</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indicators_DC5B95539F204596B305852E1610BF4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Higher is better</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Higher is better (indicators)]</local-name>
+            <parent-name>[indicators]</parent-name>
+            <remote-alias>Higher is better</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indicators_DC5B95539F204596B305852E1610BF4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Description</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Description (indicators)]</local-name>
+            <parent-name>[indicators]</parent-name>
+            <remote-alias>Description</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indicators_DC5B95539F204596B305852E1610BF4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Interpretation</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Interpretation (indicators)]</local-name>
+            <parent-name>[indicators]</parent-name>
+            <remote-alias>Interpretation</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indicators_DC5B95539F204596B305852E1610BF4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Closely-related indicators</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Closely-related indicators (indicators)]</local-name>
+            <parent-name>[indicators]</parent-name>
+            <remote-alias>Closely-related indicators</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indicators_DC5B95539F204596B305852E1610BF4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
         </metadata-records>
       </connection>
       <aliases enabled='yes' />
@@ -426,6 +628,7 @@
       </column>
       <_.fcp.ObjectModelTableType.true...column caption='ACS_MOE_ValuesMOE.csv' datatype='table' name='[__tableau_internal_object_id__].[ACS_MOE_ValuesMOE.csv_2526EF31F4854133A8AD46BE41ED14F0]' role='measure' type='quantitative' />
       <_.fcp.ObjectModelTableType.true...column caption='OverallDatabaseLong.csv' datatype='table' name='[__tableau_internal_object_id__].[OverallDatabaseLong.csv_7AD6E33192D2425BB1B31E167632C108]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='indicators' datatype='table' name='[__tableau_internal_object_id__].[indicators_DC5B95539F204596B305852E1610BF4C]' role='measure' type='quantitative' />
       <column caption='County Name' datatype='string' name='[county_name]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
       <column aggregation='Sum' caption='Fips' datatype='integer' name='[fips]' role='dimension' semantic-role='[County].[Name]' type='ordinal' />
       <column caption='name (ACS MOE ValuesMOE.csv)' datatype='string' name='[name (ACS_MOE_ValuesMOE.csv)]' role='dimension' type='nominal' />
@@ -550,20 +753,6 @@
               <bucket>2</bucket>
             </map>
           </encoding>
-          <encoding attr='color' field='[none:Calculation_3817645166482530306:ok]' type='palette'>
-            <map to='#000000'>
-              <bucket>0</bucket>
-            </map>
-            <map to='#4e79a7'>
-              <bucket>1</bucket>
-            </map>
-            <map to='#bab0ac'>
-              <bucket>2</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>3</bucket>
-            </map>
-          </encoding>
           <encoding attr='color' field='[none:Calculation_2267562472169771010:ok]' type='palette'>
             <map to='#4e79a7'>
               <bucket>1</bucket>
@@ -576,6 +765,20 @@
             </map>
             <map to='#e15759'>
               <bucket>0</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>3</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Calculation_3817645166482530306:ok]' type='palette'>
+            <map to='#000000'>
+              <bucket>0</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>1</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>2</bucket>
             </map>
             <map to='#f28e2b'>
               <bucket>3</bucket>
@@ -645,6 +848,24 @@
               <relation name='Extract' table='[Extract].[Extract]' type='table' />
             </properties>
           </object>
+          <object caption='indicators' id='indicators_DC5B95539F204596B305852E1610BF4C'>
+            <properties context=''>
+              <relation connection='excel-direct.0g147c514zexow17kwemc13w38c9' name='indicators' table='[indicators$]' type='table'>
+                <columns gridOrigin='A1:J45:no:A1:J45:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Group' ordinal='0' />
+                  <column datatype='string' name='Subgroup' ordinal='1' />
+                  <column datatype='string' name='Name' ordinal='2' />
+                  <column datatype='string' name='Source' ordinal='3' />
+                  <column datatype='string' name='LowestGeo' ordinal='4' />
+                  <column datatype='string' name='Units' ordinal='5' />
+                  <column datatype='string' name='Higher is better' ordinal='6' />
+                  <column datatype='string' name='Description' ordinal='7' />
+                  <column datatype='string' name='Interpretation' ordinal='8' />
+                  <column datatype='string' name='Closely-related indicators' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
         </objects>
         <relationships>
           <relationship>
@@ -654,6 +875,14 @@
             </expression>
             <first-end-point object-id='OverallDatabaseLong.csv_7AD6E33192D2425BB1B31E167632C108' />
             <second-end-point object-id='ACS_MOE_ValuesMOE.csv_2526EF31F4854133A8AD46BE41ED14F0' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[name]' />
+              <expression op='[Name (indicators)]' />
+            </expression>
+            <first-end-point object-id='OverallDatabaseLong.csv_7AD6E33192D2425BB1B31E167632C108' />
+            <second-end-point object-id='indicators_DC5B95539F204596B305852E1610BF4C' />
           </relationship>
         </relationships>
       </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
@@ -711,7 +940,7 @@
             <column caption='Value' datatype='real' name='[value]' role='measure' type='quantitative' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[Action (Name)]'>
-            <groupfilter function='member' level='[name]' member='&quot;CostBurdenRenter&quot;' user:ui-action-filter='[Action1_4377FE38B93B4ED89CE84D60B5365371]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[name]' member='&quot;InventoryOfHomesForSale&quot;' user:ui-action-filter='[Action1_4377FE38B93B4ED89CE84D60B5365371]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <slices>
             <column>[federated.06m7vjz1bm7iby11lkby71j1e34m].[Action (Name)]</column>
@@ -767,7 +996,7 @@
             <column-instance column='[Description]' derivation='None' name='[none:Description:nk]' pivot='key' type='nominal' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[Action (Name)]'>
-            <groupfilter function='member' level='[name]' member='&quot;CostBurdenRenter&quot;' user:ui-action-filter='[Action1_4377FE38B93B4ED89CE84D60B5365371]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[name]' member='&quot;InventoryOfHomesForSale&quot;' user:ui-action-filter='[Action1_4377FE38B93B4ED89CE84D60B5365371]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <slices>
             <column>[federated.06m7vjz1bm7iby11lkby71j1e34m].[Action (Name)]</column>
@@ -872,11 +1101,20 @@
           <filter class='categorical' column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:Group:nk]'>
             <groupfilter from='&quot;Housing Assistance&quot;' function='range' level='[none:Group:nk]' to='&quot;Price&quot;' user:ui-domain='cascading' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
+          <manual-sort column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:Group:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;NA&quot;</bucket>
+              <bucket>&quot;Housing Assistance&quot;</bucket>
+              <bucket>&quot;Physical Properties&quot;</bucket>
+              <bucket>&quot;Price&quot;</bucket>
+              <bucket>&quot;Other&quot;</bucket>
+            </dictionary>
+          </manual-sort>
           <filter class='categorical' column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:Subgroup:nk]'>
             <groupfilter function='level-members' level='[none:Subgroup:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
           <filter class='categorical' column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:county_name:nk]' filter-group='3'>
-            <groupfilter function='member' level='[none:county_name:nk]' member='&quot;Adams County&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[none:county_name:nk]' member='&quot;Harrison County&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <_.fcp.SingleValuePerNestSorting.true...single-value-per-nest-shelf-sorts>
             <single-value-per-nest-shelf-sort dimension-to-sort='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:name:nk]' direction='ASC' measure-to-sort-by='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:name:nk]' shelf='rows' />
@@ -991,7 +1229,7 @@
             <column-instance column='[name]' derivation='None' name='[none:name:nk]' pivot='key' type='nominal' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[Action (Name)]'>
-            <groupfilter function='member' level='[name]' member='&quot;CostBurdenRenter&quot;' user:ui-action-filter='[Action1_4377FE38B93B4ED89CE84D60B5365371]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[name]' member='&quot;InventoryOfHomesForSale&quot;' user:ui-action-filter='[Action1_4377FE38B93B4ED89CE84D60B5365371]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <filter class='categorical' column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:name:nk]'>
             <groupfilter function='level-members' level='[none:name:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
@@ -1152,10 +1390,10 @@
             <column caption='MOEValue' datatype='real' name='[value (ACS_MOE_ValuesMOE.csv)]' role='measure' type='quantitative' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[Action (Name)]'>
-            <groupfilter function='member' level='[name]' member='&quot;CostBurdenRenter&quot;' user:ui-action-filter='[Action1_4377FE38B93B4ED89CE84D60B5365371]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[name]' member='&quot;InventoryOfHomesForSale&quot;' user:ui-action-filter='[Action1_4377FE38B93B4ED89CE84D60B5365371]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <filter class='categorical' column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:county_name:nk]' filter-group='3'>
-            <groupfilter function='member' level='[none:county_name:nk]' member='&quot;Adams County&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[none:county_name:nk]' member='&quot;Harrison County&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <slices>
             <column>[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:county_name:nk]</column>
@@ -1215,7 +1453,7 @@
             <column-instance column='[Closely-related indicators]' derivation='None' name='[none:Closely-related indicators:nk]' pivot='key' type='nominal' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[Action (Name)]'>
-            <groupfilter function='member' level='[name]' member='&quot;CostBurdenRenter&quot;' user:ui-action-filter='[Action1_4377FE38B93B4ED89CE84D60B5365371]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[name]' member='&quot;InventoryOfHomesForSale&quot;' user:ui-action-filter='[Action1_4377FE38B93B4ED89CE84D60B5365371]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <slices>
             <column>[federated.06m7vjz1bm7iby11lkby71j1e34m].[Action (Name)]</column>
@@ -1271,7 +1509,7 @@
             <column-instance column='[Source]' derivation='None' name='[none:Source:nk]' pivot='key' type='nominal' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[Action (Name)]'>
-            <groupfilter function='member' level='[name]' member='&quot;CostBurdenRenter&quot;' user:ui-action-filter='[Action1_4377FE38B93B4ED89CE84D60B5365371]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[name]' member='&quot;InventoryOfHomesForSale&quot;' user:ui-action-filter='[Action1_4377FE38B93B4ED89CE84D60B5365371]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <slices>
             <column>[federated.06m7vjz1bm7iby11lkby71j1e34m].[Action (Name)]</column>
@@ -1330,7 +1568,7 @@
             <column caption='Value' datatype='real' name='[value]' role='measure' type='quantitative' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[Action (Name)]'>
-            <groupfilter function='member' level='[name]' member='&quot;CostBurdenRenter&quot;' user:ui-action-filter='[Action1_4377FE38B93B4ED89CE84D60B5365371]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[name]' member='&quot;InventoryOfHomesForSale&quot;' user:ui-action-filter='[Action1_4377FE38B93B4ED89CE84D60B5365371]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <slices>
             <column>[federated.06m7vjz1bm7iby11lkby71j1e34m].[Action (Name)]</column>
@@ -1412,7 +1650,7 @@
             <format attr='margin' value='8' />
           </zone-style>
         </zone>
-        <zone forceUpdate='' h='74089' id='19' param='https://coryroth.shinyapps.io/Speedometer/?county=Adams County&amp;indicator=CostBurdenRenter' type-v2='web' w='31772' x='68228' y='25521' />
+        <zone forceUpdate='' h='74089' id='19' param='https://coryroth.shinyapps.io/Speedometer/?county=Adams County&amp;indicator=InventoryOfHomesForSale' type-v2='web' w='31772' x='68228' y='25521' />
         <zone h='85807' id='3' name='IndicatorSummary' w='48755' x='220' y='13672' />
         <zone h='8333' id='4' mode='dropdown' name='IndicatorSummary' param='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:county_name:nk]' type-v2='filter' w='16032' x='732' y='2734' />
         <zone h='15104' id='5' name='IndicatorSummary' pane-specification-id='0' param='[federated.06m7vjz1bm7iby11lkby71j1e34m].[sum:Calculation_2267562472171720707:ok]' type-v2='color' w='5930' x='43119' y='6901' />
@@ -1430,8 +1668,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1900' minheight='1900' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='115' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97916' id='114' param='vert' type-v2='layout-flow' w='98828' x='586' y='1042'>
+            <zone h='100000' id='117' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97916' id='116' param='vert' type-v2='layout-flow' w='98828' x='586' y='1042'>
                 <zone fixed-size='107' h='13932' id='59' is-fixed='true' name='Description' w='50805' x='48902' y='1172'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1495,7 +1733,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' forceUpdate='' h='74089' id='19' is-fixed='true' param='https://coryroth.shinyapps.io/Speedometer/?county=Adams County&amp;indicator=CostBurdenRenter' type-v2='web' w='31772' x='68228' y='25521'>
+                <zone fixed-size='280' forceUpdate='' h='74089' id='19' is-fixed='true' param='https://coryroth.shinyapps.io/Speedometer/?county=Adams County&amp;indicator=X5YearPctChange' type-v2='web' w='31772' x='68228' y='25521'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1563,7 +1801,7 @@
       <simple-id uuid='{328E8AC0-5B83-440C-AE55-67FB87494381}' />
     </dashboard>
   </dashboards>
-  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+  <windows source-height='37'>
     <window class='worksheet' name='QuartileMapIndicator'>
       <cards>
         <edge name='left'>
@@ -1593,7 +1831,7 @@
       </cards>
       <simple-id uuid='{1F92EAF3-E613-4D68-B227-54297931D1B7}' />
     </window>
-    <window class='worksheet' maximized='true' name='IndicatorSummary'>
+    <window class='worksheet' name='IndicatorSummary'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1622,7 +1860,7 @@
       </cards>
       <simple-id uuid='{A9BD21AF-E25F-4869-85B4-9AEDF1D76493}' />
     </window>
-    <window class='dashboard' name='Profile A County'>
+    <window class='dashboard' maximized='true' name='Profile A County'>
       <viewpoints>
         <viewpoint name='County Median'>
           <zoom type='entire-view' />
