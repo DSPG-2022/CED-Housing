@@ -116,7 +116,7 @@ server <- function(input, output, session) {
       add_annotations(
         x= 0.5,
         y=0.05,
-        text = "Black Bar is the State Average",
+        text = "Black Bar is the All-County Average",
         showarrow = F
       ) %>%
       add_annotations(
