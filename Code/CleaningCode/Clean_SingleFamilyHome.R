@@ -33,16 +33,16 @@ permits21 <- read_csv("./Data/RawData/USCB/Building Permits Survey/co2021a.txt")
          Bldgs2 = ...10, Units2 = `2-units`, Value2 =...12,
          Bldgs3.4 = ...13, Units3.4 = `3-4 units`, Value3.4 =...15,
          Bldgs5 = ...16, Units5 = `5+ units`, Value5 =...18)
-
+# add 2021
 # Every year joined together into a single permits dataframe
-permits_df <- rbind(permits17, permits18, permits19, permits20)
+permits_df <- rbind(permits17, permits18, permits19, permits20, permits21)
 permits_df$FIPS <- str_c(permits_df$FIPS...2, permits_df$FIPS...3)
 
 ## Table B25024 Units in Structure from ACS 2016-20
 units <- get_acs(
   geography = "county",
   state = "Iowa",
-  variables = c(Total = "B25024_001"),
+  variables = c(FamDetached = "B25024_002", FamAttached = "B25024_003"),
   year = 2020, 
   cache_table = T,
   output = "wide"
@@ -60,8 +60,7 @@ sum_Units1_county <- permits_df %>%
 # for single-family units issued over the last five years (2017-2021) 
 # in the numerator and the number of single family units (ACS 2016-20) 
 # in the denominator.
-SingleFamHomeConstructPct <- sum_Units1_county$`sum(Units1)`/ units$TotalE * 100
-
+SingleFamHomeConstructPct <- (sum_Units1_county$`sum(Units1)`/5)/ (units$FamAttachedE + units$FamDetachedE) * 100
 #  Data frame containing the Single Family Home Construction Percentages
 SingFamCRate <- data.frame(
   SingleFamHomeConstructPct,
