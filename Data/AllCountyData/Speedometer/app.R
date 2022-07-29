@@ -104,7 +104,7 @@ server <- function(input, output, session) {
         threshold = list(
           line = list(color = "black", width = 4),
           thickness = 1,
-          value = SelectedCounty$StateAverage),
+          value = SelectedCounty$CountyMedian),
         labels="State Average",
         bar = list(
           color ="red"))
@@ -116,7 +116,7 @@ server <- function(input, output, session) {
       add_annotations(
         x= 0.5,
         y=0.05,
-        text = "Black Bar is the All-County Average",
+        text = "Black Bar is the County Median",
         showarrow = F
       ) %>%
       add_annotations(
