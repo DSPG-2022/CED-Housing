@@ -5,9 +5,9 @@ account: coryroth
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 6659352
-bundleId: 6138940
+bundleId: 6146263
 url: https://coryroth.shinyapps.io/Speedometer/
-when: 1658937281.96114
-lastSyncTime: 1658937281.96115
+when: 1659110574.18838
+lastSyncTime: 1659110574.18842
 asMultiple: FALSE
 asStatic: FALSE
