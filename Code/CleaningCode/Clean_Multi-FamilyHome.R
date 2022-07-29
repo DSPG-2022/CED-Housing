@@ -34,7 +34,7 @@ permits21 <- read_csv("./Data/RawData/USCB/Building Permits Survey/co2021a.txt")
          Bldgs3.4 = ...13, Units3.4 = `3-4 units`, Value3.4 =...15,
          Bldgs5 = ...16, Units5 = `5+ units`, Value5 =...18)
 
-permits_df <- rbind(permits17, permits18, permits19, permits20)
+permits_df <- rbind(permits17, permits18, permits19, permits20, permits21)
 permits_df$FIPS <- str_c(permits_df$FIPS...2, permits_df$FIPS...3)
 
 # For the number of building permits, sum values in columns 
@@ -71,7 +71,8 @@ sum_MultiUnits_County <- permits_df %>%
 # for multi-family units issued over the last five years (2017-2021) 
 # in the numerator and the number of multi-family units (ACS 2016-20) 
 # in the denominator.
-MultiFamHomeConstructPct <- sum_MultiUnits_County$`sum(MultiUnits)`/ units$MultiHouseUnits * 100
+MultiFamHomeConstructPct <- (sum_MultiUnits_County$`sum(MultiUnits)`/5)/ units$MultiHouseUnits * 100
+
 ###
 MultFamCRate <- data.frame(
   MultiFamHomeConstructPct,
