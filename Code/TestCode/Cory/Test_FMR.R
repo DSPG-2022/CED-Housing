@@ -3,31 +3,33 @@ library(tidycensus)
 library(tidyverse)
 library(readr)
 
-Files<-list.files("Data\\RawData\\HUD\\FMR")
+Data<- read.csv("Data\\RawData\\HUD\\FMR\\FMR_2Bed_1983_2022_rev.csv")
 
-df <- data.frame()
-data <- read_csv("Data\\RawData\\HUD\\FMR\\FY2018_4050_Final.csv")
-for (file in Files){
-  InputData<- read.csv(paste("Data\\RawData\\HUD\\FMR\\",file,sep=""))
-  year = substr(file,3,6)
-  InputData<- InputData%>%
-    filter(state==19)%>%
-    mutate(Year = year, county  = substr(fips2010,3,5))%>%
-  
-    select(fmr0=fmr_0,fmr1=fmr_1,fmr2=fmr_2,fmr3=fmr_3,fmr4=fmr_4,State = state,county,Year)
-  df <- rbind(df,InputData)
-  
-}
+Data<-Data%>%
+  mutate(fips = substr(fips2010,0,5))%>%
+  filter(state == 19)
 
+EmploymentData<-read.csv("Data\\RawData\\BEA\\Raw_Bea_Employment.csv")
 
-write.csv(df,"Data\\RawData\\HUD\\FMR\\FMR2010-2022Combined.csv")
+EmploymentData2 <- EmploymentData%>%
+  filter(Description=='Total employment (number of jobs)')%>%
+  mutate(PrcntChangeEmployTotal2016_2020 = (X2020/X2016 -1)*100)%>%
+  select(GeoFips,PrcntChangeEmployTotal2016_2020)
+EmploymentData3 <- EmploymentData%>%
+  filter(Description!='Total employment (number of jobs)')%>%
+  mutate(PrcntChangeEmployWage2016_2020 = (X2020/X2016 -1)*100)%>%
+  mutate(PrcntChangeEmployWage2019_2020 = (X2020/X2019 -1)*100)%>%
+  select(GeoFips,PrcntChangeEmployWage2016_2020,PrcntChangeEmployWage2019_2020)
 
+Data2<- Data%>%
+  mutate(PrcntChangeFMR2017_2021= (fmr21_2/fmr17_2-1)*100)%>%
+  mutate(PrcntChangeFMR2016_2020= (fmr20_2/fmr16_2-1)*100)%>%
+  mutate(PrcntChangeFMR2020_2022= (fmr22_2/fmr20_2-1)*100)
 
+Data2<-Data2%>%
+  select(fips,PrcntChangeFMR2016_2020,PrcntChangeFMR2017_2021,PrcntChangeFMR2020_2022)
 
-data <- read_csv("Data\\RawData\\HUD\\FMR\\FMR2010-2022Combined.csv")
-County <- read_csv("Data\\Iowa_County_FipsCode.csv")
-Over3 <- merge(df,County, by.y= "fips", by.x = "fips", all.x=TRUE, all.y=FALSE)
-write.csv(Over3,"R\\Cory\\HUDFMR2010_2022.csv")
+Overall<- merge(Data2,EmploymentData2,by.x="fips",by.y="GeoFips")
+Overall<- merge(Overall,EmploymentData3,by.x="fips",by.y="GeoFips")
 
-df<-df%>%
-  mutate(fips = 19000+as.numeric(county))
+write.csv(Overall,"Data\\CleanData\\FMRTest.csv",row.names = FALSE)

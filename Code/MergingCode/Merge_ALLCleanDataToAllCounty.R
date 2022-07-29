@@ -74,6 +74,8 @@ for (file in Files){
 }
 ##rewrites to OverallDataset
 ##row.names NEEDS to be false
+
+
 ##otherwise First Column will not be Fips Code
 write.csv(OutputData, outputCSV, row.names = FALSE)
 write.csv(OutputData, "Data\\AllCountyData\\Speedometer\\OverallDatabase.csv", row.names = FALSE)
