@@ -34,7 +34,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='OverallDatabaseLong' name='textscan.1c2eaxw1fgg6xn1gb7mqg0a487xv'>
-            <connection class='textscan' directory='Data/CED-Housing/Data/AllCountyData' filename='OverallDatabaseLong.csv' password='' server='' workgroup-auth-mode='as-is' />
+            <connection class='textscan' directory='Data/OneDrive/Documents/GitHub/CED-Housing/Data/AllCountyData' filename='OverallDatabaseLong.csv' password='' server='' workgroup-auth-mode='as-is' />
           </named-connection>
           <named-connection caption='indicator_definitions_updated' name='excel-direct.0g147c514zexow17kwemc13w38c9'>
             <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/CED-Housing/indicator_definitions_updated.xlsx' interpretationMode='0' password='' server='' validate='no' />
@@ -729,6 +729,20 @@
               <bucket>3</bucket>
             </map>
           </encoding>
+          <encoding attr='color' field='[none:Calculation_3817645166482530306:ok]' type='palette'>
+            <map to='#000000'>
+              <bucket>0</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>1</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>2</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>3</bucket>
+            </map>
+          </encoding>
           <encoding attr='color' field='[none:Calculation_2267562472171720707:ok]' type='palette'>
             <map to='#4e79a7'>
               <bucket>3</bucket>
@@ -795,20 +809,6 @@
             </map>
             <map to='diamond'>
               <bucket>20</bucket>
-            </map>
-          </encoding>
-          <encoding attr='color' field='[none:Calculation_3817645166482530306:ok]' type='palette'>
-            <map to='#000000'>
-              <bucket>0</bucket>
-            </map>
-            <map to='#4e79a7'>
-              <bucket>1</bucket>
-            </map>
-            <map to='#bab0ac'>
-              <bucket>2</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>3</bucket>
             </map>
           </encoding>
         </style-rule>
@@ -1013,7 +1013,7 @@
             <column-instance column='[Description (indicators)]' derivation='None' name='[none:Description (indicators):nk]' pivot='key' type='nominal' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[Action (Name)]'>
-            <groupfilter function='member' level='[name]' member='&quot;Pct_poverty_EST&quot;' user:ui-action-filter='[Action1_4377FE38B93B4ED89CE84D60B5365371]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[name]' member='&quot;PrcntChangeFMR2016_2020&quot;' user:ui-action-filter='[Action1_4377FE38B93B4ED89CE84D60B5365371]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <slices>
             <column>[federated.06m7vjz1bm7iby11lkby71j1e34m].[Action (Name)]</column>
@@ -1324,7 +1324,7 @@
             <column-instance column='[name]' derivation='None' name='[none:name:nk]' pivot='key' type='nominal' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[Action (Name)]'>
-            <groupfilter function='member' level='[name]' member='&quot;Pct_poverty_EST&quot;' user:ui-action-filter='[Action1_4377FE38B93B4ED89CE84D60B5365371]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[name]' member='&quot;PrcntChangeFMR2016_2020&quot;' user:ui-action-filter='[Action1_4377FE38B93B4ED89CE84D60B5365371]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <filter class='categorical' column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:name:nk]'>
             <groupfilter function='level-members' level='[none:name:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
@@ -1406,7 +1406,7 @@
             <column caption='MOEValue' datatype='real' name='[value (ACS_MOE_ValuesMOE.csv)]' role='measure' type='quantitative' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[Action (Name)]'>
-            <groupfilter function='member' level='[name]' member='&quot;Pct_poverty_EST&quot;' user:ui-action-filter='[Action1_4377FE38B93B4ED89CE84D60B5365371]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[name]' member='&quot;PrcntChangeFMR2016_2020&quot;' user:ui-action-filter='[Action1_4377FE38B93B4ED89CE84D60B5365371]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <filter class='categorical' column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:Calculation_1005991627257761793:nk]'>
             <groupfilter function='member' level='[none:Calculation_1005991627257761793:nk]' member='&quot;YES&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
@@ -1637,7 +1637,7 @@
             <column-instance column='[Source (indicators)]' derivation='None' name='[none:Source (indicators):nk]' pivot='key' type='nominal' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[Action (Name)]'>
-            <groupfilter function='member' level='[name]' member='&quot;Pct_poverty_EST&quot;' user:ui-action-filter='[Action1_4377FE38B93B4ED89CE84D60B5365371]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[name]' member='&quot;PrcntChangeFMR2016_2020&quot;' user:ui-action-filter='[Action1_4377FE38B93B4ED89CE84D60B5365371]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <slices>
             <column>[federated.06m7vjz1bm7iby11lkby71j1e34m].[Action (Name)]</column>
@@ -1793,7 +1793,7 @@
             <column caption='Value' datatype='real' name='[value]' role='measure' type='quantitative' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[Action (Name)]'>
-            <groupfilter function='member' level='[name]' member='&quot;Pct_poverty_EST&quot;' user:ui-action-filter='[Action1_4377FE38B93B4ED89CE84D60B5365371]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[name]' member='&quot;PrcntChangeFMR2016_2020&quot;' user:ui-action-filter='[Action1_4377FE38B93B4ED89CE84D60B5365371]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <filter class='categorical' column='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:county_name:nk]' filter-group='4'>
             <groupfilter function='member' level='[none:county_name:nk]' member='&quot;Buena Vista County&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
@@ -1815,11 +1815,11 @@
           </style-rule>
           <style-rule element='header'>
             <format attr='height' field='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:Calculation_3817645166483169285:nk]' value='36' />
+            <format attr='width' field='[federated.06m7vjz1bm7iby11lkby71j1e34m].[sum:Calculation_3817645166481825792:ok]' value='368' />
             <format attr='color' data-class='subtotal' field='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:county_name:nk]' value='#000000' />
             <format attr='color' data-class='total' field='[federated.06m7vjz1bm7iby11lkby71j1e34m].[none:county_name:nk]' value='#000000' />
             <format attr='border-width' data-class='subtotal' scope='rows' value='0' />
             <format attr='border-style' data-class='subtotal' scope='rows' value='none' />
-            <format attr='width' field='[federated.06m7vjz1bm7iby11lkby71j1e34m].[sum:Calculation_3817645166481825792:ok]' value='368' />
           </style-rule>
           <style-rule element='label'>
             <format attr='font-size' field='[federated.06m7vjz1bm7iby11lkby71j1e34m].[usr:ValueWithUnits (copy)_2313161418428362755:nk]' value='18' />
@@ -1828,6 +1828,7 @@
             <format attr='color' scope='rows' value='#000000' />
             <format attr='text-align' scope='rows' value='center' />
             <format attr='vertical-align' scope='rows' value='center' />
+            <format attr='text-format' field='[federated.06m7vjz1bm7iby11lkby71j1e34m].[sum:Calculation_3817645166481825792:ok]' value='n#,##0.00;-#,##0.00' />
           </style-rule>
           <style-rule element='pane'>
             <format attr='border-width' data-class='subtotal' value='0' />
@@ -1923,7 +1924,7 @@
             <format attr='margin' value='8' />
           </zone-style>
         </zone>
-        <zone forceUpdate='' h='74089' id='19' param='https://coryroth.shinyapps.io/Speedometer/?county=Buena Vista County&amp;indicator=Pct_poverty_EST' type-v2='web' w='31772' x='68228' y='25521' />
+        <zone forceUpdate='' h='74089' id='19' param='https://coryroth.shinyapps.io/Speedometer/?county=Buena Vista County&amp;indicator=PrcntChangeFMR2016_2020' type-v2='web' w='31772' x='68228' y='25521' />
         <zone h='85807' id='3' name='IndicatorSummary' w='38946' x='220' y='13672' />
         <zone h='22526' id='57' name='Interpretation' w='31552' x='39092' y='53516' />
         <zone h='22786' id='59' name='Description' w='31625' x='38946' y='30990' />
@@ -2055,7 +2056,7 @@
     </dashboard>
   </dashboards>
   <windows source-height='37'>
-    <window class='worksheet' maximized='true' name='QuartileMapIndicator'>
+    <window class='worksheet' name='QuartileMapIndicator'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -2145,7 +2146,7 @@
       </viewpoint>
       <simple-id uuid='{7C541F09-6826-4A54-8B0D-415CF916E2BF}' />
     </window>
-    <window class='dashboard' name='Profile A County'>
+    <window class='dashboard' maximized='true' name='Profile A County'>
       <viewpoints>
         <viewpoint name='Description'>
           <zoom type='entire-view' />

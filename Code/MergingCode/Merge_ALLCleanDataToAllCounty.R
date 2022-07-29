@@ -3,6 +3,18 @@ library(readxl)
 library(tidycensus)
 library(tidyverse)
 library(readr)
+        #Changing Level of data
+##As of now, the current structure is setup for taking in county level data
+##However this can be changed to look at different levels
+##Everything in this code merges based on FIPS code, so if the FIPS codes where for tract / place level data instead 
+  ##it could work for that data
+  ##Things that would need to happens would be that: 
+        #The INPUT FIPS codes would have to be correct and placed in the first column
+        #You would MANUALLY have to add the FIPS code you want for the OUPUT data (copy/paste a list)
+  ##and if you choose to create a new file, the only column that would have need to be in it initially would be a list of FIPS codes that you would want
+  ##Keep in mind it matches on FIPS code, so if they aren't the same, they won't match
+
+
 
 ##Inputs - all the clean data files
 ## Clean data files should be in the format of 
