@@ -75,10 +75,11 @@ MultiFamHomeConstructPct <- (sum_MultiUnits_County$`sum(MultiUnits)`/5)/ units$M
 
 ###
 MultFamCRate <- data.frame(
-  MultiFamHomeConstructPct,
-  FIPS = unique(permits_df$FIPS)
+  FIPS = as.numeric(unique(permits_df$FIPS)),
+  MultiFamHomeConstructPct
+  
   )
 View(MultFamCRate)
 
-write.csv(MultFamCRate, "Data/CleanData/Indicator_MultiFamCRate.csv",
+write.csv(MultFamCRate, "Data/CleanData/Ready_MultiFamCRate.csv",
           row.names = F)

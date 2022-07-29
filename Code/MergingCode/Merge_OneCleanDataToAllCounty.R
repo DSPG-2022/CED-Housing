@@ -47,7 +47,7 @@ OutputColNames <- colnames(OutputData)
             OutputIndex <- which(OutputData$fips==code)
             
             ##replace Overall Dataset with value from input data
-            replace(as.data.frame(OutputData[,name])[OutputIndex,],1,InputData[which(InputData[,1]==code),colIndex])
+            OutputData[OutputIndex,name]<- replace(as.data.frame(OutputData[,name])[OutputIndex,],1,InputData[which(InputData[,1]==code),colIndex])
           }
           
         }

@@ -40,10 +40,9 @@ for (file in Files){
         
           ##If the Input indicator matches an indicator in Overall Dataset
           if(ColumnName == name){
-            
             ##Indicator is in Old Data
             inOverall =TRUE
-            
+           
             ##Find the fipsCodes of input
             InputFipsCodes <- InputData[,1]
           
@@ -52,7 +51,7 @@ for (file in Files){
               OutputIndex <- which(OutputData$fips==code)
           
               ##replace Overall Dataset with value from input data
-              replace(as.data.frame(OutputData[,name])[OutputIndex,],1,InputData[which(InputData[,1]==code),colIndex])
+              OutputData[OutputIndex,name] <- replace(as.data.frame(OutputData[,name])[OutputIndex,],1,InputData[which(InputData[,1]==code),colIndex])
             }
 
           }
@@ -74,7 +73,6 @@ for (file in Files){
 }
 ##rewrites to OverallDataset
 ##row.names NEEDS to be false
-
 
 ##otherwise First Column will not be Fips Code
 write.csv(OutputData, outputCSV, row.names = FALSE)

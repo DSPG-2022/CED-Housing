@@ -63,12 +63,12 @@ sum_Units1_county <- permits_df %>%
 SingleFamHomeConstructPct <- (sum_Units1_county$`sum(Units1)`/5)/ (units$FamAttachedE + units$FamDetachedE) * 100
 #  Data frame containing the Single Family Home Construction Percentages
 SingFamCRate <- data.frame(
-  SingleFamHomeConstructPct,
-  FIPS = unique(permits_df$FIPS)
+  FIPS = as.numeric(unique(permits_df$FIPS)),
+  SingleFamHomeConstructPct
   )
 View(SingFamCRate)
 
 
-write.csv(SingFamCRate, "Data/CleanData/Indicator_SingleFamCRate.csv",
+write.csv(SingFamCRate, "Data/CleanData/Ready_SingleFamCRate.csv",
           row.names = F)
 
