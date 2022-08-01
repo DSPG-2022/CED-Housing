@@ -15,7 +15,7 @@ barplot(colSums(s),
         las = 2,
         col = rainbow(10),
         ylab = 'Count',
-        main = "main reason you do not live in Harrison County?")
+        main = "Main reason you do not live in Harrison County?")
 
 
 ### What community amenities are important to you in choosing a location to live?
