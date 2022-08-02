@@ -92,7 +92,7 @@ word_frequency <- function(data, titl = "No title provided", udmodel, word_type 
     geom_text_wordcloud_area() +
     ggtitle(titl) +
     scale_size_area(max_size = 24) +
-    theme(plot.title = element_text(hjust = 0.5)) +
+    theme(plot.title = element_text(size=50)) +
     theme_minimal())
 }
 ############# collocation
@@ -148,7 +148,7 @@ collocation(atlantic$Q15_5_TEXT, "In your experience, what is the main barrier t
 
 word_frequency(atlantic$Q4_5_TEXT, "What is the main reason you do not live in Atlantic?", udmodel = model,
             word_type = c("VERB", "NOUN"), top_n = 30)
-collocation(atlantic$Q33, "What is the main reason you do not live in Atlantic?", udmodel = model,
+collocation(atlantic$Q4_5_TEXT, "What is the main reason you do not live in Atlantic?", udmodel = model,
             word_type = c("VERB", "NOUN"), top_n = 30)
 
 #### harrison
@@ -176,9 +176,13 @@ word_frequency(mills$Q33, "Mills: What community amenities are important to you 
             word_type = c("ADJ", "NOUN"), top_n = 30)
 
 #### grinnell 
-collocation(grinnell$Q18_5_TEXT, "What should be the top priorities for improving housing in Grinnell?", 
+collocation(grinnell$Q18_5_TEXT, "", 
             udmodel = model,
-            word_type = c("ADJ", "NOUN"), top_n = 30)
+            word_type = c("ADJ", "NOUN", "VERB"), top_n = 25)
+word_frequency(grinnell$Q18_5_TEXT, "", 
+            udmodel = model,
+            word_type = c("VERB"), top_n = 30)
+
 collocation(grinnell$Q20, "What are the SPECIFIC ACTIONS that we, as a community, should take to improve access to quality and affordable housing in Grinnell?", 
             udmodel = model,
             word_type = c("VERB", "NOUN"), top_n = 50)
@@ -210,7 +214,26 @@ collocation(knoxville$Q19, "What is holding knoxville back from improving housin
 
 
 
+### What community amenities are important to you in choosing a location to live?
+word_frequency(harrison$Q33[3:66], "harrison", 
+               udmodel = model,
+               word_type = c("NOUN"), top_n = 15)
+word_frequency(potta$Q33[3:64], "pottawatamie", 
+               udmodel = model,
+               word_type = c("NOUN"), top_n = 15)
+word_frequency(mills$Q33[2:64], "mills", 
+               udmodel = model,
+               word_type = c("NOUN"), top_n = 15)
 
+collocation(harrison$Q33[3:66], "", 
+               udmodel = model,
+               word_type = c("ADJ", "NOUN"), top_n = 40)
+collocation(potta$Q33[3:64], "Pottawattamie", 
+               udmodel = model,
+               word_type = c("NOUN"), top_n = 40)
+collocation(mills$Q33[2:64], "Mills", 
+               udmodel = model,
+               word_type = c("NOUN"), top_n = 30)
 
 
 
