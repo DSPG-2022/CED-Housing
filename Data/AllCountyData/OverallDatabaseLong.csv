@@ -45,7 +45,6 @@
 19001,"Adair County","PrcntChangeFMR2020_2022",7.569141194
 19001,"Adair County","PrcntChangeEmployTotal2016_2020",0.580146111
 19001,"Adair County","PrcntChangeEmployWage2016_2020",1.642036125
-19001,"Adair County","EvictionLabIncidencePer1000RenterHouseholds",9.720785936
 19001,"Adair County","InventoryOfHomesForSalesPer1000Households",3.419334784
 19003,"Adams County","PercentMultiFamAssistPerHouseold",NA
 19003,"Adams County","PercentLIHTCperHousehold",0.63559322
@@ -93,7 +92,6 @@
 19003,"Adams County","PrcntChangeFMR2020_2022",21.54294032
 19003,"Adams County","PrcntChangeEmployTotal2016_2020",-4.389815628
 19003,"Adams County","PrcntChangeEmployWage2016_2020",-6.913756237
-19003,"Adams County","EvictionLabIncidencePer1000RenterHouseholds",8.974358974
 19003,"Adams County","InventoryOfHomesForSalesPer1000Households",1.2292563
 19005,"Allamakee County","PercentMultiFamAssistPerHouseold",0.208659364
 19005,"Allamakee County","PercentLIHTCperHousehold",0.860719875
@@ -141,7 +139,6 @@
 19005,"Allamakee County","PrcntChangeFMR2020_2022",7.569141194
 19005,"Allamakee County","PrcntChangeEmployTotal2016_2020",-6.931652933
 19005,"Allamakee County","PrcntChangeEmployWage2016_2020",-6.204447767
-19005,"Allamakee County","EvictionLabIncidencePer1000RenterHouseholds",13.5249366
 19005,"Allamakee County","InventoryOfHomesForSalesPer1000Households",3.026736169
 19007,"Appanoose County","PercentMultiFamAssistPerHouseold",0.808753568
 19007,"Appanoose County","PercentLIHTCperHousehold",1.443070092
@@ -189,7 +186,6 @@
 19007,"Appanoose County","PrcntChangeFMR2020_2022",7.569141194
 19007,"Appanoose County","PrcntChangeEmployTotal2016_2020",-5.075996559
 19007,"Appanoose County","PrcntChangeEmployWage2016_2020",-4.566022213
-19007,"Appanoose County","EvictionLabIncidencePer1000RenterHouseholds",21.33891213
 19007,"Appanoose County","InventoryOfHomesForSalesPer1000Households",9.622786759
 19009,"Audubon County","PercentMultiFamAssistPerHouseold",NA
 19009,"Audubon County","PercentLIHTCperHousehold",NA
@@ -237,7 +233,6 @@
 19009,"Audubon County","PrcntChangeFMR2020_2022",7.569141194
 19009,"Audubon County","PrcntChangeEmployTotal2016_2020",-6.241997439
 19009,"Audubon County","PrcntChangeEmployWage2016_2020",-2.917620137
-19009,"Audubon County","EvictionLabIncidencePer1000RenterHouseholds",6.547619048
 19009,"Audubon County","InventoryOfHomesForSalesPer1000Households",2.972872538
 19011,"Benton County","PercentMultiFamAssistPerHouseold",0.650054171
 19011,"Benton County","PercentLIHTCperHousehold",NA
@@ -285,7 +280,6 @@
 19011,"Benton County","PrcntChangeFMR2020_2022",7.569141194
 19011,"Benton County","PrcntChangeEmployTotal2016_2020",-4.60755677
 19011,"Benton County","PrcntChangeEmployWage2016_2020",-0.11153601
-19011,"Benton County","EvictionLabIncidencePer1000RenterHouseholds",22.63747998
 19011,"Benton County","InventoryOfHomesForSalesPer1000Households",5.045604502
 19013,"Black Hawk County","PercentMultiFamAssistPerHouseold",1.635956898
 19013,"Black Hawk County","PercentLIHTCperHousehold",1.647910654
@@ -333,7 +327,6 @@
 19013,"Black Hawk County","PrcntChangeFMR2020_2022",16.51376147
 19013,"Black Hawk County","PrcntChangeEmployTotal2016_2020",-4.793392037
 19013,"Black Hawk County","PrcntChangeEmployWage2016_2020",-5.155048693
-19013,"Black Hawk County","EvictionLabIncidencePer1000RenterHouseholds",56.43991053
 19013,"Black Hawk County","InventoryOfHomesForSalesPer1000Households",2.51308115
 19015,"Boone County","PercentMultiFamAssistPerHouseold",0.285210972
 19015,"Boone County","PercentLIHTCperHousehold",1.140843889
@@ -381,7 +374,6 @@
 19015,"Boone County","PrcntChangeFMR2020_2022",8.870967742
 19015,"Boone County","PrcntChangeEmployTotal2016_2020",-7.750879966
 19015,"Boone County","PrcntChangeEmployWage2016_2020",-9.463290644
-19015,"Boone County","EvictionLabIncidencePer1000RenterHouseholds",33.77174374
 19015,"Boone County","InventoryOfHomesForSalesPer1000Households",4.44403296
 19017,"Bremer County","PercentMultiFamAssistPerHouseold",0.963372758
 19017,"Bremer County","PercentLIHTCperHousehold",0.858450973
@@ -429,7 +421,6 @@
 19017,"Bremer County","PrcntChangeFMR2020_2022",16.59388646
 19017,"Bremer County","PrcntChangeEmployTotal2016_2020",-4.137282558
 19017,"Bremer County","PrcntChangeEmployWage2016_2020",-4.741260031
-19017,"Bremer County","EvictionLabIncidencePer1000RenterHouseholds",10.89351285
 19017,"Bremer County","InventoryOfHomesForSalesPer1000Households",2.479338843
 19019,"Buchanan County","PercentMultiFamAssistPerHouseold",NA
 19019,"Buchanan County","PercentLIHTCperHousehold",0.258834121
@@ -477,7 +468,6 @@
 19019,"Buchanan County","PrcntChangeFMR2020_2022",14.65517241
 19019,"Buchanan County","PrcntChangeEmployTotal2016_2020",-0.87124879
 19019,"Buchanan County","PrcntChangeEmployWage2016_2020",1.711419298
-19019,"Buchanan County","EvictionLabIncidencePer1000RenterHouseholds",21.68224299
 19019,"Buchanan County","InventoryOfHomesForSalesPer1000Households",2.491590881
 19021,"Buena Vista County","PercentMultiFamAssistPerHouseold",1.498587397
 19021,"Buena Vista County","PercentLIHTCperHousehold",3.083159317
@@ -525,7 +515,6 @@
 19021,"Buena Vista County","PrcntChangeFMR2020_2022",9.898107715
 19021,"Buena Vista County","PrcntChangeEmployTotal2016_2020",-1.214057508
 19021,"Buena Vista County","PrcntChangeEmployWage2016_2020",-0.044738726
-19021,"Buena Vista County","EvictionLabIncidencePer1000RenterHouseholds",8.39836492
 19021,"Buena Vista County","InventoryOfHomesForSalesPer1000Households",1.318565401
 19023,"Butler County","PercentMultiFamAssistPerHouseold",NA
 19023,"Butler County","PercentLIHTCperHousehold",0.305997552
@@ -573,7 +562,6 @@
 19023,"Butler County","PrcntChangeFMR2020_2022",7.569141194
 19023,"Butler County","PrcntChangeEmployTotal2016_2020",-4.562682216
 19023,"Butler County","PrcntChangeEmployWage2016_2020",-1.376848547
-19023,"Butler County","EvictionLabIncidencePer1000RenterHouseholds",6.442376521
 19023,"Butler County","InventoryOfHomesForSalesPer1000Households",2.762879896
 19025,"Calhoun County","PercentMultiFamAssistPerHouseold",1.047998323
 19025,"Calhoun County","PercentLIHTCperHousehold",0.335359463
@@ -621,7 +609,6 @@
 19025,"Calhoun County","PrcntChangeFMR2020_2022",7.569141194
 19025,"Calhoun County","PrcntChangeEmployTotal2016_2020",-9.254646484
 19025,"Calhoun County","PrcntChangeEmployWage2016_2020",-7.651301348
-19025,"Calhoun County","EvictionLabIncidencePer1000RenterHouseholds",8.924485126
 19025,"Calhoun County","InventoryOfHomesForSalesPer1000Households",5.118206191
 19027,"Carroll County","PercentMultiFamAssistPerHouseold",0.305584826
 19027,"Carroll County","PercentLIHTCperHousehold",1.296101159
@@ -669,7 +656,6 @@
 19027,"Carroll County","PrcntChangeFMR2020_2022",7.569141194
 19027,"Carroll County","PrcntChangeEmployTotal2016_2020",-6.066807102
 19027,"Carroll County","PrcntChangeEmployWage2016_2020",-6.88865254
-19027,"Carroll County","EvictionLabIncidencePer1000RenterHouseholds",9.995147986
 19027,"Carroll County","InventoryOfHomesForSalesPer1000Households",2.31187146
 19029,"Cass County","PercentMultiFamAssistPerHouseold",0.453266646
 19029,"Cass County","PercentLIHTCperHousehold",0.812753986
@@ -717,7 +703,6 @@
 19029,"Cass County","PrcntChangeFMR2020_2022",7.569141194
 19029,"Cass County","PrcntChangeEmployTotal2016_2020",-8.161157025
 19029,"Cass County","PrcntChangeEmployWage2016_2020",-7.759290935
-19029,"Cass County","EvictionLabIncidencePer1000RenterHouseholds",19.85111663
 19029,"Cass County","InventoryOfHomesForSalesPer1000Households",2.88086765
 19031,"Cedar County","PercentMultiFamAssistPerHouseold",0.183150183
 19031,"Cedar County","PercentLIHTCperHousehold",0.293040293
@@ -765,7 +750,6 @@
 19031,"Cedar County","PrcntChangeFMR2020_2022",10.08064516
 19031,"Cedar County","PrcntChangeEmployTotal2016_2020",-6.403940887
 19031,"Cedar County","PrcntChangeEmployWage2016_2020",-7.085124678
-19031,"Cedar County","EvictionLabIncidencePer1000RenterHouseholds",17.07650273
 19031,"Cedar County","InventoryOfHomesForSalesPer1000Households",4.817987152
 19033,"Cerro Gordo County","PercentMultiFamAssistPerHouseold",1.641375039
 19033,"Cerro Gordo County","PercentLIHTCperHousehold",1.791797549
@@ -813,7 +797,6 @@
 19033,"Cerro Gordo County","PrcntChangeFMR2020_2022",8.168642951
 19033,"Cerro Gordo County","PrcntChangeEmployTotal2016_2020",-3.847637416
 19033,"Cerro Gordo County","PrcntChangeEmployWage2016_2020",-2.68197727
-19033,"Cerro Gordo County","EvictionLabIncidencePer1000RenterHouseholds",33.49104427
 19033,"Cerro Gordo County","InventoryOfHomesForSalesPer1000Households",7.351429159
 19035,"Cherokee County","PercentMultiFamAssistPerHouseold",1.115509176
 19035,"Cherokee County","PercentLIHTCperHousehold",0.791651673
@@ -861,7 +844,6 @@
 19035,"Cherokee County","PrcntChangeFMR2020_2022",7.569141194
 19035,"Cherokee County","PrcntChangeEmployTotal2016_2020",-0.356457362
 19035,"Cherokee County","PrcntChangeEmployWage2016_2020",1.178288584
-19035,"Cherokee County","EvictionLabIncidencePer1000RenterHouseholds",10.20848311
 19035,"Cherokee County","InventoryOfHomesForSalesPer1000Households",1.699074948
 19037,"Chickasaw County","PercentMultiFamAssistPerHouseold",NA
 19037,"Chickasaw County","PercentLIHTCperHousehold",NA
@@ -909,7 +891,6 @@
 19037,"Chickasaw County","PrcntChangeFMR2020_2022",7.569141194
 19037,"Chickasaw County","PrcntChangeEmployTotal2016_2020",-2.51177394
 19037,"Chickasaw County","PrcntChangeEmployWage2016_2020",-0.15910899
-19037,"Chickasaw County","EvictionLabIncidencePer1000RenterHouseholds",11.5720524
 19037,"Chickasaw County","InventoryOfHomesForSalesPer1000Households",2.741335422
 19039,"Clarke County","PercentMultiFamAssistPerHouseold",1.593252109
 19039,"Clarke County","PercentLIHTCperHousehold",2.249297095
@@ -957,7 +938,6 @@
 19039,"Clarke County","PrcntChangeFMR2020_2022",12.15323646
 19039,"Clarke County","PrcntChangeEmployTotal2016_2020",-5.141814563
 19039,"Clarke County","PrcntChangeEmployWage2016_2020",-4.199648197
-19039,"Clarke County","EvictionLabIncidencePer1000RenterHouseholds",22.40527183
 19039,"Clarke County","InventoryOfHomesForSalesPer1000Households",4.556962025
 19041,"Clay County","PercentMultiFamAssistPerHouseold",1.751140708
 19041,"Clay County","PercentLIHTCperHousehold",1.368849427
@@ -1005,7 +985,6 @@
 19041,"Clay County","PrcntChangeFMR2020_2022",11.79039301
 19041,"Clay County","PrcntChangeEmployTotal2016_2020",-3.188839063
 19041,"Clay County","PrcntChangeEmployWage2016_2020",-3.286436579
-19041,"Clay County","EvictionLabIncidencePer1000RenterHouseholds",12.92743953
 19041,"Clay County","InventoryOfHomesForSalesPer1000Households",6.638666847
 19043,"Clayton County","PercentMultiFamAssistPerHouseold",0.11418132
 19043,"Clayton County","PercentLIHTCperHousehold",0.17127198
@@ -1053,7 +1032,6 @@
 19043,"Clayton County","PrcntChangeFMR2020_2022",8.733624454
 19043,"Clayton County","PrcntChangeEmployTotal2016_2020",-4.57303269
 19043,"Clayton County","PrcntChangeEmployWage2016_2020",-5.698401668
-19043,"Clayton County","EvictionLabIncidencePer1000RenterHouseholds",8.842523597
 19043,"Clayton County","InventoryOfHomesForSalesPer1000Households",3.702234563
 19045,"Clinton County","PercentMultiFamAssistPerHouseold",0.831900358
 19045,"Clinton County","PercentLIHTCperHousehold",1.673095692
@@ -1101,7 +1079,6 @@
 19045,"Clinton County","PrcntChangeFMR2020_2022",7.557354926
 19045,"Clinton County","PrcntChangeEmployTotal2016_2020",-10.28960696
 19045,"Clinton County","PrcntChangeEmployWage2016_2020",-11.60639193
-19045,"Clinton County","EvictionLabIncidencePer1000RenterHouseholds",42.37490071
 19045,"Clinton County","InventoryOfHomesForSalesPer1000Households",4.107408739
 19047,"Crawford County","PercentMultiFamAssistPerHouseold",1.867250182
 19047,"Crawford County","PercentLIHTCperHousehold",0.612691466
@@ -1149,7 +1126,6 @@
 19047,"Crawford County","PrcntChangeFMR2020_2022",7.569141194
 19047,"Crawford County","PrcntChangeEmployTotal2016_2020",-5.932880543
 19047,"Crawford County","PrcntChangeEmployWage2016_2020",-4.664879357
-19047,"Crawford County","EvictionLabIncidencePer1000RenterHouseholds",7.979539642
 19047,"Crawford County","InventoryOfHomesForSalesPer1000Households",3.757044458
 19049,"Dallas County","PercentMultiFamAssistPerHouseold",NA
 19049,"Dallas County","PercentLIHTCperHousehold",3.289969605
@@ -1197,7 +1173,6 @@
 19049,"Dallas County","PrcntChangeFMR2020_2022",3.888888889
 19049,"Dallas County","PrcntChangeEmployTotal2016_2020",8.132268857
 19049,"Dallas County","PrcntChangeEmployWage2016_2020",7.433158749
-19049,"Dallas County","EvictionLabIncidencePer1000RenterHouseholds",24.97711787
 19049,"Dallas County","InventoryOfHomesForSalesPer1000Households",13.82019614
 19051,"Davis County","PercentMultiFamAssistPerHouseold",NA
 19051,"Davis County","PercentLIHTCperHousehold",NA
@@ -1245,7 +1220,6 @@
 19051,"Davis County","PrcntChangeFMR2020_2022",6.330935252
 19051,"Davis County","PrcntChangeEmployTotal2016_2020",-3.653295129
 19051,"Davis County","PrcntChangeEmployWage2016_2020",-1.784897025
-19051,"Davis County","EvictionLabIncidencePer1000RenterHouseholds",11.8609407
 19051,"Davis County","InventoryOfHomesForSalesPer1000Households",1.885606537
 19053,"Decatur County","PercentMultiFamAssistPerHouseold",0.273747605
 19053,"Decatur County","PercentLIHTCperHousehold",0.191623323
@@ -1293,7 +1267,6 @@
 19053,"Decatur County","PrcntChangeFMR2020_2022",7.569141194
 19053,"Decatur County","PrcntChangeEmployTotal2016_2020",-3.678377741
 19053,"Decatur County","PrcntChangeEmployWage2016_2020",-1.111522786
-19053,"Decatur County","EvictionLabIncidencePer1000RenterHouseholds",9.938971229
 19053,"Decatur County","InventoryOfHomesForSalesPer1000Households",4.00987045
 19055,"Delaware County","PercentMultiFamAssistPerHouseold",0.098765432
 19055,"Delaware County","PercentLIHTCperHousehold",0.641975309
@@ -1341,7 +1314,6 @@
 19055,"Delaware County","PrcntChangeFMR2020_2022",7.569141194
 19055,"Delaware County","PrcntChangeEmployTotal2016_2020",-0.949605115
 19055,"Delaware County","PrcntChangeEmployWage2016_2020",-0.522377524
-19055,"Delaware County","EvictionLabIncidencePer1000RenterHouseholds",8.644067797
 19055,"Delaware County","InventoryOfHomesForSalesPer1000Households",3.036876356
 19057,"Des Moines County","PercentMultiFamAssistPerHouseold",2.518368651
 19057,"Des Moines County","PercentLIHTCperHousehold",1.996592482
@@ -1389,7 +1361,6 @@
 19057,"Des Moines County","PrcntChangeFMR2020_2022",7.901234568
 19057,"Des Moines County","PrcntChangeEmployTotal2016_2020",-9.740752793
 19057,"Des Moines County","PrcntChangeEmployWage2016_2020",-10.80072091
-19057,"Des Moines County","EvictionLabIncidencePer1000RenterHouseholds",37.56603404
 19057,"Des Moines County","InventoryOfHomesForSalesPer1000Households",4.451038576
 19059,"Dickinson County","PercentMultiFamAssistPerHouseold",NA
 19059,"Dickinson County","PercentLIHTCperHousehold",1.154042802
@@ -1437,7 +1408,6 @@
 19059,"Dickinson County","PrcntChangeFMR2020_2022",16.4
 19059,"Dickinson County","PrcntChangeEmployTotal2016_2020",-6.4497511
 19059,"Dickinson County","PrcntChangeEmployWage2016_2020",-6.407121197
-19059,"Dickinson County","EvictionLabIncidencePer1000RenterHouseholds",14.17155035
 19059,"Dickinson County","InventoryOfHomesForSalesPer1000Households",7.31218304
 19061,"Dubuque County","PercentMultiFamAssistPerHouseold",0.99929627
 19061,"Dubuque County","PercentLIHTCperHousehold",1.684259911
@@ -1485,7 +1455,6 @@
 19061,"Dubuque County","PrcntChangeFMR2020_2022",6.513409962
 19061,"Dubuque County","PrcntChangeEmployTotal2016_2020",-3.506120598
 19061,"Dubuque County","PrcntChangeEmployWage2016_2020",-3.292438246
-19061,"Dubuque County","EvictionLabIncidencePer1000RenterHouseholds",37.7883773
 19061,"Dubuque County","InventoryOfHomesForSalesPer1000Households",2.793946449
 19063,"Emmet County","PercentMultiFamAssistPerHouseold",NA
 19063,"Emmet County","PercentLIHTCperHousehold",0.357541899
@@ -1533,7 +1502,6 @@
 19063,"Emmet County","PrcntChangeFMR2020_2022",7.569141194
 19063,"Emmet County","PrcntChangeEmployTotal2016_2020",-9.529724933
 19063,"Emmet County","PrcntChangeEmployWage2016_2020",-10.21686747
-19063,"Emmet County","EvictionLabIncidencePer1000RenterHouseholds",16.9212691
 19063,"Emmet County","InventoryOfHomesForSalesPer1000Households",4.474272931
 19065,"Fayette County","PercentMultiFamAssistPerHouseold",0.591525059
 19065,"Fayette County","PercentLIHTCperHousehold",0.645300065
@@ -1581,7 +1549,6 @@
 19065,"Fayette County","PrcntChangeFMR2020_2022",7.569141194
 19065,"Fayette County","PrcntChangeEmployTotal2016_2020",-5.736036116
 19065,"Fayette County","PrcntChangeEmployWage2016_2020",-5.492108302
-19065,"Fayette County","EvictionLabIncidencePer1000RenterHouseholds",13.01272984
 19065,"Fayette County","InventoryOfHomesForSalesPer1000Households",3.286670724
 19067,"Floyd County","PercentMultiFamAssistPerHouseold",0.164068909
 19067,"Floyd County","PercentLIHTCperHousehold",0.328137818
@@ -1629,7 +1596,6 @@
 19067,"Floyd County","PrcntChangeFMR2020_2022",7.569141194
 19067,"Floyd County","PrcntChangeEmployTotal2016_2020",-8.426842684
 19067,"Floyd County","PrcntChangeEmployWage2016_2020",-7.794676806
-19067,"Floyd County","EvictionLabIncidencePer1000RenterHouseholds",18.93939394
 19067,"Floyd County","InventoryOfHomesForSalesPer1000Households",1.884331062
 19069,"Franklin County","PercentMultiFamAssistPerHouseold",0.257731959
 19069,"Franklin County","PercentLIHTCperHousehold",0.515463918
@@ -1677,7 +1643,6 @@
 19069,"Franklin County","PrcntChangeFMR2020_2022",7.569141194
 19069,"Franklin County","PrcntChangeEmployTotal2016_2020",-5.421591805
 19069,"Franklin County","PrcntChangeEmployWage2016_2020",-3.963414634
-19069,"Franklin County","EvictionLabIncidencePer1000RenterHouseholds",11.29943503
 19069,"Franklin County","InventoryOfHomesForSalesPer1000Households",7.151370679
 19071,"Fremont County","PercentMultiFamAssistPerHouseold",NA
 19071,"Fremont County","PercentLIHTCperHousehold",NA
@@ -1725,7 +1690,6 @@
 19071,"Fremont County","PrcntChangeFMR2020_2022",7.569141194
 19071,"Fremont County","PrcntChangeEmployTotal2016_2020",-2.130294773
 19071,"Fremont County","PrcntChangeEmployWage2016_2020",-1.061571125
-19071,"Fremont County","EvictionLabIncidencePer1000RenterHouseholds",12.5
 19071,"Fremont County","InventoryOfHomesForSalesPer1000Households",2.032520325
 19073,"Greene County","PercentMultiFamAssistPerHouseold",1.113947552
 19073,"Greene County","PercentLIHTCperHousehold",1.39243444
@@ -1773,7 +1737,6 @@
 19073,"Greene County","PrcntChangeFMR2020_2022",7.569141194
 19073,"Greene County","PrcntChangeEmployTotal2016_2020",-6.460723742
 19073,"Greene County","PrcntChangeEmployWage2016_2020",-6.300653595
-19073,"Greene County","EvictionLabIncidencePer1000RenterHouseholds",12.78538813
 19073,"Greene County","InventoryOfHomesForSalesPer1000Households",2.229378251
 19075,"Grundy County","PercentMultiFamAssistPerHouseold",NA
 19075,"Grundy County","PercentLIHTCperHousehold",0.292772187
@@ -1821,7 +1784,6 @@
 19075,"Grundy County","PrcntChangeFMR2020_2022",16.51376147
 19075,"Grundy County","PrcntChangeEmployTotal2016_2020",-0.493218249
 19075,"Grundy County","PrcntChangeEmployWage2016_2020",1.840633737
-19075,"Grundy County","EvictionLabIncidencePer1000RenterHouseholds",9.051724138
 19075,"Grundy County","InventoryOfHomesForSalesPer1000Households",2.51742835
 19077,"Guthrie County","PercentMultiFamAssistPerHouseold",NA
 19077,"Guthrie County","PercentLIHTCperHousehold",0.173220163
@@ -1869,7 +1831,6 @@
 19077,"Guthrie County","PrcntChangeFMR2020_2022",3.888888889
 19077,"Guthrie County","PrcntChangeEmployTotal2016_2020",-3.024606972
 19077,"Guthrie County","PrcntChangeEmployWage2016_2020",-2.189781022
-19077,"Guthrie County","EvictionLabIncidencePer1000RenterHouseholds",15.25625745
 19077,"Guthrie County","InventoryOfHomesForSalesPer1000Households",6.699419384
 19079,"Hamilton County","PercentMultiFamAssistPerHouseold",0.071053006
 19079,"Hamilton County","PercentLIHTCperHousehold",1.79053574
@@ -1917,7 +1878,6 @@
 19079,"Hamilton County","PrcntChangeFMR2020_2022",13.96332863
 19079,"Hamilton County","PrcntChangeEmployTotal2016_2020",-6.167503796
 19079,"Hamilton County","PrcntChangeEmployWage2016_2020",-5.410723069
-19079,"Hamilton County","EvictionLabIncidencePer1000RenterHouseholds",17.38570509
 19079,"Hamilton County","InventoryOfHomesForSalesPer1000Households",4.246978112
 19081,"Hancock County","PercentMultiFamAssistPerHouseold",NA
 19081,"Hancock County","PercentLIHTCperHousehold",0.469391747
@@ -1965,7 +1925,6 @@
 19081,"Hancock County","PrcntChangeFMR2020_2022",7.569141194
 19081,"Hancock County","PrcntChangeEmployTotal2016_2020",-10.12074643
 19081,"Hancock County","PrcntChangeEmployWage2016_2020",-12.59954494
-19081,"Hancock County","EvictionLabIncidencePer1000RenterHouseholds",14.47502548
 19081,"Hancock County","InventoryOfHomesForSalesPer1000Households",8.773762273
 19083,"Hardin County","PercentMultiFamAssistPerHouseold",NA
 19083,"Hardin County","PercentLIHTCperHousehold",0.896414343
@@ -2013,7 +1972,6 @@
 19083,"Hardin County","PrcntChangeFMR2020_2022",7.569141194
 19083,"Hardin County","PrcntChangeEmployTotal2016_2020",-8.37433671
 19083,"Hardin County","PrcntChangeEmployWage2016_2020",-8.300662431
-19083,"Hardin County","EvictionLabIncidencePer1000RenterHouseholds",11.37949544
 19083,"Hardin County","InventoryOfHomesForSalesPer1000Households",5.845511482
 19085,"Harrison County","PercentMultiFamAssistPerHouseold",1.545386347
 19085,"Harrison County","PercentLIHTCperHousehold",0.690172543
@@ -2061,7 +2019,6 @@
 19085,"Harrison County","PrcntChangeFMR2020_2022",2.959830867
 19085,"Harrison County","PrcntChangeEmployTotal2016_2020",-6.856330014
 19085,"Harrison County","PrcntChangeEmployWage2016_2020",-7.506527415
-19085,"Harrison County","EvictionLabIncidencePer1000RenterHouseholds",14.63414634
 19085,"Harrison County","InventoryOfHomesForSalesPer1000Households",3.938299967
 19087,"Henry County","PercentMultiFamAssistPerHouseold",0.869254584
 19087,"Henry County","PercentLIHTCperHousehold",1.798047154
@@ -2109,7 +2066,6 @@
 19087,"Henry County","PrcntChangeFMR2020_2022",9.577464789
 19087,"Henry County","PrcntChangeEmployTotal2016_2020",-5.564451561
 19087,"Henry County","PrcntChangeEmployWage2016_2020",-5.117948718
-19087,"Henry County","EvictionLabIncidencePer1000RenterHouseholds",16.93430657
 19087,"Henry County","InventoryOfHomesForSalesPer1000Households",7.508892109
 19089,"Howard County","PercentMultiFamAssistPerHouseold",NA
 19089,"Howard County","PercentLIHTCperHousehold",1.089476124
@@ -2157,7 +2113,6 @@
 19089,"Howard County","PrcntChangeFMR2020_2022",7.569141194
 19089,"Howard County","PrcntChangeEmployTotal2016_2020",-3.846153846
 19089,"Howard County","PrcntChangeEmployWage2016_2020",-2.561117579
-19089,"Howard County","EvictionLabIncidencePer1000RenterHouseholds",15.88785047
 19089,"Howard County","InventoryOfHomesForSalesPer1000Households",3.196590304
 19091,"Humboldt County","PercentMultiFamAssistPerHouseold",NA
 19091,"Humboldt County","PercentLIHTCperHousehold",1.1157296
@@ -2205,7 +2160,6 @@
 19091,"Humboldt County","PrcntChangeFMR2020_2022",7.569141194
 19091,"Humboldt County","PrcntChangeEmployTotal2016_2020",-6.32846963
 19091,"Humboldt County","PrcntChangeEmployWage2016_2020",-9.19160971
-19091,"Humboldt County","EvictionLabIncidencePer1000RenterHouseholds",13.83886256
 19091,"Humboldt County","InventoryOfHomesForSalesPer1000Households",1.907032181
 19093,"Ida County","PercentMultiFamAssistPerHouseold",0.715990453
 19093,"Ida County","PercentLIHTCperHousehold",1.909307876
@@ -2253,7 +2207,6 @@
 19093,"Ida County","PrcntChangeFMR2020_2022",7.569141194
 19093,"Ida County","PrcntChangeEmployTotal2016_2020",0.019305019
 19093,"Ida County","PrcntChangeEmployWage2016_2020",0.96807954
-19093,"Ida County","EvictionLabIncidencePer1000RenterHouseholds",6.906077348
 19093,"Ida County","InventoryOfHomesForSalesPer1000Households",2.355316285
 19095,"Iowa County","PercentMultiFamAssistPerHouseold",NA
 19095,"Iowa County","PercentLIHTCperHousehold",0.76283885
@@ -2301,7 +2254,6 @@
 19095,"Iowa County","PrcntChangeFMR2020_2022",7.569141194
 19095,"Iowa County","PrcntChangeEmployTotal2016_2020",-6.142803173
 19095,"Iowa County","PrcntChangeEmployWage2016_2020",-6.204344015
-19095,"Iowa County","EvictionLabIncidencePer1000RenterHouseholds",17.63803681
 19095,"Iowa County","InventoryOfHomesForSalesPer1000Households",3.611194704
 19097,"Jackson County","PercentMultiFamAssistPerHouseold",1.450059517
 19097,"Jackson County","PercentLIHTCperHousehold",0.69256574
@@ -2349,7 +2301,6 @@
 19097,"Jackson County","PrcntChangeFMR2020_2022",7.569141194
 19097,"Jackson County","PrcntChangeEmployTotal2016_2020",-6.530494822
 19097,"Jackson County","PrcntChangeEmployWage2016_2020",-7.373752421
-19097,"Jackson County","EvictionLabIncidencePer1000RenterHouseholds",19.56521739
 19097,"Jackson County","InventoryOfHomesForSalesPer1000Households",4.765978248
 19099,"Jasper County","PercentMultiFamAssistPerHouseold",1.221175304
 19099,"Jasper County","PercentLIHTCperHousehold",3.235804612
@@ -2397,7 +2348,6 @@
 19099,"Jasper County","PrcntChangeFMR2020_2022",4.126547455
 19099,"Jasper County","PrcntChangeEmployTotal2016_2020",-4.937901242
 19099,"Jasper County","PrcntChangeEmployWage2016_2020",-3.971981871
-19099,"Jasper County","EvictionLabIncidencePer1000RenterHouseholds",39.415268
 19099,"Jasper County","InventoryOfHomesForSalesPer1000Households",4.50696531
 19101,"Jefferson County","PercentMultiFamAssistPerHouseold",1.469631942
 19101,"Jefferson County","PercentLIHTCperHousehold",1.807777344
@@ -2445,7 +2395,6 @@
 19101,"Jefferson County","PrcntChangeFMR2020_2022",4.845222073
 19101,"Jefferson County","PrcntChangeEmployTotal2016_2020",-6.122974016
 19101,"Jefferson County","PrcntChangeEmployWage2016_2020",-4.952887171
-19101,"Jefferson County","EvictionLabIncidencePer1000RenterHouseholds",29.46257198
 19101,"Jefferson County","InventoryOfHomesForSalesPer1000Households",7.439824945
 19103,"Johnson County","PercentMultiFamAssistPerHouseold",0.914800655
 19103,"Johnson County","PercentLIHTCperHousehold",1.562594818
@@ -2493,7 +2442,6 @@
 19103,"Johnson County","PrcntChangeFMR2020_2022",5.143422354
 19103,"Johnson County","PrcntChangeEmployTotal2016_2020",-3.44750411
 19103,"Johnson County","PrcntChangeEmployWage2016_2020",-4.208307629
-19103,"Johnson County","EvictionLabIncidencePer1000RenterHouseholds",21.07282756
 19103,"Johnson County","InventoryOfHomesForSalesPer1000Households",5.262286944
 19105,"Jones County","PercentMultiFamAssistPerHouseold",0.450907451
 19105,"Jones County","PercentLIHTCperHousehold",NA
@@ -2541,7 +2489,6 @@
 19105,"Jones County","PrcntChangeFMR2020_2022",7.569141194
 19105,"Jones County","PrcntChangeEmployTotal2016_2020",-6.243634141
 19105,"Jones County","PrcntChangeEmployWage2016_2020",-7.260726073
-19105,"Jones County","EvictionLabIncidencePer1000RenterHouseholds",20.87849401
 19105,"Jones County","InventoryOfHomesForSalesPer1000Households",2.076716345
 19107,"Keokuk County","PercentMultiFamAssistPerHouseold",0.171895144
 19107,"Keokuk County","PercentLIHTCperHousehold",NA
@@ -2589,7 +2536,6 @@
 19107,"Keokuk County","PrcntChangeFMR2020_2022",7.569141194
 19107,"Keokuk County","PrcntChangeEmployTotal2016_2020",-3.637170104
 19107,"Keokuk County","PrcntChangeEmployWage2016_2020",-1.741884402
-19107,"Keokuk County","EvictionLabIncidencePer1000RenterHouseholds",17.0031881
 19107,"Keokuk County","InventoryOfHomesForSalesPer1000Households",2.771362587
 19109,"Kossuth County","PercentMultiFamAssistPerHouseold",0.692904656
 19109,"Kossuth County","PercentLIHTCperHousehold",0.332594235
@@ -2637,7 +2583,6 @@
 19109,"Kossuth County","PrcntChangeFMR2020_2022",7.569141194
 19109,"Kossuth County","PrcntChangeEmployTotal2016_2020",-8.583807203
 19109,"Kossuth County","PrcntChangeEmployWage2016_2020",-8.161605206
-19109,"Kossuth County","EvictionLabIncidencePer1000RenterHouseholds",8.185053381
 19109,"Kossuth County","InventoryOfHomesForSalesPer1000Households",4.866920152
 19111,"Lee County","PercentMultiFamAssistPerHouseold",0.378357927
 19111,"Lee County","PercentLIHTCperHousehold",1.803506117
@@ -2685,7 +2630,6 @@
 19111,"Lee County","PrcntChangeFMR2020_2022",8.84057971
 19111,"Lee County","PrcntChangeEmployTotal2016_2020",-11.90701191
 19111,"Lee County","PrcntChangeEmployWage2016_2020",-12.36012788
-19111,"Lee County","EvictionLabIncidencePer1000RenterHouseholds",29.09286098
 19111,"Lee County","InventoryOfHomesForSalesPer1000Households",5.928302413
 19113,"Linn County","PercentMultiFamAssistPerHouseold",1.145905364
 19113,"Linn County","PercentLIHTCperHousehold",2.260199546
@@ -2733,7 +2677,6 @@
 19113,"Linn County","PrcntChangeFMR2020_2022",4.761904762
 19113,"Linn County","PrcntChangeEmployTotal2016_2020",-4.186474277
 19113,"Linn County","PrcntChangeEmployWage2016_2020",-4.469051046
-19113,"Linn County","EvictionLabIncidencePer1000RenterHouseholds",74.32760752
 19113,"Linn County","InventoryOfHomesForSalesPer1000Households",2.343818453
 19115,"Louisa County","PercentMultiFamAssistPerHouseold",NA
 19115,"Louisa County","PercentLIHTCperHousehold",1.018675722
@@ -2781,7 +2724,6 @@
 19115,"Louisa County","PrcntChangeFMR2020_2022",4.822695035
 19115,"Louisa County","PrcntChangeEmployTotal2016_2020",-1.983002833
 19115,"Louisa County","PrcntChangeEmployWage2016_2020",-0.248323814
-19115,"Louisa County","EvictionLabIncidencePer1000RenterHouseholds",15.6555773
 19115,"Louisa County","InventoryOfHomesForSalesPer1000Households",2.993322588
 19117,"Lucas County","PercentMultiFamAssistPerHouseold",2.020699852
 19117,"Lucas County","PercentLIHTCperHousehold",NA
@@ -2829,7 +2771,6 @@
 19117,"Lucas County","PrcntChangeFMR2020_2022",11.28010139
 19117,"Lucas County","PrcntChangeEmployTotal2016_2020",3.50808041
 19117,"Lucas County","PrcntChangeEmployWage2016_2020",7.646726862
-19117,"Lucas County","EvictionLabIncidencePer1000RenterHouseholds",10.74285714
 19117,"Lucas County","InventoryOfHomesForSalesPer1000Households",4.841312534
 19119,"Lyon County","PercentMultiFamAssistPerHouseold",0.705833506
 19119,"Lyon County","PercentLIHTCperHousehold",NA
@@ -2877,7 +2818,6 @@
 19119,"Lyon County","PrcntChangeFMR2020_2022",7.569141194
 19119,"Lyon County","PrcntChangeEmployTotal2016_2020",-3.186646434
 19119,"Lyon County","PrcntChangeEmployWage2016_2020",-1.861645864
-19119,"Lyon County","EvictionLabIncidencePer1000RenterHouseholds",6.259314456
 19119,"Lyon County","InventoryOfHomesForSalesPer1000Households",0.870890486
 19121,"Madison County","PercentMultiFamAssistPerHouseold",NA
 19121,"Madison County","PercentLIHTCperHousehold",1.735859974
@@ -2925,7 +2865,6 @@
 19121,"Madison County","PrcntChangeFMR2020_2022",3.888888889
 19121,"Madison County","PrcntChangeEmployTotal2016_2020",-0.810395417
 19121,"Madison County","PrcntChangeEmployWage2016_2020",-1.553398058
-19121,"Madison County","EvictionLabIncidencePer1000RenterHouseholds",20.36630037
 19121,"Madison County","InventoryOfHomesForSalesPer1000Households",6.496449615
 19123,"Mahaska County","PercentMultiFamAssistPerHouseold",1.219008264
 19123,"Mahaska County","PercentLIHTCperHousehold",2.314049587
@@ -2973,7 +2912,6 @@
 19123,"Mahaska County","PrcntChangeFMR2020_2022",6.41025641
 19123,"Mahaska County","PrcntChangeEmployTotal2016_2020",-4.776326036
 19123,"Mahaska County","PrcntChangeEmployWage2016_2020",-4.610917538
-19123,"Mahaska County","EvictionLabIncidencePer1000RenterHouseholds",20.41958042
 19123,"Mahaska County","InventoryOfHomesForSalesPer1000Households",3.353079244
 19125,"Marion County","PercentMultiFamAssistPerHouseold",0.376607688
 19125,"Marion County","PercentLIHTCperHousehold",1.669864279
@@ -3021,7 +2959,6 @@
 19125,"Marion County","PrcntChangeFMR2020_2022",13.76021798
 19125,"Marion County","PrcntChangeEmployTotal2016_2020",-0.062034739
 19125,"Marion County","PrcntChangeEmployWage2016_2020",1.001836701
-19125,"Marion County","EvictionLabIncidencePer1000RenterHouseholds",16.53543307
 19125,"Marion County","InventoryOfHomesForSalesPer1000Households",4.877327816
 19127,"Marshall County","PercentMultiFamAssistPerHouseold",0.961481039
 19127,"Marshall County","PercentLIHTCperHousehold",1.582561959
@@ -3069,7 +3006,6 @@
 19127,"Marshall County","PrcntChangeFMR2020_2022",5.058365759
 19127,"Marshall County","PrcntChangeEmployTotal2016_2020",-10.66005578
 19127,"Marshall County","PrcntChangeEmployWage2016_2020",-11.15525016
-19127,"Marshall County","EvictionLabIncidencePer1000RenterHouseholds",38.97364771
 19127,"Marshall County","InventoryOfHomesForSalesPer1000Households",2.534442423
 19129,"Mills County","PercentMultiFamAssistPerHouseold",0.736497545
 19129,"Mills County","PercentLIHTCperHousehold",0.687397709
@@ -3117,7 +3053,6 @@
 19129,"Mills County","PrcntChangeFMR2020_2022",2.959830867
 19129,"Mills County","PrcntChangeEmployTotal2016_2020",-5.836120401
 19129,"Mills County","PrcntChangeEmployWage2016_2020",-5.969779539
-19129,"Mills County","EvictionLabIncidencePer1000RenterHouseholds",19.26444834
 19129,"Mills County","InventoryOfHomesForSalesPer1000Households",3.675119441
 19131,"Mitchell County","PercentMultiFamAssistPerHouseold",NA
 19131,"Mitchell County","PercentLIHTCperHousehold",0.330101093
@@ -3165,7 +3100,6 @@
 19131,"Mitchell County","PrcntChangeFMR2020_2022",7.569141194
 19131,"Mitchell County","PrcntChangeEmployTotal2016_2020",0.030487805
 19131,"Mitchell County","PrcntChangeEmployWage2016_2020",5.720492397
-19131,"Mitchell County","EvictionLabIncidencePer1000RenterHouseholds",11.26126126
 19131,"Mitchell County","InventoryOfHomesForSalesPer1000Households",2.683363148
 19133,"Monona County","PercentMultiFamAssistPerHouseold",0.548822319
 19133,"Monona County","PercentLIHTCperHousehold",0.548822319
@@ -3213,7 +3147,6 @@
 19133,"Monona County","PrcntChangeFMR2020_2022",7.569141194
 19133,"Monona County","PrcntChangeEmployTotal2016_2020",-8.147000221
 19133,"Monona County","PrcntChangeEmployWage2016_2020",-8.182427901
-19133,"Monona County","EvictionLabIncidencePer1000RenterHouseholds",9.933142311
 19133,"Monona County","InventoryOfHomesForSalesPer1000Households",2.006018054
 19135,"Monroe County","PercentMultiFamAssistPerHouseold",1.320132013
 19135,"Monroe County","PercentLIHTCperHousehold",NA
@@ -3261,7 +3194,6 @@
 19135,"Monroe County","PrcntChangeFMR2020_2022",7.361111111
 19135,"Monroe County","PrcntChangeEmployTotal2016_2020",-1.119104716
 19135,"Monroe County","PrcntChangeEmployWage2016_2020",1.633542064
-19135,"Monroe County","EvictionLabIncidencePer1000RenterHouseholds",18.85714286
 19135,"Monroe County","InventoryOfHomesForSalesPer1000Households",4.316990441
 19137,"Montgomery County","PercentMultiFamAssistPerHouseold",1.677651288
 19137,"Montgomery County","PercentLIHTCperHousehold",0.958657879
@@ -3309,7 +3241,6 @@
 19137,"Montgomery County","PrcntChangeFMR2020_2022",7.569141194
 19137,"Montgomery County","PrcntChangeEmployTotal2016_2020",-9.14866582
 19137,"Montgomery County","PrcntChangeEmployWage2016_2020",-5.464106081
-19137,"Montgomery County","EvictionLabIncidencePer1000RenterHouseholds",22.70531401
 19137,"Montgomery County","InventoryOfHomesForSalesPer1000Households",2.679169457
 19139,"Muscatine County","PercentMultiFamAssistPerHouseold",1.611673745
 19139,"Muscatine County","PercentLIHTCperHousehold",1.796798432
@@ -3357,7 +3288,6 @@
 19139,"Muscatine County","PrcntChangeFMR2020_2022",13.99276236
 19139,"Muscatine County","PrcntChangeEmployTotal2016_2020",-7.563730461
 19139,"Muscatine County","PrcntChangeEmployWage2016_2020",-8.226231502
-19139,"Muscatine County","EvictionLabIncidencePer1000RenterHouseholds",35.43288511
 19139,"Muscatine County","InventoryOfHomesForSalesPer1000Households",3.808257269
 19141,"O'Brien County","PercentMultiFamAssistPerHouseold",0.781729001
 19141,"O'Brien County","PercentLIHTCperHousehold",1.425505825
@@ -3405,7 +3335,6 @@
 19141,"O'Brien County","PrcntChangeFMR2020_2022",7.569141194
 19141,"O'Brien County","PrcntChangeEmployTotal2016_2020",-3.980789755
 19141,"O'Brien County","PrcntChangeEmployWage2016_2020",-3.672643146
-19141,"O'Brien County","EvictionLabIncidencePer1000RenterHouseholds",11.71052632
 19141,"O'Brien County","InventoryOfHomesForSalesPer1000Households",2.34270415
 19143,"Osceola County","PercentMultiFamAssistPerHouseold",0.555941626
 19143,"Osceola County","PercentLIHTCperHousehold",0.555941626
@@ -3453,7 +3382,6 @@
 19143,"Osceola County","PrcntChangeFMR2020_2022",7.569141194
 19143,"Osceola County","PrcntChangeEmployTotal2016_2020",-3.047775947
 19143,"Osceola County","PrcntChangeEmployWage2016_2020",-0.562248996
-19143,"Osceola County","EvictionLabIncidencePer1000RenterHouseholds",5.555555556
 19143,"Osceola County","InventoryOfHomesForSalesPer1000Households",8.633633634
 19145,"Page County","PercentMultiFamAssistPerHouseold",1.131318917
 19145,"Page County","PercentLIHTCperHousehold",1.68981813
@@ -3501,7 +3429,6 @@
 19145,"Page County","PrcntChangeFMR2020_2022",7.569141194
 19145,"Page County","PrcntChangeEmployTotal2016_2020",-4.849969382
 19145,"Page County","PrcntChangeEmployWage2016_2020",-6.38634208
-19145,"Page County","EvictionLabIncidencePer1000RenterHouseholds",14.15836392
 19145,"Page County","InventoryOfHomesForSalesPer1000Households",2.650452136
 19147,"Palo Alto County","PercentMultiFamAssistPerHouseold",0.664304694
 19147,"Palo Alto County","PercentLIHTCperHousehold",1.483613818
@@ -3549,7 +3476,6 @@
 19147,"Palo Alto County","PrcntChangeFMR2020_2022",7.569141194
 19147,"Palo Alto County","PrcntChangeEmployTotal2016_2020",-5.66712049
 19147,"Palo Alto County","PrcntChangeEmployWage2016_2020",-7.880698351
-19147,"Palo Alto County","EvictionLabIncidencePer1000RenterHouseholds",6.415929204
 19147,"Palo Alto County","InventoryOfHomesForSalesPer1000Households",3.232758621
 19149,"Plymouth County","PercentMultiFamAssistPerHouseold",1.081530782
 19149,"Plymouth County","PercentLIHTCperHousehold",0.68404511
@@ -3597,7 +3523,6 @@
 19149,"Plymouth County","PrcntChangeFMR2020_2022",7.569141194
 19149,"Plymouth County","PrcntChangeEmployTotal2016_2020",1.495834385
 19149,"Plymouth County","PrcntChangeEmployWage2016_2020",2.109202245
-19149,"Plymouth County","EvictionLabIncidencePer1000RenterHouseholds",9.503959983
 19149,"Plymouth County","InventoryOfHomesForSalesPer1000Households",2.52476209
 19151,"Pocahontas County","PercentMultiFamAssistPerHouseold",NA
 19151,"Pocahontas County","PercentLIHTCperHousehold",NA
@@ -3645,7 +3570,6 @@
 19151,"Pocahontas County","PrcntChangeFMR2020_2022",7.569141194
 19151,"Pocahontas County","PrcntChangeEmployTotal2016_2020",-1.453677587
 19151,"Pocahontas County","PrcntChangeEmployWage2016_2020",1.117140121
-19151,"Pocahontas County","EvictionLabIncidencePer1000RenterHouseholds",7.557354926
 19151,"Pocahontas County","InventoryOfHomesForSalesPer1000Households",2.878157979
 19153,"Polk County","PercentMultiFamAssistPerHouseold",0.893027062
 19153,"Polk County","PercentLIHTCperHousehold",3.323278651
@@ -3693,7 +3617,6 @@
 19153,"Polk County","PrcntChangeFMR2020_2022",3.888888889
 19153,"Polk County","PrcntChangeEmployTotal2016_2020",-1.326650782
 19153,"Polk County","PrcntChangeEmployWage2016_2020",-1.650873868
-19153,"Polk County","EvictionLabIncidencePer1000RenterHouseholds",77.35061058
 19153,"Polk County","InventoryOfHomesForSalesPer1000Households",5.294964029
 19155,"Pottawattamie County","PercentMultiFamAssistPerHouseold",1.570812004
 19155,"Pottawattamie County","PercentLIHTCperHousehold",2.898223427
@@ -3741,7 +3664,6 @@
 19155,"Pottawattamie County","PrcntChangeFMR2020_2022",2.959830867
 19155,"Pottawattamie County","PrcntChangeEmployTotal2016_2020",-2.333079665
 19155,"Pottawattamie County","PrcntChangeEmployWage2016_2020",-1.802092112
-19155,"Pottawattamie County","EvictionLabIncidencePer1000RenterHouseholds",59.82965409
 19155,"Pottawattamie County","InventoryOfHomesForSalesPer1000Households",2.305084746
 19157,"Poweshiek County","PercentMultiFamAssistPerHouseold",1.021783068
 19157,"Poweshiek County","PercentLIHTCperHousehold",1.88636874
@@ -3789,7 +3711,6 @@
 19157,"Poweshiek County","PrcntChangeFMR2020_2022",9.165526676
 19157,"Poweshiek County","PrcntChangeEmployTotal2016_2020",-7.708408517
 19157,"Poweshiek County","PrcntChangeEmployWage2016_2020",-7.412128938
-19157,"Poweshiek County","EvictionLabIncidencePer1000RenterHouseholds",13.95525218
 19157,"Poweshiek County","InventoryOfHomesForSalesPer1000Households",8.815638176
 19159,"Ringgold County","PercentMultiFamAssistPerHouseold",0.299401198
 19159,"Ringgold County","PercentLIHTCperHousehold",NA
@@ -3837,7 +3758,6 @@
 19159,"Ringgold County","PrcntChangeFMR2020_2022",7.569141194
 19159,"Ringgold County","PrcntChangeEmployTotal2016_2020",-5.968028419
 19159,"Ringgold County","PrcntChangeEmployWage2016_2020",-6.062581486
-19159,"Ringgold County","EvictionLabIncidencePer1000RenterHouseholds",7.343412527
 19159,"Ringgold County","InventoryOfHomesForSalesPer1000Households",15.19262073
 19161,"Sac County","PercentMultiFamAssistPerHouseold",0.312622118
 19161,"Sac County","PercentLIHTCperHousehold",0.488472059
@@ -3885,7 +3805,6 @@
 19161,"Sac County","PrcntChangeFMR2020_2022",7.569141194
 19161,"Sac County","PrcntChangeEmployTotal2016_2020",-4.847958297
 19161,"Sac County","PrcntChangeEmployWage2016_2020",-5.389221557
-19161,"Sac County","EvictionLabIncidencePer1000RenterHouseholds",6.208425721
 19161,"Sac County","InventoryOfHomesForSalesPer1000Households",0.690607735
 19163,"Scott County","PercentMultiFamAssistPerHouseold",1.369405048
 19163,"Scott County","PercentLIHTCperHousehold",2.605084157
@@ -3933,7 +3852,6 @@
 19163,"Scott County","PrcntChangeFMR2020_2022",3.470437018
 19163,"Scott County","PrcntChangeEmployTotal2016_2020",-5.991801251
 19163,"Scott County","PrcntChangeEmployWage2016_2020",-6.592116121
-19163,"Scott County","EvictionLabIncidencePer1000RenterHouseholds",76.91085964
 19163,"Scott County","InventoryOfHomesForSalesPer1000Households",3.069531563
 19165,"Shelby County","PercentMultiFamAssistPerHouseold",1.180593986
 19165,"Shelby County","PercentLIHTCperHousehold",0.498063088
@@ -3981,7 +3899,6 @@
 19165,"Shelby County","PrcntChangeFMR2020_2022",7.569141194
 19165,"Shelby County","PrcntChangeEmployTotal2016_2020",-7.709379745
 19165,"Shelby County","PrcntChangeEmployWage2016_2020",-8.519598316
-19165,"Shelby County","EvictionLabIncidencePer1000RenterHouseholds",16.03773585
 19165,"Shelby County","InventoryOfHomesForSalesPer1000Households",3.553099092
 19167,"Sioux County","PercentMultiFamAssistPerHouseold",0.984615385
 19167,"Sioux County","PercentLIHTCperHousehold",1.061538462
@@ -4029,7 +3946,6 @@
 19167,"Sioux County","PrcntChangeFMR2020_2022",8.442503639
 19167,"Sioux County","PrcntChangeEmployTotal2016_2020",1.19047619
 19167,"Sioux County","PrcntChangeEmployWage2016_2020",2.474362593
-19167,"Sioux County","EvictionLabIncidencePer1000RenterHouseholds",3.86717108
 19167,"Sioux County","InventoryOfHomesForSalesPer1000Households",1.615639389
 19169,"Story County","PercentMultiFamAssistPerHouseold",0.79785305
 19169,"Story County","PercentLIHTCperHousehold",1.329755083
@@ -4077,7 +3993,6 @@
 19169,"Story County","PrcntChangeFMR2020_2022",10.03500583
 19169,"Story County","PrcntChangeEmployTotal2016_2020",-3.317235373
 19169,"Story County","PrcntChangeEmployWage2016_2020",-3.848696013
-19169,"Story County","EvictionLabIncidencePer1000RenterHouseholds",18.50352723
 19169,"Story County","InventoryOfHomesForSalesPer1000Households",3.10550833
 19171,"Tama County","PercentMultiFamAssistPerHouseold",NA
 19171,"Tama County","PercentLIHTCperHousehold",0.633663366
@@ -4125,7 +4040,6 @@
 19171,"Tama County","PrcntChangeFMR2020_2022",10.66282421
 19171,"Tama County","PrcntChangeEmployTotal2016_2020",-6.224256293
 19171,"Tama County","PrcntChangeEmployWage2016_2020",-4.873524452
-19171,"Tama County","EvictionLabIncidencePer1000RenterHouseholds",16.01489758
 19171,"Tama County","InventoryOfHomesForSalesPer1000Households",3.117577197
 19173,"Taylor County","PercentMultiFamAssistPerHouseold",NA
 19173,"Taylor County","PercentLIHTCperHousehold",0.554592721
@@ -4173,7 +4087,6 @@
 19173,"Taylor County","PrcntChangeFMR2020_2022",7.569141194
 19173,"Taylor County","PrcntChangeEmployTotal2016_2020",-6.373937677
 19173,"Taylor County","PrcntChangeEmployWage2016_2020",-3.970107426
-19173,"Taylor County","EvictionLabIncidencePer1000RenterHouseholds",9.684210526
 19173,"Taylor County","InventoryOfHomesForSalesPer1000Households",3.506038177
 19175,"Union County","PercentMultiFamAssistPerHouseold",1.158367911
 19175,"Union County","PercentLIHTCperHousehold",2.852697095
@@ -4221,7 +4134,6 @@
 19175,"Union County","PrcntChangeFMR2020_2022",7.569141194
 19175,"Union County","PrcntChangeEmployTotal2016_2020",-5.939511721
 19175,"Union County","PrcntChangeEmployWage2016_2020",-6.871637202
-19175,"Union County","EvictionLabIncidencePer1000RenterHouseholds",21.52777778
 19175,"Union County","InventoryOfHomesForSalesPer1000Households",10.00192345
 19177,"Van Buren County","PercentMultiFamAssistPerHouseold",NA
 19177,"Van Buren County","PercentLIHTCperHousehold",NA
@@ -4269,7 +4181,6 @@
 19177,"Van Buren County","PrcntChangeFMR2020_2022",7.569141194
 19177,"Van Buren County","PrcntChangeEmployTotal2016_2020",-7.990379476
 19177,"Van Buren County","PrcntChangeEmployWage2016_2020",-8.065246942
-19177,"Van Buren County","EvictionLabIncidencePer1000RenterHouseholds",13.68421053
 19177,"Van Buren County","InventoryOfHomesForSalesPer1000Households",4.041764904
 19179,"Wapello County","PercentMultiFamAssistPerHouseold",0.572009661
 19179,"Wapello County","PercentLIHTCperHousehold",0.711834244
@@ -4317,7 +4228,6 @@
 19179,"Wapello County","PrcntChangeFMR2020_2022",12.43169399
 19179,"Wapello County","PrcntChangeEmployTotal2016_2020",-4.964679148
 19179,"Wapello County","PrcntChangeEmployWage2016_2020",-4.893491124
-19179,"Wapello County","EvictionLabIncidencePer1000RenterHouseholds",34.13585555
 19179,"Wapello County","InventoryOfHomesForSalesPer1000Households",4.026659261
 19181,"Warren County","PercentMultiFamAssistPerHouseold",1.011650765
 19181,"Warren County","PercentLIHTCperHousehold",2.181521791
@@ -4365,7 +4275,6 @@
 19181,"Warren County","PrcntChangeFMR2020_2022",3.888888889
 19181,"Warren County","PrcntChangeEmployTotal2016_2020",3.261679259
 19181,"Warren County","PrcntChangeEmployWage2016_2020",4.449844968
-19181,"Warren County","EvictionLabIncidencePer1000RenterHouseholds",34.4227728
 19181,"Warren County","InventoryOfHomesForSalesPer1000Households",9.472049689
 19183,"Washington County","PercentMultiFamAssistPerHouseold",0.501410216
 19183,"Washington County","PercentLIHTCperHousehold",0.856575786
@@ -4413,7 +4322,6 @@
 19183,"Washington County","PrcntChangeFMR2020_2022",5.217391304
 19183,"Washington County","PrcntChangeEmployTotal2016_2020",-4.97471743
 19183,"Washington County","PrcntChangeEmployWage2016_2020",-3.852889667
-19183,"Washington County","EvictionLabIncidencePer1000RenterHouseholds",14.12103746
 19183,"Washington County","InventoryOfHomesForSalesPer1000Households",6.759801712
 19185,"Wayne County","PercentMultiFamAssistPerHouseold",NA
 19185,"Wayne County","PercentLIHTCperHousehold",NA
@@ -4461,7 +4369,6 @@
 19185,"Wayne County","PrcntChangeFMR2020_2022",7.569141194
 19185,"Wayne County","PrcntChangeEmployTotal2016_2020",-2.258784161
 19185,"Wayne County","PrcntChangeEmployWage2016_2020",-1.961745954
-19185,"Wayne County","EvictionLabIncidencePer1000RenterHouseholds",11.35029354
 19185,"Wayne County","InventoryOfHomesForSalesPer1000Households",4.580152672
 19187,"Webster County","PercentMultiFamAssistPerHouseold",1.476058334
 19187,"Webster County","PercentLIHTCperHousehold",1.617759934
@@ -4509,7 +4416,6 @@
 19187,"Webster County","PrcntChangeFMR2020_2022",7.569141194
 19187,"Webster County","PrcntChangeEmployTotal2016_2020",-9.400700269
 19187,"Webster County","PrcntChangeEmployWage2016_2020",-10.81535721
-19187,"Webster County","EvictionLabIncidencePer1000RenterHouseholds",32.69269674
 19187,"Webster County","InventoryOfHomesForSalesPer1000Households",6.151874399
 19189,"Winnebago County","PercentMultiFamAssistPerHouseold",0.965136892
 19189,"Winnebago County","PercentLIHTCperHousehold",1.260586961
@@ -4557,7 +4463,6 @@
 19189,"Winnebago County","PrcntChangeFMR2020_2022",7.569141194
 19189,"Winnebago County","PrcntChangeEmployTotal2016_2020",-6.141141141
 19189,"Winnebago County","PrcntChangeEmployWage2016_2020",-6.871988267
-19189,"Winnebago County","EvictionLabIncidencePer1000RenterHouseholds",14.28571429
 19189,"Winnebago County","InventoryOfHomesForSalesPer1000Households",6.618133686
 19191,"Winneshiek County","PercentMultiFamAssistPerHouseold",0.381336922
 19191,"Winneshiek County","PercentLIHTCperHousehold",0.24674742
@@ -4605,7 +4510,6 @@
 19191,"Winneshiek County","PrcntChangeFMR2020_2022",7.569141194
 19191,"Winneshiek County","PrcntChangeEmployTotal2016_2020",-4.95407032
 19191,"Winneshiek County","PrcntChangeEmployWage2016_2020",-4.598110854
-19191,"Winneshiek County","EvictionLabIncidencePer1000RenterHouseholds",5.601317957
 19191,"Winneshiek County","InventoryOfHomesForSalesPer1000Households",1.814882033
 19193,"Woodbury County","PercentMultiFamAssistPerHouseold",2.285660757
 19193,"Woodbury County","PercentLIHTCperHousehold",2.229455985
@@ -4653,7 +4557,6 @@
 19193,"Woodbury County","PrcntChangeFMR2020_2022",8.343711083
 19193,"Woodbury County","PrcntChangeEmployTotal2016_2020",-6.95226104
 19193,"Woodbury County","PrcntChangeEmployWage2016_2020",-7.724093519
-19193,"Woodbury County","EvictionLabIncidencePer1000RenterHouseholds",51.65696546
 19193,"Woodbury County","InventoryOfHomesForSalesPer1000Households",1.998836121
 19195,"Worth County","PercentMultiFamAssistPerHouseold",NA
 19195,"Worth County","PercentLIHTCperHousehold",0.804597701
@@ -4701,7 +4604,6 @@
 19195,"Worth County","PrcntChangeFMR2020_2022",7.569141194
 19195,"Worth County","PrcntChangeEmployTotal2016_2020",-6.074411541
 19195,"Worth County","PrcntChangeEmployWage2016_2020",-6.383822363
-19195,"Worth County","EvictionLabIncidencePer1000RenterHouseholds",14.98470948
 19195,"Worth County","InventoryOfHomesForSalesPer1000Households",5.626758362
 19197,"Wright County","PercentMultiFamAssistPerHouseold",0.191693291
 19197,"Wright County","PercentLIHTCperHousehold",0.766773163
@@ -4749,5 +4651,4 @@
 19197,"Wright County","PrcntChangeFMR2020_2022",7.569141194
 19197,"Wright County","PrcntChangeEmployTotal2016_2020",2.575321915
 19197,"Wright County","PrcntChangeEmployWage2016_2020",7.288428325
-19197,"Wright County","EvictionLabIncidencePer1000RenterHouseholds",9.466666667
 19197,"Wright County","InventoryOfHomesForSalesPer1000Households",3.76209244
