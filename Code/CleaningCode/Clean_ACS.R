@@ -3,16 +3,21 @@ library(tidycensus)
 library(tidyverse)
 library(readr)
 
+
+##Raw Data
 Data <-read.csv("Data\\RawData\\ACS\\RAW_ACS.csv")
 
+##Filter for just the columns with MOE values
 DATA2<- Data[,3:ncol(Data)]
 MOE <- DATA2[,endsWith(colnames(DATA2),"M")]
 MOE[,"GEOID"] <- Data$GEOID
 MOE[,"NAME"] <- Data$NAME
 
+##Reorganize
 MOE<-MOE%>%
   select(GEOID,NAME,everything())
 
+##Filter for just columns with ACS data
 ACSDATA<- DATA2[,!endsWith(colnames(DATA2),"M")]
 ACSColNames <- colnames(ACSDATA)
 ACSColNames <- substr(ACSColNames,0,nchar(ACSColNames)-1)
@@ -21,10 +26,11 @@ colnames(ACSDATA)<- ACSColNames
 ACSDATA[,"GEOID"] <- MOE$GEOID
 ACSDATA[,"NAME"] <- MOE$NAME
 
+##Reorganize
 ACSDATA<-ACSDATA%>%
   select(GEOID,NAME,everything()) 
 
-
+##Indicator Calculations
 ACSDATA<-ACSDATA%>%
   group_by(NAME)%>%
   mutate(AffordablityIndex = MedianValueOwner/MedianEarnings, HousingPriceDispersion = UpperQuartileValue/LowerQuartileValue, CostBurdenOwnver=  sum(OwnerCost30_35PIncome,OwnerCostOver35PIncome),
@@ -32,13 +38,15 @@ ACSDATA<-ACSDATA%>%
          RentalUnitRatio  =sum(ForRent,RenterOCCUPIED,RenderNotOccupied)/OccupiedHousingUnits)%>%
   ungroup
 
-
+##Reorginize to Nice Names
 FinalAcs <- ACSDATA %>%
   select(GEOID,TypicalRenterCosts = GrossRent, TypicalOwnerCosts= MedianMontlyCostOwner, AgingHousingStock = PercentHouseholdsBuildPre1940,AffordabilityIndex = AffordablityIndex,HousingPriceDispersion,CostBurdenOwner  =CostBurdenOwnver,CostBurdenRenter, HomeOwnerShipRate,RentalUnitRatio,MultiFamShare=MutliFamShare)
 
+##Save to csv
+write.csv(FinalAcs,"Data\\CleanData\\Ready_ACS.csv", row.names=FALSE)
 
-#write.csv(FinalAcs,"Data\\CleanData\\Ready_ACS.csv", row.names=FALSE)
 
+##Calucations of MOE for ratios and sums
 DATAMoe<- DATA2
 DATAMoe[,"NAME"] <- MOE$NAME
 DATAMoe<- DATAMoe%>%
@@ -55,6 +63,7 @@ DATAMoe[,"GEOID"] <- MOE$GEOID
 DATAMoe<-DATAMoe%>%
   select(GEOID,HousingPriceDispersionM,AffordabilityIndexM,OccupiedHousingUnitsM,OccupiedHousingUnitsE,totalRent )
 
+##Calucations of MOE for ratios and sums
 MOE<- merge(MOE,DATAMoe,by="GEOID")
 MOEData<- MOE%>%
   group_by(NAME)%>%
@@ -69,9 +78,10 @@ MOEData<- MOE%>%
   mutate(E=Q*W, L= E + (TotalRentalUnitsM^2))%>%
   mutate(f=sqrt(L), RentalUnitRatioM = f/OccupiedHousingUnitsE)
 
-
+##Rename Columns
 MOEData<- MOEData%>%
   select(GEOID,NAME,AgingHousingStockM =PercentHouseholdsBuildPre1940M, TypicalOwnerCosts=MedianMontlyCostOwnerM,TypicalRenterCosts=GrossRentM,AffordabilityIndexM,HousingPriceDispersionM,CostBurdenOwnersM,CostBurdenRenterM,HomeOwnerShipRateM,MultFamShareM,RentalUnitRatioM)
+##Save to csv
 write.csv(MOEData,'Data\\AllCountyData\\ACS_MOE_Values.csv',row.names=FALSE)
 
 ##AFFORABLILITY INDEX  = MEDIAN VALUE / MEDIAN EARNINGS
