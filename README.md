@@ -46,6 +46,7 @@ List of Data Sources
 -   ACS
 -   HUD
 -   HUD-USPS
+-   USDA
 -   Iowa Realtors Association
 -   Iowa Legal Aid
 -   BEA
@@ -56,7 +57,7 @@ List of Data Sources
 
 [Sheet](indicator_definitions_updated.xlsx) with list of all indicators
 
-|                                         |             |                  |             |
+
 |------------------|------------------|------------------|------------------|
 | Indicators                              | Source      | Lowest Geography | Data Period |
 | USDA 515 units rate                     | USDA        | Place            |             |
