@@ -1,7 +1,8 @@
 ---
 title: "Tableau Calculated Fields Description"
-output: "Tableau_IndicatorSummary_Quartile"
 ---
+
+# Calculated Fields
 
 ### Quartile Cutoff
 
@@ -17,21 +18,97 @@ Make calculated field for each quartile value
 
 Used to determine for each indicator for a selected county which quartile it is in
 
-Q4, Q3,Q2 are the Quartile Cutoff Values
+Q3,Q2, Q1 are the Quartile Cutoff Values
 
-    IF FLOAT([Pivot Field Values]) > [Q4]
-    THEN    4
-    ELSEIF  FLOAT([Pivot Field Values]) > [Q3]
+    IF  FLOAT([Pivot Field Values]) > [Q3]
     THEN 3
     ELSEIF FLOAT([Pivot Field Values]) > [Q2]
     THEN 2
     ELSE 1
     END
+    
+### Quartile Recalculated For H/L
 
-### State Average Used to Calculate the State Average for indicators
+For some indicators, a higher value is sought after, where as other indicators a lower value is sought after. this fixes the Quartile to adjust for that
 
-    {FIXED  [Pivot Field Names]: AVG(FLOAT([Pivot Field Values]))}
+    IF  [Higher is better (indicators)] == "T"
+    THEN [Quartile]
+    ELSE 4 -[Quartile]
+    END
+
+### Quartile Adjusted For Null Values
+
+Some of our data sets did not provide information for every location we were looking for, so we assigned those to NULL
+
+    IF [QuartileUpdated] == 0 OR  [QuartileUpdated] ==4
+    THEN NULL
+    Else [QuartileUpdated]
+    END
+    
+### Adding Correct Labels
+We wanted to add correct labels for our indicators, such as if it is a percent, to add %, or if it is a dollar amount to add a dollar sign
+Because all our data is in the long format, we cannot just assign it based on column, so here is our work around
+    
+    SUFFIX{
+    IF [Units (indicators)] == "Dollars"
+    THEN "$"
+    ELSE ""
+    END
+    }
+    Preffix{
+    IF [Units (indicators)] == "Percent"
+    THEN "%"
+    ELSEIF [Units (indicators)] == "Days"
+    Then   " Days"
+    ELSE ""
+    END
+    }
+    
+    Values <- ATTR([Suffix]) + STR(ROUND(ATTR([Value]),2)) + ATTR([Preffix])
 
 ### County Median Used to Calculate the County Median for indicators
 
     {FIXED  [Pivot Field Names]: MEDIAN(FLOAT([Pivot Field Values]))}
+    
+# Actions
+
+In tableau we have added actions to our dashboard to make it more usuable
+
+## Profile A County
+
+### ChangeSpeedometer
+
+What this action does is when some selects an indicator for a specific county, it changes the web object on the right to update the speedometer based on selection.
+
+URL it Produces: 
+ coryroth.shinyapps.io/Speedometer/?county=<County> County&indicator=<Name> 
+
+Where <County> is the county selected and <Name> is the indcator provided
+
+The Final version of the dashboard uses this published on shinyapp.io 
+
+<https://coryroth.shinyapps.io/Speedometer/>
+
+
+#### Location of speedometer in GitHub  
+
+Data  >  AllCountyData > Speedometer
+
+
+### UpdateInformation (Filter1)
+
+This action updates the information on the right when an indicator is selected
+
+The description, value, county median, name, source, and interpretation are updated
+
+### Update Moe (Filter3)
+
+This action updates the MOE on the right when an indicator is selected
+
+## Profile 2 Counties
+
+### Highlight a County (Highlighter1)
+
+This action shows just the county selected on the scatterplot on the left
+
+whenever the user selects a county on the map on the right
