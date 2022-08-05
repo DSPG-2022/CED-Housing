@@ -146,6 +146,14 @@ Looks at words following one another and words in the same "neighborhood".
 
 
 # Links
+
+Our directory includes all files in relation with every stage of the Workflow. Each data and Code have been saved [here](https://github.com/DSPG-2022/CED-Housing) based on its function as raw, processed, or finalized. The directory has specific folders as :
+-  [Project Process](https://github.com/DSPG-2022/CED-Housing/tree/main/ProjectProcess)
+-  [Tableau Dashboard](https://github.com/DSPG-2022/CED-Housing/tree/main/Tableau)
+-  [Coding](https://github.com/DSPG-2022/CED-Housing/tree/main/Code)
+-  [Data](https://github.com/DSPG-2022/CED-Housing/tree/main/Data)
+-  [Visualizations](https://github.com/DSPG-2022/CED-Housing/tree/main/Images)
+
 # Participants
 
 The CED Housing project team brought together backgrounds in Community and Regional Planning, Software Engineering, Data Science, and Statistics, with interests in applications of technical skills to achieve meaningful impacts for decision making processes related to local housing policy.
