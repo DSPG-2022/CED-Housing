@@ -17,10 +17,26 @@ The second page displays an indicator in an Iowa county map. It allows the user 
 
 ![alt text](Images/secondpage.png)
 
-The third page displays two indicators in a scatterplot. This analysis tool allows the user to find relationships between indicators and can also see these mapped.
+The third page displays two indicators in a scatterplot. This analysis tool allows the user to find relationships between indicators and can also see these mapped. 
 
 ![alt text](Images/thirdpage.png)
 
-# Word Cloud
+# Text Analysis
+Simple Wordcloud: 
+Visual representation of words where each word's size represents its frequency. 
+Allows for keyword identification and visualization.
+
+
+![alt text](Images/wordcloud.png)
+
+Collocation and Co-Ocurrences Wordcloud: 
+Displays multi-word expressions and relationships between them. 
+Looks at words following one another and words in the same "neighborhood".
+
+![alt text](Images/collocation.png)
+
+
+
 # Links
 # Participants
+Félix A. Báez-Santiago, Data Science Major at Iowa State University
