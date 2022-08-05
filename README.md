@@ -57,7 +57,7 @@ List of Data Sources
 
 [Sheet](indicator_definitions_updated.xlsx) with list of all indicators
 
-
+|                                         |             |                  |             |
 |------------------|------------------|------------------|------------------|
 | Indicators                              | Source      | Lowest Geography | Data Period |
 | USDA 515 units rate                     | USDA        | Place            |             |
