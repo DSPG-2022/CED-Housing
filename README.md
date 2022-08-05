@@ -10,9 +10,9 @@ Link to a diagram of how a Raw Code Source will be added to the overall data set
 # Links
 # Participants
 The CED Housing project team brought together backgrounds in Community and Regional Planning, Software Engineering, Data Science, and Statistics, with interests in applications of technical skills to achieve meaningful impacts for decision making processes related to local housing policy.
-Liesl Eathington - Team Leader, Iowa State University, Research Scientist III
-Romina Tafazzoli - Graduate Fellow, Iowa State University, Community and Regional Planning and Graduate GIS Certificate
-Cory Roth - Intern, Iowa State University, Software Engineering and Data Science
-Felix Baez-Santiago - Intern, Iowa State University, Data Science (emphasis in Statistics)
-Tanishq Jain - Intern, Iowa State University, Statistics with a minor in Data science
+*Liesl Eathington - Team Leader, Iowa State University, Research Scientist III
+*Romina Tafazzoli - Graduate Fellow, Iowa State University, Community and Regional Planning and Graduate GIS Certificate
+*Cory Roth - Intern, Iowa State University, Software Engineering and Data Science
+*Felix Baez-Santiago - Intern, Iowa State University, Data Science (emphasis in Statistics)
+*Tanishq Jain - Intern, Iowa State University, Statistics with a minor in Data science
 
