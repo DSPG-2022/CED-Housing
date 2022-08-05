@@ -126,7 +126,7 @@ collocation <- function(data, titl = "No title provided", udmodel, word_type = "
   
   print(ggraph(wordnetwork, layout = "fr") +
     geom_edge_link(aes(width = cooc, edge_alpha = cooc), edge_colour = "pink") +
-    geom_node_text(aes(label = name), col = "darkgreen", size = 4) +
+    geom_node_text(aes(label = name), col = "darkgreen", size = 7) +
     theme_graph(base_family = "Arial Narrow") +
     theme(legend.position = "none") +
     labs(title = titl))
@@ -139,7 +139,7 @@ word_frequency(atlantic$Q18_5_TEXT, "What should be the top priorities for impro
                udmodel = model,
                word_type = c("VERB", "NOUN"), top_n = 30)
 collocation(atlantic$Q18_5_TEXT, "What should be the top priorities for improving housing in Atlantic?", udmodel = model,
-               word_type = c("VERB", "NOUN"), top_n = 30)
+               word_type = c("VERB", "NOUN", "ADJ"), top_n = 30)
 
 word_frequency(atlantic$Q15_5_TEXT, "In your experience, what is the main barrier to home ownership in Atlantic?", udmodel = model,
             word_type = c("NOUN"), top_n = 30)
@@ -176,7 +176,7 @@ word_frequency(mills$Q33, "Mills: What community amenities are important to you 
             word_type = c("ADJ", "NOUN"), top_n = 30)
 
 #### grinnell 
-collocation(grinnell$Q18_5_TEXT, "", 
+collocation(grinnell$Q18_5_TEXT, "What should be the top priorities for improving housing in Grinnell?", 
             udmodel = model,
             word_type = c("ADJ", "NOUN", "VERB"), top_n = 25)
 word_frequency(grinnell$Q18_5_TEXT, "", 
